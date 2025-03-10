@@ -64,6 +64,7 @@ The prompts for LLM-based solution can be accessed at [prompt directory in this 
 
 ## Error Type and Examples
 Here are these error types and their examples.
+
 ![# Prompt-E](assets/error-type.png)
 
 ## Usage
