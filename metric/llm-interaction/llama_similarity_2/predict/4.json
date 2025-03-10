@@ -1,0 +1,1824 @@
+[
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "home residents",
+          "a lifestyle"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "a home management system",
+          "to easily manage their daily lives"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "DigitalHome",
+          "the Digital Home Use Case Model"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "HomeOwner"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "HomeOwner",
+          "HomeOwner Inc"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "a home user",
+          "The Digital Home system"
+        ],
+        [
+          "a home",
+          "The Digital Home system"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "manage devices",
+          "The Digital Home system"
+        ],
+        [
+          "control the environment of a home",
+          "The Digital Home system"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The user",
+          "a personal web page"
+        ],
+        [
+          "the DigitalHome web server",
+          "a personal web page"
+        ],
+        [
+          "a local home server",
+          "a personal web page"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The DigitalHome web server",
+          "communicates"
+        ],
+        [
+          "a home wireless gateway device",
+          "communicates"
+        ],
+        [
+          "the sensor",
+          "communicates"
+        ],
+        [
+          "controller devices",
+          "communicates"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "control temperature, humidity, security, and power to small appliances and lighting units,"
+        ],
+        [
+          "a web-ready device",
+          "control temperature, humidity, security, and power to small appliances and lighting units,"
+        ],
+        [
+          "lighting units",
+          "control temperature, humidity, security, and power to small appliances and lighting units,"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The general user",
+          "home"
+        ],
+        [
+          "home",
+          "monitor and control the environment"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The general user",
+          "monitor and control the environment"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A Master user",
+          "change the configuration"
+        ],
+        [
+          "change the configuration",
+          "the system"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "A Master user",
+          "change the configuration"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "a Master User",
+          "add a user account"
+        ],
+        [
+          "a Master User",
+          "change the default parameter settings"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A DigitalHome Technician",
+          "the configuration"
+        ],
+        [
+          "A DigitalHome Technician",
+          "DigitalHome system"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "DigitalHome system",
+          "setting up and maintaining the configuration"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "management and communication support",
+          "DigitalHomeOwner Director"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Digital HomeOwner Inc",
+          "the development process"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Digital HomeOwner Inc",
+          "the development process"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Software System",
+        "Physical Device"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the system",
+          "help Homeowner Inc"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The home system",
+          "an Internet Service Provider (ISP)"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        "The home web server",
+        "DigitalHome elements."
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The home web server",
+          "DigitalHome plans and data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The home web server",
+          "provide storage"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The home web server",
+          "user account information"
+        ],
+        [
+          "The home web server",
+          "user plans"
+        ],
+        [
+          "The home web server",
+          "a home database"
+        ],
+        [
+          "a home database",
+          "user account information"
+        ],
+        [
+          "a home database",
+          "user plans"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "provide backup service",
+          "user account information"
+        ],
+        [
+          "provide backup service",
+          "user plans"
+        ],
+        [
+          "provide backup service",
+          "a home database"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The DigitalHome Gateway device",
+          "communication"
+        ],
+        [
+          "DigitalHome devices",
+          "communication"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "a broadband Internet connection",
+          "connect with a broadband Internet connection"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "DigitalHome devices",
+          "provide communication"
+        ],
+        [
+          "a broadband Internet connection",
+          "connect with a broadband Internet connection"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Gateway",
+          "sensors"
+        ],
+        [
+          "The Gateway",
+          "controllers"
+        ],
+        [
+          "The Gateway",
+          "an RF Module"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "wireless communications",
+          "sensors"
+        ],
+        [
+          "wireless communications",
+          "controllers"
+        ],
+        [
+          "wireless communications",
+          "an RF Module"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The system",
+          "the temperature"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "monitor and regulate the temperature of an enclosed space",
+          "the temperature"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The sensor part of the thermostat",
+          "a sensitivity range"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the humidity",
+          "an enclosed space"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The system",
+          "monitor and regulate the humidity of an enclosed space"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The humidistat",
+          "the current humidity"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The humidistat",
+          "a “set point” humidity"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "achieve the set point humidity",
+          "dehumidifiers"
+        ],
+        [
+          "achieve the set point humidity",
+          "humidifiers"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a door",
+          "entry"
+        ],
+        [
+          "window",
+          "entry"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "magnetic alarm contact switches",
+          "The system"
+        ],
+        [
+          "switch",
+          "The system"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The system",
+          "a security breach"
+        ],
+        [
+          "DigitalHome",
+          "a security breach"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "security sound and light alarms",
+          "a security breach"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "digital programmable power switches",
+          "the current state of an appliance"
+        ],
+        [
+          "coffee maker",
+          "the current state of an appliance"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a power switch",
+          "the state of the appliance"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "DigitalHome System",
+          "system functionality"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a web-ready computer",
+          "temperature"
+        ],
+        [
+          "a web-ready computer",
+          "humidity"
+        ],
+        [
+          "a web-ready computer",
+          "lights"
+        ],
+        [
+          "a web-ready computer",
+          "security"
+        ],
+        [
+          "a web-ready computer",
+          "the state"
+        ],
+        [
+          "cell phone",
+          "temperature"
+        ],
+        [
+          "cell phone",
+          "humidity"
+        ],
+        [
+          "cell phone",
+          "lights"
+        ],
+        [
+          "cell phone",
+          "security"
+        ],
+        [
+          "cell phone",
+          "the state"
+        ],
+        [
+          "PDA",
+          "temperature"
+        ],
+        [
+          "PDA",
+          "humidity"
+        ],
+        [
+          "PDA",
+          "lights"
+        ],
+        [
+          "PDA",
+          "security"
+        ],
+        [
+          "PDA",
+          "the state"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "to control a home",
+          "The DigitalHome System"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "to control a home",
+          "The DigitalHome System"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "DigitalHome system",
+          "monitor and control home devices and systems"
+        ],
+        [
+          "DigitalHome system",
+          "a user"
+        ],
+        [
+          "a DigitalHome home web server",
+          "monitor and control home devices and systems"
+        ],
+        [
+          "a DigitalHome home web server",
+          "a user"
+        ],
+        [
+          "home devices",
+          "monitor and control home devices and systems"
+        ],
+        [
+          "systems",
+          "monitor and control home devices and systems"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "DigitalHome system",
+          "monitor and control home devices and systems"
+        ],
+        [
+          "a DigitalHome home web server",
+          "monitor and control home devices and systems"
+        ],
+        [
+          "home devices",
+          "monitor and control home devices and systems"
+        ],
+        [
+          "systems",
+          "monitor and control home devices and systems"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "wireless communication",
+          "send and receive communication"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "sensor",
+          "wireless communication"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "sensor",
+          "values"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "sensor",
+          "values"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "controllers",
+          "Controller values"
+        ],
+        [
+          "controllers",
+          "to change the DigitalHome environment"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the DigitalHome",
+          "to change the DigitalHome environment"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "temperature"
+        ],
+        [
+          "a home",
+          "temperature"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "a user",
+          "to monitor and control a home’s temperature"
+        ],
+        [
+          "a home",
+          "to monitor and control a home’s temperature"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A DigitalHome user",
+          "the temperature"
+        ],
+        [
+          "a thermostat",
+          "the temperature"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A DigitalHome user",
+          "temperatures"
+        ],
+        [
+          "the thermostat",
+          "temperatures"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The thermostats",
+          "temperature"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The thermostats",
+          "home spaces"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "thermostat device",
+          "make a manual temperature setting"
+        ],
+        [
+          "a user",
+          "make a manual temperature setting"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A thermostat unit",
+          "wireless signals"
+        ],
+        [
+          "the master control unit",
+          "wireless signals"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "wireless signals",
+          "A thermostat unit"
+        ],
+        [
+          "wireless signals",
+          "the master control unit"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The system",
+          "a centralized HVAC (Heating, Ventilation and Air Conditioning) systems"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The system",
+          "the American Society of Heating, Refrigerating and Air-Conditioning Engineers [ASHRAE 2010]"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "humidity"
+        ],
+        [
+          "a home",
+          "humidity"
+        ],
+        [
+          "web ready computer",
+          "humidity"
+        ],
+        [
+          "cell phone",
+          "humidity"
+        ],
+        [
+          "PDA",
+          "humidity"
+        ],
+        [
+          "The DigitalHome programmable humidistat",
+          "humidity"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "a user",
+          "to monitor and control a home"
+        ],
+        [
+          "a home",
+          "to monitor and control a home"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A DigitalHome user",
+          "the humidity"
+        ],
+        [
+          "a humidistat",
+          "the humidity"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A DigitalHome user",
+          "the humidity level"
+        ],
+        [
+          "a humidistat",
+          "the humidity level"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the humidity",
+          "A single humidistat"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "a room",
+          "A single humidistat"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a humdistat device",
+          "a manual temperature setting"
+        ],
+        [
+          "a user",
+          "a manual temperature setting"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A DigitalHome system",
+          "wireless signals"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "wireless signals",
+          "the master control unit"
+        ],
+        [
+          "wireless signals",
+          "the humidistats"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The DigitalHome security system",
+          "contact sensors"
+        ],
+        [
+          "The DigitalHome security system",
+          "security alarms"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A DigitalHome system",
+          "light and sound alarms"
+        ],
+        [
+          "A DigitalHome system",
+          "sound alarm"
+        ],
+        [
+          "A DigitalHome system",
+          "light alarm subsystem"
+        ],
+        [
+          "A DigitalHome system",
+          "lights"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a contact sensor",
+          "OPEN"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a power switch",
+          "information about the state"
+        ],
+        [
+          "the power switch",
+          "information about the state"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a power switch",
+          "the state"
+        ],
+        [
+          "the power switch",
+          "the state"
+        ],
+        [
+          "an appliance",
+          "the state"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "DigitalHome Planner",
+          "temperature"
+        ],
+        [
+          "DigitalHome Planner",
+          "humidity"
+        ],
+        [
+          "DigitalHome Planner",
+          "security contacts"
+        ],
+        [
+          "DigitalHome Planner",
+          "on/off appliance/light status"
+        ],
+        [
+          "DigitalHome Planner",
+          "home parameters"
+        ],
+        [
+          "a user",
+          "temperature"
+        ],
+        [
+          "a user",
+          "humidity"
+        ],
+        [
+          "a user",
+          "security contacts"
+        ],
+        [
+          "a user",
+          "on/off appliance/light status"
+        ],
+        [
+          "a user",
+          "home parameters"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "DigitalHome Planner",
+          "set various preset home parameters for certain time periods"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "environmental parameter settings"
+        ],
+        [
+          "a user",
+          "temperature"
+        ],
+        [
+          "a user",
+          "humidity"
+        ],
+        [
+          "a user",
+          "a month plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A user",
+          "override planned parameter values,"
+        ],
+        [
+          "household devices",
+          "override planned parameter values,"
+        ],
+        [
+          "switches",
+          "override planned parameter values,"
+        ],
+        [
+          "the DigitalHome website",
+          "override planned parameter values,"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "override planned parameter values,"
+        ],
+        [
+          "the DigitalHome website",
+          "override planned parameter values,"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "A user",
+          "override planned parameter values,"
+        ],
+        [
+          "household devices",
+          "override planned parameter values,"
+        ],
+        [
+          "switches",
+          "override planned parameter values,"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "DigitalHome",
+          "a report"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "thermostat",
+          "temperature"
+        ],
+        [
+          "humidistat",
+          "humidity"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The month report",
+          "the day and time"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "security alarms",
+          "The month report"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The month report",
+          "the periods of time"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "Sensor",
+          "10 Hz"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "An environmental sensor",
+          "controller device"
+        ],
+        [
+          "An environmental sensor",
+          "master control device"
+        ],
+        [
+          "controller device",
+          "master control device"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "have to be within 1000 feet of the master control device",
+          "controller device"
+        ],
+        [
+          "have to be within 1000 feet of the master control device",
+          "An environmental sensor"
+        ],
+        [
+          "have to be within 1000 feet of the master control device",
+          "master control device"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The DigitalHome System",
+          "system data"
+        ],
+        [
+          "The DigitalHome System",
+          "configuration"
+        ],
+        [
+          "The DigitalHome System",
+          "default parameter settings"
+        ],
+        [
+          "The DigitalHome System",
+          "planning"
+        ],
+        [
+          "The DigitalHome System",
+          "usage data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the DigitalHome System",
+          "the system recovery mechanism"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "the DigitalHome System",
+          "system data"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the system",
+          "message"
+        ],
+        [
+          "a user",
+          "message"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "security breaches",
+          "home dwellers"
+        ],
+        [
+          "inadequate lighting in dark spaces",
+          "home dwellers"
+        ],
+        [
+          "inappropriate temperature and humidity",
+          "home dwellers"
+        ],
+        [
+          "powering certain appliances",
+          "young children"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "a DigitalHome user",
+          "established"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "an account name",
+          "a password"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the DigitalHome System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  }
+]

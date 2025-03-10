@@ -1,0 +1,401 @@
+[
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"the Correlator Monitor and Control System\", \"the EVLA Correlator Monitor and Control System\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  [\"Correlator Monitor and Control System\", \"IEEE STD 830 document\"]\n],\n\"requirements constraint\": [\n  [\"Correlator Monitor and Control System\", \"correlator configuration\"],\n  [\"Correlator Monitor and Control System\", \"real time monitor/control\"],\n  [\"Correlator Monitor and Control System\", \"hardware testing/servicing\"]\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The Correlator monitor subsystem\", \"VLA Expansion Project system\"]],\n\"requirements constraint\": [[\"The Correlator monitor subsystem\", \"all correlator system states\"], [\"The Correlator monitor subsystem\", \"the Monitor and Control System supervisor system state\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [['the Backend Data Processing System', 'Specific data sets'], ['a secondary virtual network', 'Specific data sets']], 'requirements reference': [], 'requirements constraint': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n    [\"the VLA Expansion Project Monitor and Control System\", \"Ancillary monitor data\"],\n    [\"the VLA Expansion Project Monitor and Control System\", \"system health\"],\n    [\"the VLA Expansion Project Monitor and Control System\", \"error messages\"],\n    [\"the VLA Expansion Project Monitor and Control System\", \"configuration echoes\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": [\n    [\"the VLA Expansion Project Monitor and Control System\", \"not result in loss of monitor data\"]\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n    [\"The Master Correlator Control Computer\", \"models\"],\n    [\"The Master Correlator Control Computer\", \"time standards\"],\n    [\"The Master Correlator Control Computer\", \"fiber-link phase corrections\"],\n    [\"The Master Correlator Control Computer\", \"control data\"],\n    [\"The Master Correlator Control Computer\", \"other required data\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"Software tools\", \"system wide configuration\"], [\"Software tools\", \"a low level CMIB command line instruction\"], [\"the user\", \"system wide configuration\"], [\"the user\", \"a low level CMIB command line instruction\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"These individuals\", \"to ensure that it is functioning properly.\"], [\"the EVLA Correlator Monitor and Control System\", \"to ensure that it is functioning properly.\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the user\", \"a logical and coherent interface\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [\n[\"the backend data processing\", \"data rates\"],\n[\"VLA Expansion Project Monitor and Control System\", \"data rates\"],\n[\"the Correlator Monitor and Control System\", \"data rates\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"CMIB\", \"Ethernet\"], [\"Master Correlator Control Computer\", \"Ethernet\"], [\"Correlator Power Control Computer\", \"Ethernet\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"The interface\", \"transformer coupled copper twisted pair\"],\n[\"The interface\", \"other materials\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": [\n[\"The interface\", \"noise\"],\n[\"The interface\", \"ground isolation\"],\n[\"The interface\", \"physical layout constraints\"]\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n    [\"Network switches\", \"distribute traffic within a correlator rack\"],\n    [\"Network switches\", \"reduce overall network wiring complexity\"]\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [[\"the Master Correlator Control Computer\", \"Correlator Power Control Computer\"]],\n\"requirements reference\": [[\"the Master Correlator Control Computer\", \"to provide for remote reboot\"]],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"Master Correlator Control Computer\", \"Ethernet\"],\n[\"Ethernet\", \"100 Pathways\"],\n[\"100 Pathways\", \"fiber optic\"],\n[\"100 Pathways\", \"other low RFI material\"],\n[\"100 Pathways\", \"RFI specifications\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n{\n\"subject\": \"the correlator hardware\",\n\"predicate\": \"be available through interrogation across\",\n\"object\": \"the CMIB bus\"\n}\n],\n\"requirements reference\": [],\n\"requirements constraint\": [\n{\n\"subject\": \"the state\",\n\"predicate\": \"be available through interrogation across\",\n\"object\": \"the CMIB bus\"\n}\n]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the Master Correlator Control Computer\", \"to force a hardware warm boot\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"the EVLA Correlator Monitor and Control System\", \"boot and run in a stand-alone configuration\"]],\n\"requirements constraint\": [[\"The Master Correlator Control Computer\", \"disk and file system facilities\"], [\"The Master Correlator Control Computer\", \"boot and run in a stand-alone configuration\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n    [\"messages\", \"Correlator Monitor and Control System system layers\"]\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"an authorized user\", \"access to all messaging,\"],\n  [\"an authorized user\", \"monitor, and control traffic\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n## Expected Output\n```json\n{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['This software', 'the correlator']]}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Interface\": [\n[\"Correlator Monitor and Control System test software\", \"Graphical User Interface\"],\n[\"Graphical User Interface\", \"Correlator Monitor and Control System\"],\n[\"Graphical User Interface\", \"VCI\"]\n],\n\"Requirements Reference\": [],\n\"Requirements Constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"All systems and application source code\", \"EVLA Correlator Monitor and Control Systems\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [['a user', 'access']], 'requirements reference': [], 'requirements constraint': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"Users’ needs and expectations\",\n    \"object\": \"the EVLA Correlator Monitor and Control System\"\n  }\n],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the EVLA Correlator Monitor and Control System\", \"access\"]]\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [['The administrator', 'create and add a new user'], ['create and add a new user', 'the EVLA Correlator Monitor and Control System']],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The administrator\", \"block all access\"]]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"Replaceability modular design principles\",\n    \"object\": \"the maximum extent possible\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"Maximal practical use\", \"hot swappable devices and components\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  }
+]

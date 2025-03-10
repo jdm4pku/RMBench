@@ -1,0 +1,8019 @@
+[
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "the TCS"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "UAV",
+          "Tactical Unmanned Aerial Vehicle"
+        ],
+        [
+          "UAV",
+          "Medium Altitude and Endurance (MAE) UAV"
+        ],
+        [
+          "UAV",
+          "Outrider"
+        ],
+        [
+          "UAV",
+          "Predator"
+        ],
+        [
+          "UAV",
+          "network communication systems"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "information"
+        ],
+        [
+          "High Altitude and Endurance (HAE) UAVs",
+          "information"
+        ],
+        [
+          "associated payloads",
+          "information"
+        ],
+        [
+          "development UAVs",
+          "information"
+        ],
+        [
+          "payloads",
+          "information"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Unmanned Aerial Vehicle Joint Project Office",
+          "a Tactical Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "secondary imagery"
+        ],
+        [
+          "Tactical Control System",
+          "data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "imagery"
+        ],
+        [
+          "Tactical Control System",
+          "data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "the UAV payload"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "imagery/data"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "full function and control of the UAV from takeoff to landing"
+        ],
+        [
+          "the UAV",
+          "full function and function of the UAV from takeoff to landing"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": "Phenomena Interface",
+      "Requirements Reference": "requirements reference",
+      "Requirements Constraint": "requirements constraint"
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "software",
+          "tools"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System hardware"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": [
+        "meet varying Service needs"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "C4I systems"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "All Source Analysis System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "Closed Circuit Television"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "Contingency Airborne Reconnaissance System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "Enhanced Tactical Radar Correlator"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "Intelligence Analysis System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "Joint Deployable Intelligence Support System"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Joint Deployable Intelligence Support System",
+          "The Tactical Control System will be connected with Joint Deployable Intelligence Support System (JDISS)"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "Joint Maritime Command Information System"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "Joint Service Imagery Processing System"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "Joint Service Imagery Processing System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "Ground Station"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "Theater Battle Management Core System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "UAV imagery products"
+        ],
+        [
+          "Tactical Control System",
+          "tactical communication messages"
+        ],
+        [
+          "Tactical Control System",
+          "mission plans"
+        ],
+        [
+          "Tactical Control System",
+          "target coordinates"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "tasking orders"
+        ],
+        [
+          "Tactical Control System",
+          "operational information"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "tasking orders"
+        ],
+        [
+          "Tactical Control System",
+          "operational information"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "the Predator",
+        "Outrider AVs",
+        "military services standard hardware",
+        "single control system",
+        "software",
+        "C4I systems"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Air Vehicle",
+          "command and control"
+        ],
+        [
+          "data link",
+          "command and control"
+        ],
+        [
+          "support equipment",
+          "command and control"
+        ],
+        [
+          "the payload",
+          "command and control"
+        ],
+        [
+          "tactical UAVs",
+          "command and control"
+        ],
+        [
+          "status and error messages",
+          "command and control"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "conduct reconnaissance, surveillance, target acquisition, and target identification missions",
+          "Tactical Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "payload data",
+          "military supported units"
+        ],
+        [
+          "payload data",
+          "tactical communications systems"
+        ],
+        [
+          "payload data",
+          "C4I systems"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "standard DoD C4I systems"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Outrider",
+          "Predator"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "MIL STD 1388 Task 401"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "operator",
+          "engineering analysis"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "Medium Altitude Endurance Unmanned Aerial Vehicle/System"
+        ],
+        [
+          "Tactical Control System",
+          "Tactical Unmanned Aerial Vehicle"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "ORD CAF 003-90-I-A"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "secondary imagery"
+        ],
+        [
+          "Tactical Control System",
+          "data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "imagery"
+        ],
+        [
+          "Tactical Control System",
+          "data"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "UAV payload"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "control"
+        ],
+        [
+          "Tactical Control System",
+          "imagery"
+        ],
+        [
+          "Tactical Control System",
+          "data"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "UAV"
+        ],
+        [
+          "Tactical Control System",
+          "UAV"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "control"
+        ],
+        [
+          "UAV",
+          "control"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "Tactical Control System"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System Software",
+          "Tactical Control System"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "Levels of interaction"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "Operations State"
+        ],
+        [
+          "Tactical Control System",
+          "60 seconds"
+        ],
+        [
+          "Tactical Control System",
+          "power"
+        ],
+        [
+          "Tactical Control System",
+          "the time"
+        ],
+        [
+          "Tactical Control System",
+          "the Tactical Control System application"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "to initialize the system"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "to resume the Operations"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "HWCIs"
+        ],
+        [
+          "Tactical Control System",
+          "CSCIs"
+        ],
+        [
+          "Tactical Control System",
+          "all interfaces"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "startup of HWCIs"
+        ],
+        [
+          "Tactical Control System",
+          "download of software"
+        ],
+        [
+          "Tactical Control System",
+          "startup of CSCIs"
+        ],
+        [
+          "Tactical Control System",
+          "establishment of the state of readiness of all interfaces"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "system state data"
+        ],
+        [
+          "Tactical Control System",
+          "interface communications"
+        ],
+        [
+          "Tactical Control System",
+          "information necessary to support event reconstruction"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "the type of recovery"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "the system"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System hardware",
+          "execute periodic Fault Detection/Location"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "C4I systems interface"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "C4I systems interface"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "computer workstation"
+      ],
+      "Requirements Reference": [
+        "Tactical Control System",
+        "Human Computer Interface"
+      ],
+      "Requirements Constraint": [
+        "Tactical Control System",
+        "conduct AV maintenance"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "Human Computer Interface"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "Tactical Control System",
+          "conduct payload maintenance"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "Human Computer Interface"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "conduct data link terminal maintenance"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "Human Computer Interface"
+      ],
+      "Requirements Reference": [
+        "conduct workstation and peripheral equipment maintenance",
+        "Human Computer Interface"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "perform fault detection/location (FD/L)"
+        ],
+        [
+          "Human Computer Interface",
+          "perform fault detection/location (FD/L)"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "perform software upgrades"
+        ],
+        [
+          "Human Computer Interface",
+          "perform software upgrades"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "perform software debug and monitoring"
+        ],
+        [
+          "Human Computer Interface",
+          "perform software debug and monitoring"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "Tactical Control System"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "mission data files"
+      ],
+      "Requirements Reference": [
+        "operator"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "to generate a UAV mission plan"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "UAV mission plans"
+        ],
+        [
+          "service specific mission planning systems",
+          "UAV mission plans"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "service specific mission planning systems"
+        ],
+        [
+          "Tactical Control System",
+          "Tactical Aircraft Mission Planning System"
+        ],
+        [
+          "Tactical Control System",
+          "Aviation Mission Planning System"
+        ],
+        [
+          "Tactical Control System",
+          "Air Force Mission Support System"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "UAV mission plans"
+        ],
+        [
+          "service specific mission planning systems",
+          "UAV mission plans"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "C4I interfaces"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "mission plan data"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "UAV mission plans"
+        ],
+        [
+          "other Tactical Control Systems",
+          "UAV mission plans"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "UAV mission plans"
+        ],
+        [
+          "other Tactical Control Systems",
+          "UAV mission plans"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "mission plans",
+          "allow for later retrieval"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "allow for later retrieval"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "Tactical Control System",
+          "to store 500 mission plans under unique names"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "to compute the range and bearing"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "UAV signature versus threat lookup table"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "UAV signature versus threat lookup table"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "dynamic mission"
+        ],
+        [
+          "Tactical Control System",
+          "payload retasking"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "permit dynamic mission"
+        ],
+        [
+          "Tactical Control System",
+          "payload retasking"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "operator"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "review mission plan parameters"
+        ],
+        [
+          "Tactical Control System",
+          "AV flight parameters"
+        ],
+        [
+          "Tactical Control System",
+          "payload control parameters"
+        ],
+        [
+          "Tactical Control System",
+          "data link control parameters"
+        ],
+        [
+          "Tactical Control System",
+          "AV VCR control parameters"
+        ],
+        [
+          "Tactical Control System",
+          "AV loiter patterns"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "flight route plan"
+        ],
+        [
+          "Tactical Control System",
+          "payload plan"
+        ],
+        [
+          "Tactical Control System",
+          "the AV"
+        ],
+        [
+          "selected system data link",
+          "flight route plan"
+        ],
+        [
+          "selected system data link",
+          "payload plan"
+        ],
+        [
+          "selected system data link",
+          "the AV"
+        ],
+        [
+          "Tactical Control System",
+          "ground connection"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "mission plan"
+        ],
+        [
+          "Tactical Control System",
+          "mission plan"
+        ],
+        [
+          "operator",
+          "mission plan"
+        ],
+        [
+          "operator",
+          "mission plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "intended mission plan"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "altitude constraints"
+        ],
+        [
+          "Tactical Control System",
+          "payload constraints"
+        ],
+        [
+          "Tactical Control System",
+          "data link range constraints"
+        ],
+        [
+          "Tactical Control System",
+          "airspace restrictions"
+        ],
+        [
+          "Tactical Control System",
+          "fuel limitations"
+        ],
+        [
+          "Tactical Control System",
+          "threat constraints"
+        ],
+        [
+          "Tactical Control System",
+          "data link terrain masking effects"
+        ],
+        [
+          "Tactical Control System",
+          "Loss of Link (LOL) Plan"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "notify the operator of all discrepancies found during the mission plan check"
+        ],
+        [
+          "Tactical Control System",
+          "indicate successful completion of the mission plan check"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "override validation faults"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "operator",
+          "to set the LOL delay timer(s) during mission planning"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "operator",
+          "waypoints"
+        ],
+        [
+          "operator",
+          "the desired AV route"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          ""
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System flight route planner",
+          "terrain avoidance warnings"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System flight route planner",
+          "line-of-sight flights"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System flight route planner",
+          "payload search area information"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System flight route planner",
+          "designate flight corridors and restricted airspace"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System flight route planner",
+          "designate flight corridors and restricted airspace"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "the estimated time of arrival"
+        ],
+        [
+          "Tactical Control System",
+          "fuel status"
+        ],
+        [
+          "operator",
+          "the estimated time of arrival"
+        ],
+        [
+          "operator",
+          "fuel status"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the AV",
+          "the flight route plan"
+        ],
+        [
+          "the AV",
+          "the limitation of the data link"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the AV",
+          "the flight route plan"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Software System",
+        "The flight route plan"
+      ],
+      "Requirements Reference": [
+        "The flight route plan",
+        "AV commands"
+      ],
+      "Requirements Constraint": [
+        "The flight route plan",
+        "AV commands"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "the desired flight path"
+        ],
+        [
+          "Tactical Control System",
+          "AV Altitude"
+        ],
+        [
+          "Tactical Control System",
+          "Airspeed"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "airspace control zones"
+        ],
+        [
+          "Tactical Control System",
+          "threat systems,"
+        ],
+        [
+          "Tactical Control System",
+          "the threat engagement envelopes"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "map",
+          "display"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "map"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "Tactical Control System",
+          "map"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "an icon indicating AV position"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "AV"
+        ],
+        [
+          "Tactical Control System",
+          "an icon indicating payload center field"
+        ],
+        [
+          "Tactical Control System",
+          "downlink"
+        ],
+        [
+          "Tactical Control System",
+          "footprint"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "icon"
+        ],
+        [
+          "Tactical Control System",
+          "target position"
+        ],
+        [
+          "Tactical Control System",
+          "type"
+        ],
+        [
+          "Tactical Control System",
+          "coordinates"
+        ],
+        [
+          "operator",
+          "coordinates"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "Tactical Control System position"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "Ground Data Terminal (GDT) position"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "payload planning information"
+        ],
+        [
+          "AV",
+          "payload planning information"
+        ],
+        [
+          "Tactical Control System",
+          "flight route plan"
+        ],
+        [
+          "AV",
+          "flight route plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "payload plan"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "the payload swath"
+        ],
+        [
+          "the selected payload",
+          "the payload swath"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "planning purposes"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "AV"
+        ],
+        [
+          "Tactical Control System",
+          "payload"
+        ],
+        [
+          "Tactical Control System",
+          "data link"
+        ],
+        [
+          "Tactical Control System",
+          "C4I interfaces"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "control and monitor an AV, payload, data link, and C4I interfaces during the execution of a mission"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "AV"
+        ],
+        [
+          "Tactical Control System",
+          "AV"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "provide full control functionality of each AV"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "initialized upon operator selection of a specific AV"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "AV",
+          "command and control information"
+        ],
+        [
+          "AV",
+          "AV telemetry and payload information"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "transmit command and control information to the AV via the uplink to the AV, and receive AV telemetry and payload information via downlink from the AV"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "Predator",
+        "Outrider UAVs",
+        "UAV"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "AVs"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "control and monitor multiple types of AVs"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "operator"
+      ],
+      "Requirements Reference": [
+        "notify the operator when AV performance parameters are out of limits"
+      ],
+      "Requirements Constraint": [
+        "AV performance parameters"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "AV flight commands"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "control the AV flight commands as well as to release the AV to an autonomous flight control mode"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "AV",
+          "telemetry data"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "support other Tactical Control System functions as required"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "AV"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "control the flight of the selected AV in accordance with the specific"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "AV",
+          "Identification Friend or Foe"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "fully control and display the AV's Identification Friend or Foe"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "AV"
+        ],
+        [
+          "AV",
+          "airspeed limits"
+        ],
+        [
+          "AV",
+          "altitude limits"
+        ],
+        [
+          "AV",
+          "fuel limits"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "AV preset limits",
+          "enter AV preset limits which, as a minimum, will include airspeed limits, altitude limits, and fuel limits"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "LOS"
+        ],
+        [
+          "Tactical Control System",
+          "SATCOM data links"
+        ],
+        [
+          "AV",
+          "LOS"
+        ],
+        [
+          "AV",
+          "SATCOM data links"
+        ],
+        [
+          "operator",
+          "LOS"
+        ],
+        [
+          "operator",
+          "SATCOM data links"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "AV flight control BLOS via uplink command to two MAE air vehicles"
+        ],
+        [
+          "AV",
+          "AV flight control BLOS via uplink command to two MAE air vehicles"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "AV",
+          "AV flight control BLOS via uplink command to two MAE air vehicles"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "AV"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "implement an emergency action plan, if supported by the AV, to control the AV during equipment failures"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "AV"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "provide interactive displays necessary to command the flight of an AV"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "operator"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "allow the operator to command the flight behavior characteristics inherent to the selected AV"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "AV"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "command the AV to use the navigation methods inherent to the selected AV"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "Air Data"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "control, monitor, and display the operation of the Air Data"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "control the ADT antenna"
+        ],
+        [
+          "ADT antenna",
+          "control the ADT antenna"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "control the power, transmitter signal strength, and frequencies used by ADT for data link communication"
+        ],
+        [
+          "transmitter",
+          "control the power, transmitter signal strength, and frequencies used by ADT for data link communication"
+        ],
+        [
+          "ADT",
+          "control the power, transmitter signal strength, and frequencies used by ADT for data link communication"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "system"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "support an automatic launch and recovery system"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "Integrity Beacon Landing System"
+        ],
+        [
+          "Tactical Control System",
+          "Common Automated Recovery System"
+        ],
+        [
+          "Integrity Beacon Landing System",
+          "Outrider"
+        ],
+        [
+          "Common Automated Recovery System",
+          "Outrider"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "be interoperable with the Integrity Beacon Landing System (IBLS), and the Common Automated Recovery System (CARS), both used by Outrider"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "operator",
+          "cues"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "present sufficient cues to the operator to implement and monitor automatic launch and recovery, and to initiate abort procedures if required"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "operator",
+          "initiate the emergency recovery feature of the AV"
+        ],
+        [
+          "AV",
+          "emergency recovery feature of the AV"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "allow the operator to initiate the emergency recovery feature of the AV",
+          "AV"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "telemetry elements"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "provide the capability to monitor specific telemetry elements real-time, and record all telemetry elements for future review and processing"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "AV",
+          "uplinked mission plan"
+        ],
+        [
+          "AV",
+          "projected flight path"
+        ],
+        [
+          "operator",
+          "deviations detected"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "provide the capability to monitor AV adherence to the uplinked mission plan, detecting any deviations greater than 10% from projected flight path, and notifying the operator if deviations are detected"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "Tactical Control System",
+          "provide the capability to monitor AV adherence to the uplinked mission plan, detecting any deviations greater than 10% from projected flight path, and notifying the operator if deviations are detected"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "AV subsystems"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "monitor the status of all AV subsystems reporting status"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "AV",
+          "AV status"
+        ],
+        [
+          "AV",
+          "AV location and flight and avionics system status"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "display the AV status, to include but not be limited to the AV location and flight and avionics system status"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "AV",
+          "AV status values"
+        ],
+        [
+          "AV",
+          "last values were reported"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "fuel parameters"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "displaying fuel parameters to the operator to include as a minimum, remaining fuel, flow rate, and bingo fuel"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "estimated position"
+        ],
+        [
+          "AV",
+          "estimated position"
+        ],
+        [
+          "Tactical Control System",
+          "last known AV position"
+        ],
+        [
+          "AV",
+          "last known AV position"
+        ],
+        [
+          "Tactical Control System",
+          "anticipated flight path"
+        ],
+        [
+          "AV",
+          "anticipated flight path"
+        ],
+        [
+          "Tactical Control System",
+          "current flight mode"
+        ],
+        [
+          "AV",
+          "current flight mode"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Tactical Control System",
+        "UAV"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "AV",
+          "control and monitor the AV payload(s)"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "data"
+        ],
+        [
+          "AV",
+          "data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "receive data from and control payloads on an AV that is being controlled from another Tactical Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "payload control beyond line of sight via uplink command of two air vehicles of the same type using sequential communication techniques"
+        ],
+        [
+          "air vehicles",
+          "payload control beyond line of sight via uplink command of two air vehicles of the same type using sequential communication techniques"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "air vehicle",
+        "the other"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "payload data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "receive, process, and present payload data to the operator so that the status of the payload can be determined"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "payload adherence to the uplinked mission plan"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "monitor payload adherence to the uplined mission plan"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "map",
+          "display the current search footprint and the search history of the payload on the map"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "line-of-sight"
+        ],
+        [
+          "Tactical Control System",
+          "BLOS data terminal"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "simultaneously control and monitor a line-of-sight as well as a BLOS data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "record data obtained via the data link"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "data terminal"
+        ],
+        [
+          "Tactical Control System",
+          "data link terminal"
+        ],
+        [
+          "Tactical Control System",
+          "data link"
+        ],
+        [
+          "Tactical Control System",
+          "AV"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "interfacing with the specified data terminal and issuing data link terminal commands required to establish, control, and maintain the data link with a selected AV",
+          "data terminal"
+        ],
+        [
+          "interfacing with the specified data terminal and issuing data link terminal commands required to establish, control, and maintain the data link with a selected AV",
+          "data link terminal"
+        ],
+        [
+          "interfacing with the specified data terminal and issuing data link terminal commands required to establish, control, and maintain the data link with a selected AV",
+          "data link"
+        ],
+        [
+          "interfacing with the specified data terminal and issuing data link terminal commands required to establish, control, and maintain the data link with a selected AV",
+          "AV"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Data terminal",
+          "antenna pointing control"
+        ],
+        [
+          "Data terminal",
+          "transmitter control"
+        ],
+        [
+          "Data terminal",
+          "receiver control"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "data terminal",
+          "the selected data terminal"
+        ],
+        [
+          "the selected data terminal",
+          "data terminal"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "automatically selecting the proper mode of operation for the selected data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "acquisition"
+        ],
+        [
+          "Tactical Control System",
+          "autotrack"
+        ],
+        [
+          "Tactical Control System",
+          "search"
+        ],
+        [
+          "Tactical Control System",
+          "manual point"
+        ],
+        [
+          "Tactical Control System",
+          "omni directional"
+        ],
+        [
+          "Tactical Control System",
+          "directional modes of operation"
+        ],
+        [
+          "data terminal",
+          "acquisition"
+        ],
+        [
+          "data terminal",
+          "autotrack"
+        ],
+        [
+          "data terminal",
+          "search"
+        ],
+        [
+          "data terminal",
+          "manual point"
+        ],
+        [
+          "data terminal",
+          "omni directional"
+        ],
+        [
+          "data terminal",
+          "directional modes of operation"
+        ],
+        [
+          "data link",
+          "acquisition"
+        ],
+        [
+          "data link",
+          "autotrack"
+        ],
+        [
+          "data link",
+          "search"
+        ],
+        [
+          "data link",
+          "manual point"
+        ],
+        [
+          "data link",
+          "omni directional"
+        ],
+        [
+          "data link",
+          "directional modes of operation"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "data terminal",
+          "As a minimum the Tactical Control System LOS data terminal control modes shall include acquisition, autotrack, search, manual point, omni directional, as well as directional modes of operation, if applicable to the selected data link."
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "LOS data link"
+        ],
+        [
+          "Tactical Control System",
+          "SATCOM data link"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "AV",
+          "SATCOM capability"
+        ],
+        [
+          "AV",
+          "LOS range"
+        ],
+        [
+          "AV",
+          "LOS"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "switch to a SATellite COMmunication (SATCOM) antenna"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "data link terminal"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "interactive display for the purpose of controlling the data link terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "directional antennas",
+          "operator"
+        ],
+        [
+          "directional antennas",
+          "operator"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "automatic pointing commands for directional antennas, and shall allow for the manual pointing of directional antennas when desired by the operator"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "positioning antennas to maintain LOS as well as SATCOM"
+        ],
+        [
+          "antennas",
+          "positioning antennas to maintain LOS as well as SATCOM"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "antenna pedestal",
+          "platform"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "incorporate antenna pedestal 3 -axis stabilization to compensate for platform (e.g. ship, or HMMWV) motion, if applicable"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "data terminal"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "automatically controlling the transmitter and receiver functions of the selected data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "operator",
+          "data terminal"
+        ],
+        [
+          "data terminal",
+          "operator"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "manually override the automatic function selection of the selected data terminal, if desired",
+          "operator"
+        ],
+        [
+          "manually override the automatic function selection of the selected data terminal, if desired",
+          "data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "data terminal"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "automatically controlling the transmitter and receiver modes of the selected data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "operator",
+          "data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "transmitter"
+        ],
+        [
+          "Tactical Control System",
+          "receiver"
+        ],
+        [
+          "Tactical Control System",
+          "data terminal"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "automatically controlling the transmitter and receiver frequencies of the selected data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "status data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "receive, process, and present status data to the operator so that the status of the data terminal and the supported AV data link can be monitored"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "signal strength"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "monitoring and displaying the signal strength of the received and transmitted signals for the selected data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "signal quality"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "monitoring and displaying the signal quality of the received and transmitted signals for the selected data terminal"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "operator"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "presenting to the operator a visual depiction of the minimum and maximum data link operational ranges"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "payload product",
+          "payload sensor"
+        ],
+        [
+          "payload product",
+          "AV"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Electro Optical (EO)",
+          "payload product data"
+        ],
+        [
+          "Infrared (IR)",
+          "payload product data"
+        ],
+        [
+          "Synthetic Aperture Radar (SAR)",
+          "payload product data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "Payload data"
+        ],
+        [
+          "Tactical Control System",
+          "associated telemetry"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "payload data"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "store up to 24 hours of payload data"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "External storage",
+          "this purpose"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "telemetry and support data"
+        ],
+        [
+          "NITF 2.0 imagery files",
+          "telemetry and support data"
+        ],
+        [
+          "Tactical Control System",
+          "NITF 2.0 imagery files"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "telemetry and support data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "have a built-in text entry capability including the ability to annotate textual information on imagery"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "secondary HAE UAV payload imagery"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "Payload telemetry data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "imagery data"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "display live and recorded imagery data, with as well as without annotation and overlay, upon operator request"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Annotation",
+          "operator"
+        ],
+        [
+          "comments",
+          "operator"
+        ],
+        [
+          "graphics",
+          "operator"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Overlays",
+          "information"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Tactical Control System",
+          "imagery"
+        ],
+        [
+          "Tactical Control System",
+          "data"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Tactical Control System",
+          "simultaneously view imagery as well as data from more than one payload, when applicable"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "cross hairs"
+        ],
+        [
+          "The Tactical Control System",
+          "a target"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "RS170A video",
+          "Tactical Control System functions"
+        ],
+        [
+          "digital imagery",
+          "Tactical Control System functions"
+        ],
+        [
+          "digital imagery",
+          "operator request"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "the payload product data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to conduct limited exploitation"
+        ],
+        [
+          "The Tactical Control System",
+          "to include voice and textual reporting for spot and mission objectives"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "frozen-frames of imagery"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to capture frozen-frames of imagery"
+        ],
+        [
+          "The Tactical Control System",
+          "store these frozen images for further review and processing"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to display Near-Real Time (NRT) imagery"
+        ],
+        [
+          "The Tactical Control System",
+          "date/time group"
+        ],
+        [
+          "The Tactical Control System",
+          "target location coordinates"
+        ],
+        [
+          "The Tactical Control System",
+          "north seeking arrow"
+        ],
+        [
+          "The Tactical Control System",
+          "AV position and heading"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "to compute the range and bearing between two geographic positions"
+        ],
+        [
+          "the payload imagery display",
+          "to compute the range and bearing between two geographic positions"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "target coordinates"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to determine target coordinates"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the operator",
+          "the current ground location"
+        ],
+        [
+          "the operator",
+          "the payload field-of-view center"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "support a target location function",
+          "the current ground location"
+        ],
+        [
+          "support a target location function",
+          "the payload field-of-view center"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "to determine the location of items of interest"
+        ],
+        [
+          "The Tactical Control System",
+          "express these locations in coordinates acceptable for military applications"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to determine the location of items of interest"
+        ],
+        [
+          "The Tactical Control System",
+          "express these locations in coordinates acceptable for military applications"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to develop an estimate of the error in computed target coordinates"
+        ],
+        [
+          "The Tactical Control System",
+          "associate the error estimate with the appropriate target"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "receiving, processing, and transmitting tactical information"
+        ],
+        [
+          "The Tactical Control System",
+          "character based text messages"
+        ],
+        [
+          "The Tactical Control System",
+          "NITF 2.0 imagery files"
+        ],
+        [
+          "The Tactical Control System",
+          "RS-170A video"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "to manage all aspects of C4I system interfaces",
+          "The Tactical Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "the presentation of payload products"
+        ],
+        [
+          "The Tactical Control System",
+          "target coordinates for the purpose of export and dissemination"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "the presentation of payload products"
+        ],
+        [
+          "The Tactical Control System",
+          "target coordinates for the purpose of export and dissemination"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "The Tactical Control System",
+          "the presentation of payload products"
+        ],
+        [
+          "The Tactical Control System",
+          "target coordinates for the purpose of export and dissemination"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "utilizing data obtained from drones"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "provide information to the C4I system"
+        ],
+        [
+          "the C4I system",
+          "provide information to the C4I system"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a data server",
+          "intelligence data"
+        ],
+        [
+          "The Tactical Control System",
+          "intelligence data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "to interoperate with a data server",
+          "a data server"
+        ],
+        [
+          "to receive",
+          "intelligence data"
+        ],
+        [
+          "extract",
+          "intelligence data"
+        ],
+        [
+          "push intelligence data",
+          "intelligence data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "digital message transmission"
+        ],
+        [
+          "radios",
+          "digital message transmission"
+        ],
+        [
+          "radios",
+          "record traffic"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to interface with Service specific ground"
+        ],
+        [
+          "The Tactical Control System",
+          "airborne Ultra High Frequency (UHF), Very High Frequency (VHF), UHF/VHF, and High Frequency (HF) radios"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "operational/voice communications",
+          "Record traffic"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System data burst messages",
+          "Variable Message Formats"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "comply with Variable Message Formats",
+          "Variable Message Formats"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "NITF 2.0 files",
+          "The Tactical Control System"
+        ],
+        [
+          "digital imagery",
+          "The Tactical Control System"
+        ],
+        [
+          "RS-170A video",
+          "The Tactical Control System"
+        ],
+        [
+          "tactical communication messages",
+          "The Tactical Control System"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "all 5 levels of interaction"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "tactical communication messages"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "send and receive tactical communication messages"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "annotated and un-annotated digital imagery"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "send and receive annotated and un-annotated digital imagery"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "terminate the communication upon completion"
+        ],
+        [
+          "the C4I systems",
+          "terminate the communication upon completion"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "establish digital communication"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "digital communication"
+        ],
+        [
+          "peripheral devices",
+          "digital communication"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to establish and subsequently terminate digital communication"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "RS-170A format",
+          "analog imagery"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "analog communication with C4I systems"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "establish analog communication with C4I systems"
+        ],
+        [
+          "The Tactical Control System",
+          "terminate the communication once it is completed"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "analog communication"
+        ],
+        [
+          "peripheral devices",
+          "analog communication"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to establish and subsequently terminate analog communication"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "C4I messages"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to process received C4I messages"
+        ],
+        [
+          "The Tactical Control System",
+          "to prepare C4I messages for transmission"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "tactical communications messages"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "Tactical Communication Messages"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "reviewing incoming Tactical Communication Messages"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "annotated and un-annoted digital imagery for transmission"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "equipped to prepare both annotated and un-annotated digital imagery for transmission"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "incoming annotated as well as un-annoted digital imagery"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to review incoming annotated as well as un-annotated digital imagery"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System",
+          "All digital messages received"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "automatically checked for errors and corrected when possible",
+          "the Tactical Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "All erroneous messages that cannot be corrected",
+          "message"
+        ],
+        [
+          "the operator",
+          "message"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "flagged to the operator",
+          "System Requirements"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "all incoming and outgoing formatted tactical messages"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to log all incoming and outgoing formatted tactical messages"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "annotated as well as un-annoted analog imagery for transmission"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "prepare annotated as well as un-annotated analog imagery for transmission"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "analog imagery"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to receive incoming annotated as well as un-annotated analog imagery"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "the status of all C4I interfaces"
+        ],
+        [
+          "The Tactical Control System",
+          "appropriate control information"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to monitor the status of all C4I interfaces"
+        ],
+        [
+          "The Tactical Control System",
+          "display appropriate control information"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "C4I systems"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "display which C4I systems are supported and online during a mission"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "the status of all incoming and outgoing tactical communication messages"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "monitoring the status of all incoming and outgoing tactical communication messages"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "all tactical communication messages received and transmitted"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to review all tactical communication messages received and transmitted"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "incoming and outgoing, both annotated and un-annotated analog imagery"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to view incoming and outgoing, both annotated and un-annotated analog imagery"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "incoming and outgoing, both annotated and un-annotated digital imagery messages"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to view incoming and outgoing, both annotated and un-annotated digital imagery messages"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "displaying appropriate status results"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "executing AV maintenance software and displaying appropriate status results"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "appropriate status results"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "executing payload maintenance software"
+        ],
+        [
+          "Tactical Control System",
+          "displaying appropriate status results"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "displaying appropriate status results"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "executing data terminal maintenance software"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System",
+          "appropriate status results"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "executing workstation and peripheral equipment maintenance software"
+        ],
+        [
+          "Tactical Control System",
+          "displaying appropriate status results"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Fault Detection/Location (FD/L)",
+          "provided to indicate the readiness status"
+        ],
+        [
+          "the Line Replaceable Unit (LRU) level",
+          "provided to indicate the readiness status"
+        ],
+        [
+          "Tactical Control System",
+          "provided to indicate the readiness status"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "the Original Equipment Manufacturer (OEM)"
+      ],
+      "Requirements Reference": [
+        "allow the operator to control and monitor the AV's FD/L",
+        "the Original Equipment Manufacturer (OEM)"
+      ],
+      "Requirements Constraint": [
+        "allow the operator to control and monitor the AV's FD/L",
+        "the AV's FD/L"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "other media storage devices"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "authorized operators",
+          "software upgrades via CD-ROM"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "access to this capability via password protection"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "restrict operator access to this capability via password protection"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "The Tactical Control System",
+          "restrict operator access to this capability via password protection"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Authorized Operators",
+          "all Tactical Control System programmable parameters"
+        ],
+        [
+          "The Tactical Control System",
+          "all Tactical Control System programmable parameters"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Authorized Operators",
+          "to modify all Tactical Control System programmable parameters"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System",
+          "access to this capability via password protection"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "restrict Operator access to this capability via password protection",
+          "Operator"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "restrict Operator access to this capability via password protection",
+          "access to this capability via password protection"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "Digital Terrain Elevation Data (DTED)"
+        ],
+        [
+          "The Tactical Control System",
+          "Digital Feature Analysis Data (DFAD)"
+        ],
+        [
+          "The Tactical Control System",
+          "Arc Digitized Raster Graphic"
+        ],
+        [
+          "The Tactical Control System",
+          "scanned hard copy maps"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "the resulting debug diagnostic information"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "allow an Authorized Operator to execute a software debug capability"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "password protection",
+          "Operator"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Tactical Control System",
+          "restrict Operator access to this capability"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "external systems"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "to interface with equipment"
+        ],
+        [
+          "standard DoD tactical (VHF, UHF, and UHF/VHF) radios",
+          "to interface with equipment"
+        ],
+        [
+          "Mobile Subscriber Equipment",
+          "to interface with equipment"
+        ],
+        [
+          "military and commercial satellite communications equipment",
+          "to interface with equipment"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "external mission tasking systems"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "interface with external mission tasking systems"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "the data terminal"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to interface with the data terminal"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "external interfaces"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "provide external interfaces to launch and recovery systems"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "C4I systems"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "This prioritization schema",
+          "Joint Requirements Oversight Council (JROC) Memorandum"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "JMCIS"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System",
+          "integrate with Service Mission Planners"
+        ],
+        [
+          "Service Mission Planners",
+          "integrate with Service Mission Planners"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to allow the Tactical Control System to integrate with Service Mission Planners"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Service Mission Planners",
+          "AMPS"
+        ],
+        [
+          "The Service Mission Planners",
+          "AFMSS"
+        ],
+        [
+          "The Service Mission Planners",
+          "TAMPS"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "integrate with AMPS"
+        ],
+        [
+          "AMPS",
+          "integrate with AMPS"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to allow the Tactical Control System to integrate with AMPS"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "TES"
+      ],
+      "Requirements Reference": [
+        "The Tactical Control System",
+        "to allow the Tactical Control System to integrate with TES"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "IAS"
+      ],
+      "Requirements Reference": [
+        "to allow the Tactical Control System to integrate with IAS"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "IAS"
+      ],
+      "Requirements Reference": [
+        "to allow the Tactical Control System to integrate with IAS"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "ATHS"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "the Tactical Control System",
+        "TBMCS"
+      ],
+      "Requirements Reference": [
+        "to allow the Tactical Control System to integrate with TBMCS"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "MIES"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "ETRAC"
+      ],
+      "Requirements Reference": [
+        "The Tactical Control System",
+        "to allow the Tactical Control System to integrate with ETRAC"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "integrate with COMPASS"
+        ],
+        [
+          "COMPASS",
+          "integrate with COMPASS"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to allow the Tactical Control System to integrate with COMPASS"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "TEG"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "interfaces with the respective UAV program-provided data links"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "command and control"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "external interfaces"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "an external hard copy printer"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "a hard copy printer"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "output digital message data and imagery to a hard copy printer"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "external data storage systems"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "provide an interface"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "digital data"
+        ],
+        [
+          "The Tactical Control System",
+          "digital imagery"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to transfer digital data as well as digital imagery"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "DoD standard power supply equipment"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "operating environment"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "a source of current navigation information"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "have an interface"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "an AV Standard Interface"
+        ],
+        [
+          "an AV Standard Interface",
+          "the selected AV"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "implement an AV Standard Interface",
+          "The Tactical Control System"
+        ],
+        [
+          "provide the proper data format to ensure communications",
+          "the selected AV"
+        ]
+      ],
+      "Requirements Constraint": [
+        [
+          "provide the proper data format to ensure communications",
+          "The Tactical Control System"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "the Tactical Control System",
+          "The uplink and downlink information"
+        ],
+        [
+          "the AV",
+          "The uplink and downlink information"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "the Tactical Control System",
+          "the associated AV documentation"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "concurrent uplink and downlink"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "support a concurrent uplink and downlink"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "provide an internal interface",
+          "establishing communications"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "This interface",
+          "the Tactical Control System"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The RTP interface",
+          "distributed processing"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Remotely hosted applications",
+          "communicate in a client server relationhip"
+        ],
+        [
+          "the defined data server interface",
+          "communicate in a client server relationhip"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "the SAR Processor"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "provide an internal interface",
+          "disseminate SAR information"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "verbal communicate in the situation"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "incorporate an intercom system"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "a video cassette recorder"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System",
+          "the Operator(s)"
+        ],
+        [
+          "the Tactical Control System",
+          "VCR"
+        ],
+        [
+          "the Tactical Control System",
+          "the Tactical Control System Display input device(s)"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Tactical Control System",
+          "to fully control the VCR"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "VCR"
+        ],
+        [
+          "The Tactical Control System",
+          "the C4I Interfaces"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "to route VCR recorded payload video to the C4I Interfaces",
+          "The Tactical Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "An RS-170A video interface",
+          "output and input analog imagery"
+        ],
+        [
+          "An RS-170A video interface",
+          "overlays to and from a Video Cassette Recorder (VCR) for recording and playback"
+        ],
+        [
+          "the system",
+          "output and input analog imagery"
+        ],
+        [
+          "the system",
+          "overlays to and from a Video Cassette Recorder (VCR) for recording and playback"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "outputting data and imagery to an internal hard copy printer"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "data storage devices"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "able to access data storage devices",
+          "data storage devices"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "data storage devices"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "digital data"
+        ],
+        [
+          "The Tactical Control System",
+          "digital imagery"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "a CD"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "provide a CD drive"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "a tape"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "provide a tape"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "a RAID"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "provide a RAID"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "an uninterruptible power supply"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "comply with para 5.3 of MIL-STD 882C",
+          "The Tactical Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the air vehicle",
+          "unsafe flight regime"
+        ],
+        [
+          "the operator",
+          "unsafe flight regime"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Appropriate cautions and warnings",
+          "provided to the operator"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System",
+          "terrain avoidance warning"
+        ],
+        [
+          "the Tactical Control System",
+          "minimum reception altitude"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Tactical Control System",
+          "provide terrain avoidance warning and minimum reception altitude calculations for line of sight flights"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the Tactical Control System",
+          "identified a malfunction"
+        ],
+        [
+          "the Tactical Control System",
+          "a cautions and warnings"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the operator",
+          "other aircraft"
+        ],
+        [
+          "the operator",
+          "civilian airspace"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "Federal Aviation Administration (FAA) rules"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "The Tactical Control System",
+          "Federal Aviation Administration (FAA) rules"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "no single hardware failure results"
+        ],
+        [
+          "the air vehicle",
+          "no single hardware failure results"
+        ],
+        [
+          "an unsafe command",
+          "no single hardware failure results"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "no single software error results"
+        ],
+        [
+          "the air vehicle",
+          "no single software error results"
+        ],
+        [
+          "an unsafe command",
+          "no single software error results"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "designed such that no single software error results in an unsafe command to be transmitted to the air vehicle"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "uplink"
+        ],
+        [
+          "The Tactical Control System",
+          "downlink"
+        ],
+        [
+          "The Tactical Control System",
+          "each UAV"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "monitor the uplink and downlink"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "the Tactical Control System",
+          "Upon detection of loss of link"
+        ],
+        [
+          "the air vehicle",
+          "Upon detection of loss of link"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "the Tactical Control System",
+          "attempt to reestablish communications with the air vehicle"
+        ],
+        [
+          "the air vehicle",
+          "attempt to reestablish communications with the air vehicle"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "provide protection against injury to Tactical Control System operators and maintenance personnel"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the Tactical Control System development",
+          "System safety and health hazards"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "an Automated Information System (AIS)"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the Tactical Control System",
+          "DoD Regulation 5000.2-R"
+        ],
+        [
+          "the Tactical Control System",
+          "DoD Directive 5200.28(D)"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "meet security requirements",
+          "DoD Regulation 5000.2-R"
+        ],
+        [
+          "meet security requirements",
+          "DoD Directive 5200.28(D)"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Tactical Control System",
+          "DoD 5200.28(D)"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "this procedure",
+          "the Tactical Control System users"
+        ],
+        [
+          "this procedure",
+          "the Tactical Control System processes, stores or transfers"
+        ],
+        [
+          "the Tactical Control System users",
+          "the Tactical Control System processes, stores or transfers"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "the Tactical Control System",
+          "the Tactical Control System users"
+        ],
+        [
+          "the Tactical Control System",
+          "the Tactical Control System processes, stores or transfers"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System data",
+          "the systems"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System data",
+          "determined by the data sensitivities of the systems"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System",
+          "material passed through such links"
+        ],
+        [
+          "other systems",
+          "material passed through such links"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "DoD Directive C-5200.5"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "physical anti-radiation weaponry"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to protect its communication and data links"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System users",
+          "the Tactical Control System processes"
+        ],
+        [
+          "operators",
+          "the Tactical Control System processes"
+        ],
+        [
+          "maintainers",
+          "the Tactical Control System processes"
+        ],
+        [
+          "other personnel",
+          "the Tactical Control System processes"
+        ],
+        [
+          "Tactical Control System users",
+          "stores"
+        ],
+        [
+          "operators",
+          "stores"
+        ],
+        [
+          "maintainers",
+          "stores"
+        ],
+        [
+          "other personnel",
+          "stores"
+        ],
+        [
+          "Tactical Control System users",
+          "transfers"
+        ],
+        [
+          "operators",
+          "transfers"
+        ],
+        [
+          "maintainers",
+          "transfers"
+        ],
+        [
+          "other personnel",
+          "transfers"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "cleared to the highest sensitivity of the data",
+          "Tactical Control System users"
+        ],
+        [
+          "cleared to the highest sensitivity of the data",
+          "operators"
+        ],
+        [
+          "cleared to the highest sensitivity of the data",
+          "maintainers"
+        ],
+        [
+          "cleared to the highest sensitivity of the data",
+          "other personnel"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "Additional local site procedures",
+          "prevent the intentional or unintentional disclosure of sensitive information"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System",
+          "an initial security training"
+        ],
+        [
+          "the Tactical Control System",
+          "awareness briefing"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Tactical Control System",
+          "AIS security"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The Tactical Control System",
+        "the System/Subsystem Design Document"
+      ],
+      "Requirements Reference": [
+        "The Tactical Control System",
+        "the land-based shelter",
+        "shipboard environments"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "The Tactical Control System hardware"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System hardware",
+          "the AV"
+        ],
+        [
+          "The Tactical Control System hardware",
+          "data link"
+        ],
+        [
+          "The Tactical Control System hardware",
+          "payload"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "support the data rate characteristics of the AV, data link and payload to ensure interoperability"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "OUTRIDER system",
+          "the Tactical Control System"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "OUTRIDER system",
+          "provide full independent computer redundancy"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "the processing requirements of the selected data link"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System computer system",
+          "CD-ROM Digital Terrain Elevation Data (DTED)"
+        ],
+        [
+          "The Tactical Control System computer system",
+          "Digital Feature Analysis Data (DFAD)"
+        ],
+        [
+          "The Tactical Control System computer system",
+          "embedded training media"
+        ],
+        [
+          "The Tactical Control System computer system",
+          "National Imagery and Mapping Agency (NIMA)"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "generators"
+        ],
+        [
+          "The Tactical Control System",
+          "commercial power sources"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "standard electrical power sources",
+          "the DoD"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "the DoD"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "throughput shall not exceed 50% of the throughput capability delivered over any 10 second period"
+        ],
+        [
+          "The Tactical Control System",
+          "as an objective throughput shall not exceed 25% of throughput capability delivered over any 10 second period"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "delivered storage used"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "The Tactical Control System",
+          "providing a 50% spare memory storage capacity over delivered storage used"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "a 75% spare memory storage capacity"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System software",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "The Tactical Control System software",
+          "perform mission planning"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the payload"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the AV"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the data links"
+        ],
+        [
+          "the AV",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the AV",
+          "perform mission planning"
+        ],
+        [
+          "the AV",
+          "monitor and control the payload"
+        ],
+        [
+          "the AV",
+          "monitor and control the AV"
+        ],
+        [
+          "the AV",
+          "monitor and control the data links"
+        ],
+        [
+          "the payload",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the payload",
+          "perform mission planning"
+        ],
+        [
+          "the payload",
+          "monitor and control the payload"
+        ],
+        [
+          "the payload",
+          "monitor and control the AV"
+        ],
+        [
+          "the payload",
+          "monitor and control the data links"
+        ],
+        [
+          "the data links",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the data links",
+          "perform mission planning"
+        ],
+        [
+          "the data links",
+          "monitor and control the payload"
+        ],
+        [
+          "the data links",
+          "monitor and control the AV"
+        ],
+        [
+          "the data links",
+          "monitor and control the data links"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System software",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "The Tactical Control System software",
+          "perform mission planning"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the payload"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the AV"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the data links"
+        ],
+        [
+          "the AV",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the AV",
+          "perform mission planning"
+        ],
+        [
+          "the AV",
+          "monitor and control the payload"
+        ],
+        [
+          "the AV",
+          "monitor and control the AV"
+        ],
+        [
+          "the AV",
+          "monitor and control the data links"
+        ],
+        [
+          "the payload",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the payload",
+          "perform mission planning"
+        ],
+        [
+          "the payload",
+          "monitor and control the payload"
+        ],
+        [
+          "the payload",
+          "monitor and control the AV"
+        ],
+        [
+          "the payload",
+          "monitor and control the data links"
+        ],
+        [
+          "the data links",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the data links",
+          "perform mission planning"
+        ],
+        [
+          "the data links",
+          "monitor and control the payload"
+        ],
+        [
+          "the data links",
+          "monitor and control the AV"
+        ],
+        [
+          "the data links",
+          "monitor and control the data links"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "The Tactical Control System software",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "The Tactical Control System software",
+          "perform mission planning"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the payload"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the AV"
+        ],
+        [
+          "The Tactical Control System software",
+          "monitor and control the data links"
+        ],
+        [
+          "the AV",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the AV",
+          "perform mission planning"
+        ],
+        [
+          "the AV",
+          "monitor and control the payload"
+        ],
+        [
+          "the AV",
+          "monitor and control the AV"
+        ],
+        [
+          "the AV",
+          "monitor and control the data links"
+        ],
+        [
+          "the payload",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the payload",
+          "perform mission planning"
+        ],
+        [
+          "the payload",
+          "monitor and control the payload"
+        ],
+        [
+          "the payload",
+          "monitor and control the AV"
+        ],
+        [
+          "the payload",
+          "monitor and control the data links"
+        ],
+        [
+          "the data links",
+          "to receive, process, and disseminate video and telemetry data"
+        ],
+        [
+          "the data links",
+          "perform mission planning"
+        ],
+        [
+          "the data links",
+          "monitor and control the payload"
+        ],
+        [
+          "the data links",
+          "monitor and control the AV"
+        ],
+        [
+          "the data links",
+          "monitor and control the data links"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "Defense Information Infrastructure/Common Operating Environment per Assistant Secretary of Defense for Command, Control, Communications, and Intelligence (ASD(C3I)) Joint Technical Architecture (JTA)."
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System software",
+          "related communications"
+        ],
+        [
+          "operator",
+          "related communications"
+        ],
+        [
+          "operator",
+          "mission tasking"
+        ],
+        [
+          "operator",
+          "mission planning"
+        ],
+        [
+          "operator",
+          "mission execution"
+        ],
+        [
+          "operator",
+          "data receipt"
+        ],
+        [
+          "operator",
+          "data processing"
+        ],
+        [
+          "operator",
+          "data dissemination"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System software",
+          "provide the UAV operator with the necessary tools"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System software",
+          "a variety of computer operating systems"
+        ],
+        [
+          "a variety of computer operating systems",
+          "The Tactical Control System software"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System software",
+          "hosted on a variety of computer operating systems"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Training software",
+        "the operational software"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System software",
+          "the operator(s)"
+        ],
+        [
+          "the system",
+          "the operator(s)"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "restrict the operator(s) from exercising levels of interaction not achievable by the system",
+          "the system"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "restrict the operator(s) from exercising levels of interaction not achievable by the system",
+          "the system"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a display windows",
+          "the aircraft position"
+        ],
+        [
+          "a display windows",
+          "Tactical Control System position"
+        ],
+        [
+          "a display windows",
+          "flight path"
+        ],
+        [
+          "a display windows",
+          "waypoint graphics in the foreground"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Each control console",
+          "provides the aircraft position"
+        ],
+        [
+          "Each control console",
+          "Tactical Control System position"
+        ],
+        [
+          "Each control console",
+          "flight path"
+        ],
+        [
+          "Each control console",
+          "waypoint graphics in the foreground"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "Each control console",
+          "a display windows"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "Each control console",
+          "provides aircraft flight data or payload data in the foreground"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "operator"
+        ],
+        [
+          "The Tactical Control System",
+          "male operator"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "have ergonomically designed operator controls"
+        ],
+        [
+          "The Tactical Control System",
+          "displays for the 5th percentile female to 95th percentile male operator"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The controls",
+          "air vehicle"
+        ],
+        [
+          "The controls",
+          "payload operators"
+        ],
+        [
+          "The controls",
+          "cold weather clothing"
+        ],
+        [
+          "The controls",
+          "Mission Oriented Protective Posture"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "monitor(s)"
+        ],
+        [
+          "monitor(s)",
+          "sunlight and low light level environments"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the operator",
+          "mission execution"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "given appropriate warning messages",
+          "other concurrently-executing subsystem tasks"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Tactical Control System Warning messages",
+          "mission criticality"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The color codes and flash frequencies",
+          "MIL-STD 1472 guidelines"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System operator",
+          "acknowledgment"
+        ],
+        [
+          "any AV",
+          "critical warning flags"
+        ],
+        [
+          "Payload",
+          "critical warning flags"
+        ],
+        [
+          "ADT",
+          "critical warning flags"
+        ],
+        [
+          "GDT",
+          "critical warning flags"
+        ],
+        [
+          "Tactical Control System faults",
+          "critical warning flags"
+        ],
+        [
+          "The Tactical Control System",
+          "critical warning flags"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "be required to enter an acknowledgment prior to disabling the display of critical warning flags",
+          "The Tactical Control System operator"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "be required to enter an acknowledgment prior to disabling the display of critical warning flags",
+          "any AV"
+        ],
+        [
+          "be required to enter an acknowledgment prior to disabling the display of critical warning flags",
+          "Payload"
+        ],
+        [
+          "be required to enter an acknowledgment prior to disabling the display of critical warning flags",
+          "ADT"
+        ],
+        [
+          "be required to enter an acknowledgment prior to disabling the display of critical warning flags",
+          "GDT"
+        ],
+        [
+          "be required to enter an acknowledgment prior to disabling the display of critical warning flags",
+          "Tactical Control System faults"
+        ],
+        [
+          "be required to enter an acknowledgment prior to disabling the display of critical warning flags",
+          "The Tactical Control System"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "A combination of visual and auditory outputs",
+          "the Tactical Control System operator"
+        ],
+        [
+          "A combination of visual and auditory outputs",
+          "operator"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System operator",
+          "other existing windows to ensure that it is viewable immediately"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "in the form of a displayed message box"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Tactical Control System operator",
+          "displayed alert messages"
+        ],
+        [
+          "the Tactical Control System operator",
+          "auditory alerts to include tones"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The volume of these auditory tones",
+          "keyboard"
+        ],
+        [
+          "The volume of these auditory tones",
+          "trackball"
+        ],
+        [
+          "The volume of these auditory tones",
+          "the operator"
+        ],
+        [
+          "The volume of these auditory tones",
+          "the operator’s ear"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "All Tactical Control System warning messages",
+          "archived for later review"
+        ],
+        [
+          "HCI actions",
+          "archived for later review"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "All Tactical Control System operator inputs",
+          "cause current processing to terminate"
+        ],
+        [
+          "any erroneous operator entry",
+          "cause current processing to terminate"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The HCI",
+          "prompt the operator for a valid input"
+        ],
+        [
+          "the operator",
+          "prompt the operator for a valid input"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Display jitter and flicker",
+          "not be perceptible by the operator"
+        ],
+        [
+          "the operator",
+          "not be perceptible by the operator"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The HCI",
+        "any Tactical Control System function"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "the Tactical Control System workstation"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "to display all HCI elements on any available monitor on the Tactical Control System workstation",
+          "The Tactical Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "keyset"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "provide full complementary control operations from the keyset"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "porting an off-the-shelf"
+        ],
+        [
+          "The Tactical Control System",
+          "complex control joystick with multiple toggle"
+        ],
+        [
+          "The Tactical Control System",
+          "multi-position switches as part of the Tactical Control System hardware suite"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "system status"
+        ],
+        [
+          "The Tactical Control System",
+          "C4I links"
+        ],
+        [
+          "The Tactical Control System",
+          "AV-GDT links"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "use graphical representations to convey information"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "operator"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "provide automated Tactical Control System system information"
+        ],
+        [
+          "The Tactical Control System",
+          "control options"
+        ],
+        [
+          "The Tactical Control System",
+          "logical and simple operator guidance and support for immediate and adaptive responding to crisis situations"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "processing, display, and control capabilities to ensure dynamic situational awareness input"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "provide the necessary processing, display, and control capabilities to ensure dynamic situational awareness input to the Tactical Control System operator"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "AV",
+          "The Tactical Control System HCI"
+        ],
+        [
+          "AV",
+          "a single Tactical Control System station"
+        ],
+        [
+          "payload",
+          "The Tactical Control System HCI"
+        ],
+        [
+          "payload",
+          "a single Tactical Control System station"
+        ],
+        [
+          "two AVs",
+          "The Tactical Control System HCI"
+        ],
+        [
+          "two AVs",
+          "a single Tactical Control System station"
+        ],
+        [
+          "their payloads",
+          "The Tactical Control System HCI"
+        ],
+        [
+          "their payloads",
+          "a single Tactical Control System station"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System HCI",
+          "unambiguous AV and payload control and status feedback indicators"
+        ],
+        [
+          "a single Tactical Control System station",
+          "unambiguous AV and payload control and status feedback indicators"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a specific icon shape on a constant contrast background",
+          "the Tactical Control System operator"
+        ],
+        [
+          "a specific icon shape",
+          "the Tactical Control System operator"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "a specific icon shape on a constant contrast background",
+          "the Tactical Control System operator"
+        ],
+        [
+          "other visual information coding mechanisms",
+          "the Tactical Control System operator"
+        ],
+        [
+          "to cue the Tactical Control System operator regarding",
+          "the Tactical Control System operator"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "a specific icon shape on a constant contrast background",
+          "the Tactical Control System operator"
+        ],
+        [
+          "other visual information coding mechanisms",
+          "the Tactical Control System operator"
+        ],
+        [
+          "to cue the Tactical Control System operator regarding",
+          "the Tactical Control System operator"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "map display",
+          "display the SAR imaging swath on the map display"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System HCI",
+          "the payload imagery window"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System HCI",
+          "to lock onto and hold a coordinate point on the payload imagery window"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System HCI",
+          "operator definable “Lock Out” zones around waypoints"
+        ],
+        [
+          "The Tactical Control System HCI",
+          "Launch and Recovery Point (LRP)"
+        ],
+        [
+          "The Tactical Control System HCI",
+          "any selected point on the AV flight path"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "operator definable “Lock Out” zones around waypoints, Launch and Recovery Point (LRP), as well as any selected point on the AV flight path",
+          "The Tactical Control System HCI"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System HCI",
+          "to cancel aural warnings"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System HCI",
+          "Warnings"
+        ],
+        [
+          "The Tactical Control System HCI",
+          "Cautions"
+        ],
+        [
+          "The Tactical Control System HCI",
+          "Advisories"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System HCI",
+          "provide for separation, grouping, and visual coding of multiple categories of alerts"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Tactical Control System HCI",
+          "provide for visual Warnings, Cautions, and Advisories to be displayed at or near the center of the field of view"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "the Tactical Control System HCI",
+          "provide a default selection as well as an override option"
+        ],
+        [
+          "the Tactical Control System HCI",
+          "mission-critical Warnings"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "map and payload video backgrounds",
+          "The Tactical Control System HCI"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "provide for on-screen information",
+          "The Tactical Control System HCI"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System HCI",
+          "on-screen control functions for time"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System HCI",
+          "provide continuously-available"
+        ],
+        [
+          "The Tactical Control System HCI",
+          "missioncritical operations"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System HCI",
+          "the payload screen"
+        ],
+        [
+          "The Tactical Control System HCI",
+          "the map screen"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "aircraft"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to be integrated and operated from tactical and command and control aircraft"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Tactical Control System",
+          "to be integrated and operated from submarines"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Tactical Control System",
+          "to be integrated and operated from submarines"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Tactical Control System",
+          "ships"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Tactical Control System",
+          "to be integrated and operated from ships"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Software System",
+        "Physical Device"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  }
+]

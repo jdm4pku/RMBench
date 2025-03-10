@@ -1,0 +1,1598 @@
+[
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [['TACTICAL CONTROL SYSTEM', 'the OPERATIONAL REQUIREMENTS DOCUMENT FOR THE UNMANNED AERIAL VEHICLE (UAV) TACTICAL CONTROL SYSTEM (TCS) - VERSION 5.0'], ['the Tactical control system', 'the OPERATIONAL REQUIREMENTS DOCUMENT FOR THE UNMANNED AERIAL VEHICLE (UAV) TACTICAL CONTROL SYSTEM (TCS) - VERSION 5.0']], 'requirements constraint': []} \n## Task\nThe given sentence is a software requirements specification and the task is to extract the relations that match the given schema definition. The relations to be extracted are 'Interface', 'Requirements Reference', and 'Requirements Constraint'. The answer should be in the form of a JSON string. \n\nThe 'Interface' relation is an interface of sending/receiving data between the connected entities. The 'Requirements Reference' relation is a reference relation between requirements domain and other entities. The 'Requirements Constraint' relation is a constrain relation between requirements domain and other entities, meaning the requirements domain does not just refer to the phenomena but constrains them. \n\nThe input is a sentence from a software requirements specification and a list of entities. The output should be a JSON string with the relations extracted from the sentence. If a relation type does not exist in the sentence, the corresponding list should be empty. \n\nThe sentence provided in the input is: \"This TACTICAL CONTROL SYSTEM (TCS) - SYSTEM / SUBSYSTEM SPECIFICATION (SSS) - VERSION 1.0 identifies, specifies, and establishes the detailed system requirements for the Tactical control system as set forth by the OPERATIONAL REQUIREMENTS DOCUMENT FOR THE UNMANNED AERIAL VEHICLE (UAV) TACTICAL CONTROL SYSTEM (TCS) - VERSION 5.0.\" The entities provided are: {'Software System': ['TACTICAL CONTROL SYSTEM', 'the Tactical control system'], 'Physical Device': [], 'Environment Object': ['UNMANNED AERIAL VEHICLE'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}. \n\nThe expected output is: {'Phenomena Interface': [], 'requirements reference': [['TACTICAL CONTROL SYSTEM', 'the OPERATIONAL REQUIREMENTS DOCUMENT FOR THE UNMANNED AERIAL VEHICLE (UAV) TACTICAL CONTROL SYSTEM (TCS) - VERSION 5.0'], ['the Tactical control system', 'the OPERATIONAL REQUIREMENTS DOCUMENT FOR THE UNMANNED AERIAL VEHICLE (UAV) TACTICAL"
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The SSS further specifies the methods to be used to ensure that each requirement has been met.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System':"
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [['the TCS', 'external interfaces']], 'requirements constraint': []} \nInput:This document provides a detailed description of the requirements for the TCS system.\nEntities: {'Software System': ['the TCS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The TCS system shall provide a user interface for the user to interact with the system.\nEntities: {'Software System': ['the TCS system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['the TCS system', 'the user']], 'requirements reference': [], 'requirements constraint': []} \nInput:The TCS system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system.\nEntities: {'Software System': ['the TCS system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['the TCS system', 'the user']], 'requirements reference': [], 'requirements constraint': []} \nInput:The TCS system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system.\nEntities: {'Software System': ['the TCS system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['the TCS system', 'the user']], 'requirements reference': [], 'requirements constraint': []} \nInput:The TCS system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system.\nEntities: {'Software System': ['the TCS system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['the TCS system', 'the user']], 'requirements reference': [], 'requirements constraint': []} \nInput:The TCS system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system and the system shall provide a user interface for the user to interact with the system.\nEntities: {'Software System': ['the TCS system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['the TCS system', 'the user']], 'requirements reference': [], 'requirements constraint': []} \nInput:The TCS system shall provide a user interface for the user to interact with the system and the system shall provide"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer:{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} ```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer:{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['Tactical Control System',"
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['Tactical Control System', 'user'], ['Tactical Control System', 'Services’ joint C4I infrastructure'], ['Tactical Control System', 'Human-Computer Interface']], 'requirements reference': [], 'requirements constraint': []} \n## Evaluation\nThe output is correct. The 'Tactical Control System' provides a common Human-Computer Interface for the 'user' and 'Services’ joint C4I infrastructure'. There are no requirements references or constraints mentioned in the sentence. \n\nInput:The system shall provide a user interface that is easy to use and intuitive.\nEntities: {'Software System': ['the system'], 'Physical Device': [], 'Environment Object': ['user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [['the system', 'user']], 'requirements reference': [['user', 'easy to use and intuitive']], 'requirements constraint': []} \n## Evaluation\nThe output is correct. The 'system' provides a user interface for the 'user' and the requirement is that the interface is 'easy to use and intuitive'. There are no phenomena interfaces mentioned in the sentence. \n\nInput:The system shall provide a user interface that is easy to"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['Software', 'DII/COE compliant'], ['tactical UAVs', 'DII/COE compliant'], ['Software', 'non-proprietary']]} \n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [[\"Software\", \"DII/COE compliant\"], [\"tactical UAVs\", \"DII/COE compliant\"], [\"Software\", \"non-proprietary\"]]}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['Tactical Control System', 'achieve commonality'], ['standard DoD components', 'achieve commonality']]} \n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [[\"Tactical Control System\", \"achieve commonality\"], [\"standard DoD components\", \"achieve commonality\"]]}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['standard DoD C4I systems', 'Communications procedures, formats, and interfaces']], 'requirements reference': [], 'requirements constraint': []} \n## Solution\n```json\n{\"Phenomena Interface\": [[\"standard DoD C4I systems\", \"Communications procedures, formats, and interfaces\"]], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n## Task\nGiven the sentence and the entity list, extract all relation that match the schema definition and return an empty list for non-existent relation types. The output should be in the format of a JSON string.\n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n``` \n## Explanation\nThe input sentence does not contain any references to requirements, constraints, or interfaces. Therefore, all the relation types are non-existent, and the output is an empty list for each relation type. ##"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Response\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer:{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:In the event of a failure, the system shall be able to automatically switch to the Recovery Startup Mode.\nEntities: {'Software System': ['the system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer:{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['the system', 'Recovery Startup Mode']]}\nInput:The system shall be able to automatically switch to the Recovery Startup Mode in the event of a failure.\nEntities: {'Software System': ['the system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer:{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['the system', 'Recovery Startup Mode']]}\nInput:The system shall be able to automatically switch to the Recovery Startup Mode in the event of a failure.\nEntities: {'Software System': ['the system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer:{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['the system', 'Recovery Startup Mode']]}\nInput:The system shall be able to automatically switch to the Recovery Startup Mode in the event of a failure.\nEntities: {'Software System': ['the system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer:{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['the system', 'Recovery Startup Mode']]}\nInput:The system shall be able to automatically switch to the Recovery Startup Mode in the event of a failure.\nEntities: {'Software System': ['the"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['Tactical Control System', 'Levels of interaction']]} \n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [[\"Tactical Control System\", \"Levels of interaction\"]]}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Response\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [['Tactical Control System"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Analysis\nThe input sentence does not contain any entities that match the given entity list, and it does not describe any relations that match the defined schema types (Interface, Requirements Reference, Requirements Constraint). Therefore, the output is an empty list for all schema types. \n\n## Task\nGiven the sentence \"The Correlator Monitor and Control System shall be able to perform indefinitely without complete loss of service, except in the event of total failure of primary and backup power.\" and the entity list, extract the relevant relations and return the result in the specified JSON format. \n\n## Entities\n{'Software System': ['The Correlator Monitor and Control System'], 'Physical Device': ['primary and backup power'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \n\n## Solution\n```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \"requirements constraint\": [[\"The Correlator Monitor and Control System\", \"perform indefinitely without complete loss of service, except in the event of total failure of primary and backup power\"]]\n}\n``` \n## Explanation\nThe sentence describes a constraint on the Correlator Monitor and Control System, specifying its behavior in the absence of total failure of primary and backup power. This matches the 'Requirements Constraint' schema type. No 'Phenomena Interface' or 'Requirements Reference' are present in the sentence. Therefore, the 'Phenomena Interface' and 'Requirements Reference' fields are left empty. The constraint is directly associated with the 'The Correlator Monitor and Control System', hence it is listed under 'requirements constraint'. The 'primary and backup power' are mentioned as the exception to the constraint, but they are not part of the constraint itself, so they are not included in the 'requirements constraint' field. \n\n## Test\nInput: \"The system shall provide a seamless user experience, ensuring that the transition between different modes is smooth and uninterrupted.\"\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: \n```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Analysis\nThe input sentence does not contain any references to software systems, physical devices, environment objects, external systems, system requirements, or shared phenomena. Therefore, no relations match the given schema definitions. The output is correctly an empty list for all relation types. \n\n## Test\nInput:The system shall provide a user-friendly interface for the operators to monitor and control the system.\nEntities: {'Software System': ['the system'], 'Physical Device': [], 'Environment Object': ['operators'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [['the system', 'operators']], 'requirements reference': [], 'requirements constraint': []}\n## Analysis\nThe sentence mentions that the system provides an interface for operators to monitor and control the system. This matches the 'Interface' relation type. There are no references to requirements or constraints, so those fields are empty. \n\n## Test\nInput:All software processes shall be killable, restartable, debuggable and testable with minimal impact on normal system operations.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Analysis\nThe sentence does not mention any interfaces, environment objects, or external systems. It only describes system requirements, but the schema does not include a 'System Requirements' relation type. Therefore, the output is correctly an empty list for all relation types.\n\n## Test\nInput:The Correlator Monitor and Control System shall be able to operate in normal mode.\nEntities: {'Software System': ['The Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Analysis\nThe sentence describes a capability of the Correlator Monitor and Control System, but it does not mention any interfaces, environment objects, or external systems. It also does not describe any requirements or constraints. Therefore, the output is correctly an empty list for all relation types"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Answer\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n## Task\nThe task is to extract relation types from a given sentence based on the provided schema definition. The schema defines three types of relations: 'Interface', 'Requirements Reference', and 'Requirements Constraint'. The task is to identify and extract these relations from the sentence and return them in a JSON format. If a relation type does not exist in the sentence, it should be represented as an empty list in the output. \n\n## Guidelines\n1. The input is a sentence from a software requirements specification and a list of entities.\n2. The output should be a JSON string with three keys: 'Phenomena Interface', 'requirements reference', and 'requirements constraint'.\n3. Each key should map to a list of tuples or an empty list, depending on the presence of the corresponding relation type in the sentence.\n4. The entities in the sentence should be matched with the ones in the provided entity list.\n5. The relations should be extracted based on the schema definition provided.\n\n## Example Walkthrough\nFor the input: \"There will be no actual physical home and all sensors and controllers will be simulated.\"\n- The sentence contains a 'requirements constraint' relation between 'physical home' and 'sensors' and 'controllers'.\n- The output JSON should be: {'Phenomena Interface': [['physical home', 'sensors'], ['physical home', 'controllers']], 'requirements reference': [], 'requirements constraint': []}\n\n## Solution\nTo solve this task, you need to:\n1. Parse the input sentence to identify the entities mentioned.\n2. Check if the identified entities exist in the provided entity list.\n3. Based on the schema definition, determine if the sentence contains 'Interface', 'Requirements Reference', or 'Requirements Constraint' relations.\n4. For each identified relation, create a tuple of the entities involved and add it to the corresponding list in the output JSON.\n5. If no relation of a certain type is found, the corresponding list in the output JSON should be an empty list.\n6. Return the output as a JSON string. \n\n## Note\nThe task requires understanding of the context and the ability to map the entities and relations from the sentence to the schema definition. It also requires knowledge of JSON format for the output. The solution should be case-insensitive when matching entities and should handle plural forms of entities. The output should be in the exact JSON format as specified. ```json\n{}\n```\nThe input sentence \"There shall be no modes of operation in the shutdown state.\" does not contain any of the specified relation types ('Interface', 'Requirements Reference', or 'Requirements Constraint'). Therefore, the output JSON is an empty dictionary. ```json\n```json\n{}\n```\n```json\n```json\n{}\n```\nThe input sentence \"There shall be no modes of operation in the shutdown state.\" does not contain any of the specified relation types ('Interface', 'Requirements Reference', or 'Requirements Constraint'). Therefore, the output JSON is an empty dictionary. \n\n```json\n{}\n```json\n```json\n{}\n```json\n```json\n{}\n```json\n```json\n{}\n```json"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['The Tactical Control System flight route planner', 'the minimum data link reception altitude'], ['line-of-sight flights', 'the minimum data link reception altitude']], 'requirements reference': [], 'requirements constraint': []}\n## Analysis\nThe input sentence is: \"The Tactical Control System flight route planner will calculate the minimum data link reception altitude for line-of-sight flights.\"\n\n- **Identify the entities:**\n  - **Software System:** The Tactical Control System flight route planner\n  - **Environment Object:** line-of-sight flights\n  - **Shared Phenomena:** the minimum data link reception altitude\n\n- **Identify the relations:**\n  - **Phenomena Interface:** The Tactical Control System flight route planner will calculate the minimum data link reception altitude for line-of-sight flights.\n  - **Requirements Reference:** None\n  - **Requirements Constraint:** None\n\n- **Construct the JSON response:**\n  - **Phenomena Interface:** The Tactical Control System flight route planner and line-of-sight flights are related to the minimum data link reception altitude.\n  - **Requirements Reference:** No"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n## Analysis\nThe input sentence does not contain any references to software systems, physical devices, environment objects, external systems, or shared phenomena. It only mentions a requirement related to the accuracy of flight planning calculations when compared to a simulator. Therefore, there are no relations that match the given schema types. The answer is an empty list for all relation types. \n\n## JSON\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer:\n```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \"requirements constraint\": [[\"operator\", \"most significant threats\"]]\n}\n``` ```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \"requirements constraint\": [[\"operator\", \"most significant threats\"]]\n}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['Tactical Control System', 'Line of Sight'], ['Tactical Control System', 'terrain profile']], 'requirements reference': [], 'requirements constraint': []} \n## Solution\n```json\n{\"Phenomena Interface\": [[\"Tactical Control System\", \"Line of Sight\"], [\"Tactical Control System\", \"terrain profile\"]], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['Tactical Control System', 'AV']], 'requirements reference': [['Tactical Control System', 'support operation of the AV via all flight modes, to include manual controls']], 'requirements constraint': []} \n## Solution\n```json\n{'Phenomena Interface': [['Tactical Control System', 'AV']], 'requirements reference': [['Tactical Control System', 'support operation of the AV via all flight modes, to include manual controls']], 'requirements constraint': []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} ## Output\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['Tactical Control System', 'current search footprint'], ['Tactical Control System', 'search history of the payload'], ['map', 'current search footprint'], ['map', 'search history of the payload']], 'requirements reference': [['Tactical Control System', 'display the current search footprint and the"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['operator', 'Annotation'], ['operator', 'comments'], ['operator', 'graphics']], 'requirements reference': [], 'requirements constraint': []}\n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [[\"Annotation\", \"comments\"], [\"Annotation\", \"graphics\"]]}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The document is intended to provide a clear and concise description of the requirements for the EVLA Correlator Monitor and Control System.\nEntities: {'Software System': ['the EVLA Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The document is intended to provide a clear and concise description of the requirements for the EVLA Correlator Monitor and Control System.\nEntities: {'Software System': ['the EVLA Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The document is intended to provide a clear and concise description of the requirements for the EVLA Correlator Monitor and Control System.\nEntities: {'Software System': ['the EVLA Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The document is intended to provide a clear and concise description of the requirements for the EVLA Correlator Monitor and Control System.\nEntities: {'Software System': ['the EVLA Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The document is intended to provide a clear and concise description of the requirements for the EVLA Correlator Monitor and Control System.\nEntities: {'Software System': ['the EVLA Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The document is intended to provide a clear and concise description of the requirements for the EVLA Correlator Monitor and Control System.\nEntities: {'Software System': ['the EVLA Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The document is intended to provide a clear and concise description of the requirements for the EVLA Correlator Monitor and Control System.\nEntities: {'Software System': ['the EVLA Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \nInput:The document is intended to provide a clear and concise description of the requirements for the EVLA Correlator Monitor and Control System.\nEntities: {'Software System': ['the EVLA Correlator Monitor and Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['This interface', 'future AVs']], 'requirements reference': [], 'requirements constraint': []}\n"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer:\n```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \"requirements constraint\": [[\"The intercom system\", \"compatible with service specific voice communication systems\"]]\n}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [['Tactical Control System', 'left to the design and the requirement specifications'], ['system components', 'left to the design and the requirement specifications']], 'requirements constraint': []}\n## Analysis\nThe input sentence is: \"All Tactical Control System internal data decisions will be left to the design and the requirement specifications for system components.\"\n\n- **Requirements Reference**: The sentence mentions that the internal data decisions of the Tactical Control"
+  },
+  {
+    "predict": " Answer:{'Phenomena Interface': [], 'requirements reference': [['The Tactical Control System design', 'consider all safety requirements affecting design'], ['The Tactical Control System design', 'performance except nuclear safety']], 'requirements constraint': []} \n## Analysis\nThe input sentence is: \"The Tactical Control System design shall consider all safety requirements affecting design and performance except nuclear safety.\"\n\n- **Requirements Reference**:\n  - \"The Tactical Control System design\" refers to \"all safety requirements affecting design and performance except nuclear safety.\"\n\n- **Requirements Constraint**:\n  - \"The Tactical Control System design\" constrains itself to consider all safety requirements affecting design and performance except nuclear safety.\n\n- **Phenomena Interface**:\n  - There are no specific entities that are interfaces for data transfer in this sentence.\n\nBased on the schema definitions, the extracted relations are:\n- **Requirements Reference**: \n  - `['The Tactical Control System design', 'consider all safety requirements affecting design']`\n  - `['The Tactical Control System design', 'performance except nuclear safety']`\n- **Requirements Constraint**:\n  - `['The Tactical Control System design', 'consider all safety requirements affecting design and performance except nuclear safety']`\n\n## JSON Answer\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [[\"The Tactical Control System design\", \"consider all safety requirements affecting design\"], [\"The Tactical Control System design\", \"performance except nuclear safety\"]], \"requirements constraint\": [[\"The Tactical Control System design\", \"consider all safety requirements affecting design and performance except nuclear safety\"]]}\n``` ```json\n{\"Phenomena Interface\": [], \"requirements reference\": [[\"The Tactical Control System design\", \"consider all safety requirements affecting design\"], [\"The Tactical Control System design\", \"performance except nuclear safety\"]], \"requirements constraint\": [[\"The Tactical Control System design\", \"consider all safety requirements affecting design and performance except nuclear safety\"]]}\n``` ```json\n{\"Phenomena Interface\": [], \"requirements reference\": [[\"The Tactical Control System design\", \"consider all safety requirements affecting design\"], [\"The Tactical Control System design\", \"performance except nuclear safety\"]], \"requirements constraint\": [[\"The Tactical Control System design\", \"consider all safety requirements affecting design and performance except nuclear safety\"]]}\n``` ```json\n{\"Phenomena Interface\": [], \"requirements reference\": [[\"The Tactical Control System design\", \"consider all safety requirements affecting design\"], [\"The Tactical Control"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [['The Tactical Control System', 'comply with para 5.3 of MIL-STD 882C']], 'requirements constraint': []} \n## Solution\n```json\n{'Phenomena Interface': [], 'requirements reference': [['The Tactical Control System', 'comply with para 5.3 of MIL-STD 882C']], 'requirements constraint': []}\n```"
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['The Tactical Control System', 'safely take-off, land and navigate under Instrument Flight Rules'], ['the operator', 'safely take-off, land and navigate under Instrument Flight Rules']], 'requirements reference': [], 'requirements"
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['The Tactical Control System', 'UAV'], ['the operator', 'certified operational flight envelope']], 'requirements reference': [['The Tactical Control System', 'to allow the operator to operate each UAV within its certified operational flight envelope']], 'requirements constraint': []}\n## Evaluation\nThe answer is correct. The relation types and entities are accurately extracted based on the given schema and entities. \n\n## Task\nThe Correlator Monitor and Control System shall provide a user interface for the operator to monitor and control the correlator.\nEntities: {'Software System': ['The Correlator Monitor and Control System'], 'Physical Device': ['the correlator'], 'Environment Object': ['the operator'], 'External System': [], 'System Requirements': ['to monitor and control the correlator'], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['The Correlator Monitor and Control System', 'the correlator'], ['the operator', 'the correlator']], 'requirements reference': [['The Correlator Monitor and Control System', 'to monitor and control the correlator']], 'requirements constraint': []} \n## Evaluation\nThe answer is correct. The relation types and entities are accurately extracted based on the given schema and entities. \n\n## Task\nThe Correlator Monitor and Control System shall provide a user interface for the operator to monitor and control the correlator.\nEntities: {'Software System': ['The Correlator Monitor and Control System'], 'Physical Device': ['the correlator'], 'Environment Object': ['the operator'], 'External System': [], 'System Requirements': ['to monitor and control the correlator'], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['The Correlator Monitor and Control System', 'the correlator'], ['the operator', 'the correlator']], 'requirements reference': [['"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['The Tactical Control System', 'an unsafe command'], ['the air vehicle', 'an unsafe command']], 'requirements reference': [['The Tactical Control System', 'designed such that no single hardware failure results in an unsafe command to be transmitted to the air vehicle']], 'requirements constraint': []"
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['The Tactical Control System', 'an unsafe command'], ['the air vehicle', 'an unsafe command']], 'requirements reference': [], 'requirements constraint': [['The Tactical Control System', 'designed such that no single software error results in an unsafe command to be transmitted to the air vehicle']]} \n## Analysis\nThe input sentence is about the design requirement of the Tactical Control System to ensure that no single software error results in an unsafe command being transmitted to the air vehicle. The relation types that match the schema are 'requirements constraint' and 'Phenomena Interface'. The 'requirements constraint' relation is used to express the constraint that the system should not transmit an unsafe command due to a software error. The 'Phenomena Interface' relation"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [['The system', 'shall use MIL-STD-2036'], ['The system', 'MIL-STD-1472D']], 'requirements constraint': []} \n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [[\"The system\", \"shall use MIL-STD-2036\"], [\"The system\", \"MIL-STD-1472D\"]], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": " \nAnswer:\n```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \"requirements constraint\": [[\"the Tactical Control System development\", \"System safety and health hazards\"]]\n}\n``` ```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \"requirements constraint\": [[\"the Tactical Control System development\", \"System safety and health hazards\"]]\n}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [['Tactical Control System', 'minimum security requirements for Tactical Control System']], 'requirements constraint': []}\nInput:The system shall be able to perform the following tasks: 1) receive and process data from the VLA Expansion Project Monitor and Control System, 2) store the processed data in the database, and 3) provide the processed data to the VLA Expansion Project Monitor and Control System for further processing.\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': [], 'External System': ['the VLA Expansion Project Monitor and Control System'], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['The system', 'data from the VLA Expansion Project Monitor and Control System'], ['the VLA Expansion Project Monitor and Control System', 'data from the VLA Expansion Project Monitor and Control System'], ['The system', 'processed data in the database'], ['The system', 'processed data to the VLA Expansion Project Monitor and Control System'], ['the VLA Expansion Project Monitor and Control System', 'processed data to the VLA Expansion Project Monitor and Control System']], 'requirements reference': [], 'requirements constraint': []}\nInput:The system shall be able to perform the following tasks: 1) receive and process data from the VLA Expansion Project Monitor and Control System, 2) store the processed data in the database, and 3) provide the processed data to the VLA Expansion Project Monitor and Control System for further processing.\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': [], 'External System': ['the VLA Expansion Project Monitor and Control System'], 'System Requirements': [], 'Shared Phenomena"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['The Tactical Control System', 'the same level as the systems']], 'requirements reference': [['The Tactical Control System', 'approved for operation']], 'requirements constraint': []}\n## Evaluation\nThe input sentence and entities are correctly analyzed, and the relations are accurately extracted according to the schema definition. The answer is in the correct JSON format. The relation 'Phenomena Interface' is correctly identified between 'The Tactical Control System' and 'the same level as the systems', and the 'requirements reference' relation is correctly identified between 'The Tactical Control System' and 'approved for operation'. The 'requirements constraint' relation is correctly identified as an empty list since there is no constraint relation in the input sentence. The answer is correct. \n\n```json\n{\"Phenomena Interface\": [[\"The Tactical Control System\", \"the same level as the systems\"]], \"requirements reference\": [[\"The Tactical Control System\", \"approved for operation\"]], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the functional requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the non-functional requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:This section provides a description of the system requirements.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], '"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['The Tactical Control System', 'the National Institute for Standard Technology (NIST)'], ['The Tactical Control System', 'Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1)']], 'requirements reference': [], 'requirements constraint': []}\nInput:The Tactical Control System shall be designed to meet the requirements of the National Institute for Standard Technology (NIST) Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1).\nEntities: {'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': ['the National Institute for Standard Technology (NIST)'], 'External System': ['Federal Information Processing Standard (FIPS)'], 'System Requirements': ['meet the requirements of the National Institute for Standard Technology (NIST) Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1)'], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['The Tactical Control System', 'the National Institute for Standard Technology (NIST)'], ['The Tactical Control System', 'Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1)']], 'requirements reference': [], 'requirements constraint': []}\nInput:The Tactical Control System shall be designed to meet the requirements of the National Institute for Standard Technology (NIST) Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1) and the National Institute for Standard Technology (NIST) Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1) shall be the standard for guidance on the design of the Tactical Control System.\nEntities: {'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': ['the National Institute for Standard Technology (NIST)'], 'External System': ['Federal Information Processing Standard (FIPS)'], 'System Requirements': ['meet the requirements of the National Institute for Standard Technology (NIST) Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1)'], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['The Tactical Control System', 'the National Institute for Standard Technology (NIST)'], ['The Tactical Control System', 'Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1)']], 'requirements reference': [['The Tactical Control System', 'National Institute for Standard Technology (NIST) Federal Information Processing Standard (FIPS) Publication 151-2 (POSIX.1)']], 'requirements constraint': []}\nInput:The Tactical Control System shall be designed to meet the requirements of the National Institute for Standard Technology (NIST) Federal Information Processing Standard (FIPS) Publication 151-"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [['The Tactical Control System', 'throughput shall not exceed 50% of the throughput capability delivered over any 10 second period'], ['The Tactical Control System', 'as an objective throughput shall not exceed 25% of throughput capability delivered over any 10 second period']], 'requirements constraint': []} \n## Solution\n```json\n{'Phenomena Interface': [], 'requirements reference': [['The Tactical Control System', 'throughput shall not exceed 50% of the throughput capability delivered over any 10 second period'], ['The Tactical Control System', 'as an objective throughput shall not exceed 25% of throughput capability delivered over any 10 second period']], 'requirements constraint': []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " Answer:{'Phenomena Interface': [], 'requirements reference': [['The Tactical Control System', 'the Assistant Secretary of Defense (C3I) Joint Technical Architecture (JTA)']], 'requirements constraint': []} \n## Analysis\nThe sentence states that the Tactical Control System shall comply with the Assistant Secretary of Defense (C3I) Joint Technical Architecture (JTA). This implies a reference to the JTA, but does not specify any interface or constraint. Therefore, the correct answer is an empty list for 'Phenomena Interface' and 'Requirements Constraint', and a reference relation for 'Requirements Reference'. \n\n## JSON\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [[\"The Tactical Control System\", \"the Assistant Secretary of Defense (C3I) Joint Technical Architecture (JTA)\"]], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Evaluation\nThe answer is correct as there are no entities that can form a relation with the given sentence. \n\n## Test\nInput:The system shall provide a user-friendly interface for the user to interact with the system.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['the user', 'a user-friendly interface']], 'requirements reference': [], 'requirements constraint': []}\n## Evaluation\nThe answer is correct as it correctly identifies the 'Phenomena Interface' between 'the user' and 'a user-friendly interface'. \n\n## Test\nInput:It is required that the system be able to handle large amounts of data and provide real-time processing capabilities.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Evaluation\nThe answer is correct as there are no entities that can form a relation with the given sentence. \n\n## Test\nInput:The system shall provide a user-friendly interface for the user to interact with the system and the data.\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nAnswer: {'Phenomena Interface': [['the user', 'a user-friendly interface']], 'requirements reference': [], 'requirements constraint': []}\n## Evaluation\nThe answer is correct as it correctly identifies the 'Phen"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer:\n```json\n{\n  \"Phenomena Interface\": [[\"Tactical Control System software\", \"a windows\"], [\"graphic operator interface\", \"a windows\"]],\n  \"requirements reference\": [[\"operator\", \"a windows\"]],\n  \"requirements constraint\": [[\"Tactical Control System software\", \"provide a windows\"]]\n}\n```"
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n## Response\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n## Solution\n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [[\"The Tactical Control System’s operating system\", \"re-programmable without hardware disassembly\"], [\"executable"
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['Training software', 'alterable without affecting the configuration of the operational software']]} \n## Task\nGiven a sentence from a software requirements specification and a list of entities, extract all relations that match the schema definitions and return an empty list for non-existent relation types. The output should be in the format of a JSON string.\n## Example\n### Input\n```\n\"Training software shall be alterable without affecting the configuration of the operational software.\"\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['the operational software', 'Training software'], 'System Requirements': [], 'Shared Phenomena': []}\n```\n### Output\n```\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [[\"Training software\", \"alterable without affecting the configuration of the operational software\"]]}\n```\n## Instructions\n1. Parse the input sentence.\n2. Identify the entities mentioned in the sentence.\n3. Check if the identified entities are present in the given entity list.\n4. For each entity, check if the relation type (Interface, Requirements Reference, Requirements Constraint) exists in the sentence.\n5. If the relation type exists, add it to the corresponding list in the output JSON.\n6. If the relation type does not exist, add it to the corresponding list in the output JSON as an empty list.\n7. Return the output in the format of a JSON string.\n## Example Code\n```python\nimport json\n\ndef extract_relations(sentence, entities):\n    # Parse the input sentence\n    # Identify the entities mentioned in the sentence\n    # Check if the identified entities are present in the given entity list\n    # For each entity, check if the relation type exists in the sentence\n    # If the relation type exists, add it to the corresponding list in the output JSON\n    # If the relation type does not exist, add it to the corresponding list in the output JSON as an empty list\n    # Return the output in the format of a JSON string\n\n    # Your code here\n\n    # Example output\n    output = {\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n    return json.dumps(output)\n\n# Test the function\nsentence = \"Training software shall be alterable without affecting the configuration of the operational software.\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['the operational software', 'Training software'], 'System Requirements': [], 'Shared Phenomena"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['The Tactical Control System HCI', 'a Graphical User Interface (GUI)'], ['X-windows and Motif', 'a Graphical User Interface (GUI)']], 'requirements reference': [], 'requirements constraint': []} \n## Solution\n```json\n{\"Phenomena Interface\": [[\"The Tactical Control System HCI\", \"a Graphical User Interface (GUI)\"], [\"X-windows and Motif\", \"a Graphical User Interface (GUI)\"]], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['The color codes and flash frequencies', 'MIL-STD 1472 guidelines']], 'requirements reference': [], 'requirements constraint': []} ## Output\n```json\n{\"Phenomena Interface\": [[\"The color codes and flash frequencies\", \"MIL-STD 1472 guidelines\"]], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['the operator', 'The position of the displayed message window']], 'requirements reference': [['The position of the displayed message window', 'easily adjustable by the operator to ensure']], 'requirements constraint': []} \n## Analysis\nThe input sentence is: \"The position of the displayed message window shall be easily adjustable by the operator to ensure that important mission data is not obscured.\"\n\n- **Entity Extraction:**\n  - **Software System:** ['The position of the displayed message window']\n  - **Physical Device:** ['the operator']\n  - **Environment Object:** []\n  - **External System:** []\n  - **System Requirements:** ['easily adjustable by the operator to ensure']\n  - **Shared Phenomena:** ['important mission data']\n\n- **Relation Extraction:**\n"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['The volume of these auditory tones', 'keyboard'], ['The volume of these auditory tones', 'trackball']], 'requirements reference': [['The volume of these auditory tones', 'adjustable by the operator']], 'requirements constraint': []} \n## Solution\n```json\n{'Phenomena Interface': [['The volume of these auditory tones', 'keyboard'], ['The volume of these auditory tones', 'trackball']], '"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer: {'Phenomena Interface': [['The HCI', 'a valid input'], ['the operator', 'a valid input']], 'requirements reference': [], 'requirements constraint': []}\n## Solution\n```json\n{\"Phenomena Interface\": [[\"The HCI\", \"a valid input\"], [\"the operator\", \"a valid input\"]], \"requirements reference\": [], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['Display jitter and flicker', 'the operator']], 'requirements reference"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nAnswer:\n```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [[\"The Human Computer Interface (HCI)\", \"Tactical Control System HCI Specification\"], [\"The Human Computer Interface (HCI)\", \"Tactical Control System\"]],\n  \"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": ""
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['The Tactical Control System', 'land based platforms']], 'requirements reference': [['The Tactical Control System', 'to be integrated and operated from land based platforms']], 'requirements constraint': []} ## Output\n```json\n{\"Phenomena Interface\": [[\"The Tactical Control System\", \"land based platforms\"]], \"requirements reference\": [[\"The Tactical Control System\", \"to be integrated and operated from land based platforms\"]], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": " \nOutput: {'Phenomena Interface': [['The Tactical Control System', 'ships']], 'requirements reference': [['The Tactical Control System', 'to be integrated and operated from ships']], 'requirements constraint': []} \n## Solution\n```json\n{\"Phenomena Interface\": [[\"The Tactical Control System\", \"ships\"]], \"requirements reference\": [[\"The Tactical Control System\", \"to be integrated and operated from ships\"]], \"requirements constraint\": []}\n```"
+  },
+  {
+    "predict": " \nSentence: The system shall be able to operate in a network environment.\nOutput: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall be able to operate in a network environment.\nOutput: {'Phenomena Interface': [['The system', 'a network environment']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user.\nOutput: {'Phenomena Interface': [['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user.\nOutput: {'Phenomena Interface': [['The system', 'the user interface'], ['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user to interact with the system.\nOutput: {'Phenomena Interface': [['The system', 'the user interface'], ['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user to interact with the system.\nOutput: {'Phenomena Interface': [['The system', 'the user interface'], ['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user to interact with the system.\nOutput: {'Phenomena Interface': [['The system', 'the user interface'], ['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user to interact with the system.\nOutput: {'Phenomena Interface': [['The system', 'the user interface'], ['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user to interact with the system.\nOutput: {'Phenomena Interface': [['The system', 'the user interface'], ['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user to interact with the system.\nOutput: {'Phenomena Interface': [['The system', 'the user interface'], ['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \nSentence: The system shall provide a user interface for the user to interact with the system.\nOutput: {'Phenomena Interface': [['The system', 'the user interface'], ['the user', 'the user interface']], 'requirements reference': [], 'requirements constraint': []}\nInput:\nEntities: {'Software System': ['The system'], 'Physical Device': [], 'Environment Object': ['the user'], '"
+  }
+]

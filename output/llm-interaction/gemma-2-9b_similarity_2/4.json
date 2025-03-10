@@ -1,0 +1,374 @@
+[
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n"
+  },
+  {
+    "predict": "\n\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [\n\"The Smart House\",\n\"communication links\",\n\"a heating and air conditioning unit\",\n\"lighting units\",\n\"sensors\",\n\"controllers\",\n\"a security system\",\n\"small appliances\",\n\"a computer system\"\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"DigitalHome\",\n    \"object\": \"HomeOwner\",\n    \"relation\": \"Requirements Reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"SRS\",\n    \"object\": \"DigitalHome requirements\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The product\",\n    \"object\": \"Digital Home High Level Requirements Definition\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"Digital Home High Level Requirements Definition\",\n    \"object\": \"future development of a commercial product\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"predicate\": \"requirements constraint\",\n    \"object\": \"Physical Device\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The general user\", \"monitor and control the environment\"], [\"DigitalHome system\", \"monitor and control the environment\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [['a Master User', 'add a user account'], ['a Master User', 'change the default parameter settings']],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"A DigitalHome Technician\",\n    \"relation\": \"requirements reference\",\n    \"object\": \"setting up and making changes in the configuration\"\n  },\n  {\n    \"subject\": \"A DigitalHome Technician\",\n    \"relation\": \"requirements reference\",\n    \"object\": \"starting and stopping operation\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"A DigitalHome Technician\",\n    \"relation\": \"requirements constraint\",\n    \"object\": \"the configuration\"\n  }\n]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"predicate\": \"requirements constraint\",\n    \"object\": \"Physical Device\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [], 'requirements reference': [['the system', 'help Homeowner Inc']], 'requirements constraint': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Shared Phenomena\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The home system\",\n    \"object\": \"an Internet Service Provider (ISP)\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The home web server\", \"DigitalHome plans and data\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The system\", \"the temperature\"]],\n\"requirements reference\": [[\"monitor and regulate the temperature of an enclosed space\", \"the temperature\"]],\n\"requirements constraint\": [[\"monitor and regulate the temperature of an enclosed space\", \"an enclosed space\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"requirement\": \"provide a reading of the current temperature in the space\",\n    \"constrained_phenomenon\": \"the current temperature\",\n    \"constrained_entity\": \"the space\"\n  }\n]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [[\"The controller part of thermostat\", \"a “set point” temperature\"]],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The controller part of thermostat\", \"to control the flow of heat energy\"], [\"The controller part of thermostat\", \"to achieve the set point temperature\"]]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [[\"The humidistat\", \"humidifiers\"], [\"The humidistat\", \"dehumidifiers\"]],\n\"requirements reference\": [[\"achieve the set point humidity\", \"a “set point” humidity\"]],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"DigitalHome System\", \"DigitalHome Use Case Model\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n[\"The DigitalHome programmable thermostat\", \"a web ready computer\"],\n[\"The DigitalHome programmable thermostat\", \"cell phone\"],\n[\"The DigitalHome programmable thermostat\", \"PDA\"],\n[\"The DigitalHome programmable thermostat\", \"a home\"]\n],\n\"requirements reference\": [\n[\"a user\", \"to monitor and control a home’s temperature\"]\n],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"A DigitalHome user\", \"temperatures\"]],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"A DigitalHome user\", \"temperatures\", \"60 °F\", \"80 °F\", \"one degree increments\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The system\", \"Fahrenheit and Celsius temperature values\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"A DigitalHome user\", \"the humidity\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"A DigitalHome user\", \"the humidity level\"], [\"a humidistat\", \"the humidity level\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [[\"power switch device\", \"the state\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"A user\", \"override planned parameter values\"],\n  [\"the DigitalHome website\", \"override planned parameter values\"],\n  [\"switches\", \"override planned parameter values\"],\n  [\"household devices\", \"override planned parameter values\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"thermostat\", \"temperature\"],\n  [\"humidistat\", \"humidity\"],\n  [\"thermostat\", \"temperature\"],\n  [\"humidistat\", \"humidity\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The month report\", \"the periods of time\"]],\n\"requirements constraint\": [[\"The month report\", \"the DigitalHome System\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"Sensor\", \"minimum data acquisition rate of 10 Hz\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"controller device\", \"1000 feet\"], [\"An environmental sensor\", \"1000 feet\"]],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"controller device\", \"1000 feet\", \"master control device\"], [\"An environmental sensor\", \"1000 feet\", \"master control device\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The DigitalHome System\", \"no more than 1 failure per 10,000 hours of operation\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  [\"the DigitalHome System\", \"system data\"],\n  [\"the DigitalHome System\", \"configuration\"],\n  [\"the DigitalHome System\", \"default parameter settings\"],\n  [\"the DigitalHome System\", \"planning\"],\n  [\"the DigitalHome System\", \"usage data\"]\n],\n\"requirements constraint\": [\n  [\"the DigitalHome System\", \"power loss\"],\n  [\"the DigitalHome System\", \"loss of internet access\"],\n  [\"the DigitalHome System\", \"other software or hardware failure\"]\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n    [\"The DigitalHome web system\", \"authentication and information encryption\"]\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"HomeOwner\", \"object-oriented development\"]],\n\"requirements constraint\": [[\"HomeOwner\", \"using UML 2.0\"], [\"HomeOwner\", \"development of software for HomeOwner products\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  }
+]

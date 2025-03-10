@@ -1,0 +1,2980 @@
+This	O
+Software	O
+Requirements	O
+Specification	O
+(	M-External System
+SRS	O
+)	M-External System
+provides	O
+the	B-Software System
+requirements	O
+for	O
+the	O
+Center	M-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+(	O
+C2C	M-External System
+)	O
+Communications	M-Software System
+Network	E-Software System
+that	O
+is	O
+based	O
+on	O
+a	B-External System
+Texas	M-External System
+Department	M-External System
+of	M-External System
+Transportation	M-External System
+(	O
+TxDOT	M-External System
+)	O
+C2C	O
+project	E-External System
+.	O
+
+The	B-External System
+TxDOT	M-External System
+Center	M-External System
+-	M-External System
+to	M-External System
+-	O
+Center	O
+project	E-External System
+initially	O
+connected	O
+the	B-Environment Object
+DFW	M-Environment Object
+TxDOT	O
+Traffic	M-Environment Object
+Management	M-Environment Object
+Centers	M-Environment Object
+(	M-Environment Object
+TMCs	M-Environment Object
+)	E-Environment Object
+.	O
+
+This	B-Software System
+Center	M-Software System
+-	M-Software System
+to	B-System Requirements
+-	O
+Center	O
+infrastructure	E-Software System
+implements	O
+a	O
+repository	O
+for	O
+traffic	B-Shared Phenomena
+data	E-Shared Phenomena
+and	O
+provides	O
+a	O
+mechanism	O
+to	O
+exchange	M-System Requirements
+device	B-Shared Phenomena
+control	M-Shared Phenomena
+information	E-Shared Phenomena
+between	M-System Requirements
+TMCs	E-System Requirements
+.	O
+
+The	B-Software System
+Center	M-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+project	E-Software System
+will	O
+be	O
+implemented	O
+using	O
+the	B-Shared Phenomena
+evolving	M-Shared Phenomena
+ITS	M-Shared Phenomena
+Traffic	M-Shared Phenomena
+Management	M-Shared Phenomena
+Data	M-Shared Phenomena
+Dictionary	M-Shared Phenomena
+(	M-Shared Phenomena
+TMDD	E-Shared Phenomena
+)	M-Shared Phenomena
+standard	M-Shared Phenomena
+,	E-Shared Phenomena
+the	O
+message	M-Shared Phenomena
+sets	M-Shared Phenomena
+associated	M-Shared Phenomena
+with	M-Shared Phenomena
+TMDD	O
+,	O
+other	B-Shared Phenomena
+ITS	O
+Data	O
+Elements	E-Shared Phenomena
+and	O
+Message	B-Shared Phenomena
+Sets	E-Shared Phenomena
+.	O
+
+The	O
+use	O
+of	O
+ITS	O
+standards	O
+will	O
+create	O
+a	O
+system	O
+that	O
+is	O
+reusable	O
+for	O
+other	O
+ITS	O
+application	O
+areas	O
+and	O
+will	O
+provide	O
+the	O
+State	O
+of	O
+Texas	O
+with	O
+a	O
+baseline	O
+system	O
+that	O
+can	O
+be	O
+cost	O
+effectively	O
+extended	O
+in	O
+the	O
+future	O
+.	O
+
+The	B-Software System
+Center	M-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+infrastructure	E-Software System
+must	O
+interconnect	O
+several	O
+dissimilar	O
+traffic	B-External System
+management	M-External System
+systems	E-External System
+.	O
+
+In	O
+order	O
+to	M-Software System
+create	O
+the	B-External System
+Center	M-Software System
+-	M-Software System
+to	O
+-	O
+Center	O
+infrastructure	E-Software System
+,	O
+interfaces	O
+to	O
+the	O
+existing	M-External System
+systems	E-External System
+will	O
+be	O
+created	O
+.	O
+
+The	B-Shared Phenomena
+data	E-Shared Phenomena
+from	O
+these	B-Environment Object
+interfaces	E-Environment Object
+will	O
+communicate	O
+with	O
+the	B-External System
+existing	M-External System
+system	E-External System
+in	O
+a	O
+“	O
+system	O
+specific	O
+”	O
+format	O
+.	O
+
+The	B-Software System
+Center	M-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+infrastructure	E-Software System
+is	O
+being	O
+created	O
+using	O
+a	O
+series	O
+of	O
+building	B-Environment Object
+blocks	E-Environment Object
+.	O
+
+These	O
+building	B-Environment Object
+blocks	E-Environment Object
+allow	O
+the	B-Shared Phenomena
+software	E-Software System
+to	O
+be	B-System Requirements
+utilized	M-System Requirements
+in	M-System Requirements
+a	M-System Requirements
+number	M-System Requirements
+of	M-System Requirements
+configurations	E-System Requirements
+(	O
+by	O
+simply	O
+altering	O
+the	O
+configuration	M-Shared Phenomena
+parameters	E-Shared Phenomena
+of	O
+the	O
+software	O
+)	O
+.	O
+
+The	B-Software System
+software	E-Software System
+is	O
+being	O
+designed	O
+so	O
+that	O
+multiple	B-System Requirements
+instances	M-System Requirements
+of	M-Shared Phenomena
+a	M-System Requirements
+building	M-Shared Phenomena
+block	M-Shared Phenomena
+can	M-System Requirements
+be	M-System Requirements
+deployed	E-System Requirements
+by	O
+simply	O
+“	B-Shared Phenomena
+configuring	M-Shared Phenomena
+”	M-Shared Phenomena
+the	M-Shared Phenomena
+building	O
+block	O
+of	O
+operation	E-Shared Phenomena
+within	O
+a	O
+specific	O
+agency	O
+.	O
+
+Any	B-Shared Phenomena
+data	E-Shared Phenomena
+that	O
+is	O
+passed	O
+into	O
+the	B-External System
+“	M-External System
+cloud	M-External System
+”	E-External System
+in	O
+the	O
+above	O
+figure	O
+will	O
+be	O
+based	O
+on	O
+the	O
+ITS	M-Environment Object
+standards	E-Environment Object
+.	O
+
+Systems	S-Software System
+will	O
+interface	O
+to	O
+the	B-External System
+“	M-External System
+cloud	M-External System
+”	E-External System
+using	O
+a	B-Shared Phenomena
+project	M-Shared Phenomena
+defined	M-Shared Phenomena
+protocol	E-Shared Phenomena
+.	O
+
+New	B-Software System
+systems	E-Software System
+that	O
+are	O
+deployed	O
+(	O
+based	O
+on	O
+the	B-External System
+ITS	O
+standards	O
+)	O
+will	O
+not	O
+utilize	O
+the	O
+project	O
+defined	O
+protocol	O
+but	O
+will	O
+be	O
+moved	O
+“	O
+into	O
+”	O
+the	O
+cloud	E-External System
+(	O
+because	O
+they	O
+themselves	O
+would	O
+be	O
+based	O
+on	O
+the	O
+ITS	O
+standards	O
+.	O
+
+This	O
+would	O
+allow	O
+a	B-Environment Object
+“	M-Environment Object
+local	B-Environment Object
+”	M-Environment Object
+common	M-Environment Object
+repository	E-Environment Object
+to	O
+be	O
+created	O
+by	O
+“	O
+linking	O
+”	O
+individual	B-Environment Object
+partners	E-Environment Object
+,	O
+a	O
+“	O
+regional	B-Environment Object
+”	O
+common	O
+repository	O
+to	O
+be	O
+created	O
+by	O
+“	O
+linking	O
+”	O
+local	O
+common	O
+repositories	E-Environment Object
+and	O
+a	O
+“	O
+statewide	M-Environment Object
+”	O
+common	O
+repository	O
+to	O
+be	O
+created	O
+by	O
+“	O
+linking	O
+”	O
+regional	O
+common	O
+repositories	O
+.	O
+
+The	O
+following	O
+sections	O
+define	O
+the	B-Software System
+requirements	O
+for	O
+the	O
+Center	M-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+project	E-Software System
+.	O
+
+Requirements	O
+are	O
+listed	O
+in	O
+separate	O
+sections	O
+and	O
+in	O
+table	O
+format	O
+for	O
+each	O
+functional	O
+area	O
+.	O
+
+The	O
+Center	M-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+project	E-Software System
+mnemonic	O
+uniquely	O
+identifies	O
+the	B-Software System
+Center	O
+-	O
+to	O
+-	O
+Center	O
+project	O
+to	O
+distinguish	O
+its	O
+requirements	O
+from	O
+the	O
+requirements	O
+of	O
+other	B-External System
+ITS	M-External System
+systems	E-External System
+.	O
+
+The	O
+mnemonic	O
+for	O
+the	O
+Center	E-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+project	O
+is	O
+Center	O
+-	O
+to	O
+-	O
+Center	O
+.	O
+
+The	O
+Requirement	O
+Category	O
+Mnemonic	O
+is	O
+a	O
+two	O
+-	O
+letter	O
+mnemonic	O
+for	O
+each	O
+functional	O
+area	O
+.	O
+
+The	O
+Requirement	O
+Numbers	O
+are	O
+a	O
+combination	O
+of	O
+target	O
+Advanced	B-External System
+Traffic	M-External System
+Management	M-External System
+System	E-External System
+(	O
+ATMS	O
+)	O
+and	O
+sequential	O
+within	O
+a	O
+given	O
+functional	O
+area	O
+.	O
+
+For	O
+each	B-Environment Object
+roadway	M-Environment Object
+network	M-Shared Phenomena
+it	O
+maintains	O
+,	O
+the	B-Shared Phenomena
+Center	E-Software System
+shall	O
+provide	O
+the	O
+network	O
+name	E-Shared Phenomena
+and	O
+link	B-Shared Phenomena
+data	M-Shared Phenomena
+information	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+provide	O
+the	B-Shared Phenomena
+link	B-Shared Phenomena
+information	E-Shared Phenomena
+,	O
+including	O
+link	O
+identifier	E-Shared Phenomena
+,	O
+link	O
+name	E-Shared Phenomena
+and	O
+link	O
+type	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+provide	O
+the	B-Shared Phenomena
+node	B-Shared Phenomena
+information	E-Shared Phenomena
+,	O
+including	O
+node	O
+identifier	E-Shared Phenomena
+,	O
+node	O
+name	E-Shared Phenomena
+and	O
+node	O
+type	M-Shared Phenomena
+description	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	B-Shared Phenomena
+information	M-Shared Phenomena
+about	M-Shared Phenomena
+each	M-Shared Phenomena
+incident	B-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+incident	O
+description	E-Shared Phenomena
+and	O
+roadway	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	B-Shared Phenomena
+information	M-Shared Phenomena
+about	M-Shared Phenomena
+each	M-Shared Phenomena
+lane	B-Shared Phenomena
+closure	B-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+lane	O
+closure	O
+id	E-Shared Phenomena
+,	O
+closure	O
+description	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+provide	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	B-External System
+DMS	B-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+DMS	O
+identifier	O
+,	O
+DMS	O
+name	E-Shared Phenomena
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+DMS	M-System Requirements
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-External System
+DMS	O
+,	O
+including	O
+network	O
+identifier	O
+,	O
+DMS	O
+identifier	O
+,	O
+username	O
+and	O
+Password	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	B-Environment Object
+LCS	B-Shared Phenomena
+,	E-Shared Phenomena
+including	O
+network	B-Shared Phenomena
+identifier	M-Shared Phenomena
+,	O
+LCS	O
+identifier	O
+,	O
+LCS	O
+name	E-Shared Phenomena
+,	O
+Location	S-Shared Phenomena
+and	O
+Status	S-Shared Phenomena
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+LCS	B-Shared Phenomena
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-Environment Object
+LCS	O
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+LCS	O
+identifier	O
+,	O
+username	S-Shared Phenomena
+and	O
+Password	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+provide	O
+the	O
+information	E-Shared Phenomena
+status	B-Shared Phenomena
+information	O
+about	O
+each	B-Environment Object
+CCTV	B-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+CCTV	O
+identifier	O
+,	O
+CCTV	O
+name	E-Shared Phenomena
+,	O
+Location	S-Shared Phenomena
+and	O
+Status	S-Shared Phenomena
+.	O
+
+To	B-External System
+support	M-External System
+CCTV	B-Shared Phenomena
+control	M-Shared Phenomena
+in	M-External System
+other	M-External System
+centers	E-External System
+,	E-Shared Phenomena
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+CCTV	O
+control	O
+request	M-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+CCTV	O
+identifier	O
+,	O
+username	S-Shared Phenomena
+,	O
+Password	S-Shared Phenomena
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+video	M-System Requirements
+snapshots	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+status	S-Shared Phenomena
+information	O
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+CCTV	B-Shared Phenomena
+identifier	O
+,	O
+CCTV	O
+name	E-Shared Phenomena
+and	O
+status	O
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+CCTV	B-Shared Phenomena
+switching	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+CCTV	O
+switching	O
+command	E-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+username	S-Shared Phenomena
+,	O
+Password	S-Shared Phenomena
+and	O
+video	B-Shared Phenomena
+channel	M-Shared Phenomena
+input	M-Shared Phenomena
+identifier	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	B-Shared Phenomena
+status	M-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+ramp	B-Environment Object
+meter	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+Ramp	B-Shared Phenomena
+Meter	M-Shared Phenomena
+identifier	O
+,	O
+Ramp	O
+Meter	O
+name	E-Shared Phenomena
+,	O
+Location	S-Shared Phenomena
+and	O
+Status	S-Shared Phenomena
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+Ramp	B-Shared Phenomena
+Meter	M-Shared Phenomena
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-Environment Object
+ramp	M-Environment Object
+meter	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+Ramp	O
+Meter	O
+identifier	O
+,	O
+username	S-Shared Phenomena
+,	O
+password	S-Shared Phenomena
+and	O
+plan	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	S-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+HAR	B-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+HAR	O
+identifier	O
+,	O
+HAR	O
+name	E-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+and	O
+status	O
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+HAR	B-Shared Phenomena
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-Environment Object
+HAR	O
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+HAR	O
+identifier	O
+,	O
+username	S-Shared Phenomena
+,	O
+password	S-Shared Phenomena
+and	O
+message	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	S-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Traffic	B-Environment Object
+Signal	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+traffic	B-Shared Phenomena
+signal	M-Shared Phenomena
+identifier	O
+,	O
+traffic	O
+signal	O
+name	E-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+and	O
+status	O
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+Traffic	M-System Requirements
+Signal	M-System Requirements
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-Environment Object
+Traffic	O
+Signal	O
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+traffic	B-Shared Phenomena
+signal	M-Shared Phenomena
+identifier	O
+,	O
+username	S-Shared Phenomena
+,	O
+password	S-Shared Phenomena
+and	O
+traffic	O
+signal	O
+plan	M-Shared Phenomena
+identifier	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	S-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	B-Environment Object
+ESS	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+environmental	B-Shared Phenomena
+sensor	M-Shared Phenomena
+identifier	O
+,	O
+environment	B-Shared Phenomena
+sensor	O
+name	E-Shared Phenomena
+,	O
+type	S-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+and	O
+status	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	B-Shared Phenomena
+status	S-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	B-Environment Object
+HOV	B-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+HOV	O
+identifier	O
+,	O
+HOV	O
+name	E-Shared Phenomena
+,	O
+link	B-Shared Phenomena
+identifier	O
+,	O
+status	O
+and	O
+plan	S-Shared Phenomena
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+HOV	B-Shared Phenomena
+Lane	M-Shared Phenomena
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-Environment Object
+HOV	O
+Lane	O
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+HOV	O
+Lane	O
+identifier	O
+,	O
+username	S-Shared Phenomena
+,	O
+password	S-Shared Phenomena
+and	O
+lane	B-Shared Phenomena
+plan	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	S-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Parking	B-Environment Object
+Lot	E-Environment Object
+,	E-Shared Phenomena
+including	O
+network	B-Shared Phenomena
+identifier	M-Shared Phenomena
+,	O
+parking	B-Shared Phenomena
+lot	M-Shared Phenomena
+identifier	O
+,	O
+parking	O
+lot	O
+name	E-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+and	O
+status	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+School	B-Environment Object
+Zone	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+link	B-Shared Phenomena
+identifier	O
+,	O
+school	B-Shared Phenomena
+zone	M-Shared Phenomena
+identifier	O
+and	O
+school	O
+zone	O
+name	E-Shared Phenomena
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+School	M-System Requirements
+Zone	M-System Requirements
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-Environment Object
+School	O
+Zone	O
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+school	B-Shared Phenomena
+zone	M-Shared Phenomena
+identifier	O
+,	O
+username	S-Shared Phenomena
+,	O
+password	S-Shared Phenomena
+and	O
+plan	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	S-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Railroad	B-Environment Object
+Crossing	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+link	B-Shared Phenomena
+identifier	O
+,	O
+rail	B-Shared Phenomena
+crossing	M-Shared Phenomena
+identifier	O
+,	O
+rail	O
+crossing	O
+name	E-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+and	O
+status	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	E-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Reversible	B-Environment Object
+Lane	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+reversible	B-Shared Phenomena
+lane	M-Shared Phenomena
+identifier	O
+,	O
+reversible	O
+lane	O
+name	E-Shared Phenomena
+,	O
+link	B-Shared Phenomena
+identifier	O
+,	O
+indicator	B-Shared Phenomena
+status	O
+and	O
+indicator	O
+failure	M-Shared Phenomena
+state	E-Shared Phenomena
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+Reversible	M-System Requirements
+Lane	M-System Requirements
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-Environment Object
+Reversible	O
+Lane	O
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+reversible	B-Shared Phenomena
+lane	M-Shared Phenomena
+identifier	O
+,	O
+username	S-Shared Phenomena
+,	O
+password	S-Shared Phenomena
+,	O
+plan	S-Shared Phenomena
+and	O
+duration	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Dynamic	B-Environment Object
+Lane	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+link	B-Shared Phenomena
+identifier	O
+,	O
+dynamic	B-Shared Phenomena
+lane	M-Shared Phenomena
+identifier	O
+,	O
+dynamic	O
+lane	O
+name	E-Shared Phenomena
+and	O
+failure	B-Shared Phenomena
+state	E-Shared Phenomena
+.	O
+
+To	B-System Requirements
+support	M-System Requirements
+Dynamic	M-System Requirements
+Lane	M-System Requirements
+control	M-Shared Phenomena
+in	M-System Requirements
+other	M-System Requirements
+centers	E-System Requirements
+,	O
+the	B-Software System
+Center	E-Software System
+shall	O
+be	O
+able	O
+to	O
+support	O
+the	O
+following	O
+device	B-Shared Phenomena
+control	O
+command	E-Shared Phenomena
+for	O
+a	B-Environment Object
+Dynamic	O
+Lane	O
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+dynamic	B-Shared Phenomena
+lane	B-Shared Phenomena
+identifier	O
+,	O
+username	S-Shared Phenomena
+,	O
+password	S-Shared Phenomena
+and	O
+lane	O
+plan	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Bus	B-Environment Object
+Stop	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+link	M-Shared Phenomena
+identifier	O
+,	O
+relative	B-Shared Phenomena
+link	O
+location	S-Shared Phenomena
+,	O
+name	S-Shared Phenomena
+and	O
+location	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Bus	B-Environment Object
+Location	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+link	B-Shared Phenomena
+identifier	O
+,	O
+bus	B-Shared Phenomena
+identifier	O
+,	O
+bus	O
+name	E-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+and	O
+schedule	B-Shared Phenomena
+adherece	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Light	B-Environment Object
+/	M-Environment Object
+Commuter	M-Environment Object
+Stop	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+link	B-Shared Phenomena
+identifier	O
+,	O
+commuter	B-Shared Phenomena
+or	M-Shared Phenomena
+light	M-Shared Phenomena
+rail	M-Shared Phenomena
+stop	M-Shared Phenomena
+identifier	O
+,	O
+commuter	O
+or	O
+light	O
+rail	O
+stop	O
+name	E-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+and	O
+routes	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Light	B-Environment Object
+/	M-Environment Object
+Commuter	M-Environment Object
+Location	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+link	B-Shared Phenomena
+identifier	O
+,	O
+commuter	B-Shared Phenomena
+or	M-Shared Phenomena
+light	M-Shared Phenomena
+rail	M-Shared Phenomena
+identifier	O
+,	O
+commuter	O
+or	O
+light	O
+rail	O
+name	E-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+and	O
+schedule	B-Shared Phenomena
+adherence	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	S-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Park	B-Environment Object
+and	M-Shared Phenomena
+Ride	M-Environment Object
+Lot	E-Environment Object
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+park	B-Shared Phenomena
+and	O
+ride	M-Shared Phenomena
+lot	M-Shared Phenomena
+identifier	O
+,	O
+park	O
+and	O
+ride	O
+lot	O
+name	E-Shared Phenomena
+,	O
+location	S-Shared Phenomena
+,	O
+status	O
+and	O
+capacity	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+status	B-Shared Phenomena
+information	E-Shared Phenomena
+about	O
+each	O
+Vehicle	B-Physical Device
+Priority	E-Physical Device
+,	O
+including	O
+vehicle	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+network	B-Shared Phenomena
+identifier	O
+,	O
+link	B-Shared Phenomena
+identifier	O
+and	O
+intersection	B-Shared Phenomena
+identifier	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+shall	O
+support	O
+the	O
+following	O
+information	B-Shared Phenomena
+about	M-Shared Phenomena
+network	B-Shared Phenomena
+device	M-Shared Phenomena
+status	M-Shared Phenomena
+,	O
+including	O
+network	O
+identifier	E-Shared Phenomena
+,	O
+number	B-Shared Phenomena
+of	M-Shared Phenomena
+DMSs	E-Shared Phenomena
+,	O
+number	O
+of	O
+LCSs	E-Shared Phenomena
+,	O
+DMS	B-Shared Phenomena
+status	O
+data	E-Shared Phenomena
+,	O
+LCS	B-Shared Phenomena
+status	O
+data	O
+and	O
+CCTV	B-Shared Phenomena
+status	O
+data	O
+.	O
+
+The	B-Environment Object
+device	B-Shared Phenomena
+status	M-Environment Object
+requestor	E-Environment Object
+and	O
+Center	S-Software System
+shall	O
+support	O
+the	O
+following	O
+information	B-Shared Phenomena
+for	M-Shared Phenomena
+command	M-Shared Phenomena
+timeframe	M-Shared Phenomena
+request	E-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+and	O
+device	O
+type	E-Shared Phenomena
+.	O
+
+The	B-Physical Device
+device	B-Shared Phenomena
+status	M-Physical Device
+requestor	E-Physical Device
+and	O
+Center	S-Software System
+shall	O
+support	O
+the	O
+following	O
+information	B-Shared Phenomena
+for	M-Shared Phenomena
+command	M-Shared Phenomena
+timeframe	M-Shared Phenomena
+request	E-Shared Phenomena
+,	O
+including	O
+network	B-Shared Phenomena
+identifier	E-Shared Phenomena
+,	O
+device	O
+type	E-Shared Phenomena
+,	O
+days	B-Shared Phenomena
+commands	M-Shared Phenomena
+accepted	E-Shared Phenomena
+and	O
+times	B-Shared Phenomena
+commands	O
+accepted	O
+.	O
+
+The	B-Physical Device
+Data	M-Physical Device
+Collector	E-Physical Device
+shall	O
+be	O
+designed	O
+to	O
+support	O
+the	O
+storage	O
+of	O
+TMDD	B-Shared Phenomena
+data	M-Shared Phenomena
+elements	E-Shared Phenomena
+and	O
+message	B-Shared Phenomena
+set	M-Shared Phenomena
+information	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Center	M-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+Project	E-Software System
+shall	O
+utilize	O
+the	B-Shared Phenomena
+TMDD	M-Shared Phenomena
+standard	E-Shared Phenomena
+(	O
+including	O
+message	O
+sets	O
+)	O
+to	O
+transmit	O
+information	O
+.	O
+
+DATEX	B-Software System
+/	M-Software System
+ASN	E-Software System
+shall	O
+be	O
+used	O
+to	O
+transmit	O
+the	B-Shared Phenomena
+TMDD	M-Shared Phenomena
+message	M-Shared Phenomena
+sets	E-Shared Phenomena
+.	O
+
+TCP	B-Physical Device
+/	M-Shared Phenomena
+IP	E-Physical Device
+shall	O
+be	O
+used	O
+to	O
+transmit	O
+the	B-Shared Phenomena
+DATEX	M-Shared Phenomena
+/	O
+ASN	M-Shared Phenomena
+data	E-Shared Phenomena
+.	O
+
+The	B-External System
+Web	M-External System
+Map	M-External System
+application	E-External System
+generates	O
+a	B-Shared Phenomena
+map	E-Shared Phenomena
+that	O
+can	O
+be	O
+displayed	O
+on	O
+an	B-External System
+Internet	M-External System
+WWW	M-External System
+server	E-External System
+.	O
+
+The	B-External System
+map	E-External System
+provides	O
+a	O
+graphical	O
+depiction	O
+of	O
+the	B-Shared Phenomena
+traffic	M-Shared Phenomena
+conditions	E-Shared Phenomena
+.	O
+
+The	B-External System
+map	E-External System
+shall	O
+display	O
+interstates	B-Shared Phenomena
+and	M-Shared Phenomena
+state	M-Shared Phenomena
+highways	E-Shared Phenomena
+on	O
+the	O
+graphical	O
+map	O
+.	O
+
+The	B-Shared Phenomena
+basemap	M-Shared Phenomena
+data	E-Shared Phenomena
+shall	O
+be	O
+derived	O
+from	O
+the	O
+North	O
+Central	O
+Texas	O
+Council	O
+of	O
+Governments	O
+(	O
+NCTCOG	O
+)	O
+GeoData	B-Environment Object
+warehouse	E-Environment Object
+.	O
+
+The	B-Environment Object
+map	E-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+alter	O
+the	B-Shared Phenomena
+current	M-Shared Phenomena
+magnification	E-Shared Phenomena
+(	O
+zoom	O
+level	O
+)	O
+of	O
+the	O
+map	O
+.	O
+
+The	B-Environment Object
+map	E-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+pan	O
+the	B-Environment Object
+map	O
+in	O
+each	O
+of	O
+the	O
+following	O
+directions	O
+:	O
+North	O
+,	O
+South	O
+,	O
+East	O
+or	O
+West	O
+.	O
+
+Each	B-Environment Object
+link	E-Environment Object
+displayed	O
+on	O
+the	B-Environment Object
+map	E-Environment Object
+shall	O
+be	O
+color	O
+coded	O
+to	B-System Requirements
+provide	M-System Requirements
+a	M-System Requirements
+graphical	M-System Requirements
+depiction	M-System Requirements
+of	M-System Requirements
+speeds	E-System Requirements
+.	O
+
+A	B-Environment Object
+configuration	M-Environment Object
+file	E-Environment Object
+shall	O
+be	O
+provided	O
+to	B-System Requirements
+specify	M-System Requirements
+specific	M-System Requirements
+speed	M-System Requirements
+values	E-System Requirements
+.	O
+
+The	B-Environment Object
+map	E-Environment Object
+shall	O
+display	O
+the	B-Shared Phenomena
+current	M-Shared Phenomena
+incidents	E-Shared Phenomena
+(	O
+as	O
+icons	O
+)	O
+known	O
+to	M-Software System
+the	O
+Center	M-Software System
+-	M-Software System
+to	O
+-	O
+Center	O
+Project	E-Software System
+.	O
+
+The	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	B-System Requirements
+click	O
+on	O
+an	B-Environment Object
+incident	E-System Requirements
+icon	E-Environment Object
+to	O
+obtain	M-System Requirements
+further	M-System Requirements
+information	M-System Requirements
+about	M-System Requirements
+the	M-System Requirements
+incident	O
+.	O
+
+All	O
+current	O
+incidents	O
+shall	O
+be	O
+displayed	O
+in	O
+tabular	O
+format	O
+with	O
+the	O
+following	O
+information	O
+contained	O
+in	O
+the	O
+table	O
+.	O
+
+The	B-Environment Object
+map	E-Environment Object
+shall	O
+be	O
+capable	O
+of	O
+displaying	O
+the	O
+following	O
+for	O
+a	B-Environment Object
+DMS	E-Environment Object
+.	O
+
+The	B-Environment Object
+map	E-Environment Object
+shall	O
+be	O
+capable	O
+of	O
+displaying	B-Shared Phenomena
+the	M-Shared Phenomena
+following	E-Shared Phenomena
+for	O
+a	B-Environment Object
+LCS	E-Environment Object
+.	O
+
+The	B-Environment Object
+map	E-Environment Object
+shall	O
+be	O
+capable	O
+of	O
+displaying	O
+the	O
+following	O
+for	O
+a	B-Environment Object
+CCTV	E-Environment Object
+.	O
+
+The	B-External System
+Incident	M-External System
+GUI	E-External System
+shall	O
+allow	O
+the	B-Environment Object
+user	E-Environment Object
+to	O
+enter	O
+incident	B-Shared Phenomena
+or	M-Shared Phenomena
+lane	M-Shared Phenomena
+closure	M-Shared Phenomena
+information	E-Shared Phenomena
+without	O
+the	O
+use	O
+of	O
+an	B-Software System
+Center	E-Software System
+.	O
+
+The	B-Software System
+Incident	M-Software System
+GUI	E-Software System
+shall	O
+allow	O
+the	B-Environment Object
+user	E-Environment Object
+to	O
+input	O
+the	O
+following	O
+information	B-Shared Phenomena
+for	M-Shared Phenomena
+each	M-Shared Phenomena
+incident	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Incident	M-Software System
+GUI	E-Software System
+shall	O
+allow	O
+the	B-Environment Object
+user	E-Environment Object
+to	O
+input	O
+the	O
+following	O
+information	B-Shared Phenomena
+for	M-Shared Phenomena
+each	M-Shared Phenomena
+lane	M-Shared Phenomena
+closure	E-Shared Phenomena
+.	O
+
+The	B-Software System
+GUI	E-Software System
+shall	O
+provide	O
+a	B-Shared Phenomena
+list	M-Shared Phenomena
+of	M-Shared Phenomena
+previously	M-Shared Phenomena
+entered	M-Shared Phenomena
+incidents	E-Shared Phenomena
+.	O
+
+The	B-Software System
+GUI	E-Software System
+shall	O
+allow	O
+the	B-Shared Phenomena
+data	M-Shared Phenomena
+about	M-Shared Phenomena
+an	M-Shared Phenomena
+incident	M-Shared Phenomena
+to	M-Shared Phenomena
+be	M-Shared Phenomena
+modified	E-Shared Phenomena
+.	O
+
+The	B-Software System
+GUI	E-Software System
+shall	O
+allow	O
+a	M-Shared Phenomena
+user	E-Environment Object
+to	O
+delete	B-Shared Phenomena
+a	O
+previously	M-Shared Phenomena
+entered	M-Shared Phenomena
+incident	E-Shared Phenomena
+.	O
+
+The	B-Software System
+GUI	E-Software System
+shall	O
+provide	O
+a	B-Shared Phenomena
+list	M-Shared Phenomena
+of	M-Shared Phenomena
+previously	M-Shared Phenomena
+entered	M-Shared Phenomena
+lane	M-Shared Phenomena
+closures	E-Shared Phenomena
+.	O
+
+The	B-Software System
+GUI	E-Software System
+shall	O
+allow	O
+a	M-Shared Phenomena
+user	E-Environment Object
+to	O
+delete	B-Shared Phenomena
+a	O
+previously	M-Shared Phenomena
+entered	M-Shared Phenomena
+lane	M-Shared Phenomena
+closure	E-Shared Phenomena
+.	O
+
+The	B-Software System
+GUI	E-Software System
+shall	O
+allow	O
+a	M-Shared Phenomena
+user	E-Environment Object
+to	O
+delete	B-Shared Phenomena
+a	O
+previously	M-Shared Phenomena
+entered	M-Shared Phenomena
+lane	M-Shared Phenomena
+closure	E-Shared Phenomena
+.	O
+
+The	B-Software System
+remote	M-Software System
+Center	M-Software System
+Control	M-Software System
+GUI	E-Software System
+shall	O
+be	O
+designed	O
+to	O
+execute	O
+on	O
+a	B-Environment Object
+public	M-Environment Object
+network	E-Environment Object
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+Internet	O
+)	O
+and	O
+transmit	O
+equipment	B-Shared Phenomena
+requests	E-Shared Phenomena
+to	O
+the	B-External System
+C	M-External System
+-	M-External System
+2	M-External System
+-	O
+C	O
+software	M-External System
+system	E-External System
+.	O
+
+When	O
+the	B-Environment Object
+GUI	M-Software System
+application	E-Software System
+is	O
+initiated	O
+,	O
+the	O
+user	E-Environment Object
+shall	O
+be	O
+prompted	O
+for	O
+the	O
+following	O
+information	O
+,	O
+including	O
+User	B-Shared Phenomena
+name	E-Shared Phenomena
+and	O
+Password	S-Shared Phenomena
+.	O
+
+The	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+provided	O
+with	O
+the	O
+capability	O
+to	O
+select	O
+a	B-Shared Phenomena
+network	M-Shared Phenomena
+identifier	E-Shared Phenomena
+for	O
+a	O
+device	M-Environment Object
+command	M-Environment Object
+/	M-Environment Object
+control	M-Environment Object
+request	E-Environment Object
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	M-Shared Phenomena
+able	O
+to	M-Shared Phenomena
+select	O
+a	B-Environment Object
+DMS	E-Shared Phenomena
+from	O
+a	O
+list	O
+and	O
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+DMS	O
+,	O
+Message	B-Shared Phenomena
+to	O
+be	O
+displayed	E-Shared Phenomena
+and	O
+Beacons	B-Shared Phenomena
+On	M-Shared Phenomena
+/	M-Shared Phenomena
+Off	E-Shared Phenomena
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+select	O
+a	B-Environment Object
+LCS	E-Shared Phenomena
+from	O
+a	O
+list	O
+and	O
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+LCS	O
+and	O
+Assignment	B-Shared Phenomena
+of	M-Shared Phenomena
+lane	M-Shared Phenomena
+arrows	E-Shared Phenomena
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+issue	O
+a	B-Shared Phenomena
+CCTV	M-Shared Phenomena
+switching	M-Shared Phenomena
+command	E-Shared Phenomena
+,	O
+including	O
+Source	S-Shared Phenomena
+(	O
+input	O
+)	O
+and	O
+Destination	B-Shared Phenomena
+port	E-Shared Phenomena
+(	O
+output	O
+)	O
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Shared Phenomena
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+select	O
+a	B-Environment Object
+CCTV	E-Environment Object
+from	O
+a	O
+list	O
+and	O
+provide	O
+the	O
+following	M-Shared Phenomena
+information	E-Shared Phenomena
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+select	O
+a	B-Environment Object
+Ramp	M-Shared Phenomena
+Meter	E-Shared Phenomena
+from	O
+a	O
+list	O
+and	O
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+Ramp	O
+Meter	O
+and	O
+Plan	S-Shared Phenomena
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	M-Shared Phenomena
+user	E-Environment Object
+shall	O
+be	M-Shared Phenomena
+able	O
+to	M-Shared Phenomena
+select	O
+a	B-Environment Object
+HAR	E-Shared Phenomena
+from	O
+a	O
+list	O
+and	O
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+HAR	O
+and	O
+Text	B-Shared Phenomena
+to	O
+be	O
+sent	M-Shared Phenomena
+to	O
+the	O
+HAR	O
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+select	O
+a	B-Environment Object
+Traffic	M-Shared Phenomena
+Signal	M-Shared Phenomena
+from	O
+a	O
+list	O
+and	M-Shared Phenomena
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+Traffic	O
+Signal	O
+and	O
+Plan	E-Shared Phenomena
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+select	O
+a	B-Environment Object
+HOV	M-Shared Phenomena
+from	O
+a	O
+list	O
+and	M-Shared Phenomena
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+HOV	O
+and	O
+Plan	E-Shared Phenomena
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+select	O
+a	B-Environment Object
+School	M-Shared Phenomena
+Zone	M-Shared Phenomena
+from	O
+a	O
+list	O
+and	M-Shared Phenomena
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+School	O
+Zone	O
+and	O
+Plan	E-Shared Phenomena
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+select	O
+a	B-Environment Object
+Reversible	M-Shared Phenomena
+Lane	M-Shared Phenomena
+from	O
+a	O
+list	O
+and	M-Shared Phenomena
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+Reversible	O
+Lane	O
+and	O
+Plan	E-Shared Phenomena
+.	O
+
+Once	O
+an	B-Software System
+Center	E-Software System
+is	O
+selected	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+select	O
+a	B-Environment Object
+Dynamic	M-Shared Phenomena
+Lane	M-Shared Phenomena
+from	O
+a	O
+list	O
+and	M-Shared Phenomena
+provide	O
+the	O
+following	O
+information	O
+,	O
+including	O
+Target	B-Shared Phenomena
+Dynamic	O
+Lane	O
+and	O
+Plan	E-Shared Phenomena
+.	O
+
+For	O
+each	B-Shared Phenomena
+device	M-Shared Phenomena
+command	M-Shared Phenomena
+/	M-Shared Phenomena
+control	M-Shared Phenomena
+status	M-Shared Phenomena
+request	E-Shared Phenomena
+sent	O
+by	O
+the	M-Shared Phenomena
+Remote	M-Software System
+GUI	E-Software System
+,	O
+the	O
+status	O
+returned	M-Shared Phenomena
+from	M-Shared Phenomena
+the	O
+network	M-Shared Phenomena
+identifier	E-Shared Phenomena
+will	O
+be	O
+displayed	O
+in	O
+a	O
+scrollable	O
+list	O
+on	O
+the	O
+GUI	O
+.	O
+
+The	B-External System
+Center	M-External System
+-	M-External System
+to	M-External System
+-	O
+Center	O
+Server	E-External System
+shall	O
+execute	O
+in	O
+a	O
+Microsoft	O
+Windows	O
+NT	O
+environment	O
+.	O
+
+A	B-Shared Phenomena
+DATEX	M-Shared Phenomena
+/	M-Shared Phenomena
+ASN	M-Shared Phenomena
+runtime	M-Shared Phenomena
+library	E-Shared Phenomena
+shall	O
+be	O
+available	O
+on	O
+any	B-Physical Device
+computer	E-Physical Device
+communicating	O
+to	M-Software System
+the	B-Software System
+Center	M-Software System
+-	M-Software System
+to	O
+-	O
+Center	O
+project	E-Software System
+.	O
+
+The	B-Software System
+web	M-Software System
+server	M-Software System
+application	E-Software System
+shall	O
+use	O
+ESRI	B-External System
+'	M-External System
+s	M-External System
+ARC	M-External System
+Internet	M-External System
+Map	M-External System
+Server	M-External System
+(	M-External System
+ARC	O
+IMS	M-External System
+)	M-External System
+product	E-External System
+for	O
+creating	O
+of	O
+map	B-Shared Phenomena
+images	M-Shared Phenomena
+.	E-Shared Phenomena
+
+The	B-Software System
+Center	E-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+shall	O
+execute	O
+in	O
+a	O
+Microsoft	O
+Windows	O
+NT	O
+environment	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+shall	O
+be	O
+implemented	O
+in	O
+the	O
+C	O
+/	O
+C	O
++	O
++	O
+programming	O
+language	O
+.	O
+
+The	B-External System
+Center	M-External System
+-	M-External System
+to	M-External System
+-	O
+Center	O
+web	M-External System
+interface	E-External System
+shall	O
+be	O
+implemented	O
+using	O
+C	O
+/	O
+C	O
++	O
++	O
+and	O
+ESRI	O
+ARC	O
+IMS	O
+.	O
+
+The	B-Software System
+Incident	M-Software System
+GUI	E-Software System
+shall	O
+be	O
+implemented	O
+using	O
+C	O
+/	O
+C	O
++	O
++	O
+and	O
+ESRI	O
+Map	O
+Objects	O
+.	O
+
+The	B-Software System
+Remote	M-Software System
+Control	M-Software System
+GUI	E-Software System
+shall	O
+be	O
+implemented	O
+using	O
+C	O
+/	O
+C	O
++	O
++	O
+and	O
+ESRI	O
+Map	O
+Objects	O
+.	O
+
+The	B-Software System
+Center	E-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+shall	O
+be	O
+able	O
+to	O
+operate	O
+in	O
+normal	O
+mode	O
+.	O
+
+In	O
+this	O
+mode	O
+the	B-Shared Phenomena
+Center	E-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+receives	O
+data	E-Shared Phenomena
+from	O
+all	O
+connected	O
+systems	O
+,	O
+including	O
+the	O
+Incident	M-External System
+GUI	E-External System
+,	O
+and	O
+combines	O
+the	O
+data	O
+into	O
+a	B-External System
+single	M-External System
+data	O
+store	M-External System
+(	M-External System
+database	M-External System
+)	E-External System
+.	O
+
+The	B-Software System
+Center	E-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+shall	O
+be	O
+able	O
+to	O
+operate	O
+in	O
+test	O
+mode	O
+.	O
+
+In	O
+this	O
+mode	B-Shared Phenomena
+,	O
+the	B-Software System
+Center	E-Software System
+-	M-Software System
+to	M-Software System
+-	O
+Center	O
+performs	O
+normal	O
+mode	O
+operations	E-Shared Phenomena
+and	O
+also	O
+logs	O
+activities	S-Shared Phenomena
+.	O
+

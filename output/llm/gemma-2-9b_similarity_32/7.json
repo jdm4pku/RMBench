@@ -1,0 +1,1598 @@
+[
+  {
+    "predict": "\n{'Software System': ['Tactical Control System (TCS)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': ['Tactical control system', 'the UNMANNED AERIAL VEHICLE (UAV) TACTICAL CONTROL SYSTEM (TCS)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n"
+  },
+  {
+    "predict": " {'Software System': ['the SSS'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['ensure that each requirement has been met'], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the military services\", \"tactical unmanned aerial vehicles\"],\n\"External System\": [],\n\"System Requirements\": [\"provide the military services with a single command, control, data receipt, data processing, data export and dissemination system that is interoperable with the family of all present and future tactical unmanned aerial vehicles\"],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"UAVs\", \"Tactical Unmanned Aerial Vehicle (TUAV)\", \"Medium Altitude and Endurance (MAE) UAV\", \"Outrider\", \"Predator\", \"their associated payloads\"],\n\"Environment Object\": [],\n\"External System\": [\"network communication systems\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"HAE UAVs\", \"UAVs\", \"payloads\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"receiving and processing information\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Tactical Control System\"], \"Physical Device\": [\"UAVs\"], \"Environment Object\": [\"UAV JPO\"], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"Department Of Defense Instruction (DODI) - 5000.2R\"],\n\"System Requirements\": [\"Program Definition and Risk Reduction phase\", \"Engineering and Manufacturing Development phase\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Level 1 through Level 5 interaction'], 'Shared Phenomena': ['24 month period', 'Incremental and Evolutionary strategy', 'MIL-STD-498']}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"multiple UAV\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"receipt and transmission of secondary imagery and/or data\"], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"UAV payload\", \"multiple UAV\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"imagery/data\"]}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"UAV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"control of the UAV\", \"functions of level three for the multiple UAV\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"UAV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"full function and control of the UAV from takeoff to landing for multiple UAV\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"the software\"],\n\"Physical Device\": [\"software-related hardware\", \"extra ground support hardware\", \"the Outrider\", \"the Predator UAV\", \"future tactical UAVs\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"the objective capability of receiving High Altitude Endurance\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"scaleable to meet the user's requirements for deployment\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Tactical Control System program\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"software\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"the UAV\"],\n\"Environment Object\": [\"the UAV operator\"],\n\"External System\": [\"the software\"],\n\"System Requirements\": [\"computer related communications\", \"mission tasking\", \"mission planning\", \"mission execution\", \"data receipt\", \"data processing\", \"limited data exploitation\", \"data dissemination\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the software\", \"a high resolution computer generated graphical user interface\"],\n\"Physical Device\": [\"UAV\", \"UAV payloads\"],\n\"Environment Object\": [\"a UAV operator\"],\n\"External System\": [],\n\"System Requirements\": [\"to control different types of UAVs or UAV payloads with a minimum of additional training\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"computers\"],\n\"Environment Object\": [\"the using Service\"],\n\"External System\": [],\n\"System Requirements\": [\"operate in an open architecture\", \"be capable of being hosted\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Software developed\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"Defense Information Infrastructure / Common Operating Environment (DII/COE)\"],\n\"System Requirements\": [\"DII/COE compliant\", \"non-proprietary\", \"the architectural standard for all future tactical UAVs\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Department of Defense (DoD) software components\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"To the extent possible\", \"achieve commonality\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"users\"],\n\"External System\": [],\n\"System Requirements\": [\"software portability\", \"scaleable functionality\", \"support for operational configurations tailored to the users’ needs\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"DoD components\"],\n\"System Requirements\": [\"To the extent possible\", \"achieve commonality\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"The Tactical Control System hardware\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"scaleable or modular to meet varying Service needs\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"The Tactical Control System hardware\", \"external peripherals\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"long range communications\", \"data storage expansion\", \"access to other computers to share in processing capability\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"C4I systems\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to permit information exchange between the Tactical Control System and specified C4I systems\"],\n\"Shared Phenomena\": [\"information\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['DII/COE compliant networks'], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System', 'Advanced Tomahawk Weapons Control Station (ATWCS)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"Advanced Field Artillery Tactical Data System (AFATDS)\"], \"System Requirements\": [], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\", \"All Source Analysis System (ASAS)\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System', 'Automated Target Hand-off System (ATHS)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"Enhanced Tactical Radar Correlator (ETRAC)\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': ['Guardrail Common Sensor/Aerial Common Sensor (ACS) Integrated Processing Facility (IPF)'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System', 'Intelligence Analysis System (IAS)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"Joint Maritime Command Information System (JMCIS)\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System', 'Joint Service Imagery Processing System – Air Force (JSIPS-AF)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\", \"Joint Service Imagery Processing System - Navy (JSIPS-N)\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': ['Ground Station (GSM/CGS)'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\", \"Modernized Imagery Exploitation System (MIES)\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System', 'Air Force Mission Support System (AFMSS)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"UAV imagery products\", \"tactical communication messages\", \"mission plans\", \"target coordinates\"]} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"Service specific mission planning systems\"],\n\"System Requirements\": [\"receive, process, and display tasking orders\", \"display operational information\"],\n\"Shared Phenomena\": [\"tasking orders\", \"operational information\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System system\"],\n\"Physical Device\": [\"Predator\", \"Outrider AVs\", \"existing military services standard hardware\"],\n\"Environment Object\": [],\n\"External System\": [\"various C4I systems\"],\n\"System Requirements\": [\"controlling the Predator and Outrider AVs with a single control system\", \"supporting interfaces with various C4I systems\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Tactical Control System workstation\", \"TCS Computer Software Configuration Items\", \"TCS Support HWCIs\", \"TCS Support CSCIs\"],\n\"Physical Device\": [\"Tactical Control System workstation Hardware Configuration Items\", \"TCS Computer Software Configuration Items\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"The Tactical Control System shall consist of\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"payload\", \"Air Vehicle (AV)\", \"data link\", \"other necessary support equipment\", \"tactical UAVs\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide command and control\", \"employ tactical UAVs to conduct reconnaissance, surveillance, target acquisition, and target identification missions\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"military supported units\"],\n\"External System\": [\"tactical communications systems\", \"C4I systems\"],\n\"System Requirements\": [\"interface with and export and disseminate payload data\"],\n\"Shared Phenomena\": [\"payload data\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"selected standard DoD C4I systems\"],\n\"System Requirements\": [\"interoperable with selected standard DoD C4I systems, architectures, and protocols\"],\n\"Shared Phenomena\": [\"Communications procedures\", \"formats\", \"interfaces\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"determined by task analysis in accordance with MIL STD 1388 Task 401 as a guide based on a thorough understanding of Outrider and Predator mission requirements\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"operator\"],\n\"External System\": [],\n\"System Requirements\": [\"Tasks will be evaluated and allocated\"],\n\"Shared Phenomena\": [\"operator skills and proficiencies\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"the TCS\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"RQ-1A Predator Medium Altitude Endurance Unmanned Aerial Vehicle/System (MAE UAV)\", \"CR-TUAV\"],\n\"Environment Object\": [],\n\"External System\": [\"Operational Requirements Document (ORD) CAF 003-90-I-A\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"fulfill the operational tasking requirements across the 5 levels of interaction\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"UAV\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"receipt and transmission of secondary imagery and/or data\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"UAV\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"imagery and/or data\"]}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"UAV payload\", \"UAV\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"control of the UAV payload\", \"direct receipt of imagery/data for UAV\"], \"Shared Phenomena\": [\"imagery/data\"]}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"UAV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"control of the UAV\", \"all the functions of level three from UAV\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"UAV\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"full function and control of the UAV from takeoff to landing\"], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Startup\", \"Operation\", \"Shutdown\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Startup State'], 'Shared Phenomena': ['Normal Startup Mode', 'Recovery Startup']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\n\"Tactical Control System Software\",\n\"Tactical Control System\"\n],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\n\"enter the Normal Startup Mode of operation upon application of power\"\n],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System software\", \"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"enter the Recovery Startup Mode\"],\n\"Shared Phenomena\": [\"an unplanned power interruption\", \"abnormal program termination\", \"application of power\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"determine which of the 5 levels of interaction are achievable\"],\n\"Shared Phenomena\": [\"5 levels of interaction\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"inform the operator if the operator attempts to execute a function prohibited\"],\n\"Shared Phenomena\": [\"a function prohibited\", \"the determined level of interaction\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Tactical Control System application\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"initialize the system to place it in the Operations State within 60 seconds from the time power is supplied and the Tactical Control System application is launched\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"HWCIs\", \"CSCIs\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Initialization of the Tactical Control System HWCIs\"],\n\"Shared Phenomena\": [\"startup of HWCIs\", \"download of software\", \"startup of CSCIs\", \"execution of Startup FD/L\", \"establishment of the state of readiness of all interfaces\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"HWCIs\", \"CSCIs\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Recovery of the Tactical Control System HWCIs\", \"startup of HWCIs\", \"download of software\", \"startup of CSCIs\", \"establishment of the state of readiness of all interfaces\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"automatically recording system state data\", \"interface communications and other information necessary to support event reconstruction\"],\n\"Shared Phenomena\": [\"system state data\", \"interface communications\", \"other information\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"operating in three modes: normal operations mode, training operations mode, and maintenance operations mode\"],\n\"Shared Phenomena\": [\"Operations State\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"shall not exist concurrently\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"command the system to the Shutdown State\"],\n\"Shared Phenomena\": [\"the Shutdown State\", \"all modes under the Operations State\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"The Tactical Control System hardware\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"execute periodic Fault Detection/Location (FD/L)\", \"periodic determination of level of interaction\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"the Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"support mission planning\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"the Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"support mission control and monitoring\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"support payload product management\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"target\"],\n\"External System\": [],\n\"System Requirements\": [\"support target coordinate development\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"C4I systems\"],\n\"System Requirements\": [\"support C4I systems interface\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"operate concurrently without precluding or excluding any of the other functions\", \"in accordance with allowable operations as determined by the appropriate levels of interaction\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"support payload product Mmanagement\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Human Computer Interface (HCI)\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"computer workstation\"],\n\"External System\": [],\n\"System Requirements\": [\"conduct AV maintenance\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Human Computer Interface (HCI)\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"conduct payload maintenance\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"computer workstation Human Computer Interface (HCI)\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"conduct data link terminal maintenance\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Human Computer Interface (HCI)\"],\n\"Physical Device\": [\"computer workstation\", \"peripheral equipment\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"conduct workstation and peripheral equipment maintenance\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Human Computer Interface (HCI)\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"computer workstation\"],\n\"External System\": [],\n\"System Requirements\": [\"perform fault detection/location (FD/L)\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Human Computer Interface (HCI)\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"computer workstation\"],\n\"External System\": [],\n\"System Requirements\": [\"perform software upgrades\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Human Computer Interface (HCI)\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"computer workstation\"],\n\"External System\": [],\n\"System Requirements\": [\"software debug and monitoring\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"enter the Shutdown State\", \"be placed in a condition where power can be removed without impacting operations as well as causing damage to the system\", \"restart of the system can be accomplished normally\"],\n\"Shared Phenomena\": [\"Shutdown State\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\", \"HCIs\"],\n\"External System\": [],\n\"System Requirements\": [\"storage as well as deletion, as specified by the operator, of mission data files\", \"shutdown of appropriate functions\", \"shutdown of HCIs\", \"proper termination of all active interfaces\"],\n\"Shared Phenomena\": [\"mission data files\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"conduct payload product management\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': ['the operator'], 'External System': ['C4I system'], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [\"the operator\", \"UAV\"], \"External System\": [], \"System Requirements\": [\"allow the operator to generate a UAV mission plan\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\n\"The Tactical Control System\",\n\"Tactical Aircraft Mission Planning System (TAMPS)\",\n\"Aviation Mission Planning System (AMPS)\",\n\"Air Force Mission Support System (AFMSS)\"\n],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\n\"to be interoperable with the service specific mission planning systems\"\n],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"UAV\"],\n\"External System\": [\"service specific mission planning systems\"],\n\"System Requirements\": [\"transmit UAV mission plans\"],\n\"Shared Phenomena\": [\"UAV mission plans\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"C4I interfaces\"], \"System Requirements\": [\"automated processing of mission plan data\", \"extract the appropriate mission planning data\"], \"Shared Phenomena\": [\"mission plan data\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"A Mission Plan\", \"A Flight Route Plan\", \"A Payload Plan\", \"A Communications Plan\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"capable of storing a minimum of 500 mission plans under unique names to allow for later retrieval\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"The Tactical Control System mission planning function\", \"a graphical user interface\"],\n\"Physical Device\": [\"a pointing device\"],\n\"Environment Object\": [\"the operator\", \"a map based display\"],\n\"External System\": [],\n\"System Requirements\": [\"provide a graphical user interface\", \"give the operator the ability to define waypoints on a map based display\", \"using a pointing device with full keyset redundancy\"],\n\"Shared Phenomena\": [\"waypoints\", \"a map based display\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"have the capability to import as well as create and modify map display overlays for fire support coordination measures [SSS547], airspace control measures [SSS548], and threat identification measures\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"UAV\", \"UAV type\"],\n\"Environment Object\": [\"the Government\", \"the threat\", \"the UAV\"],\n\"External System\": [\"a UAV signature versus threat lookup table (database)\"],\n\"System Requirements\": [\"utilize a UAV signature versus threat lookup table (database) that identity the lethality of the threat to the UAV\", \"provide the capability of displaying aircraft signature versus threat, before and during flight\"],\n\"Shared Phenomena\": [\"radar cross section analysis and characterization\", \"lethality of the threat to the UAV\", \"aircraft signature versus threat\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\", \"AV\"],\n\"External System\": [],\n\"System Requirements\": [\"allow the operator to enter as well as review mission plan parameters\", \"AV flight parameters\", \"payload control parameters\", \"data link control parameters\", \"AV VCR control parameters\", \"AV loiter patterns\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to enter system configuration characteristics in the mission plan\", \"to include selected AV type\", \"AV identification number\", \"selected payload type\", \"ground control authorization information\", \"required communications pre-set for data links\", \"tactical communications\", \"C4I data dissemination\"],\n\"Shared Phenomena\": [\"system configuration characteristics\", \"mission plan\", \"AV type\", \"AV identification number\", \"payload type\", \"ground control authorization information\", \"communications pre-set\", \"data links\", \"tactical communications\", \"C4I data dissemination\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the AV\"],\n\"External System\": [],\n\"System Requirements\": [\"upload a flight route plan and payload plan (if applicable) to the AV via the selected system data link as well as direct ground connection\"],\n\"Shared Phenomena\": [\"flight route plan\", \"payload plan\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"retrieve a mission plan for viewing, modification, as well as deletion\", \"save the mission plan under a different name\"],\n\"Shared Phenomena\": [\"mission plan\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"automatically check the validity of the intended mission plan\", \"altitude constraints\", \"payload constraints\", \"data link range constraints\", \"airspace restrictions\", \"fuel limitations\", \"threat constraints\", \"data link terrain masking effects\", \"Loss of Link (LOL) Plan\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [\"the operator\"], \"External System\": [], \"System Requirements\": [\"notify the operator of all discrepancies found during the mission plan check\", \"indicate successful completion of the mission plan check\"], \"Shared Phenomena\": []}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"override validation faults after the fault is acknowledged\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"LOL delay timer(s)\"],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"allow the operator to set the LOL delay timer(s) during mission planning\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': ['AV'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['LOL delay', 'unplanned LOL', 'LOL procedures']}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide the capability to print waypoint data in alphanumeric format\"],\n\"Shared Phenomena\": [\"waypoint data\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"The Flight Route Plan, as a minimum, shall include AV flight path information, Loss of Link plan, AV VCR control tasking (if applicable to the selected AV), and data link control information.\"],\n\"Shared Phenomena\": [\"AV flight path information\", \"Loss of Link plan\", \"AV VCR control tasking\", \"data link control information\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\", \"AV\", \"waypoint\"],\n\"External System\": [],\n\"System Requirements\": [\"to define the desired AV route\", \"to provide the capability to include up to 500 waypoints in each flight route plan\"],\n\"Shared Phenomena\": [\"waypoint format\", \"flight route plan\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide the capability to enter waypoint data in alphanumeric format\"],\n\"Shared Phenomena\": [\"waypoint data\", \"alphanumeric format\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System flight route planner\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"terrain\"],\n\"External System\": [],\n\"System Requirements\": [\"provide terrain avoidance warnings for line-of-sight flights\"],\n\"Shared Phenomena\": [\"terrain avoidance warnings\", \"line-of-sight flights\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System flight route planner\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"lunar and solar terrain\"],\n\"External System\": [],\n\"System Requirements\": [\"payload search area information\", \"visual acuity range due to atmospheric conditions\", \"diurnal transition periods for thermal imagery\", \"lunar and solar terrain shadowing\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"AV\"],\n\"External System\": [],\n\"System Requirements\": [\"compute the AV's flight range based on remaining fuel\"],\n\"Shared Phenomena\": [\"waypoint\", \"remaining fuel\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"the AV\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"analyze the flight route plan\", \"determine that the flight constraints of the AV and the limitation of the data link are not violated\", \"transmission of the flight route plan to the AV\"],\n\"Shared Phenomena\": [\"the flight route plan\", \"flight constraints\", \"the limitation of the data link\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"a validated 6 degree-of-freedom air vehicle simulator\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"algorithmic accuracy of all flight planning calculations shall not deviate by more than 10%\"],\n\"Shared Phenomena\": [\"10%\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"a designated recovery area\"],\n\"External System\": [],\n\"System Requirements\": [\"to autonomously execute a programmed flight and return to a designated recovery area\"],\n\"Shared Phenomena\": [\"the flight route plan\", \"AV commands\"]\n}\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide the capability to create waypoints that define the desired flight path\", \"define AV Altitude and Airspeed associated with the waypoint\"],\n\"Shared Phenomena\": [\"waypoints\", \"desired flight path\", \"AV Altitude\", \"Airspeed\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"fire support coordination zones\", \"airspace control zones\", \"threat systems\", \"threat engagement envelopes\", \"radar terrain masking\"],\n\"External System\": [],\n\"System Requirements\": [\"providing the capability of displaying overlays\", \"each containing 100 simultaneous icons\"],\n\"Shared Phenomena\": [\"100 simultaneous icons\", \"known fire support coordination zones\", \"airspace control zones\", \"threat systems\", \"threat engagement envelopes\", \"associated radar terrain masking\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"display only a selected number of the most significant threats\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide the capability to modify the maximum number of threats displayed\", \"when de-clutter is selected\"],\n\"Shared Phenomena\": [\"the maximum number of threats displayed\", \"de-clutter\"]\n}\n```\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"the display\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to load a map\", \"to zoom in and out\", \"to scroll\", \"to print\", \"to clear a map\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"an icon\", \"the desired AV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"downlink\", \"AV position\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': ['AV'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['an icon indicating payload center field of view and footprint']} \n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': ['an icon', 'target position', 'type'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['coordinates selected by the operator']}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"Ground Data Terminal (GDT)\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"display icons indicating Tactical Control System position and Ground Data Terminal (GDT) position\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"Launch\", \"Handover\", \"Recovery site\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"an icon indicating Launch, Handover, and Recovery site\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the icons\"],\n\"External System\": [],\n\"System Requirements\": [\"to display the positions of the icons\", \"to provide conversion to multiple spheroid scales\"],\n\"Shared Phenomena\": [\"Lat./Lon.\", \"Universal Transverse Mercator (UTM)\", \"Military Grid Reference System (MGRS) formats\", \"multiple spheroid scales\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"the AV\"],\n\"System Requirements\": [\"to generate payload planning information\", \"to be uplinked to the AV separate from a flight route plan\"],\n\"Shared Phenomena\": [\"payload planning information\", \"a flight route plan\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"generate a payload plan\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide the capability to display the payload swath for the selected payload for planning purposes\"],\n\"Shared Phenomena\": [\"payload swath\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"AV\", \"payload\"],\n\"Environment Object\": [],\n\"External System\": [\"data link\", \"C4I interfaces\"],\n\"System Requirements\": [\"control and monitor an AV\", \"control and monitor a payload\", \"control and monitor a data link\", \"control and monitor C4I interfaces\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [\"MAE AVs\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"full control functionality of each AV\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"AV specific components\"],\n\"Environment Object\": [\"operator\", \"a specific AV\"],\n\"External System\": [],\n\"System Requirements\": [\"initialized upon operator selection of a specific AV\"],\n\"Shared Phenomena\": [\"ground based closed loop command and control functions\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"AV\"],\n\"Physical Device\": [\"AV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"transmit command and control information\", \"receive AV telemetry and payload information\"],\n\"Shared Phenomena\": [\"command and control information\", \"AV telemetry\", \"payload information\", \"uplink\", \"downlink\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"Predator UAVs\", \"Outrider UAVs\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"being interoperable with Predator and Outrider UAVs across the 5 levels of UAV interaction\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"AVs\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"control and monitor multiple types of AVs\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"notify the operator when AV performance parameters are out of limits\"],\n\"Shared Phenomena\": [\"AV performance parameters\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"AV\"],\n\"Environment Object\": [],\n\"External System\": [\"another Tactical Control System\"],\n\"System Requirements\": [\"pass control of an AV to another Tactical Control System\", \"receive control of an AV from another Tactical Control System\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"AV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to control the AV flight commands\", \"to release the AV to an autonomous flight control mode\"],\n\"Shared Phenomena\": [\"AV flight commands\", \"autonomous flight control mode\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"Tactical Control System\"], \"System Requirements\": [\"support other Tactical Control System functions\"], \"Shared Phenomena\": [\"AV telemetry data\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['provide the capability to enter AV preset limits', 'include airspeed limits', 'include altitude limits', 'include fuel limits'], 'Shared Phenomena': ['AV preset limits', 'airspeed limits', 'altitude limits', 'fuel limits']}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"an AV\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"allow the operator to control an AV\"], \"Shared Phenomena\": [\"LOS\", \"SATCOM data links\"]} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"two MAE air vehicles\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide the necessary system capabilities required for AV flight control BLOS via uplink command\"],\n\"Shared Phenomena\": [\"uplink command\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"AV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"operation of the AV via all flight modes\", \"manual controls\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"AV\", \"equipment\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"implement an emergency action plan\", \"control the AV during equipment failures\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"the UAV\"],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"initiate as well as change, to include as a minimum manual override, flight behaviors\"],\n\"Shared Phenomena\": [\"control commands\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"AV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to command the AV to use the navigation methods inherent to the selected AV\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"UAV\"],\n\"Environment Object\": [\"The operator\"],\n\"External System\": [],\n\"System Requirements\": [\"initiate as well as change\", \"manual override\", \"UAV navigation methods\"],\n\"Shared Phenomena\": [\"control commands\"]\n}\n```\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"ADT antenna\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"control the ADT antenna\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['pointing direction', 'mode of transmission']}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': ['ADT'], 'Environment Object': [], 'External System': [], 'System Requirements': ['control the power', 'control the transmitter signal strength', 'control the frequencies used by ADT for data link communication'], 'Shared Phenomena': ['data link communication']}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"the Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"support an automatic launch and recovery system\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': ['Tactical Control System', 'Integrity Beacon Landing System (IBLS)', 'Common Automated Recovery System (CARS)'], 'Physical Device': [], 'Environment Object': ['Outrider'], 'External System': [], 'System Requirements': ['interoperable with the Integrity Beacon Landing System (IBLS)', 'interoperable with the Common Automated Recovery System (CARS)'], 'Shared Phenomena': []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"present sufficient cues to the operator to implement and monitor automatic launch and recovery\", \"to initiate abort procedures if required\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"the AV\"],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"initiate the emergency recovery feature\"],\n\"Shared Phenomena\": [\"an emergency recovery feature\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"AV\"],\n\"External System\": [],\n\"System Requirements\": [\"to monitor AV adherence to the uplinked mission plan\", \"detecting any deviations greater than 10% from projected flight path\", \"notifying the operator if deviations are detected\"],\n\"Shared Phenomena\": [\"mission plan\", \"deviations\", \"projected flight path\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"AV subsystems\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"monitor the status of all AV subsystems reporting status\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"AV\"],\n\"External System\": [],\n\"System Requirements\": [\"display the AV status\", \"to include but not be limited to the AV location and flight and avionics system status\"],\n\"Shared Phenomena\": [\"AV status\", \"AV location\", \"flight and avionics system status\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"present the last known AV status values and the time at which the last values were reported\"],\n\"Shared Phenomena\": [\"last known AV status values\", \"the time at which the last values were reported\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"to display fuel parameters\", \"to include as a minimum, remaining fuel, flow rate, and bingo fuel\"],\n\"Shared Phenomena\": [\"fuel parameters\", \"remaining fuel\", \"flow rate\", \"bingo fuel\"]\n}\n```\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': ['Recovery site'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['Bingo fuel', 'reserve fuel']}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the AV\"],\n\"External System\": [],\n\"System Requirements\": [\"compute the estimated position of the AV during Loss of Link (LOL)\", \"based upon the last known AV position and anticipated flight path based on current flight mode (e.g. flight route plan mode, emergency flight route plan mode, maintain current heading mode)\"],\n\"Shared Phenomena\": [\"the last known AV position\", \"anticipated flight path\", \"current flight mode\", \"flight route plan mode\", \"emergency flight route plan mode\", \"maintain current heading mode\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [\"the operator\"], \"External System\": [], \"System Requirements\": [\"display a LOL timer\"], \"Shared Phenomena\": [\"LOL onset\", \"LOL timer\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the installed payloads\"],\n\"External System\": [],\n\"System Requirements\": [\"being interoperable with the installed payloads across the 5 levels of UAV interaction\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"AV payload(s)\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"control and monitor the AV payload(s)\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"an AV\"],\n\"Environment Object\": [],\n\"External System\": [\"another Tactical Control System\"],\n\"System Requirements\": [\"to receive data from and control payloads on an AV\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"two air vehicles\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide the necessary system capabilities required for payload control beyond line of sight via uplink command of two air vehicles of the same type using sequential communication techniques\"],\n\"Shared Phenomena\": [\"uplink command\", \"sequential communication techniques\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"air vehicle\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"Sequential communication\", \"alternatively communicating\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"the payload\", \"the selected AV\"],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"control the payload using all methods supported by the payload\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"controlling the payload\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"override of payload automated as well as preprogrammed inputs\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"provide the capability to monitor payload adherence to the uplinked mission plan\"], \"Shared Phenomena\": [\"payload adherence\", \"uplinked mission plan\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['the data link'], 'System Requirements': ['provide the system functionality necessary to record data'], 'Shared Phenomena': ['data']}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': ['the specified data terminal', 'a selected AV'], 'Environment Object': [], 'External System': [], 'System Requirements': ['to interface with the specified data terminal', 'to issue data link terminal commands', 'to establish, control, and maintain the data link with a selected AV'], 'Shared Phenomena': ['data link terminal commands', 'data link']}\n```\n\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Data terminal control\"],\n\"Shared Phenomena\": [\"antenna pointing control\", \"transmitter control\", \"receiver control\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System LOS data terminal\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"include acquisition, autotrack, search, manual point, omni directional, as well as directional modes of operation\"],\n\"Shared Phenomena\": [\"LOS data terminal control modes\", \"acquisition\", \"autotrack\", \"search\", \"manual point\", \"omni directional\", \"directional modes of operation\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"The operator\"],\n\"External System\": [],\n\"System Requirements\": [\"manually override any automatic data terminal control mode selection\", \"Emission Control (EMCON)\", \"Hazards of Electromagnetic Radiation to Ordnance (HERO) conditions\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [\"a second LOS antenna\", \"the currently active antenna\"],\n\"Environment Object\": [\"shipboard obstructions\"],\n\"External System\": [],\n\"System Requirements\": [\"to switch to a second LOS antenna\", \"if a second antenna is available\"],\n\"Shared Phenomena\": [\"shipboard obstructions\"]\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"a SATellite COMmunication (SATCOM) antenna\", \"the selected AV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to switch to a SATCOM antenna\", \"if the selected AV has SATCOM capability\", \"when desire (e.g. the AV proceeds beyond LOS range as well as when LOS is obstructed)\"],\n\"Shared Phenomena\": [\"SATCOM capability\", \"LOS range\", \"LOS\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"directional antennas\"],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"provide automatic pointing commands for directional antennas\", \"allow for the manual pointing of directional antennas\"],\n\"Shared Phenomena\": [\"pointing commands\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"antennas\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"positioning antennas to maintain LOS as well as SATCOM\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"antenna pedestal\", \"platform\", \"ship\", \"HMMWV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"antenna pedestal 3 -axis stabilization\", \"compensate for platform motion\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"the selected data terminal\", \"transmitter\", \"receiver\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"automatically controlling the transmitter and receiver functions\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"the selected data terminal\"],\n\"Environment Object\": [\"The operator\"],\n\"External System\": [],\n\"System Requirements\": [\"manually override the automatic function selection\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"the selected data terminal\", \"transmitter\", \"receiver\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"automatically controlling the transmitter and receiver modes\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"the selected data terminal\"],\n\"Environment Object\": [\"The operator\"],\n\"External System\": [],\n\"System Requirements\": [\"manually override the automatic mode selection\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"transmitter\", \"receiver\", \"data terminal\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"automatically controlling the transmitter and receiver frequencies\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"the selected data terminal\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"monitoring and displaying the signal strength\"],\n\"Shared Phenomena\": [\"signal strength\", \"received signals\", \"transmitted signals\"]\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"the selected data terminal\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"monitoring and displaying the signal quality of the received and transmitted signals\"],\n\"Shared Phenomena\": [\"signal quality\", \"received signals\", \"transmitted signals\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"presenting to the operator a visual depiction of the minimum and maximum data link operational ranges\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to manage all aspects of payload product handling\", \"to include receiving, processing, displaying, and performing limited exploitation\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"payload sensor output\", \"AV and payload telemetry data\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"process payload product data from Electro Optical (EO), Infrared (IR), and Synthetic Aperture Radar (SAR) payloads\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['formatting, storing, internally routing, and recording the video', 'creating and storing a freeze frame of the video', 'retrieving and displaying the video', 'printing a hard copy of freeze frame video', 'processing digital imagery for export and dissemination'], 'Shared Phenomena': ['the video', 'a freeze frame of the video', 'digital imagery']}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"Payload data\", \"digital and analog imagery\", \"associated telemetry\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"store up to 24 hours of payload data\"], \"Shared Phenomena\": [\"payload data\"]}\n"
+  },
+  {
+    "predict": " {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['External storage'], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"CIGSS\", \"USIS\", \"Video Working Group Standards Architecture\", \"NITF Version 2.0\", \"GCCS\"],\n\"System Requirements\": [\"in compliance with\", \"processing payload imagery data\"],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\", \"C4I systems\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"permit subsequent imagery exploitation\"], \"Shared Phenomena\": [\"NITF 2.0 imagery files\", \"telemetry\", \"support data\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['a built-in text entry capability including the ability to annotate textual information on imagery'], 'Shared Phenomena': ['textual information', 'imagery']}\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"receiving secondary HAE UAV payload imagery\"], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"Tactical Control System\"], \"System Requirements\": [\"support other Tactical Control System functions\"], \"Shared Phenomena\": [\"Payload telemetry data\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"operator\"],\n\"External System\": [],\n\"System Requirements\": [\"display live and recorded imagery data\", \"with as well as without annotation and overlay\", \"upon operator request\"],\n\"Shared Phenomena\": [\"live and recorded imagery data\", \"annotation\", \"overlay\"]\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"operator generated comments\", \"graphics\", \"imagery\"]\n}\n```"
+  },
+  {
+    "predict": "\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the operator'], 'External System': ['external sources'], 'System Requirements': [], 'Shared Phenomena': ['information', 'imagery']}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"to simultaneously view imagery as well as data from more than one payload\"], \"Shared Phenomena\": [\"imagery\", \"data\"]}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"The Tactical Control System operator\"],\n\"External System\": [],\n\"System Requirements\": [\"to select the content of the overlay information\"],\n\"Shared Phenomena\": [\"overlay information\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': ['a target'], 'External System': [], 'System Requirements': ['to select and deselect several types of cross hairs'], 'Shared Phenomena': ['cross hairs', 'ICON', 'a selected point']}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"RS170A video\", \"digital imagery\"],\n\"Environment Object\": [\"operator\"],\n\"External System\": [],\n\"System Requirements\": [\"routed to Tactical Control System functions and displayed\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"to conduct limited exploitation\", \"to include voice and textual reporting for spot and mission objectives\", \"on the payload product data\"], \"Shared Phenomena\": [\"payload product data\"]}\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['image enhancement and annotation'], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"image enhancement capability\"], \"Shared Phenomena\": [\"contrast\", \"brightness\", \"edge enhancement\", \"sharpness\"]} \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': ['target location', 'the center of the field of view', 'AV'], 'External System': [], 'System Requirements': ['to display Near-Real Time (NRT) imagery'], 'Shared Phenomena': ['date/time group', 'target location coordinates', 'north seeking arrow', 'AV position and heading']}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"two geographic positions\", \"the payload imagery display\"],\n\"External System\": [],\n\"System Requirements\": [\"compute the range and bearing between two geographic positions\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"determine target coordinates\", \"estimate target coordinate accuracy\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the payload field-of-view center\"],\n\"External System\": [],\n\"System Requirements\": [\"support a target location function\", \"request the current ground location of the payload field-of-view center\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"items of interest\", \"payload field of view\"],\n\"External System\": [],\n\"System Requirements\": [\"determine the location of items of interest within the payload field of view\", \"express these locations in coordinates acceptable for military applications\"],\n\"Shared Phenomena\": [\"coordinates\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the appropriate target\"],\n\"External System\": [],\n\"System Requirements\": [\"develop an estimate of the error in computed target coordinates\", \"associate the error estimate with the appropriate target\"],\n\"Shared Phenomena\": [\"error in computed target coordinates\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to manage all aspects of C4I system interfaces\", \"receiving\", \"processing\", \"transmitting tactical information\"],\n\"Shared Phenomena\": [\"tactical information\", \"character based text messages\", \"NITF 2.0 imagery files\", \"RS-170A video\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"plan and conduct a mission\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"payload products\", \"target coordinates\"],\n\"External System\": [],\n\"System Requirements\": [\"the presentation of payload products and target coordinates for the purpose of export and dissemination\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"C4I system\"],\n\"Physical Device\": [\"drones\", \"weapon systems\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to provide information to the C4I system\", \"for use by C4I system operators\"],\n\"Shared Phenomena\": [\"data obtained from drones\", \"non-real-time trajectories\", \"tactical points\", \"details\", \"information\", \"tactical data communication links\"]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"a data server\"],\n\"System Requirements\": [\"to interoperate with a data server to receive, extract, and push intelligence data\"],\n\"Shared Phenomena\": [\"intelligence data\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"Service specific ground and airborne Ultra High Frequency (UHF), Very High Frequency (VHF), UHF/VHF, and High Frequency (HF) radios\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"interface with Service specific ground and airborne Ultra High Frequency (UHF), Very High Frequency (VHF), UHF/VHF, and High Frequency (HF) radios for digital message transmission\", \"using the same radios for record traffic\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['Record traffic', 'operational/voice communications']}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"comply with Variable Message Formats\"],\n\"Shared Phenomena\": [\"data burst messages\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"export and disseminate formatted NITF 2.0 files\", \"digital imagery\", \"RS-170A video\", \"tactical communication messages\"], \"Shared Phenomena\": [\"formatted NITF 2.0 files\", \"digital imagery\", \"RS-170A video\", \"tactical communication messages\"]} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"send and receive annotated and un-annotated digital imagery\"], \"Shared Phenomena\": [\"annotated and un-annotated digital imagery\"]}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"C4I systems\"], \"System Requirements\": [\"establish digital communication\", \"terminate the communication\"], \"Shared Phenomena\": [\"digital communication\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"peripheral devices\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"establish and subsequently terminate digital communication\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"send and receive analog imagery in RS-170A format with as well as without overlay\"],\n\"Shared Phenomena\": [\"analog imagery\", \"RS-170A format\", \"overlay\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [\"C4I systems\"], \"External System\": [], \"System Requirements\": [\"establish analog communication\", \"terminate the communication\"], \"Shared Phenomena\": [\"analog communication\"]}\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"process received C4I messages\", \"prepare C4I messages for transmission\"],\n\"Shared Phenomena\": [\"C4I messages\"]\n}\n```\n\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['formatting', 'storing', 'routing', 'display']}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"prepare both annotated and un-annotated digital imagery for transmission\"], \"Shared Phenomena\": [\"digital imagery\"]}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"to review incoming annotated as well as un-annotated digital imagery\"], \"Shared Phenomena\": [\"digital imagery\"]}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"automatically checked for errors and corrected when possible\"],\n\"Shared Phenomena\": [\"digital messages\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"erroneous messages\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"log all incoming and outgoing formatted tactical messages\"], \"Shared Phenomena\": [\"formatted tactical messages\"]}\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['prepare annotated as well as un-annotated analog imagery for transmission'], 'Shared Phenomena': ['annotated analog imagery', 'un-annotated analog imagery']}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"to receive incoming annotated as well as un-annotated analog imagery\"], \"Shared Phenomena\": [\"analog imagery\"]}\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"to view incoming and outgoing, both annotated and un-annotated analog imagery\"], \"Shared Phenomena\": [\"analog imagery\"]}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to view incoming and outgoing, both annotated and un-annotated digital imagery messages\"],\n\"Shared Phenomena\": [\"digital imagery messages\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"executing AV maintenance software\", \"displaying appropriate status results\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"executing payload maintenance software\", \"displaying appropriate status results\"], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"executing data terminal maintenance software\", \"displaying appropriate status results\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"workstation\", \"peripheral equipment\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"executing workstation and peripheral equipment maintenance software\", \"displaying appropriate status results\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"Line Replaceable Unit (LRU)\"],\n\"Environment Object\": [],\n\"External System\": [\"COTS hardware and software\"],\n\"System Requirements\": [\"Fault Detection/Location (FD/L) to the Line Replaceable Unit (LRU) level\", \"indicate the readiness status\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"operator workstation\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Startup FD/L\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"AV's FD/L\"],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [\"Original Equipment Manufacturer (OEM)\"],\n\"System Requirements\": [\"control and monitor\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"operator\"],\n\"External System\": [],\n\"System Requirements\": [\"restrict operator access\"],\n\"Shared Phenomena\": [\"password protection\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [\"Authorized Operators\"], \"External System\": [], \"System Requirements\": [\"modify all Tactical Control System programmable parameters\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"Operator\"],\n\"External System\": [],\n\"System Requirements\": [\"restrict Operator access\"],\n\"Shared Phenomena\": [\"password protection\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"compact disk\"], \"Environment Object\": [\"National Imagery Mapping Agency (NIMA)\", \"Digital Terrain Elevation Data (DTED)\", \"Digital Feature Analysis Data (DFAD)\", \"Arc Digitized Raster Graphic\", \"scanned hard copy maps\"], \"External System\": [], \"System Requirements\": [\"importing National Imagery Mapping Agency (NIMA) Digital Terrain Elevation Data (DTED), Digital Feature Analysis Data (DFAD), Arc Digitized Raster Graphic and scanned hard copy maps\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"importing map information via operator procedure\", \"incorporating vector format and Compressed ADRG (CADRG) maps\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"An Authorized Operator\"],\n\"External System\": [],\n\"System Requirements\": [\"execute a software debug capability\", \"view the resulting debug diagnostic information\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [\"Operator\"], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"password protection\"]}\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"standard DoD tactical radios\", \"Mobile Subscriber Equipment\", \"military and commercial satellite communications equipment\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to interface with equipment necessary to provide connectivity\"],\n\"Shared Phenomena\": [\"connectivity\", \"VHF\", \"UHF\", \"UHF/VHF\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"external mission tasking systems\"],\n\"System Requirements\": [\"interface with external mission tasking systems\", \"receive tasking orders\", \"coordinate mission certification\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"the data terminal\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to interface with the data terminal\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['external systems'], 'System Requirements': ['to allow interfacing with external systems via a local area network'], 'Shared Phenomena': []}\n```\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\n\"Tactical Control System\",\n\"Universal Communication Processor\",\n\"Common Message Processor (CMP)\",\n\"DII/COE\",\n\"GOTS software capabilities\"\n],\n\"Physical Device\": [],\n\"Environment Object\": [\n\"C4I systems\"\n],\n\"External System\": [\n\"C4I systems\",\n\"Tactical Communication (TACOMM) messages\"\n],\n\"System Requirements\": [\n\"utilize the Universal Communication Processor\",\n\"communicate with C4I systems using Tactical Communication (TACOMM) messages\"\n],\n\"Shared Phenomena\": [\n\"Tactical Communication (TACOMM) messages\"\n]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"ASAS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with ASAS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"JSTARS GSM\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with JSTARS GSM\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"JMCIS\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"JSIPS-N\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with JSIPS-N\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"AFATDS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with AFATDS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"CARS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with CARS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['CCTV'], 'System Requirements': ['to allow the Tactical Control System to integrate with CCTV'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"Service Mission Planners\"], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': ['AMPS', 'AFMSS', 'TAMPS'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"AMPS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with AMPS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"AFMSS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with AFMSS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"TAMPS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with TAMPS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"GCS/ACS IPF\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with GCS/ACS IPF\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"TES\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with TES\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"IAS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with IAS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"IAS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with IAS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"ATHS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with ATHS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"ATWCS\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with ATWCS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"Trojan Spirit II\"],\n\"System Requirements\": [\"allow the Tactical Control System to integrate with Trojan Spirit II\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"TBMCS\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with TBMCS\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"MIES\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with MIES\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"ETRAC\"],\n\"System Requirements\": [\"to allow the Tactical Control System to integrate with ETRAC\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['COMPASS'], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['TEG'], 'System Requirements': ['to allow the Tactical Control System to integrate with TEG'], 'Shared Phenomena': []}\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['simultaneously supporting both of the following external interfaces'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"an external hard copy printer\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"Operator(s)\"],\n\"External System\": [],\n\"System Requirements\": [\"allow Operator(s) to print freeze-frame video, C4I Messages, Mission Plans, FD/L information, and current map display\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"external data storage systems\"], \"System Requirements\": [\"provide an interface between the Tactical Control System\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"external data storage systems\"],\n\"System Requirements\": [\"transfer digital data\", \"transfer digital imagery\"],\n\"Shared Phenomena\": [\"digital data\", \"digital imagery\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"power supply equipment\"], \"Environment Object\": [\"the Tactical Control System operating environment\"], \"External System\": [], \"System Requirements\": [\"to connect to the power supply equipment\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"have an interface to a source of current navigation information\"],\n\"Shared Phenomena\": [\"current navigation information\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': ['Tactical Control System'], 'Physical Device': ['data terminals', 'launch and recovery sites'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['location']}\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': ['the selected AV'], 'Environment Object': [], 'External System': [], 'System Requirements': ['implement an AV Standard Interface', 'provide the proper data format to ensure communications'], 'Shared Phenomena': []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"AVs\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"allow for addition of future AVs\", \"provide the generic architecture to ensure interoperability\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"AV\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"in accordance with the associated AV documentation\"],\n\"Shared Phenomena\": [\"uplink and downlink information\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"support a concurrent uplink and downlink capability\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\n\"The Tactical Control System\",\n\"Real Time Processor (RTP)\"\n],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\n\"establishing communications with the Real Time Processor (RTP)\"\n],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"This interface\", \"the Tactical Control System\", \"the data server\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to be made available to other components\"],\n\"Shared Phenomena\": [\"information\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"the RTP interface\"],\n\"System Requirements\": [\"support distributed processing capability\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"the SAR Processor\", \"other components of the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to disseminate SAR information (to include imagery and telemetry)\"],\n\"Shared Phenomena\": [\"SAR information\", \"imagery\", \"telemetry\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"an intercom system\"],\n\"Environment Object\": [\"operators\"],\n\"External System\": [],\n\"System Requirements\": [\"to incorporate an intercom system that provides verbal communicate\"],\n\"Shared Phenomena\": [\"verbal communicate\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': ['a video cassette recorder'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"VCR\", \"Tactical Control System Display\", \"input device(s)\"],\n\"Environment Object\": [\"Operator(s)\"],\n\"External System\": [],\n\"System Requirements\": [\"fully control the VCR\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"an RS-170A video interface\", \"a Video Cassette Recorder (VCR)\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"analog imagery and overlays\"]}\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"an internal hard copy printer\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"an internal printer\"], \"Environment Object\": [\"Operator(s)\"], \"External System\": [], \"System Requirements\": [\"allow the Operator(s) to print freeze-frame video, C4I Messages, Mission Plans, FD/L information, and current map display\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"a CD drive\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"for the retrieval of Tactical Control System data\"], \"Shared Phenomena\": [\"Tactical Control System data\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"an uninterruptible power supply\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"system components\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"equipment\", \"personnel\"],\n\"External System\": [],\n\"System Requirements\": [\"eliminate as well as control potential hazards\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['MIL-STD 882C', '“System Safety Program Requirements”'], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"operator\"],\n\"External System\": [],\n\"System Requirements\": [\"sufficient cues to allow the operator to safely take-off, land and navigate under Instrument Flight Rules\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"the air vehicle\"],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"Appropriate cautions and warnings\"],\n\"Shared Phenomena\": [\"unsafe flight regime\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"terrain avoidance warning\", \"minimum reception altitude calculations for line of sight flights\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [\"the UAV system\"],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"provide the operator a cautions and warnings when the UAV system has identified a malfunction\"],\n\"Shared Phenomena\": [\"a malfunction\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\", \"other aircraft\"],\n\"External System\": [],\n\"System Requirements\": [\"provide the required information to allow the operator to maintain safe separation from other aircraft and a safe altitude in civilian airspace per Federal Aviation Administration (FAA) rules\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"hardware\"],\n\"Environment Object\": [\"air vehicle\"],\n\"External System\": [],\n\"System Requirements\": [\"no single hardware failure results in an unsafe command to be transmitted to the air vehicle\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"air vehicle\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"no single software error results in an unsafe command to be transmitted to the air vehicle\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"air vehicle\"],\n\"External System\": [],\n\"System Requirements\": [\"restoring power in sufficient time to avoid loss of air vehicle control during power outages\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [\"the air vehicle\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to reestablish communications with the air vehicle\"],\n\"Shared Phenomena\": [\"loss of link\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [\"Tactical Control System operators\", \"maintenance personnel\"], \"External System\": [], \"System Requirements\": [\"protection against injury\"], \"Shared Phenomena\": []}\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Risk levels and a program to manage the probability and severity of hazards\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\", \"Automated Information System (AIS)\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': ['Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['DoD Directive 5200.28(D), “Security Requirements for Automated Information Systems”'], 'System Requirements': ['meet security requirements'], 'Shared Phenomena': []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['the Designated Approving Authority'], 'System Requirements': ['accredited by the Designated Approving Authority prior to processing classified as well as sensitive unclassified data'], 'Shared Phenomena': ['classified data', 'sensitive unclassified data']}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"a risk index\", \"the minimum security requirements\"],\n\"Shared Phenomena\": [\"risk assessment procedures\", \"DoD 5200.28(D)\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"Tactical Control System users\"],\n\"External System\": [],\n\"System Requirements\": [\"clearance or authorization of the Tactical Control System users\", \"sensitivities of the data that the Tactical Control System processes, stores or transfers\"],\n\"Shared Phenomena\": [\"clearance\", \"authorization\", \"sensitivities\", \"data\"]\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"air vehicles\", \"payloads\"],\n\"Environment Object\": [],\n\"External System\": [\"C4I systems\"],\n\"System Requirements\": [\"to determine the data sensitivities\"],\n\"Shared Phenomena\": [\"data sensitivities\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Links that provide communications between the Tactical Control System and other systems shall be secured in a manner appropriate for the sensitivities of the material passed through such links, in accordance with DoD Directive C-5200.5, “Communication Security (COMSEC)” dated 21 April 1990\"],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to protect its communication and data links against enemy Electronic Warfare (EW) threats, physical anti-radiation weaponry and physical destruction\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"hardware\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"physically protected\", \"prevent intentional as well as unintentional disclosure, destruction, and modification\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"All Tactical Control System users, operators, maintainers and other personnel\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"data\"]\n}\n```\n"
+  },
+  {
+    "predict": " {\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Additional local site procedures shall be developed to prevent the intentional or unintentional disclosure of sensitive information to unauthorized individuals\"],\n\"Shared Phenomena\": []\n} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"A training program\", \"personnel\"],\n\"External System\": [],\n\"System Requirements\": [\"an initial security training and awareness briefing covering AIS security in general but also tailored to the Tactical Control System\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"land-based shelter\", \"shipboard environments\"],\n\"External System\": [],\n\"System Requirements\": [\"capable of operation within environments specified in the System/Subsystem Design Document\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"Tactical Control System hardware\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"mounted\", \"ruggedized to withstand inter and intra theater movement\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System hardware\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"receive, process, and disseminate video and telemetry data from the AV and payload\", \"perform mission planning\", \"monitor and control the payload\", \"monitor and control the AV\", \"monitor and control the data links\"],\n\"Shared Phenomena\": [\"video and telemetry data\", \"mission planning\", \"payload\", \"AV\", \"data links\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"The hardware of the Tactical Control System\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"being scaled\", \"being modular to meet the varying needs of the Services\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{'Software System': ['The Tactical Control System hardware'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\", \"OUTRIDER system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"full independent computer redundancy\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"sufficient throughput to support the processing requirements of the selected data link\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"capable of adding additional storage without major hardware reconfiguration\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System computer system\"], \"Physical Device\": [\"CD-ROM drive\"], \"Environment Object\": [], \"External System\": [\"National Imagery and Mapping Agency (NIMA)\", \"CD-ROM Digital Terrain Elevation Data (DTED)\", \"Digital Feature Analysis Data (DFAD)\"], \"System Requirements\": [], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"electrical power sources\", \"ground mobile\", \"airborne\", \"shipboard\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"restoring power in sufficient time to avoid loss of critical mission data and loss of air vehicle control during power outages\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [\"an uninterrupted power supply\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"uninterrupted power supply for critical phases (landing and takeoff as a minimum) of mission execution\"], \"Shared Phenomena\": []}\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"providing a 50% spare memory storage capacity over delivered storage used\"], \"Shared Phenomena\": [\"memory storage capacity\"]}\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['a 75% spare memory storage capacity over storage used'], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"The Tactical Control System software\"],\n\"Physical Device\": [\"AV\", \"payload\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"receive, process, and disseminate video and telemetry data\", \"perform mission planning\", \"monitor and control the payload\", \"monitor and control the AV\", \"monitor and control the data links\"],\n\"Shared Phenomena\": [\"video and telemetry data\"]\n}\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': ['Defense Information Infrastructure/Common Operating Environment', 'Assistant Secretary of Defense for Command, Control, Communications, and Intelligence (ASD(C3I)) Joint Technical Architecture (JTA)'], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': ['the computer'], 'Environment Object': [], 'External System': ['the database'], 'System Requirements': [], 'Shared Phenomena': ['the language', 'the architecture', 'interoperability']}"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['auto-search', 'automatic target tracking']}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System core software\"],\n\"Physical Device\": [\"Outrider UAVs\", \"Predator UAVs\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"level one through level five interaction\", \"establish the architecture for future tactical UAVs\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System software\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"a variety of computer operating systems\"],\n\"System Requirements\": [\"being hosted\", \"capable of being hosted\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System’s operating system\", \"executable software\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"re-programmable without hardware disassembly\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\n\"the operational software\",\n\"Training software\"\n],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Training software\", \"the system operator\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provides the computer based training functionality\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System software\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"operator(s)\"],\n\"External System\": [],\n\"System Requirements\": [\"restrict the operator(s) from exercising levels of interaction not achievable by the system\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System software\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"UAV operator\", \"UAVs\", \"UAV payloads\"],\n\"External System\": [],\n\"System Requirements\": [\"a high-resolution, computer-generated graphical user interface\", \"to control different types of UAVs as well as UAV payloads with minimal additional training\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"Each control console\"],\n\"Environment Object\": [\"the aircraft\", \"Tactical Control System\", \"the map\"],\n\"External System\": [],\n\"System Requirements\": [\"to provide the aircraft position\", \"Tactical Control System position\", \"flight path\", \"waypoint graphics\"],\n\"Shared Phenomena\": [\"aircraft position\", \"Tactical Control System position\", \"flight path\", \"waypoint graphics\", \"map\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"Each control console\"],\n\"Environment Object\": [\"aircraft\", \"payload\", \"video\"],\n\"External System\": [],\n\"System Requirements\": [\"provides aircraft flight data or payload data\", \"downlinked video\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"Each control console\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"graphic presentations of downlinked telemetry data\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"workstation software\"],\n\"Physical Device\": [\"Each control console\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"display windows\", \"interface menus\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"operator controls\", \"displays\"],\n\"Environment Object\": [\"the 5th percentile female\", \"the 95th percentile male operator\"],\n\"External System\": [],\n\"System Requirements\": [\"ergonomically designed operator controls and displays\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"air vehicle\", \"payload\", \"operators\", \"cold weather clothing\"],\n\"External System\": [],\n\"System Requirements\": [\"mission control\", \"mission monitoring\", \"mission updates and modifications\"],\n\"Shared Phenomena\": [\"Mission Oriented Protective Posture\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Tactical Control System\", \"Tactical Control System system\"], \"Physical Device\": [], \"Environment Object\": [\"the operator\"], \"External System\": [], \"System Requirements\": [\"provide the operator a caution and warning diagnostic\"], \"Shared Phenomena\": [\"a malfunction\"]}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"monitor(s)\"],\n\"Environment Object\": [\"direct sunlight\", \"low light level environments\"],\n\"External System\": [],\n\"System Requirements\": [\"allow reading of displays\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System HCI\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"a Graphical User Interface (GUI) based on X-windows and Motif\"]\n}\n```"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"given appropriate warning messages\"],\n\"Shared Phenomena\": [\"warning messages\"]\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"color coded and flashed based on mission criticality\"],\n\"Shared Phenomena\": [\"Warning messages\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\", \"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"The Tactical Control System operator\", \"AV\", \"Payload\", \"ADT\", \"GDT\"],\n\"External System\": [],\n\"System Requirements\": [\"enter an acknowledgment prior to disabling the display of critical warning flags\", \"disabling the display of critical warning flags\"],\n\"Shared Phenomena\": [\"critical warning flags\", \"faults\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"A Tactical Control System\", \"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"operator\"],\n\"External System\": [],\n\"System Requirements\": [\"alert the Tactical Control System operator to situations which may require operator response\"],\n\"Shared Phenomena\": [\"visual and auditory outputs\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"Tactical Control System\", \"a displayed message box\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the Tactical Control System operator\"],\n\"External System\": [],\n\"System Requirements\": [\"Visual alerts\", \"a display priority greater than other existing windows\"],\n\"Shared Phenomena\": [\"a displayed message box\"]\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"easily adjustable\", \"important mission data is not obscured\"],\n\"Shared Phenomena\": [\"displayed message window\", \"position\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [\"alert messages\", \"tones\"],\n\"Environment Object\": [\"Tactical Control System operator\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': ['keyboard', 'trackball', 'operator’s ear'], 'Environment Object': ['operator'], 'External System': [], 'System Requirements': ['adjustable by the operator', 'at least 20dB above the speech interference level'], 'Shared Phenomena': ['volume', 'auditory tones']}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"archived for later review\"],\n\"Shared Phenomena\": [\"Tactical Control System warning messages\", \"HCI actions\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"operator\"],\n\"External System\": [],\n\"System Requirements\": [\"error checked\", \"any erroneous operator entry will not cause current processing to terminate\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": " {'Software System': ['The HCI'], 'Physical Device': [], 'Environment Object': ['the operator'], 'External System': [], 'System Requirements': ['a valid input'], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [\"the operator\"], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"Display jitter and flicker\"]}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"appropriate task analysis and function allocation\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Human Computer Interface (HCI)\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"Tactical Control System HCI Specification\", \"Tactical Control System 108\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the HCI\", \"Tactical Control System\"],\n\"Physical Device\": [\"HCI input device\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"redundancy in all operations\", \"loss of any one HCI input device does not prohibit operation of any Tactical Control System function\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"any available monitor\", \"Tactical Control System workstation\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"display all HCI elements\"],\n\"Shared Phenomena\": [\"HCI elements\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"a window\", \"a window\", \"a video window\", \"a map screen\", \"a map screen\", \"a video screen\"],\n\"External System\": [],\n\"System Requirements\": [\"to display a window within a window format\", \"to display a video window overlaid on a map screen\", \"to display a map screen overlaid on a video screen\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"keyset\", \"X/Y control device\", \"trackball\", \"mouse\", \"joystick\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"full complementary control operations\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"pointing device\"],\n\"Environment Object\": [],\n\"External System\": [\"the DII Style Manager\"],\n\"System Requirements\": [\"provide access\", \"to modify pointing device characteristics\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{'Software System': [], 'Physical Device': [], 'Environment Object': ['operator'], 'External System': [], 'System Requirements': ['provide the functionality to have a maximum delay time of 1 second from operator command to system acknowledgement and response'], 'Shared Phenomena': ['operator command', 'system acknowledgement and response']} \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"an off-the-shelf, complex control joystick\", \"multiple toggle and multi-position switches\", \"the Tactical Control System hardware suite\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"a capability for porting\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['to convey information', 'such as system status, C4I links, and AV-GDT links'], 'Shared Phenomena': ['graphical representations', 'system status', 'C4I links', 'AV-GDT links']}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the Tactical Control System operator\"],\n\"External System\": [],\n\"System Requirements\": [\"maximum automated system software support to system status monitoring and alerting\", \"when a preset system parameter goes under as well as over a set threshold\"],\n\"Shared Phenomena\": [\"system parameter\", \"a set threshold\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " {'Software System': ['The Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['minimize alphanumeric data display in favor of graphic, pictorial information display'], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System HCI\", \"The Tactical Control System\"],\n\"Physical Device\": [\"two AVs\", \"their payloads\", \"a single Tactical Control System station\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"unambiguous AV and payload control and status feedback indicators\", \"safe, efficient operations\"],\n\"Shared Phenomena\": [\"AV control\", \"payload control\", \"status feedback indicators\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System\"],\n\"Physical Device\": [\"UAVs\"],\n\"Environment Object\": [\"the Tactical Control System operator\"],\n\"External System\": [],\n\"System Requirements\": [\"provide for a specific icon shape on a constant contrast background\", \"cue the Tactical Control System operator regarding which UAVs are under his or her primary control\"],\n\"Shared Phenomena\": [\"icon shape\", \"constant contrast background\", \"visual information coding mechanisms\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System HCI\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"an object\", \"a map\", \"payload screen\"],\n\"External System\": [],\n\"System Requirements\": [\"to select and amplify an object\", \"to point on a map\", \"to amplify an object\", \"to display payload screen\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System HCI\"],\n\"Physical Device\": [\"the payload\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"coarse and fine payload control capabilities\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [ \"The Tactical Control System HCI\" ],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [ \"to select and efficiently move as well as reorient a previously defined SAR imaging swath\" ],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System HCI\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"payload imagery window\"],\n\"External System\": [],\n\"System Requirements\": [\"to lock onto and hold a coordinate point\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System HCI\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"waypoints\", \"Launch and Recovery Point (LRP)\", \"any selected point on the AV flight path\"],\n\"External System\": [],\n\"System Requirements\": [\"to display operator definable “Lock Out” zones\"],\n\"Shared Phenomena\": [\"Lock Out zones\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['The Tactical Control System HCI'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['provide for separation, grouping, and visual coding of multiple categories of alerts'], 'Shared Phenomena': ['Warnings', 'Cautions', 'Advisories']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"Tactical Control System HCI\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the operator\"],\n\"External System\": [],\n\"System Requirements\": [\"provide a default selection\", \"an override option\", \"a selection of adaptive responses\", \"the minimum information necessary to assist the operator in responding quickly and adaptively to the emergency\"],\n\"Shared Phenomena\": [\"AV safety\", \"mission-critical Warnings\", \"emergency\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System HCI\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide for on-screen information\", \"to include overlays, headers, cursors, alphanumeric annotation, waypoints, crosshairs\"],\n\"Shared Phenomena\": [\"overlays\", \"headers\", \"cursors\", \"alphanumeric annotation\", \"waypoints\", \"crosshairs\", \"map and payload video backgrounds\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Tactical Control System HCI\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"continuously-available, on-screen control functions\", \"print\", \"freeze\", \"declassification\", \"mark VCR\", \"declutter\", \"cease RF transmission\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': ['The Tactical Control System HCI'], 'Physical Device': [], 'Environment Object': ['the payload screen', 'the map screen'], 'External System': [], 'System Requirements': ['to automatically designate target locations'], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  }
+]

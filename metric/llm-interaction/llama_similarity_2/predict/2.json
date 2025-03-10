@@ -1,0 +1,1757 @@
+[
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the EVLA Correlator Monitor and Control System",
+          "the end user"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System",
+          "the physical link"
+        ],
+        [
+          "the WIDAR Correlator hardware",
+          "the physical link"
+        ],
+        [
+          "the VLA Expansion Project monitor and control system",
+          "the physical link"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Correlator Monitor and Control System",
+          "the VLA Expansion Project monitor and control system"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the correlator",
+          "Shared Phenomena"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System",
+          "configuration information"
+        ],
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "configuration information"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Correlator Monitor and Control System",
+          "configuration information"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "The Correlator Monitor and Control System",
+          "configuration information"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System",
+          "dynamic control data"
+        ],
+        [
+          "The Correlator Monitor and Control System",
+          "monitor data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "transfer dynamic control data",
+          "dynamic control data"
+        ],
+        [
+          "transfer dynamic control data",
+          "monitor data"
+        ],
+        [
+          "monitor data",
+          "dynamic control data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System",
+          "recover from hardware and computing system faults"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Correlator Monitor and Control System",
+          "monitor correlator and correlator subsystem health"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System",
+          "limited amounts of real-time data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Correlator Monitor and Control System",
+          "to collect and display auto correlation products"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the Correlator Monitor and Control System",
+          "the EVLA Correlator Monitor and Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Correlator Monitor and Control System",
+          "correlator configuration"
+        ],
+        [
+          "Correlator Monitor and Control System",
+          "real time monitor/control"
+        ],
+        [
+          "Correlator Monitor and Control System",
+          "hardware testing/servicing"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System",
+          "VLA Expansion Project Monitor and Control Structure"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Correlator Monitor and Control System",
+          "VLA Expansion Project Structure"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System",
+          "the VLA Expansion Project environment"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the correlator",
+          "The Correlator Monitor and Control System"
+        ],
+        [
+          "one computer system",
+          "the correlator"
+        ],
+        [
+          "the Virtual Correlator Interface",
+          "the correlator"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the correlator hardware systems",
+          "The Master"
+        ],
+        [
+          "the correlator hardware systems",
+          "the monitor or control interface"
+        ],
+        [
+          "the correlator hardware systems",
+          "the slaves"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the correlator hardware systems",
+          "The Master"
+        ],
+        [
+          "the correlator hardware systems",
+          "the monitor or control interface"
+        ],
+        [
+          "the correlator hardware systems",
+          "the slaves"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the slave layer",
+          "the real-time computing"
+        ],
+        [
+          "the master layer",
+          "the quasi real-time, network-chaotic"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the slave layer",
+          "the real-time computing"
+        ],
+        [
+          "the master layer",
+          "the quasi real-time, network-chaotic"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "all correlator system states",
+          "The Correlator monitor subsystem"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Monitor and Control System supervisor system state",
+          "The Correlator monitor subsystem"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Error and status messages",
+          "upper system"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "Correlator configurations"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "Correlator configurations"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the correlator",
+          "hardware configuration tables"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the correlator hardware",
+          "to satisfy the configuration"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "the correlator hardware",
+          "hardware configuration tables"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Virtual Correlator Interface",
+          "The Virtual Correlator Interface"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a secondary virtual network",
+          "Specific data sets"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Backend Data Processing System",
+          "Specific data sets required by the Backend Data Processing System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Ancillary monitor data",
+          "system health"
+        ],
+        [
+          "Ancillary monitor data",
+          "error messages"
+        ],
+        [
+          "Ancillary monitor data",
+          "configuration echoes"
+        ],
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "Ancillary monitor data"
+        ],
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "system health"
+        ],
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "error messages"
+        ],
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "configuration echoes"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "not result in loss of monitor data"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Master Correlator Control Computer",
+          "models"
+        ],
+        [
+          "The Master Correlator Control Computer",
+          "time standards"
+        ],
+        [
+          "The Master Correlator Control Computer",
+          "fiber-link phase corrections"
+        ],
+        [
+          "The Master Correlator Control Computer",
+          "control data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a CMIB subsystem",
+          "reboot requests"
+        ],
+        [
+          "a CMIB subsystem",
+          "self-heal attempts"
+        ],
+        [
+          "a CMIB subsystem",
+          "an alert notice"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The CMIB subsystem",
+          "the current operational environment"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Monitor and Control System",
+          "Correlator Monitor and Control System state information"
+        ],
+        [
+          "Monitor and Control System",
+          "primary and secondary Master Correlator Control Computer systems"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "hard failure in the primary node can be corrected",
+          "Monitor and Control System"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "hard failure in the primary node can be corrected",
+          "primary and secondary Master Correlator Control Computer systems"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Watchdog processes",
+          "Correlator Power Control Computer health"
+        ],
+        [
+          "the Master Correlator Control Computer",
+          "Correlator Power Control Computer health"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "external system",
+          "actions"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Software tools",
+          "system wide configuration"
+        ],
+        [
+          "Software tools",
+          "a low level CMIB command system wide configuration"
+        ],
+        [
+          "Software tools",
+          "a low level CMIB command line instruction"
+        ],
+        [
+          "the user",
+          "system wide configuration"
+        ],
+        [
+          "the user",
+          "a low level CMIB command line instruction"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Monitor and Control System",
+          "status and error messages"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "status and error messages",
+          "status and error messages"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "individual CMIB layer devices",
+          "Engineers"
+        ],
+        [
+          "individual CMIB layer devices",
+          "technicians"
+        ],
+        [
+          "individual CMIB layer devices",
+          "tools"
+        ],
+        [
+          "a specific hot-swappable subsystem",
+          "Engineers"
+        ],
+        [
+          "a specific hot-swappable subsystem",
+          "technicians"
+        ],
+        [
+          "a specific hot-swappable subsystem",
+          "tools"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "tools",
+          "inspect and monitor individual CMIB layer devices"
+        ],
+        [
+          "a specific hot-swappable subsystem",
+          "fault trace"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "These individuals",
+          "functioning properly."
+        ],
+        [
+          "the EVLA Correlator Monitor and Control System",
+          "functioning properly."
+        ]
+      ],
+      "requirements reference": [
+        [
+          "These individuals",
+          "to ensure that it is functioning properly."
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The software developer",
+          "remote access"
+        ],
+        [
+          "the EVLA Correlator Monitor and Control System",
+          "remote access"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The software developer",
+          "troubleshooting"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Correlator Monitor and Control",
+          "Astronomical data path"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "Functionality needs",
+          "the stability of the Functionality"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "Functionality needs",
+          "the stability of the Functionality"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Correlator",
+          "configuration data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "all auxiliary data",
+          "real time update of correlator parameters"
+        ],
+        [
+          "the VLA Expansion Project Monitor and Control System",
+          "real time update of correlator parameters"
+        ],
+        [
+          "dedicated servers",
+          "real time update of correlator parameters"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the backend data processing",
+          "data rates"
+        ],
+        [
+          "VLA Expansion Project Monitor and Control System",
+          "data rates"
+        ],
+        [
+          "the Correlator Monitor and Control System",
+          "data rates"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "Network switches",
+          "distribute traffic within a correlator rack"
+        ],
+        [
+          "Network switches",
+          "significantly reduce overall network wiring complexity"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Master Correlator Control Computer",
+          "a redundant communication path"
+        ],
+        [
+          "Correlator Power Control Computer",
+          "a redundant communication path"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Master Correlator Control Computer",
+          "to provide for remote reboot"
+        ],
+        [
+          "Correlator Power Control Computer",
+          "to provide for remote reboot"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the Master Correlator Control Computer-VLA Expansion Project Monitor and Control System",
+          "to protect the Master Correlator Control Computer from unauthorized access"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CMIB daughter board",
+          "the PCI"
+        ],
+        [
+          "the correlator carrier boards",
+          "the PCI"
+        ],
+        [
+          "The CMIB daughter board",
+          "ISA busses"
+        ],
+        [
+          "the correlator carrier boards",
+          "ISA busses"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CMIB",
+          "a 16-bit identifier"
+        ],
+        [
+          "the host correlator board.",
+          "a 16-bit identifier"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "The CMIB",
+          "the contents of all writeable hardware control registers where meaningful"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CMIB",
+          "an external command"
+        ],
+        [
+          "The CMIB",
+          "hardware"
+        ],
+        [
+          "The CMIB",
+          "the Master Correlator Control Computer"
+        ],
+        [
+          "The CMIB",
+          "to force a hardware warm boot"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CMIB",
+          "to force a hardware warm boot"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The UPS devices",
+          "signal"
+        ],
+        [
+          "signal",
+          "time remaining on backup power"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The UPS devices",
+          "the Correlator Monitor and Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Each computer system",
+          "watchdog timer"
+        ],
+        [
+          "watchdog timer",
+          "reboot the EVLA Correlator Monitor and Control System"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Each computer system",
+          "reboot the EVLA Correlator Monitor and Control System"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "self-healing",
+          "This computer"
+        ],
+        [
+          "self-healing",
+          "CPU device"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Master Correlator Control Computer",
+          "disk"
+        ],
+        [
+          "The Master Correlator Control Computer",
+          "file system facilities"
+        ],
+        [
+          "disk",
+          "file system facilities"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Master Correlator Control Computer",
+          "boot and run in a stand-alone configuration"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Power Control Computer",
+          "external hardware status signals"
+        ],
+        [
+          "The Correlator Power Control Computer",
+          "a COTS operating system"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "self-healing",
+          "This computer"
+        ],
+        [
+          "self-healing",
+          "CPU device"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "disk",
+          "The Correlator Power Control Computer"
+        ],
+        [
+          "file system facilities",
+          "The Correlator Power Control Computer"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "disk",
+          "the EVLA Correlator Monitor and Control System"
+        ],
+        [
+          "file system facilities",
+          "the EVLA Correlator Monitor and Control System"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "disk",
+          "the EVLA Correlator Monitor and Control System"
+        ],
+        [
+          "file system facilities",
+          "the EVLA Correlator Monitor and Control System"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System processors",
+          "all data processing deadlines"
+        ],
+        [
+          "The Correlator Monitor and Control System processors",
+          "anticipated future requirements"
+        ],
+        [
+          "The Correlator Monitor and Control System processors",
+          "correlator hardware inputs"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "The Correlator Monitor and Control System processors",
+          "to avoid data loss, corruption or overflows"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "error",
+          "the Master Correlator Control Computer layer"
+        ],
+        [
+          "debug messages",
+          "the Master Correlator Control Computer layer"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "messages",
+          "UTC"
+        ],
+        [
+          "messages",
+          "wall clock time stamp information appropriate for the message type"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "an authorized user",
+          "access to all messaging,"
+        ],
+        [
+          "an authorized user",
+          "monitor, and control traffic"
+        ],
+        [
+          "access to all messaging,",
+          "monitor, and control traffic"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Software",
+          "access to all messaging,"
+        ],
+        [
+          "Software",
+          "monitor, and control traffic"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "This software",
+          "the correlator"
+        ],
+        [
+          "This software",
+          "the VLA Expansion Project Monitor and Control System system"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Graphical User Interface",
+          "Correlator Monitor and Control System test software"
+        ],
+        [
+          "Graphical User Interface",
+          "Correlator Monitor and Control System"
+        ],
+        [
+          "Correlator Monitor and Control System test software",
+          "Correlator Monitor and Control System"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Correlator Monitor and Control System",
+          "self-monitoring"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "self-monitoring",
+          "self-monitoring"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The EVLA Correlator Monitor and Control System",
+          "sit at idle"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The EVLA Correlator Monitor and Control System",
+          "resume operations with minimal delay"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "customer support"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "complete diagnostic package"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Development",
+          "testing and maintenance personnel"
+        ],
+        [
+          "Development",
+          "the EVLA Correlator Monitor and Control System"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "All users",
+          "unique identification"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The administrator",
+          "the EVLA Correlator Monitor and Control System"
+        ],
+        [
+          "a new user",
+          "the EVLA Correlator Monitor and Control System"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "create and add a new user",
+          "The administrator"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The administrator",
+          "remove a user"
+        ],
+        [
+          "a user",
+          "remove a user"
+        ],
+        [
+          "the EVLA Correlator Monitor and Control System",
+          "remove a user"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The administrator",
+          "to edit a user’s system access properties"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The administrator",
+          "block all access"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The administrator",
+          "all users"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  }
+]

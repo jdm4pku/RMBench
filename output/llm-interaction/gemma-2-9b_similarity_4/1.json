@@ -1,0 +1,344 @@
+[
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [['the Center', 'a DMS']], 'requirements reference': [], 'requirements constraint': [['device control command', 'a DMS']]}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [[\"the Center\", \"a LCS\"]],\n\"requirements reference\": [[\"To support LCS control in other centers\", \"device control command\"], [\"To support LCS control in other centers\", \"network identifier\"], [\"To support LCS control in other centers\", \"LCS identifier\"], [\"To support LCS control in other centers\", \"username\"], [\"To support LCS control in other centers\", \"Password\"]],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n## Expected Output\n```json\n{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['the Center', 'CCTV control request, network identifier, CCTV identifier, username, Password']]}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [[\"the Center\", \"a HAR\"]],\n\"requirements reference\": [[\"To support HAR control in other centers\", \"device control command\"], [\"To support HAR control in other centers\", \"network identifier\"], [\"To support HAR control in other centers\", \"HAR identifier\"], [\"To support HAR control in other centers\", \"username\"], [\"To support HAR control in other centers\", \"password\"], [\"To support HAR control in other centers\", \"message\"]],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [['the Center', 'device control command'], ['the Center', 'network identifier'], ['the Center', 'school zone identifier'], ['the Center', 'username'], ['the Center', 'password'], ['the Center', 'plan']], 'requirements reference': [], 'requirements constraint': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The map user\", \"the current magnification\"], [\"the map\", \"the current magnification\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [['The map', 'displaying the following']], 'requirements reference': [], 'requirements constraint': []}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  }
+]

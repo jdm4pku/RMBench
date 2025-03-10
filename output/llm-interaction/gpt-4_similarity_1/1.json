@@ -1,0 +1,344 @@
+[
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [{\"Software System\": \"the Center-to-Center (C2C) Communications Network\", \"External System\": \"a Texas Department of Transportation (TxDOT) C2C project\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The TxDOT Center-to-Center project\", \"the DFW TxDOT Traffic Management Centers (TMCs)\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"This Center-to-Center infrastructure\", \"traffic data\"], [\"This Center-to-Center infrastructure\", \"device control information\"], [\"TMCs\", \"device control information\"]], \"Requirements Reference\": [[\"to exchange device control information between TMCs\", \"This Center-to-Center infrastructure\"], [\"to exchange device control information between TMCs\", \"TMCs\"], [\"to exchange device control information between TMCs\", \"device control information\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [[\"The Center-to-Center project\", \"the evolving ITS Traffic Management Data Dictionary (TMDD) standard,\"], [\"The Center-to-Center project\", \"the message sets associated with TMDD\"], [\"The Center-to-Center project\", \"other ITS Data Elements\"], [\"The Center-to-Center project\", \"Message Sets\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Center-to-Center infrastructure\", \"traffic management systems\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    {\n      \"from\": \"the Center-to-Center infrastructure\",\n      \"to\": \"the existing systems\",\n      \"type\": \"Software System to External System\"\n    }\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"these interfaces\", \"The data\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [\n    {\n      \"from\": \"System Requirements\",\n      \"to\": \"Software System\",\n      \"relation\": \"be utilized in a number of configurations is enabled by the software\"\n    },\n    {\n      \"from\": \"System Requirements\",\n      \"to\": \"Environment Object\",\n      \"relation\": \"be utilized in a number of configurations is enabled by building blocks\"\n    },\n    {\n      \"from\": \"System Requirements\",\n      \"to\": \"Shared Phenomena\",\n      \"relation\": \"be utilized in a number of configurations is configured through the configuration parameters\"\n    }\n  ],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The software\", \"“configuring” the building block of operation\"]], \"Requirements Reference\": [[\"multiple instances of a building block can be deployed\", \"The software\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"External System\": \"the “cloud”\", \"Shared Phenomena\": \"Any data\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"Systems\", \"External System\": \"the “cloud”\", \"Shared Phenomena\": \"a project defined protocol\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [\"Software System\"], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [{\"Software System\": \"the Center-to-Center project\", \"External System\": \"other ITS systems\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [['the Center', 'each roadway network']], \"Requirements Reference\": [['the Center', 'the network name'], ['the Center', 'link data information']], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"The Center\", \"Shared Phenomena\": \"the link information\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"The Center\", \"Shared Phenomena\": \"the node information\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"The Center\", \"the information about each incident\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"incident description\"], [\"The Center\", \"roadway\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Center\", \"the information about each lane closure\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"lane closure id\"], [\"The Center\", \"closure description\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"The Center\", \"External System\": \"each DMS\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the Center\", \"a DMS\"], [\"the Center\", \"device control command\"]], \"Requirements Reference\": [[\"To support DMS control in other centers\", \"the Center\"], [\"To support DMS control in other centers\", \"a DMS\"], [\"To support DMS control in other centers\", \"device control command\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [{\"Software System\": \"The Center\", \"Shared Phenomena\": \"status information\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"network identifier\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"LCS identifier,\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"LCS name\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"Location\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"Status\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the Center\", \"a LCS\"], [\"the Center\", \"device control command\"], [\"the Center\", \"network identifier\"], [\"the Center\", \"LCS identifier\"], [\"the Center\", \"username\"], [\"the Center\", \"Password\"]], \"Requirements Reference\": [[\"To support LCS control in other centers\", \"the Center\"], [\"To support LCS control in other centers\", \"a LCS\"], [\"To support LCS control in other centers\", \"device control command\"], [\"To support LCS control in other centers\", \"network identifier\"], [\"To support LCS control in other centers\", \"LCS identifier\"], [\"To support LCS control in other centers\", \"username\"], [\"To support LCS control in other centers\", \"Password\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Center\", \"each CCTV\"], [\"The Center\", \"status information\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"CCTV identifier\"], [\"The Center\", \"CCTV name\"], [\"The Center\", \"Location\"], [\"The Center\", \"Status\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"the Center\", \"CCTV control request,\"], [\"the Center\", \"network identifier\"], [\"the Center\", \"CCTV identifier\"], [\"the Center\", \"username\"], [\"the Center\", \"Password\"]], \"Requirements Reference\": [[\"the Center\", \"To support CCTV control in other centers\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"the Center\", \"Shared Phenomena\": \"network identifier\"}, {\"Software System\": \"the Center\", \"Shared Phenomena\": \"CCTV identifier\"}, {\"Software System\": \"the Center\", \"Shared Phenomena\": \"CCTV name\"}, {\"Software System\": \"the Center\", \"Shared Phenomena\": \"status\"}], \"Requirements Reference\": [{\"System Requirements\": \"To support video snapshots\", \"Software System\": \"the Center\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the Center\", \"CCTV switching command\"], [\"the Center\", \"network identifier\"], [\"the Center\", \"username\"], [\"the Center\", \"Password\"], [\"the Center\", \"video channel input identifier\"]], \"Requirements Reference\": [[\"the Center\", \"To support CCTV switching in other centers\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Center\", \"the status information\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"Ramp Meter identifier\"], [\"The Center\", \"Ramp Meter name\"], [\"The Center\", \"Location\"], [\"The Center\", \"Status\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    {\n      \"from\": \"the Center\",\n      \"to\": \"a ramp meter\",\n      \"relation\": \"support the following device control command for a ramp meter\"\n    },\n    {\n      \"from\": \"the Center\",\n      \"to\": \"device control command\",\n      \"relation\": \"support\"\n    },\n    {\n      \"from\": \"the Center\",\n      \"to\": \"network identifier\",\n      \"relation\": \"support\"\n    },\n    {\n      \"from\": \"the Center\",\n      \"to\": \"Ramp Meter identifier\",\n      \"relation\": \"support\"\n    },\n    {\n      \"from\": \"the Center\",\n      \"to\": \"username\",\n      \"relation\": \"support\"\n    },\n    {\n      \"from\": \"the Center\",\n      \"to\": \"password\",\n      \"relation\": \"support\"\n    },\n    {\n      \"from\": \"the Center\",\n      \"to\": \"plan\",\n      \"relation\": \"support\"\n    }\n  ],\n  \"Requirements Reference\": [\n    {\n      \"from\": \"To support Ramp Meter control in other centers\",\n      \"to\": \"the Center\",\n      \"relation\": \"requires\"\n    },\n    {\n      \"from\": \"To support Ramp Meter control in other centers\",\n      \"to\": \"a ramp meter\",\n      \"relation\": \"related to\"\n    },\n    {\n      \"from\": \"To support Ramp Meter control in other centers\",\n      \"to\": \"device control command\",\n      \"relation\": \"includes\"\n    },\n    {\n      \"from\": \"To support Ramp Meter control in other centers\",\n      \"to\": \"network identifier\",\n      \"relation\": \"includes\"\n    },\n    {\n      \"from\": \"To support Ramp Meter control in other centers\",\n      \"to\": \"Ramp Meter identifier\",\n      \"relation\": \"includes\"\n    },\n    {\n      \"from\": \"To support Ramp Meter control in other centers\",\n      \"to\": \"username\",\n      \"relation\": \"includes\"\n    },\n    {\n      \"from\": \"To support Ramp Meter control in other centers\",\n      \"to\": \"password\",\n      \"relation\": \"includes\"\n    },\n    {\n      \"from\": \"To support Ramp Meter control in other centers\",\n      \"to\": \"plan\",\n      \"relation\": \"includes\"\n    }\n  ],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The Center\", \"HAR\"], [\"The Center\", \"status information\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"HAR identifier\"], [\"The Center\", \"HAR name\"], [\"The Center\", \"location\"], [\"The Center\", \"status\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [['the Center', 'a HAR'], ['the Center', 'device control command'], ['the Center', 'network identifier'], ['the Center', 'HAR identifier'], ['the Center', 'username'], ['the Center', 'password'], ['the Center', 'message']], \"Requirements Reference\": [['To support HAR control in other centers', 'a HAR'], ['To support HAR control in other centers', 'device control command'], ['To support HAR control in other centers', 'network identifier'], ['To support HAR control in other centers', 'HAR identifier'], ['To support HAR control in other centers', 'username'], ['To support HAR control in other centers', 'password'], ['To support HAR control in other centers', 'message']], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    [\"The Center\", \"status information\"],\n    [\"The Center\", \"network identifier\"],\n    [\"The Center\", \"traffic signal identifier\"],\n    [\"The Center\", \"traffic signal name\"],\n    [\"The Center\", \"location\"],\n    [\"The Center\", \"status\"],\n    [\"Traffic Signal\", \"status information\"],\n    [\"Traffic Signal\", \"network identifier\"],\n    [\"Traffic Signal\", \"traffic signal identifier\"],\n    [\"Traffic Signal\", \"traffic signal name\"],\n    [\"Traffic Signal\", \"location\"],\n    [\"Traffic Signal\", \"status\"]\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the Center\", \"a Traffic Signal\"], [\"the Center\", \"device control command\"], [\"the Center\", \"network identifier\"], [\"the Center\", \"traffic signal identifier\"], [\"the Center\", \"username\"], [\"the Center\", \"password\"], [\"the Center\", \"traffic signal plan identifier\"]], \"Requirements Reference\": [[\"To support Traffic Signal control in other centers\", \"a Traffic Signal\"], [\"To support Traffic Signal control in other centers\", \"device control command\"], [\"To support Traffic Signal control in other centers\", \"network identifier\"], [\"To support Traffic Signal control in other centers\", \"traffic signal identifier\"], [\"To support Traffic Signal control in other centers\", \"username\"], [\"To support Traffic Signal control in other centers\", \"password\"], [\"To support Traffic Signal control in other centers\", \"traffic signal plan identifier\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    {\n      \"from\": \"The Center\",\n      \"to\": \"environmental sensor\",\n      \"relation\": \"supports status information about\"\n    },\n    {\n      \"from\": \"The Center\",\n      \"to\": \"environment sensor\",\n      \"relation\": \"supports status information about\"\n    },\n    {\n      \"from\": \"The Center\",\n      \"to\": \"each ESS\",\n      \"relation\": \"supports status information about\"\n    }\n  ],\n  \"Requirements Reference\": [\n    {\n      \"from\": \"The Center\",\n      \"to\": \"status information\",\n      \"relation\": \"supports\"\n    },\n    {\n      \"from\": \"The Center\",\n      \"to\": \"network identifier\",\n      \"relation\": \"supports\"\n    },\n    {\n      \"from\": \"The Center\",\n      \"to\": \"environmental sensor identifier\",\n      \"relation\": \"supports\"\n    },\n    {\n      \"from\": \"The Center\",\n      \"to\": \"environment sensor name\",\n      \"relation\": \"supports\"\n    },\n    {\n      \"from\": \"The Center\",\n      \"to\": \"type\",\n      \"relation\": \"supports\"\n    },\n    {\n      \"from\": \"The Center\",\n      \"to\": \"location\",\n      \"relation\": \"supports\"\n    },\n    {\n      \"from\": \"The Center\",\n      \"to\": \"status\",\n      \"relation\": \"supports\"\n    }\n  ],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    [\"The Center\", \"following status information\"],\n    [\"The Center\", \"network identifier\"],\n    [\"The Center\", \"HOV identifier\"],\n    [\"The Center\", \"HOV name\"],\n    [\"The Center\", \"link identifier\"],\n    [\"The Center\", \"status\"],\n    [\"The Center\", \"plan\"],\n    [\"each HOV\", \"following status information\"],\n    [\"each HOV\", \"network identifier\"],\n    [\"each HOV\", \"HOV identifier\"],\n    [\"each HOV\", \"HOV name\"],\n    [\"each HOV\", \"link identifier\"],\n    [\"each HOV\", \"status\"],\n    [\"each HOV\", \"plan\"]\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"the Center\", \"Shared Phenomena\": \"device control command\"}, {\"Software System\": \"the Center\", \"Shared Phenomena\": \"network identifier\"}, {\"Software System\": \"the Center\", \"Shared Phenomena\": \"HOV Lane identifier\"}, {\"Software System\": \"the Center\", \"Shared Phenomena\": \"username\"}, {\"Software System\": \"the Center\", \"Shared Phenomena\": \"password\"}, {\"Software System\": \"the Center\", \"Shared Phenomena\": \"lane plan\"}], \"Requirements Reference\": [{\"System Requirements\": \"To support HOV Lane control in other centers\", \"Software System\": \"the Center\"}, {\"System Requirements\": \"To support HOV Lane control in other centers\", \"Environment Object\": \"a HOV Lane\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"The Center\", \"Shared Phenomena\": \"status information\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"network identifier\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"parking lot identifier,\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"parking lot name\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"location\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"status\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    [\"The Center\", \"status information\"],\n    [\"The Center\", \"network identifier\"],\n    [\"The Center\", \"link identifier\"],\n    [\"The Center\", \"school zone identifier\"],\n    [\"The Center\", \"school zone name\"]\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the Center\", \"a School Zone\"], [\"the Center\", \"device control command\"], [\"the Center\", \"network identifier\"], [\"the Center\", \"school zone identifier\"], [\"the Center\", \"username\"], [\"the Center\", \"password\"], [\"the Center\", \"plan\"]], \"Requirements Reference\": [[\"To support School Zone control in other centers\", \"the Center\"], [\"To support School Zone control in other centers\", \"a School Zone\"], [\"To support School Zone control in other centers\", \"device control command\"], [\"To support School Zone control in other centers\", \"network identifier\"], [\"To support School Zone control in other centers\", \"school zone identifier\"], [\"To support School Zone control in other centers\", \"username\"], [\"To support School Zone control in other centers\", \"password\"], [\"To support School Zone control in other centers\", \"plan\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [[\"The Center\", \"Railroad Crossing\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [['the Center', 'a Reversible Lane']], \"Requirements Reference\": [['To support Reversible Lane control in other centers', 'a Reversible Lane']], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The Center\", \"status information\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"link identifier\"], [\"The Center\", \"dynamic lane identifier\"], [\"The Center\", \"dynamic lane name\"], [\"The Center\", \"failure state\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [['the Center', 'a Dynamic Lane']], \"Requirements Reference\": [['To support Dynamic Lane control in other centers', 'a Dynamic Lane']], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Center\", \"status information\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"link identifier\"], [\"The Center\", \"relative link location\"], [\"The Center\", \"name\"], [\"The Center\", \"location\"], [\"Bus Stop\", \"status information\"], [\"Bus Stop\", \"network identifier\"], [\"Bus Stop\", \"link identifier\"], [\"Bus Stop\", \"relative link location\"], [\"Bus Stop\", \"name\"], [\"Bus Stop\", \"location\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [{\"entity1\": \"The Center\", \"entity2\": \"Bus Location\", \"relation\": \"support\"}, {\"entity1\": \"The Center\", \"entity2\": \"status information\", \"relation\": \"support\"}, {\"entity1\": \"The Center\", \"entity2\": \"network identifier\", \"relation\": \"support\"}, {\"entity1\": \"The Center\", \"entity2\": \"link identifier\", \"relation\": \"support\"}, {\"entity1\": \"The Center\", \"entity2\": \"bus identifier\", \"relation\": \"support\"}, {\"entity1\": \"The Center\", \"entity2\": \"bus name\", \"relation\": \"support\"}, {\"entity1\": \"The Center\", \"entity2\": \"location\", \"relation\": \"support\"}, {\"entity1\": \"The Center\", \"entity2\": \"schedule adherece\", \"relation\": \"support\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Center\", \"status information\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"link identifier\"], [\"The Center\", \"commuter or light rail stop identifier\"], [\"The Center\", \"commuter or light rail stop name\"], [\"The Center\", \"location\"], [\"The Center\", \"routes\"], [\"Light/Commuter Stop\", \"status information\"], [\"Light/Commuter Stop\", \"network identifier\"], [\"Light/Commuter Stop\", \"link identifier\"], [\"Light/Commuter Stop\", \"commuter or light rail stop identifier\"], [\"Light/Commuter Stop\", \"commuter or light rail stop name\"], [\"Light/Commuter Stop\", \"location\"], [\"Light/Commuter Stop\", \"routes\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    [\"The Center\", \"status information\"],\n    [\"The Center\", \"network identifier\"],\n    [\"The Center\", \"link identifier\"],\n    [\"The Center\", \"commuter or light rail identifier\"],\n    [\"The Center\", \"commuter or light rail name\"],\n    [\"The Center\", \"location\"],\n    [\"The Center\", \"schedule adherence\"]\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Center\", \"status information\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"park and ride lot identifier\"], [\"The Center\", \"park and ride lot name\"], [\"The Center\", \"location\"], [\"The Center\", \"status\"], [\"The Center\", \"capacity\"], [\"Park and Ride Lot\", \"status information\"], [\"Park and Ride Lot\", \"network identifier\"], [\"Park and Ride Lot\", \"park and ride lot identifier\"], [\"Park and Ride Lot\", \"park and ride lot name\"], [\"Park and Ride Lot\", \"location\"], [\"Park and Ride Lot\", \"status\"], [\"Park and Ride Lot\", \"capacity\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"The Center\", \"Shared Phenomena\": \"information about network device status\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"network identifier\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"number of DMSs\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"number of LCSs\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"DMS status data\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"LCS status data\"}, {\"Software System\": \"The Center\", \"Shared Phenomena\": \"CCTV status data\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The device status requestor\", \"information for command timeframe request\"], [\"Center\", \"information for command timeframe request\"], [\"The device status requestor\", \"network identifier\"], [\"Center\", \"network identifier\"], [\"The device status requestor\", \"device type\"], [\"Center\", \"device type\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [{\"Software System\": \"Center\", \"Physical Device\": \"The device status requestor\"}], \"Requirements Reference\": [{\"Software System\": \"Center\", \"Shared Phenomena\": \"information for command timeframe request\"}, {\"Software System\": \"Center\", \"Shared Phenomena\": \"network identifier\"}, {\"Software System\": \"Center\", \"Shared Phenomena\": \"device type\"}, {\"Software System\": \"Center\", \"Shared Phenomena\": \"days commands accepted\"}, {\"Software System\": \"Center\", \"Shared Phenomena\": \"times commands accepted\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Physical Device\": \"The Data Collector\", \"Shared Phenomena\": \"TMDD data elements\"}, {\"Physical Device\": \"The Data Collector\", \"Shared Phenomena\": \"message set information\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"The Center-to-Center Project\", \"Shared Phenomena\": \"the TMDD standard\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"DATEX/ASN\", \"the TMDD message sets\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Physical Device\": \"TCP/IP\", \"Shared Phenomena\": \"the DATEX/ASN data\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"External System\": \"The Web Map application\", \"Shared Phenomena\": \"a map\"}, {\"External System\": \"an Internet WWW server\", \"Shared Phenomena\": \"a map\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The map\", \"the traffic conditions\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The map\", \"interstates and state highways\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"The basemap data\", \"GeoData warehouse\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The map user\", \"the current magnification\"], [\"the map\", \"the current magnification\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"to provide a graphical depiction of speeds\", \"the map\"], [\"to provide a graphical depiction of speeds\", \"Each link\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"A configuration file\", \"to specify specific speed values\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"The user\", \"to obtain further information about the incident\"], [\"an incident icon\", \"to obtain further information about the incident\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The map\", \"a DMS\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The map\", \"displaying the following\"], [\"displaying the following\", \"a LCS\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The map\", \"a CCTV\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Incident GUI\", \"the user\"], [\"The Incident GUI\", \"incident or lane closure information\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Incident GUI\", \"the user\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Incident GUI\", \"the user\"], [\"The Incident GUI\", \"lane closure\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"The GUI\", \"Shared Phenomena\": \"the data about an incident to be modified\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The GUI\", \"delete a previously entered incident\"], [\"a user\", \"delete a previously entered incident\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The GUI\", \"a list of previously entered lane closures\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The GUI\", \"delete a previously entered lane closure\"], [\"a user\", \"delete a previously entered lane closure\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The GUI\", \"delete a previously entered lane closure\"], [\"a user\", \"delete a previously entered lane closure\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    [\"The remote Center Control GUI\", \"a public network\"],\n    [\"The remote Center Control GUI\", \"the C-2-C software system\"],\n    [\"The remote Center Control GUI\", \"equipment requests\"]\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    {\n      \"from\": \"the GUI application\",\n      \"to\": \"the user\",\n      \"interface\": \"prompted for User name and Password\"\n    }\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": [\n    {\n      \"from\": \"System Requirements\",\n      \"to\": \"the GUI application\",\n      \"constraint\": \"initiation prompts for User name and Password\"\n    }\n  ]\n}\n```"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"an Center\", \"the user\"], [\"an Center\", \"a DMS\"], [\"the user\", \"a DMS\"], [\"the user\", \"Target DMS\"], [\"the user\", \"Message to be displayed\"], [\"the user\", \"Beacons On/Off\"], [\"a DMS\", \"Target DMS\"], [\"a DMS\", \"Message to be displayed\"], [\"a DMS\", \"Beacons On/Off\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Software System\": \"an Center\", \"Shared Phenomena\": \"a CCTV switching command\"}, {\"Software System\": \"an Center\", \"Shared Phenomena\": \"Source\"}, {\"Software System\": \"an Center\", \"Shared Phenomena\": \"Destination port\"}, {\"Environment Object\": \"the user\", \"Shared Phenomena\": \"a CCTV switching command\"}, {\"Environment Object\": \"the user\", \"Shared Phenomena\": \"Source\"}, {\"Environment Object\": \"the user\", \"Shared Phenomena\": \"Destination port\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    [\"the user\", \"a HAR\"],\n    [\"the user\", \"Target HAR\"],\n    [\"the user\", \"Text to be sent to the HAR\"]\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"an Center\", \"the user\"], [\"an Center\", \"a Traffic Signal\"], [\"the user\", \"Target Traffic Signal and Plan\"], [\"a Traffic Signal\", \"Target Traffic Signal and Plan\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"an Center\", \"the user\"], [\"an Center\", \"a HOV\"], [\"the user\", \"Target HOV and Plan\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"the user\", \"a School Zone\"], [\"the user\", \"Target School Zone and Plan\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"an Center\", \"the user\"], [\"an Center\", \"a Reversible Lane\"], [\"the user\", \"Target Reversible Lane and Plan\"], [\"a Reversible Lane\", \"Target Reversible Lane and Plan\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"an Center\", \"the user\"], [\"an Center\", \"a Dynamic Lane\"], [\"the user\", \"a Dynamic Lane\"], [\"the user\", \"Target Dynamic Lane and Plan\"], [\"a Dynamic Lane\", \"Target Dynamic Lane and Plan\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    [\"the Remote GUI\", \"each device command/control status request\"],\n    [\"the status returned from the network identifier\", \"the GUI\"]\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    {\n      \"from\": \"A DATEX/ASN runtime library\",\n      \"to\": \"any computer\",\n      \"relation\": \"is available on\"\n    }\n  ],\n  \"Requirements Reference\": [\n    {\n      \"from\": \"A DATEX/ASN runtime library\",\n      \"to\": \"the Center-to-Center project\",\n      \"relation\": \"communicating to\"\n    }\n  ],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    {\n      \"from\": \"The web server application\",\n      \"to\": \"ESRI's ARC Internet Map Server (ARC IMS) product\",\n      \"relation\": \"use\"\n    },\n    {\n      \"from\": \"ESRI's ARC Internet Map Server (ARC IMS) product\",\n      \"to\": \"map images.\",\n      \"relation\": \"creating of\"\n    }\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [{\"entity\": \"The Center-to-Center\", \"relation\": \"shall be implemented in\", \"value\": \"the C/C++ programming language\"}]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"External System\": \"The Center-to-Center web interface\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the Center-to-Center\", \"data\"], [\"the Incident GUI\", \"data\"], [\"a single data store (database)\", \"data\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  }
+]

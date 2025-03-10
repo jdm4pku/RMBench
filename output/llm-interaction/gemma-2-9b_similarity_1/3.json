@@ -1,0 +1,710 @@
+[
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(sentence, entities):\n    doc = nlp(sentence)\n    relations = {\n        'Phenomena Interface': [],\n        'requirements reference': [],\n        'requirements constraint': []\n    }\n\n    for ent in doc.ents:\n        if ent.label_ in entities:\n            for other_ent in doc.ents:\n                if other_ent.label_ in entities and ent != other_ent:\n                    # Check for simple proximity\n                    if ent.text in sentence.split() and other_ent.text in sentence.split():\n                        relations['Phenomena Interface'].append([ent.text, other_ent.text])\n\n    return relations\n\n# Example usage\nsentence = \"MINISTRY OF HOME AFFAIRS GOVERNMENT OF INDIA  \"\nentities = {\n    'Software System': [],\n    'Physical Device': [],\n    'Environment Object': [],\n    'External System': [],\n    'System Requirements': [],\n    'Shared Phenomena': []\n}\n\nrelations = extract_relations(sentence, entities)\nprint(json.dumps(relations))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:** The code starts by loading the `en_core_web_sm` spaCy model, which is pre-trained for English language processing.\n\n2. **Define `extract_relations` Function:**\n   - This function takes the input sentence and a dictionary of entities as arguments.\n   - It initializes an empty dictionary `relations` to store the extracted relations.\n\n3. **Process Sentence with spaCy:**\n   - The input sentence is processed using `nlp(sentence)`, which creates a `Doc` object containing linguistic annotations.\n\n4. **Iterate through Entities:**\n   - The code iterates through each named entity (`ent`) in the `Doc` object.\n   - If the entity's label is present in the `entities` dictionary, it means it's a relevant entity type.\n\n5. **Find Potential Relations:**\n   - For each entity, it iterates through other entities in the `Doc` object.\n   - If both entities are relevant (have labels in `entities`) and are different entities, it checks for simple proximity:\n     - If both entity texts are present in the sentence (split by spaces), it suggests a potential \"Phenomena Interface\" relation.\n\n6. **Store Relations:**\n   - If a potential relation is found, it's added to the `relations['Phenomena Interface']` list as a pair of entity texts.\n\n7. **Return Relations:**\n   - The function returns the `relations` dictionary containing the extracted relations.\n\n8. **Example Usage:**\n   - The code demonstrates how to use the `extract_relations` function with a sample sentence and entity list.\n   - The resulting relations are printed as a JSON string.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The Functional Requirements Specifications (FRS) report\",\n    \"object\": \"the first version of the CCTNS\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n[\"CCTNS V1.0\", \"IOs\"],\n[\"CCTNS V1.0\", \"citizens\"],\n[\"CCTNS V1.0\", \"room staff\"]\n],\n\"requirements reference\": [\n[\"CCTNS V1.0\", \"to focus on delivering value\"],\n[\"CCTNS V1.0\", \"records room staff and citizens\"]\n],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"Citizens\", \"complaints\"]\n],\n\"requirements reference\": [\n[\"police\", \"complaints\"],\n[\"police\", \"evidence\"],\n[\"police\", \"facts\"],\n[\"police\", \"following investigation\"],\n[\"police\", \"complaint\"]\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"police\", \"citizens\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"the CCTNS\",\n    \"object\": \"initial entries\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"the CCTNS\",\n    \"object\": \"facilitates the investigation process and introduces operational efficiencies\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"source\": \"courts\",\n    \"target\": \"police personnel\"\n  }\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\"Phenomena Interface\": [[\"constable\", \"courts\"]], \"requirements reference\": [], \"requirements constraint\": []}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"The Prosecution module of the CCTNS\", \"entries of the court interactions\"]\n],\n\"requirements reference\": [\n[\"The Prosecution module of the CCTNS\", \"to record entries of the court interactions\"]\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The Search module of the CCTNS\",\n    \"object\": \"police personnel\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The Search module of the CCTNS\",\n    \"object\": \"cases\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"the search functionality\", \"search for a particular person, type of crime, modus operandi, property etc\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"customize the results view by criminal/accused or by cases\", \"the user\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Shared Phenomena\",\n    \"relation\": \"to execute different types of queries\"\n  },\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Shared Phenomena\",\n    \"relation\": \"reporting easy\"\n  }\n],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The Citizen Interface module of the CCTNS\", \"the information\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Environment Object\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"police personnel\", \"information\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The Configuration module of the CCTNS\", \"keep the application configured\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The functional requirements for each of the modules\",\n    \"object\": \"A1 to A7\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [{\"subject\": \"The non-functional requirements\", \"object\": \"the CCTNS system\", \"relation_type\": \"requirements reference\"}], \"requirements constraint\": [{\"subject\": \"The non-functional requirements\", \"object\": \"user-friendliness\", \"relation_type\": \"requirements constraint\"}, {\"subject\": \"The non-functional requirements\", \"object\": \"performance\", \"relation_type\": \"requirements constraint\"}, {\"subject\": \"The non-functional requirements\", \"object\": \"increased user-acceptance of the application\", \"relation_type\": \"requirements constraint\"}]}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"all user interfaces\", \"detailed context-sensitive help material\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"all user\", \"all user interfaces in the application\"]\n],\n\"requirements reference\": [\n[\"detailed context-sensitive\", \"all user interfaces in the application\"]\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n\"The user\",\n\"log any defects\",\n\"enhancement requests\",\n\"track thereafter\"\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n{\n\"source\": \"alerts\",\n\"target\": \"the user\",\n\"relation_type\": \"send\"\n}\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [{\"subject\": \"The solution\", \"object\": \"track the submitted defect\", \"relation_type\": \"requirements reference\"}], \"requirements constraint\": [{\"subject\": \"The solution\", \"object\": \"enhancement request\", \"relation_type\": \"requirements constraint\"}]}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Shared Phenomena\",\n    \"relation\": \"view the reports\"\n  }\n],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"source\": \"the users\",\n    \"target\": \"a browser interface\"\n  }\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n[\"the user\", \"An audit trail\"],\n[\"the CCTNS system\", \"An audit trail\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"an unalterable audit trail\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"information about all the actions\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"an unalterable audit trail\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"information about the user initiating\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The CCTNS system\", \"information about administrative parameters\"]]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [{\"subject\": \"The word “unalterable”\", \"object\": \"the audit trail data\", \"relation\": \"requirements constraint\"}]}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the CCTNS system\", \"events\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"the audit trail\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"the life of the case\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The CCTNS system\", \"export audit trails\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"external auditors\", \"to examine or analyse system activity\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"violations\"]],\n\"requirements constraint\": [[\"The CCTNS system\", \"attempted violations\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [[\"The CCTNS system\", \"reports\"]], \"requirements reference\": [], \"requirements constraint\": [[\"The CCTNS system\", \"workstation\"], [\"The CCTNS system\", \"network address\"]]}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The requirements\", \"the CCTNS system\"]],\n\"requirements constraint\": [[\"The requirements\", \"user access to correspondences\"], [\"The requirements\", \"user access to files\"], [\"The requirements\", \"user access to records\"], [\"The requirements\", \"various functionalities provided within the CCTNS system\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [{\"subject\": \"The CCTNS system\", \"predicate\": \"must allow\", \"object\": \"limit access\", \"object_type\": \"System Requirements\", \"context\": \"user\", \"context_type\": \"Environment Object\"}]}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"role-based control\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"The CCTNS system\", \"user profiles\"],\n[\"The CCTNS system\", \"groups\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": [\n[\"The CCTNS system\", \"admin-users\"]\n]\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\"Phenomena Interface\": [[\"the CCTNS system\", \"title\"], [\"the CCTNS system\", \"metadata\"], [\"the CCTNS system\", \"requests access\"], [\"the CCTNS system\", \"the existence of a case\"]], \"requirements reference\": [], \"requirements constraint\": []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(sentence, entities, schema):\n  doc = nlp(sentence)\n  relations = {}\n\n  for relation_type in schema:\n    relations[relation_type] = []\n\n  for ent1 in entities:\n    for ent2 in entities:\n      if ent1 != ent2:\n        for token in doc:\n          if token.text in ent1 and token.text in ent2:\n            relations['Phenomena Interface'].append([ent1, ent2])\n\n  return relations\n\n# Test cases\nsentence1 = \"These options are presented in order of increasing security.\"\nentities1 = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nprint(json.dumps(extract_relations(sentence1, entities1, ['Phenomena Interface', 'requirements reference', 'requirements constraint'])))\n\nsentence2 = \"The Tactical Control System shall provide the capability to modify the maximum number of threats displayed, when de-clutter is selected.\"\nentities2 = {'Software System': ['Tactical Control System'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['the maximum number of threats displayed']}\nprint(json.dumps(extract_relations(sentence2, entities2, ['Phenomena Interface', 'requirements reference', 'requirements constraint'])))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:** The code starts by loading the `en_core_web_sm` spaCy model for English language processing.\n\n2. **`extract_relations` Function:**\n   - Takes the sentence, entities, and schema as input.\n   - Creates a `relations` dictionary to store extracted relations.\n   - Initializes the `relations` dictionary with empty lists for each relation type in the schema.\n   - Iterates through all entity pairs (`ent1`, `ent2`) to find potential relations.\n   - For each token in the sentence, it checks if the token's text matches either `ent1` or `ent2`. If a match is found, it appends the entity pair to the `Phenomena Interface` list in the `relations` dictionary.\n\n3. **Test Cases:**\n   - Two test cases are provided with example sentences and entities.\n   - The `extract_relations` function is called for each test case, and the resulting relations are printed as JSON strings.\n\n**Key Points:**\n\n- The code currently only extracts the `Phenomena Interface` relation.\n- To implement the other relation types (`requirements reference` and `requirements constraint`), you'll need to add more logic to identify them based on the sentence structure and keywords.\n- You might need to use more advanced NLP techniques like dependency parsing or named entity recognition to accurately extract these relations.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"the CCTNS system\", \"cases dealing with matters such as national security\"]],\n\"requirements constraint\": [[\"the CCTNS system\", \"cases\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n[\"a user\", \"the search result\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": [\n[\"the CCTNS system\", \"the search result\"]\n]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [[\"users\", \"cases\"]], \"requirements reference\": [], \"requirements constraint\": [[\"the CCTNS system\", \"unauthorised attempts\"], [\"the CCTNS system\", \"the audit trail\"]] }\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the CCTNS system\", \"error messages\"], [\"the users\", \"error messages\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Interface\": [{\"source\": \"The CCTNS system\", \"target\": \"user interface rules\"}], \"Requirements Reference\": [], \"Requirements Constraint\": [{\"source\": \"The CCTNS system\", \"target\": \"to provide a familiar and common look\"}]}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{'Phenomena Interface': [['The CCTNS system', 'several entity']], 'requirements reference': [], 'requirements constraint': []}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Interface\": [[\"the interfaces\", \"displayed columns in the table\"], [\"the interfaces\", \"move\"], [\"the interfaces\", \"resize\"], [\"the interfaces\", \"modify the appearance\"]],\n\"Requirements Reference\": [],\n\"Requirements Constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"predicate\": \"must be suitable for\",\n    \"object\": \"users with special needs\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"End User\",\n    \"relation_type\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"Administrator\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"easy to use and intuitive throughout\",\n    \"relation_type\": \"requirements constraint\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [[\"The CCTNS system\", \"persistent defaults\"]]}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n\"a graphical user interface\"\n],\n\"requirements reference\": [],\n\"requirements constraint\": [\n\"the CCTNS system\",\n\"users\",\n\"a graphical user interface\"\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"Standard ISO 9241\", \"the CCTNS system\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"ISO 9241-20\", \"ICT accessibility\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"requirements reference\": [{\"subject\": \"Software accessibility ISO 9241-171\", \"object\": \"software accessibility\", \"relation_type\": \"requirements reference\"}], \"requirements constraint\": [], \"Phenomena Interface\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"User interfaces\",\n    \"object\": \"its requirements and recommendations\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer:\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [{\"subject\": \"General guidance on achieving self-descriptiveness\", \"object\": \"ISO 9241-110\"}], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Alternative access paths\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"Splash screens\", \"useful content or feedback\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"a navigation option\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"Software System\",\n    \"predicate\": \"requirements constraint\",\n    \"object\": \"Shared Phenomena\",\n    \"object_value\": \"opened\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"for closing unwanted windows\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"users\", \"input devices\"],\n  [\"mobile users\", \"input devices\"],\n  [\"users with disabilities\", \"input devices\"],\n  [\"input devices\", \"links\"],\n  [\"input devices\", \"fields\"],\n  [\"input devices\", \"buttons\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n{\n\"source\": \"Shared Phenomena\",\n\"target\": \"Environment Object\",\n\"relation\": \"present\"\n}\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"Application pages\", \"acceptable opening times\"], [\"Application pages\", \"download times\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n    {\n        \"subject\": \"Minimizing user errors\",\n        \"object\": \"Potential user errors\",\n        \"relation_type\": \"requirements constraint\"\n    },\n    {\n        \"subject\": \"Minimizing user errors\",\n        \"object\": \"the effort needed to recover from errors\",\n        \"relation_type\": \"requirements constraint\"\n    }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n[\"the pages\", \"The content of error messages\"],\n[\"special error pages\", \"The content of error messages\"]\n],\n\"requirements reference\": [\n[\"resolve the error\", \"The content of error messages\"],\n[\"resolve the error\", \"actions\"]\n],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"Users\", \"error messages\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"subject\": \"the user\",\n    \"object\": \"Text\",\n    \"relation\": \"can resize\"\n  }\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"Text quality\",\n    \"object\": \"readability\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Shared Phenomena\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Shared Phenomena\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"ISO 9241-303\",\n    \"relation\": \"requirements reference\",\n    \"object\": \"screen text legibility requirements\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(text, entities):\n    doc = nlp(text)\n    relations = {\n        'Phenomena Interface': [],\n        'requirements reference': [],\n        'requirements constraint': []\n    }\n\n    for ent in doc.ents:\n        if ent.label_ in entities:\n            for token in doc:\n                if token.dep_ in [\"nsubj\", \"dobj\", \"pobj\"] and token.head.text in [\"is\", \"are\", \"presented\", \"shown\"]:\n                    relations['Phenomena Interface'].append({\n                        'subject': ent.text,\n                        'object': token.text\n                    })\n\n    return relations\n\n# Example usage\ntext = \"Within-page links are shown with dashed rather than solid underlines\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nrelations = extract_relations(text, entities)\nprint(json.dumps(relations, indent=4))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:** The code starts by loading the `en_core_web_sm` spaCy model, which is a pre-trained English language model.\n\n2. **Define `extract_relations` Function:**\n   - This function takes the input text and a dictionary of entities as arguments.\n   - It initializes an empty dictionary `relations` to store the extracted relations.\n\n3. **Process Text with spaCy:**\n   - The input text is processed using the loaded spaCy model (`doc = nlp(text)`). This creates a `Doc` object containing linguistic annotations like part-of-speech tags, dependencies, and named entities.\n\n4. **Iterate through Entities:**\n   - The code iterates through each named entity (`ent`) in the `Doc` object.\n   - If the entity's label is present in the `entities` dictionary, it means the entity is relevant to our schema.\n\n5. **Find Relations:**\n   - For each relevant entity, the code iterates through the tokens in the `Doc` object.\n   - It looks for tokens that have a dependency relationship (`dep_`) of \"nsubj\" (subject), \"dobj\" (direct object), or \"pobj\" (object of preposition) with a head token whose text is \"is\", \"are\", \"presented\", or \"shown\". These relationships often indicate a connection between the entity and another concept.\n   - If such a relationship is found, a dictionary representing the relation is added to the `relations` dictionary. The dictionary includes the entity's text as the \"subject\" and the related token's text as the \"object\".\n\n6. **Return Relations:**\n   - Finally, the `relations` dictionary, containing the extracted relations, is returned.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"the document\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"the user\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(sentence, entities):\n    doc = nlp(sentence)\n    relations = {\n        'Phenomena Interface': [],\n        'requirements reference': [],\n        'requirements constraint': []\n    }\n\n    for ent in doc.ents:\n        if ent.label_ in entities:\n            for token in doc:\n                if token.dep_ in ['nsubj', 'dobj', 'pobj'] and token.head.text in entities:\n                    relations['Phenomena Interface'].append([ent.text, token.text])\n\n    return relations\n\n# Test cases\nsentence1 = \"in the expected layout, paper format, or orientation).\"\nentities1 = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nrelations1 = extract_relations(sentence1, entities1)\nprint(json.dumps(relations1))\n\nsentence2 = \"The map shall be capable of displaying the following for a DMS.\"\nentities2 = {'Software System': [], 'Physical Device': [], 'Environment Object': ['The map', 'a DMS'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nrelations2 = extract_relations(sentence2, entities2)\nprint(json.dumps(relations2))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:** The code starts by loading the `en_core_web_sm` spaCy model for English language processing.\n\n2. **`extract_relations` Function:**\n   - Takes the input `sentence` and `entities` dictionary as arguments.\n   - Processes the sentence using `nlp(sentence)` to create a spaCy `Doc` object.\n   - Initializes a dictionary `relations` to store extracted relations.\n   - Iterates through named entities (`doc.ents`) and checks if their labels are present in the `entities` dictionary.\n   - For each identified entity, it iterates through tokens in the sentence and looks for dependencies (`dep_`) like 'nsubj' (subject), 'dobj' (direct object), or 'pobj' (object of preposition) that connect the entity to other tokens.\n   - If a dependency relationship is found, it appends a list containing the entity text and the connected token text to the `Phenomena Interface` list in the `relations` dictionary.\n\n3. **Test Cases:**\n   - Two test cases are provided with example sentences and entity lists.\n   - The `extract_relations` function is called for each test case.\n   - The resulting `relations` dictionary is converted to a JSON string using `json.dumps()` and printed.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Code\n```python\nimport json\n\ndef extract_relations(sentence, entities, schema):\n  relations = {}\n  for relation_type in schema:\n    relations[relation_type] = []\n  \n  # Placeholder for your relation extraction logic\n  # This is a very basic example and needs to be improved\n  # You can use NLP techniques like dependency parsing, named entity recognition, etc.\n  for entity in entities.values():\n    if entity:\n      for relation_type in schema:\n        if relation_type in ['Phenomena Interface', 'requirements reference', 'requirements constraint']:\n          relations[relation_type].append({'entity': entity[0], 'target': entity[0]})  \n\n  return json.dumps(relations)\n\n# Example usage\nsentence = \"Use of “white space”: “White space” on a page i.e.\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nschema = ['Interface', 'Requirements Reference', 'Requirements Constraint']\n\nrelations = extract_relations(sentence, entities, schema)\nprint(relations)\n```\n\n**Explanation:**\n\n1. **Initialization:**\n   - Create a dictionary `relations` to store the extracted relations.\n   - Initialize each relation type from the `schema` to an empty list within `relations`.\n\n2. **Placeholder Logic:**\n   - The code includes a placeholder comment indicating where your actual relation extraction logic should be implemented.\n   - The current example simply appends a relation for each entity to itself for all relation types. This is a basic example and needs to be replaced with a more sophisticated approach.\n\n3. **NLP Techniques:**\n   - You'll need to use Natural Language Processing (NLP) techniques to effectively extract relations from the sentence and entities. Some relevant techniques include:\n     - **Dependency Parsing:** Analyze the grammatical structure of the sentence to identify relationships between words.\n     - **Named Entity Recognition (NER):** Identify and classify named entities (e.g., software systems, requirements) in the sentence.\n     - **Relation Extraction:** Use machine learning models or rule-based approaches to extract specific relations between entities based on their context.\n\n4. **JSON Output:**\n   - The `json.dumps()` function converts the `relations` dictionary into a JSON string, which is the desired output format.\n\n**Remember:**\n\n- This code provides a basic framework. You'll need to implement the actual relation extraction logic using NLP techniques.\n- The `schema` definition should accurately reflect the types of relations you want to extract.\n- The `entities` dictionary should contain relevant entities identified from the sentence.\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n## Your Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(sentence, entities):\n    doc = nlp(sentence)\n\n    relations = {\n        'Phenomena Interface': [],\n        'requirements reference': [],\n        'requirements constraint': []\n    }\n\n    for ent in doc.ents:\n        if ent.label_ in entities:\n            for token in doc:\n                if token.dep_ in ['nsubj', 'dobj', 'pobj'] and token.head.text in entities:\n                    relation_type = ''\n                    if token.text in ['provide', 'shall']:\n                        relation_type = 'requirements constraint'\n                    elif token.text in ['include', 'refer']:\n                        relation_type = 'requirements reference'\n                    if relation_type:\n                        relations[relation_type].append({\n                            'subject': ent.text,\n                            'object': token.head.text\n                        })\n\n    return relations\n\n# Example usage\nsentence = \"space filled only with the background color should be used in such a way that it does not impair the visual skimming of the page.\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n\nrelations = extract_relations(sentence, entities)\nprint(json.dumps(relations, indent=4))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:**\n   - `nlp = spacy.load(\"en_core_web_sm\")` loads the small English language model from spaCy.\n\n2. **`extract_relations` Function:**\n   - Takes the `sentence` and `entities` dictionary as input.\n   - Processes the sentence with spaCy: `doc = nlp(sentence)`.\n   - Initializes an empty dictionary `relations` to store extracted relations.\n\n3. **Entity Identification:**\n   - Iterates through named entities in the `doc`: `for ent in doc.ents:`.\n   - Checks if the entity label is present in the `entities` dictionary.\n\n4. **Relation Extraction:**\n   - For each identified entity, it iterates through tokens in the sentence.\n   - Looks for tokens with dependency relations (`nsubj`, `dobj`, `pobj`) to the entity and whose head token is also an entity.\n   - Determines the relation type based on keywords like \"provide,\" \"shall\" (constraint), \"include,\" \"refer\" (reference).\n   - Appends the relation as a dictionary to the corresponding list in the `relations` dictionary.\n\n5. **Return Relations:**\n   - Returns the `relations` dictionary containing extracted relations.\n\n6. **Example Usage:**\n   - Demonstrates how to use the `extract_relations` function with a sample sentence and entities.\n   - Prints the extracted relations in JSON format.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [{\"subject\": \"System Requirements\", \"object\": \"Shared Phenomena\", \"relation\": \"requirements reference\"}], \"requirements constraint\": [{\"subject\": \"System Requirements\", \"object\": \"Environment Object\", \"relation\": \"requirements constraint\"}]}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The International Standards\",\n    \"object\": \"guidance\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [['ISO 9241-12', 'Practical guidelines for presenting information to the user']], 'requirements constraint': []}\n\n\n\n## Your Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(sentence, entities):\n    doc = nlp(sentence)\n    relations = {\n        'Phenomena Interface': [],\n        'requirements reference': [],\n        'requirements constraint': []\n    }\n\n    for ent1 in entities:\n        for ent2 in entities[ent1]:\n            for token in doc:\n                if token.text in ent2 and token.dep_ in ['nsubj', 'dobj', 'pobj']:\n                    relations['Phenomena Interface'].append([ent1, ent2])\n                    break\n            \n    # Requirements Reference\n    for ent1 in entities:\n        for ent2 in entities[ent1]:\n            for token in doc:\n                if token.text in ent2 and token.dep_ in ['nsubj', 'dobj', 'pobj']:\n                    relations['requirements reference'].append([ent1, ent2])\n                    break\n    \n    return relations\n\n# Example usage\nsentence = \"Practical guidelines for presenting information to the user are to be found in ISO 9241-12.\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nrelations = extract_relations(sentence, entities)\nprint(json.dumps(relations, indent=4))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:**\n   - `nlp = spacy.load(\"en_core_web_sm\")` loads the small English language model from spaCy.\n\n2. **`extract_relations` Function:**\n   - Takes the `sentence` and `entities` dictionary as input.\n   - Creates a `relations` dictionary to store the extracted relations.\n   - Processes the sentence with spaCy: `doc = nlp(sentence)`.\n\n3. **Phenomena Interface Extraction:**\n   - Iterates through each entity type (`ent1`) and its corresponding entities (`ent2`).\n   - For each entity pair, it iterates through the tokens in the processed sentence (`doc`).\n   - If a token is part of the entity (`token.text in ent2`) and has a dependency relationship (`token.dep_`) indicating a subject (`nsubj`), direct object (`dobj`), or prepositional object (`pobj`), it adds the entity pair to the `Phenomena Interface` list.\n\n4. **Requirements Reference Extraction:**\n   - Similar to the `Phenomena Interface` extraction, but it adds the entity pair to the `requirements reference` list.\n\n5. **Return Relations:**\n   - Returns the `relations` dictionary containing the extracted relations.\n\n6. **Example Usage:**\n   - Provides an example sentence and entities.\n   - Calls the `extract_relations` function to get the relations.\n   - Prints the relations in JSON format using `json.dumps`.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  [\n    \"ISO 9241-14\",\n    \"Guidance on selecting and using different forms of interaction techniques\"\n  ],\n  [\n    \"ISO 9241-17\",\n    \"Guidance on selecting and using different forms of interaction techniques\"\n  ]\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [{\"subject\": \"System Requirements\", \"object\": \"ISO 14915-1 to ISO 14915-3\", \"relation_type\": \"requirements reference\"}], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"Providing a site map\", \"A separate navigation overview such as a site map\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(text, entities):\n    doc = nlp(text)\n    relations = {\n        'Interface': [],\n        'Requirements Reference': [],\n        'Requirements Constraint': []\n    }\n\n    for ent in doc.ents:\n        if ent.label_ in entities:\n            for token in doc:\n                if token.dep_ in ['nsubj', 'dobj', 'pobj'] and token.head.text in ['is', 'are', 'has', 'have']:\n                    # Check for relation types\n                    if token.text in ['interface', 'interfaces']:\n                        relations['Interface'].append((ent.text, token.text))\n                    elif token.text in ['refers to', 'references', 'constrained by']:\n                        relations['Requirements Reference'].append((ent.text, token.text))\n                    elif token.text in ['constrains', 'limited by']:\n                        relations['Requirements Constraint'].append((ent.text, token.text))\n\n    return relations\n\n# Example usage\ntext = \"highlighting) the topic currently visible in the content area.\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nrelations = extract_relations(text, entities)\nprint(json.dumps(relations, indent=4))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:** The code starts by loading the `en_core_web_sm` spaCy model for English language processing.\n\n2. **`extract_relations` Function:**\n   - Takes the input text and a dictionary of entities as arguments.\n   - Processes the text using spaCy's `nlp` object to create a `Doc` object.\n   - Initializes a dictionary `relations` to store the extracted relations.\n\n3. **Entity Identification:**\n   - Iterates through the named entities (`doc.ents`) in the processed text.\n   - If an entity's label is present in the `entities` dictionary, it proceeds to extract relations related to that entity.\n\n4. **Relation Extraction:**\n   - For each identified entity, it iterates through the tokens in the `Doc` object.\n   - It looks for tokens that have a dependency relationship (`dep_`) with the entity and are part of a verb phrase (using `token.head.text` to check for verbs like \"is\", \"are\", \"has\", \"have\").\n   - Based on the text of the token and the entity, it classifies the relation as 'Interface', 'Requirements Reference', or 'Requirements Constraint' and adds it to the `relations` dictionary.\n\n5. **Return Relations:**\n   - Returns the `relations` dictionary containing the extracted relations.\n\n6. **Example Usage:**\n   - Demonstrates how to use the `extract_relations` function with a sample text and entity list.\n   - Prints the extracted relations in JSON format.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"Placing navigation components consistently\", \"Navigation components\"], [\"Placing navigation components consistently\", \"the pages or in the framesets in the pages of the application\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"source\": \"a user interface\",\n    \"target\": \"individual users\",\n    \"relation_type\": \"Phenomena Interface\"\n  },\n  {\n    \"source\": \"a user interface\",\n    \"target\": \"user groups\",\n    \"relation_type\": \"Phenomena Interface\"\n  },\n  {\n    \"source\": \"a user interface\",\n    \"target\": \"users\",\n    \"relation_type\": \"Phenomena Interface\"\n  }\n],\n\"requirements reference\": [\n  {\n    \"source\": \"making access to relevant information more efficient\",\n    \"target\": \"users\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{\n  \"Phenomena Interface\": [],\n  \"requirements reference\": [],\n  \"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"user groups\", \"navigation structures\"],\n  [\"user groups\", \"access paths\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"It\",\n    \"predicate\": \"should be made evident to\",\n    \"object\": \"the user\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"Making user profiles evident\",\n    \"object\": \"user profiles\",\n    \"relation_type\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"Making user profiles evident\",\n    \"object\": \"user-specified profiles\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n## Your Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(sentence, entities):\n    doc = nlp(sentence)\n    relations = {\n        'Phenomena Interface': [],\n        'requirements reference': [],\n        'requirements constraint': []\n    }\n\n    for ent1 in entities:\n        for ent2 in entities[ent1]:\n            for token in doc:\n                if token.text in ent2:\n                    for child in token.children:\n                        if child.dep_ in ['nsubj', 'dobj', 'pobj']:\n                            relations['Phenomena Interface'].append([ent1, child.text])\n    return relations\n\n# Example usage\nsentence = \"If profiles are used, it is important to provide users with information about this concept and its implications.\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': ['users'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['information']}\nrelations = extract_relations(sentence, entities)\nprint(json.dumps(relations, indent=4))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:**\n   - `nlp = spacy.load(\"en_core_web_sm\")` loads a pre-trained English language model from spaCy.\n\n2. **`extract_relations` Function:**\n   - Takes the `sentence` and `entities` dictionary as input.\n   - Creates a `relations` dictionary to store the extracted relations.\n   - Processes the sentence using `doc = nlp(sentence)`.\n\n3. **Iterate through Entities:**\n   - The code iterates through each entity type (`ent1`) and its corresponding entities (`ent2`) in the `entities` dictionary.\n\n4. **Find Entity Tokens:**\n   - For each entity token (`ent2`), it searches for its occurrence in the processed sentence (`doc`).\n\n5. **Identify Relationships:**\n   - If an entity token is found, it examines its children tokens using `token.children`.\n   - It looks for children tokens with dependency relations (`dep_`) like `nsubj` (subject), `dobj` (direct object), or `pobj` (object of preposition), which often indicate relationships.\n   - If a relevant relationship is found, it adds a tuple `[ent1, child.text]` to the `'Phenomena Interface'` list in the `relations` dictionary.\n\n6. **Return Relations:**\n   - Finally, the function returns the `relations` dictionary containing the extracted relations.\n\n7. **Example Usage:**\n   - The code demonstrates how to use the `extract_relations` function with a sample sentence and entities.\n   - It prints the resulting relations in JSON format using `json.dumps`.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [['users', 'see, modify and delete that profile on demand'], ['users', 'user-specified profiles']],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Interface\": [{\"source\": \"the CCTNS system\", \"target\": \"www.usability.gov\", \"relation_type\": \"Interface\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The planned downtime for the CCTNS system\",\n    \"predicate\": \"must not exceed\",\n    \"object\": \"<xx> hours per <rolling three month period>\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"predicate\": \"is considered to be down\",\n    \"object\": \"if any user is unable to perform any normal System function and if this failure is attributed to any component of the CCTNS system other than the workstation\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"Unplanned downtime for the CCTNS system\",\n    \"predicate\": \"must not exceed\",\n    \"object\": \"<xx hours/minutes> per <rolling three month period>\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the CCTNS system\", \"<x>\"], [\"the CCTNS system\", \"<rolling three month period>\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"requirement\": \"to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds\",\n    \"constrained_phenomenon\": \"the storage capacity\"\n  },\n  {\n    \"requirement\": \"to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds\",\n    \"constrained_phenomenon\": \"number of cases\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The CCTNS system\", \"the case\"], [\"The CCTNS system\", \"storage capacity\"], [\"The CCTNS system\", \"number of cases\"]]\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"This requirement\",\n    \"object\": \"to allow for rapid retrieval of frequently-used cases\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"requirement\": \"to retrieve and display within 20 seconds the case\",\n    \"constrained_phenomena\": \"storage capacity\",\n    \"constraint_type\": \"must be able to\"\n  },\n  {\n    \"requirement\": \"to retrieve and display within 20 seconds the case\",\n    \"constrained_phenomena\": \"number of cases\",\n    \"constraint_type\": \"must be able to\"\n  }\n]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The CCTNS system\", \"small or large police stations\"], [\"The CCTNS system\", \"varying numbers of cases handled\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Code\n```python\nimport spacy\n\nnlp = spacy.load(\"en_core_web_sm\")\n\ndef extract_relations(sentence, entities, schema):\n    doc = nlp(sentence)\n    relations = {}\n\n    for relation_type in schema:\n        relations[relation_type] = []\n\n    for ent1 in entities:\n        for ent2 in entities:\n            if ent1 != ent2:\n                for token in doc:\n                    if token.text in entities[ent1] and token.dep_ in [\"nsubj\", \"dobj\"]:\n                        for token2 in doc:\n                            if token2.text in entities[ent2] and token2.dep_ in [\"nsubj\", \"dobj\"]:\n                                relations['Phenomena Interface'].append([ent1, ent2])\n\n    return relations\n\n# Example usage\nsentence = \"The proposed functional architecture is modeled around centralized deployment to facilitate ease of maintenance and leverage advancement in open standards and web technologies.\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nschema = ['Interface', 'Requirements Reference', 'Requirements Constraint']\n\nrelations = extract_relations(sentence, entities, schema)\nprint(json.dumps(relations, indent=4))\n```\n\n**Explanation:**\n\n1. **Load spaCy Model:** The code starts by loading the `en_core_web_sm` spaCy model for English language processing.\n\n2. **`extract_relations` Function:**\n   - Takes the sentence, entities, and schema as input.\n   - Processes the sentence with spaCy to create a `doc` object.\n   - Initializes an empty dictionary `relations` to store extracted relations.\n   - Iterates through the schema and creates empty lists for each relation type.\n\n3. **Entity Matching and Relation Extraction:**\n   - The code iterates through all entity pairs (`ent1`, `ent2`).\n   - For each pair, it searches for tokens in the sentence that:\n     - Belong to the entities (`ent1` and `ent2`).\n     - Have dependency relationships (`nsubj` or `dobj`) indicating a subject-verb-object structure.\n   - If such tokens are found, it appends the entity pair to the `Phenomena Interface` list in the `relations` dictionary.\n\n4. **Return Relations:**\n   - The function returns the `relations` dictionary containing extracted relations.\n\n5. **Example Usage:**\n   - The code demonstrates how to use the `extract_relations` function with a sample sentence, entities, and schema.\n   - It prints the extracted relations in JSON format.\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n[\"The customization layer\", \"core services\"],\n[\"The customization layer\", \"specific state requirements\"],\n[\"The customization layer\", \"core services\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"support multilingual interface\"]],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"operational data\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"equipment\",\n    \"relation_type\": \"requirements constraint\"\n  },\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"communication network\",\n    \"relation_type\": \"requirements constraint\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"Police Stations\",\n    \"relation_type\": \"Requirements Reference\"\n  }\n],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"object\": \"low-bandwidth\",\n    \"relation_type\": \"Requirements Constraint\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"a common User Access\"], [\"The CCTNS system\", \"Authentication Service\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The CCTNS system\", \"a 3-tier datacenter architecture\"]]\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"to provide access to the interfaces\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"browser-based systems\"]],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The CCTNS system\", \"client device\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"support multiple types of communication services for remote access\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"to support public access to a subset of data and functionality\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"support multi-tier authentication\"]],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"SSL encrypted connections\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"support secure virtual private network connections\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"HTTPS\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The CCTNS system\",\n    \"relation\": \"requirements reference\",\n    \"object\": \"run on multiple browsers\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"selective encryption\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"secure transmission of data\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]],\n\"requirements constraint\": [[\"The CCTNS system\", \"preventing cross-site scripting\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]],\n\"requirements constraint\": [[\"The CCTNS system\", \"SQL Injection\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"the incoming data\"]],\n\"Phenomena Interface\": [[\"The CCTNS system\", \"user request\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"the incoming data\"]],\n\"Phenomena Interface\": [[\"The CCTNS system\", \"user request\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"the data\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]],\n\"requirements constraint\": [[\"The CCTNS system\", \"do not allow hard delete\"], [\"The CCTNS system\", \"perform only soft tagging the row for deletion\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The CCTNS system\", \"ensure high scalability and performance\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [[\"The CCTNS system\", \"AJAX based technology\"]]}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"the static content\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"The search results\",\n    \"predicate\": \"should be fetched\",\n    \"object\": \"the database\",\n    \"constraint\": \"in batches of 10 or 20 maximum as configured within the application\"\n  }\n]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The CCTNS system\", \"records\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"fetch only the fields\", \"the user\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"subject\": \"A hierarchical cache\",\n    \"predicate\": \"should be configured and used for\",\n    \"object\": \"caching of results of most frequently used searches\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"Database Indexes\",\n    \"object\": \"key columns used for searching\",\n    \"relationType\": \"requirements constraint\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nSentence: \"The system requirements shall be constrained by the physical device capabilities.\"\n\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": [{\"subject\": \"System Requirements\", \"object\": \"Physical Device capabilities\", \"relation\": \"requirements constraint\"}]}\n```\n\n\n\nLet me know if you have any other questions.\n"
+  }
+]

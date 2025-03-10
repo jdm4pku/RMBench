@@ -1,0 +1,500 @@
+[
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The Space Fractions system\", \"help improve fraction-solving skills\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Interface\": [],\n\"Requirements Reference\": [],\n\"Requirements Constraint\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Shared Phenomena\",\n    \"relation\": \"requirements constraint\"\n  }\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the user\", \"The umbrella\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"Specific requirements and expectations regarding the components of the product\",\n    \"object\": \"System Requirements\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Shared Phenomena\",\n    \"relation\": \"to solve arithmetic problems involving fractions\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Solution\n```json\n{}\n``` \n\n**Explanation:**\n\nThe input sentence does not contain any explicit relations that match the defined schema. \n\n* There are no mentions of interfaces between entities.\n* There are no direct references to requirements or constraints related to computers. \n\n\nLet me know if you have any other sentences you'd like me to analyze!\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n## Solution\n```json\n{}\n``` \n\n**Explanation:**\n\nThe input sentence describes a person and their characteristics. There are no mentions of software systems, requirements, or constraints. Therefore, none of the defined relation types exist in this context. \n\n\nLet me know if you have any other examples you'd like me to analyze!\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Solution\n```json\n{}\n``` \n\n\nLet me know if you have any other examples you'd like me to try!\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Code\n```python\nimport re\n\ndef extract_relations(sentence, entities, schema):\n  relations = {}\n  for relation_type in schema:\n    relations[relation_type] = []\n  \n  # Implement your logic here to extract relations based on the sentence, entities, and schema.\n  # You can use regular expressions, natural language processing techniques, or other methods.\n\n  return relations\n\n# Example usage\nsentence = \"Bobby has used computers since age five.\"\nentities = {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\nschema = ['Interface', 'Requirements Reference', 'Requirements Constraint']\n\nrelations = extract_relations(sentence, entities, schema)\nprint(json.dumps(relations))\n```\n\n**Note:** This code provides a basic structure. You need to fill in the logic for extracting relations based on the given input. \n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Solution\n```json\n{}\n``` \n\n**Explanation:**\n\nThe input sentence does not contain any entities or relationships that match the defined schema.  There are no mentions of interfaces, requirements references, or constraints related to software systems, physical devices, environment objects, external systems, system requirements, or shared phenomena. \n\n\nLet me know if you have any other sentences you'd like me to analyze!\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n## Solution\n```json\n{}\n``` \n\n**Explanation:**\n\nThe input sentence describes a person's experience and doesn't contain any information related to software systems, requirements, or entities from the provided list. Therefore, none of the specified relation types exist in this context. \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [[\"The Space Fractions system\", \"movies\"]], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"the Space Fractions system\", \"a Flash-supporting browser\"]],\n\"requirements constraint\": [[\"the Space Fractions system\", \"the configuration of the browser\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [[\"various environments\", \"different interfaces\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The umbrella\", \"projects relating to fractions, decimals, and percents\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the Space Fractions system\", \"World Wide Web\"]],\n\"requirements reference\": [[\"World Wide Web\", \"the series of fraction questions to be updated\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the Space Fractions system\", \"This information\"]]\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the Space Fractions system\", \"score\"]]\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"the Space Fractions system\", \"background story\"],\n  [\"the Space Fractions system\", \"information\"],\n  [\"the Space Fractions system\", \"fraction questions\"],\n  [\"the user\", \"background story\"],\n  [\"the user\", \"information\"],\n  [\"the user\", \"fraction questions\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the system\", \"Bobby\"], [\"the system\", \"Alice\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"A friendly robotic sidekick\",\n    \"object\": \"general usability issues\",\n    \"relation_type\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"A friendly robotic sidekick\",\n    \"object\": \"the correct response\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\nLet me know if you have any other questions.\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [['the user', 'the user\\'s response on certain critical questions that impact the story\\'s plot, and an option to try again will be presented']]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"the question updater\", \"change any of the questions in the system\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [[\"the game's interface\", \"fractions\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"source\": \"the player's interaction with the game's user interface\",\n    \"target\": \"the game's user interface\"\n  }\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the Space Fractions system\", \"validate the integrity and format of the data\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {}\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the Space Fractions system\", \"maximum and minimum velocity constraints\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the player\", \"error message\"]],\n\"requirements reference\": [[\"to provide a valid fraction\", \"error message\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [{\"subject\": \"System Requirements\", \"object\": \"Shared Phenomena\", \"relation_type\": \"requirements reference\"}], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"source\": \"the user\",\n    \"target\": \"a mouse\",\n    \"relation_type\": \"Interface\"\n  }\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The system\", \"a mouse click event during the playback\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"the system\", \"transitions the user to the game's main menu\"],\n  [\"the system\", \"proceeds to the main menu\"],\n  [\"the system\", \"terminates the movie\"],\n  [\"the system\", \"plays the movie\"],\n  [\"the user\", \"transitions to the game's main menu\"],\n  [\"the user\", \"plays the movie\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [[\"The main menu\", \"players\"]], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"players\", \"the Denominators' web page\"]\n],\n\"requirements reference\": [\n[\"engage with the game\", \"the Denominators' web page\"]\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [{\"subject\": \"System Requirements\", \"object\": \"Environment Object\", \"relation\": \"equip players with the necessary knowledge\"}], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"subject\": \"Players\",\n    \"object\": \"main menu\",\n    \"relation\": \"interact with\",\n    \"type\": \"Interface\"\n  }\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer:\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"Environment Object\",\n    \"relation\": \"to explore educational content or resources\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the player\", \"actions\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [[\"players\", \"to challenge and educate players on fractions\"]], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the player\", \"the correct answer\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"players\", \"the option to either conclude their current session\"],\n[\"players\", \"the option to navigate back to the main menu for further exploration or replay\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"subject\": \"Player interaction\",\n    \"object\": \"the ending scene\",\n    \"relation\": \"is facilitated through\"\n  }\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the player\", \"the player's input\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"the player\", \"revisit the game's content\"],\n  [\"the player\", \"gracefully exit the game\"],\n  [\"the player\", \"closing their current session\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  \n],\n\"requirements reference\": [\n  [\"players\", \"to facilitate the updating and editing of questions\"]\n],\n\"requirements constraint\": [\n  \n]\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"Administrators\", \"the Question Updater\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  {\n    \"source\": \"Players\",\n    \"target\": \"the Math Umbrella\",\n    \"relationType\": \"Interface\"\n  }\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"These links\", \"World Wide Web documents\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the player\", \"selection of a link\"], [\"the Math Umbrella\", \"process this action\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"System Requirements\",\n    \"object\": \"the player\",\n    \"relation\": \"to detect and respond to the player's choice\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the Space Fractions system\", \"the player\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the player\", \"the main system environment\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the Space Fractions system\", \"Only one person can use a single instance\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"the Space Fractions system\", \"user\"],\n  [\"the Space Fractions system\", \"computer\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer:\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  }
+]

@@ -1,0 +1,1003 @@
+[
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The ASPERA-3 instrument package",
+          "the Mars Express mission"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "ASPERA-3",
+          "the particles"
+        ],
+        [
+          "ASPERA-3",
+          "neutral atoms"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The ASPERA-3 Processing and Archiving Facility",
+          "ASPERA-3 telemetry"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "processing all of the ASPERA-3 telemetry",
+          "ASPERA-3 telemetry"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the IDFS data sets",
+          "physical instruments"
+        ],
+        [
+          "the IDFS data sets",
+          "ancillary data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The APAF ground data system",
+          "data processing algorithms and support"
+        ],
+        [
+          "IRF",
+          "data processing algorithms and support"
+        ],
+        [
+          "the ASPERA-3 science team",
+          "data processing algorithms and support"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "ASPERA-3 scientific data",
+          "NASA Planetary Data System (PDS)"
+        ],
+        [
+          "NASA Planetary Data System (PDS)",
+          "ASPERA-3 scientific data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "ASPERA-3 scientific data",
+          "the APAF"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "ASPERA-3 scientific data",
+          "the APAF"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The APAF system",
+          "the telemetry data of the ASPERA-3 Experiment and Mars Express Orbit/Attitude"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The APAF system",
+          "to automatically process the data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The APAF system",
+          "ASPERA-3 science data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "process all ASPERA-3 science data into IDFS data sets",
+          "ASPERA-3 science data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "ESOC",
+          "cleaned-up telemetry"
+        ],
+        [
+          "the ASPERA-3 team",
+          "cleaned-up telemetry"
+        ],
+        [
+          "ESOC",
+          "Intermediate files of cleaned-up ASPERA-3 and MEX OA telemetry"
+        ],
+        [
+          "the ASPERA-3 team",
+          "Intermediate files of cleaned-up ASPERA-3 and MEX OA telemetry"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "meeting mission goals and objectives",
+          "ESOC"
+        ],
+        [
+          "meeting mission goals and objectives",
+          "the ASPERA-3 team"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Web-based displays defined",
+          "ASPERA-3 data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "meeting mission goals and objectives",
+          "ASPERA-3 data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The web-based displays",
+          "science analysis"
+        ],
+        [
+          "the ASPERA-3 data",
+          "science analysis"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "meeting mission goals and objectives.",
+          "The web-based displays"
+        ],
+        [
+          "meeting mission goals and objectives.",
+          "the ASPERA-3 data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "built-in error handling for better data integrity",
+          "data integrity"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "ASPERA-3 Co-I’s",
+          "ASPERA-3 and MEX OA IDFS data"
+        ],
+        [
+          "ASPERA-3 Co-I’s",
+          "intermediate files"
+        ],
+        [
+          "ASPERA-3 Co-I’s",
+          "ASPERA-3 and MEX OA cleaned-up telemetry"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "IDFS data access software",
+          "meeting mission goals and objectives"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "IDFS data access software",
+          "meeting mission goals and objectives"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Science analysis software",
+          "IDFS-formatted data"
+        ],
+        [
+          "ASPERA-3 Co-I’s",
+          "IDFS-formatted data"
+        ],
+        [
+          "SwRI",
+          "IDFS-formatted data"
+        ],
+        [
+          "the ASPERA-3 team",
+          "IDFS-formatted data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "meeting mission goals and objectives",
+          "IDFS-formatted data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the Software Design Documents",
+          "the detailed information"
+        ],
+        [
+          "the Software Design Documents",
+          "the virtual instrument data items"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the APAF ground data system",
+          "the requirement associated with the privacy"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The APAF system web server",
+          "password protected"
+        ],
+        [
+          "The APAF system web server",
+          "access"
+        ],
+        [
+          "ASPERA-3 team members",
+          "access"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "computer hardware",
+          "computer software"
+        ],
+        [
+          "computer hardware",
+          "computer communication"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "a UNIX-based APAF system production computer",
+          "an archival system"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the APAF system",
+          "web-based displays and information change"
+        ],
+        [
+          "a web server",
+          "web-based displays and information change"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "SwRI",
+          "data transfers and distribution"
+        ],
+        [
+          "NISN",
+          "data transfers and distribution"
+        ],
+        [
+          "a network connection",
+          "data transfers and distribution"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "a network connection",
+          "data transfers and distribution"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The SwRI software team",
+          "maintenance"
+        ],
+        [
+          "The SwRI software team",
+          "software support"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "SwRI",
+          "APAF system"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "SwRI",
+          "software support"
+        ],
+        [
+          "the APAF system",
+          "software support"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "ASPERA-3 Co-I's",
+          "ASPERA-3 and MEX OA IDFS data"
+        ],
+        [
+          "ASPERA-3 Co-I's",
+          "intermediate files"
+        ],
+        [
+          "ASPERA-3 Co-I's",
+          "ASPERA-3 and MEX OA cleaned-up telemetry"
+        ],
+        [
+          "APAF",
+          "ASPERA-3 and MEX OA IDFS data"
+        ],
+        [
+          "APAF",
+          "intermediate files"
+        ],
+        [
+          "APAF",
+          "ASPERA-3 and MEX OA cleaned-up telemetry"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "ASPERA-3 and MEX OA IDFS data",
+          "ASPERA-3 Co-I's"
+        ],
+        [
+          "intermediate files",
+          "ASPERA-3 Co-I's"
+        ],
+        [
+          "ASPERA-3 and MEX OA cleaned-up telemetry",
+          "ASPERA-3 Co-I's"
+        ],
+        [
+          "ASPERA-3 and MEX OA IDFS data",
+          "APAF"
+        ],
+        [
+          "intermediate files",
+          "APAF"
+        ],
+        [
+          "ASPERA-3 and MEX OA cleaned-up telemetry",
+          "APAF"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "MEX OA IDFS data",
+          "MEX OA telemetry"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "MEX OA IDFS data",
+          "meeting Mex mission goals and objectives"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "MEX OA telemetry",
+          "meeting MEX mission goals and objectives"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "ASPERA-3 data",
+          "the NASA PDS"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "calibrated and validated prior to depositing in the NASA PDS",
+          "ASPERA-3 data"
+        ],
+        [
+          "calibrated and validated prior to depositing in the NASA PDS",
+          "the NASA PDS"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "IDFS data processing algorithms",
+          "IRF"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Science analysis software",
+          "NASA approved data repository"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "IDFS data access software",
+          "meeting mission goals and objectives."
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Science analysis software",
+          "IDFS-formatted data"
+        ],
+        [
+          "ASPERA=3 Co-I’s",
+          "IDFS-formatted data"
+        ],
+        [
+          "SwRI",
+          "IDFS-formatted data"
+        ],
+        [
+          "the ASPERA-3 team",
+          "IDFS-formatted data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "meeting mission goals and objectives",
+          "IDFS-formatted data"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "APAF Operation Procedures Document",
+          "distribution mechanisms"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "APAF Operations Procedures Document",
+          "personnel"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  }
+]

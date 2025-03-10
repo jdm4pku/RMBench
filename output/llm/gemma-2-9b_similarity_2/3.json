@@ -1,0 +1,710 @@
+[
+  {
+    "predict": "\n\n```json\n{'Software System': ['E-GOVERNANCE MISSION MODE PROJECT (MMP)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n## Solution\n```json\n{'Software System': ['CRIME & CRIMINAL TRACKING NETWORK AND SYSTEMS (CCTNS)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['FUNCTIONAL REQUIREMENTS SPECIFICATION V1.0 (DRAFT)'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"MINISTRY OF HOME AFFAIRS GOVERNMENT OF INDIA\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['the CCTNS'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['the functionalities required for the first version of the CCTNS'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS V1.0\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"police personnel\"],\n\"External System\": [],\n\"System Requirements\": [\"Investigation of Crime\", \"Detection of Criminals\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS V1.0\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"records room staff\", \"citizens\"],\n\"External System\": [],\n\"System Requirements\": [\"delivering value to IOs\", \"crime investigation area\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS application\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"police personnel\", \"officers\", \"police function\"],\n\"External System\": [],\n\"System Requirements\": [\"providing value to the police personnel\", \"easing the day to day operations of the police function\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"Citizens\", \"police\", \"evidence\", \"facts\"],\n\"External System\": [],\n\"System Requirements\": [\"register their complaints\", \"take the complaint forward\"],\n\"Shared Phenomena\": [\"complaints\", \"investigation\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"The Registration module\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"the approach, interaction and information exchange between police and complainants\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"police\"],\n\"External System\": [],\n\"System Requirements\": [\"initiates the investigation process\"],\n\"Shared Phenomena\": [\"a complaint\", \"the investigation process\"]\n}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the courts'], 'External System': [], 'System Requirements': ['Interfacing with the courts during the prosecution of cases'], 'Shared Phenomena': ['cases']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"constable\", \"police station\", \"courts\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"constantly interfaces\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"The Prosecution module of the CCTNS\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the court\"],\n\"External System\": [],\n\"System Requirements\": [\"to record entries of the court interactions\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"the ability to execute a basic or advanced search on cases\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"a particular person\", \"property\"],\n\"External System\": [],\n\"System Requirements\": [\"search for a particular person\", \"search for a type of crime\", \"search for modus operandi\", \"search for property\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['the results view by criminal/accused or by cases']}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"Citizen Interface module of the CCTNS\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"citizens\", \"police units/personnel\"],\n\"External System\": [],\n\"System Requirements\": [\"acts as a conduit for the information exchange between citizens and police units/personnel\"],\n\"Shared Phenomena\": [\"information exchange\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"Citizens\", \"police\"],\n\"External System\": [],\n\"System Requirements\": [\"to get information or acknowledgements from police\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': ['police'], 'Environment Object': ['citizens'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['turnaround time']}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"citizens\", \"police\"],\n\"External System\": [],\n\"System Requirements\": [\"improve overall productivity\", \"cut short the drudgery of large amounts of paperwork\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['The Navigation module of the CCTNS', 'CCTNS application'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['role based landing pages']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"police personnel\"],\n\"External System\": [],\n\"System Requirements\": [\"plan better\", \"execute with greater efficiency\"],\n\"Shared Phenomena\": [\"cases assigned\", \"alerts\", \"pending tasks\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"the CCTNS\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"the states’ requirements\"],\n\"Shared Phenomena\": [\"data elements/rules\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['castes', 'tribes'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['act', 'sections', 'state specific data', 'property information']}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['A1 to A7'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"user\"],\n\"External System\": [],\n\"System Requirements\": [\"user-friendliness\", \"performance\"],\n\"Shared Phenomena\": [\"user-acceptance\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [\"detailed context-sensitive help material\", \"all the possible actions and scenarios\"],\n\"Shared Phenomena\": [\"all user interfaces in the application\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [\"detailed context-sensitive help material\", \"all the possible actions and scenarios\"],\n\"Shared Phenomena\": [\"all user interfaces in the application\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"the application\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [\"log any defects or enhancement requests\", \"track thereafter\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"a browser interface\"],\n\"System Requirements\": [\"The support solution should be accessible to the users both from within the application and also outside the application\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['an audit trail', 'a record of actions']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"users\", \"Administrators\"],\n\"External System\": [],\n\"System Requirements\": [\"actions taken by users or Administrators\", \"actions initiated automatically by the CCTNS system as a result of system parameters\"],\n\"Shared Phenomena\": [\"system parameters\"]\n}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"user\"],\n\"External System\": [],\n\"System Requirements\": [\"keep an unalterable audit trail\", \"capable of automatically capturing and storing information\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['keep an unalterable audit trail capable of automatically capturing and storing information about the date and time of the event'], 'Shared Phenomena': ['audit trail', 'information about the date and time of the event']}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"track events without manual intervention\", \"store in the audit trail information about them\"],\n\"Shared Phenomena\": [\"audit trail functionality\", \"audit trail information\"]\n}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['external auditors'], 'External System': [], 'System Requirements': ['examine or analyse system activity'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"user\", \"case\"],\n\"External System\": [],\n\"System Requirements\": [\"capture and store violations\", \"capture and store attempted violations\"],\n\"Shared Phenomena\": [\"access control mechanisms\", \"access\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"the CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"user\"],\n\"External System\": [],\n\"System Requirements\": [\"the requirements to control the user access to correspondences, files, and records and various functionalities\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"user\", \"user groups\"],\n\"External System\": [],\n\"System Requirements\": [\"allow the user to limit access to cases to specified users or user groups\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['The CCTNS system must allow a user to be a member of more than one group'], 'Shared Phenomena': ['a user', 'a group']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"allow only admin-users to set up user profiles and allocate users to groups\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"super-user\", \"groups\", \"users\"],\n\"External System\": [],\n\"System Requirements\": [\"changes to security attributes\", \"access rights\", \"security level\", \"privileges\", \"password allocation and management\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['options', 'security']}\n```\n\n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"users\"],\n\"External System\": [\"audit trail\"],\n\"System Requirements\": [\"log these\"],\n\"Shared Phenomena\": [\"unauthorised attempts to access cases\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"cases\", \"documents\", \"data\"],\n\"External System\": [],\n\"System Requirements\": [\"to ensure legal admissibility\", \"to assist in data recovery\"],\n\"Shared Phenomena\": [\"access\", \"activities\", \"all other activities\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"the CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"users\"],\n\"External System\": [],\n\"System Requirements\": [\"meaningful\", \"appropriately acted upon\"],\n\"Shared Phenomena\": [\"error messages\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['employ a single set of user interface rules', 'provide a familiar and common look and feel for the application'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"the interfaces\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"be customizable or user-configurable\", \"the displayed columns in the table, move, resize, modify the appearance\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['Such configurations']}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['allow persistent defaults for data entry'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['System'], 'Physical Device': ['mouse'], 'Environment Object': [], 'External System': [], 'System Requirements': ['designed so that they can be completed with a small number of interactions'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['the software'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Customisation should include, but need not be limited to the following changes: menu contents; layout of screens; use of function keys; on-screen colours, fonts and font sizes;'], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['Application user interfaces'], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n```json\n{'Software System': ['Software accessibility'], 'Physical Device': [], 'Environment Object': [], 'External System': ['ISO 9241-171'], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['its requirements and recommendations'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['WCAG 1.0'], 'System Requirements': ['shall be the standard used for guidance on content accessibility'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['The application'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['The application logo to be available on all pages as a link to the home page'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"All non-text media objects, such as graphical images or video, should be provided with alternative equivalent textual descriptions and/or with equivalent text-based functionality\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Navigation should be designed to help users understand where they are, where they have been and where they can go next\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['ISO 9241-110'], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': ['Each presentation segment (page or window) should provide the user with a clear and sufficient indication of where he or she is in the navigation structure and of the current segment position with respect to the overall structure'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Alternative access paths for navigating to a specific unit of content should be offered to support different navigation strategies\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Minimizing navigation effort\"],\n\"Shared Phenomena\": [\"navigation steps\", \"certain piece of content\", \"mental models\", \"navigation strategies\", \"tasks of the user\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"Splash screens\", \"the application\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"useful content or feedback about the application state\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['a splash screen'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['a navigation option to skip it']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['user'], 'External System': ['browser windows', 'pop-up windows'], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': ['windows'], 'Environment Object': ['users'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['primary window', 'relevant information']}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"navigation structure\", \"usability\", \"accessibility\"]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['user actions']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['important information', 'links', 'information']}\n```"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Horizontal scrolling should be avoided wherever possible'], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"input devices\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"User interfaces should be designed to allow activation of controls by a variety of input devices\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': [], 'Physical Device': ['device'], 'Environment Object': [], 'External System': [], 'System Requirements': ['device independence'], 'Shared Phenomena': ['functionality', 'keyboard']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['users'], 'External System': [], 'System Requirements': ['user interfaces should be designed to be as robust as possible in the face of changing technology'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['user agents'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['Application pages'], 'Physical Device': [], 'Environment Object': ['the expected range of technical contexts of use'], 'External System': [], 'System Requirements': ['acceptable opening times', 'acceptable download times'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['bandwidth']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['pages', 'home page'], 'External System': [], 'System Requirements': ['frequently accessed pages', 'important for user navigation and exploration'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Minimizing user errors\", \"Potential user errors as well as the effort needed to recover from errors should be minimized\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Providing clear error messages\"],\n\"Shared Phenomena\": [\"error messages\", \"error\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['Users'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['error messages']}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['diverse groups'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['currency', 'units of measurement', 'temperatures', 'date and time', 'phone numbers', 'address or postal codes']}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['The reading and understanding of the textual content on the screen should be supported by suitable means, including the use of short sentences, the division of the text into shorter chunks or the presentation of content items in the form of bullet points'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Fast skimming of text should be supported by the provision of clear links, bulleted lists, highlighted keywords, logical headings, and short phrases and sentences'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Readability of text: Text presented on the pages should be readable taking into account the expected display characteristics and spatial arrangement'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['ISO 9241-303'], 'System Requirements': ['screen text legibility requirements'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Within-page links should be clearly distinguishable from other links that lead to a different page'], 'Shared Phenomena': ['Within-page links', 'other links', 'a different page']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"link overload\", \"Text pages\", \"links\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Navigation links\", \"links representing the main navigation structure\"],\n\"Shared Phenomena\": [\"familiar terminology\", \"navigation links\", \"terms that are familiar to the user\", \"his/her general knowledge\", \"prior experience in the application domain\", \"experience of using other systems\"]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Using descriptive link labels', 'The target or purpose of a link should be directly indicated by its label', 'avoiding generic labels such as “go” or “click here” except where the purpose of the link is clear from its context on the page or the labels have commonly understood semantics in the particular application domain'], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['users'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"browser windows\", \"pop-up windows\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Links that open new browser windows or pop-up windows should be clearly marked\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Navigation links should be clearly distinguishable from controls activating some action\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " \n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [\"a new e-mail window\", \"a chat function\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': ['printer'], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': ['a printer-friendly version of the document'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['paper format', 'orientation'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['a page'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['white space']}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['space filled only with the background color should be used'], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"white space\", \"distance between the blocks of information displayed\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['a page'], 'External System': [], 'System Requirements': ['Selecting appropriate page lengths', 'The length of a page should be selected so as to support the primary purpose and use of the page'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"users\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Colour should be used with care\", \"taking into account human capabilities and restrictions in perceiving colour\", \"and not as the only means of conveying information\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['Color']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['users', 'color combinations'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['color-blindness']}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['frames', 'back button', 'bookmarking of pages', 'scrolling of information']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['frames', 'relevant information']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Consistent page layout'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"Page titles\"],\n\"External System\": [],\n\"System Requirements\": [\"Placing title information consistently\", \"Page titles should be placed in a consistent location on the different pages\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"application pages\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"When designing application pages, the general principles of human perception should be taken into account\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['International Standards'], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [\"ISO 9241-12\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['ISO 9241-14 to ISO 9241-17'], 'System Requirements': [], 'Shared Phenomena': ['interaction techniques']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['ISO 9241-14', 'ISO 9241-15', 'ISO 9241-16', 'ISO 9241-17'], 'System Requirements': [], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['content presentation', 'accessibility']}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Each page should contain a link leading to the home page of the application or to a landmark page that is easy to recognize for the user\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['application'], 'Physical Device': [], 'Environment Object': ['a site map'], 'External System': [], 'System Requirements': ['Providing a site map: A separate navigation overview such as a site map should be provided for application showing the structure of the site in an overview form.'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Consistency between navigation components and content', 'If navigation components (or overviews) are shown in conjunction with associated content, consistency between the navigation component and the content shown should be maintained by indicating in the navigation component'], 'Shared Phenomena': []}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"Adapting the content and the navigation of a user interface to individual users or user groups\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['user groups', 'roles'], 'External System': [], 'System Requirements': ['individualization designing content and navigation differently'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['employees', 'citizens', 'user'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['user’s behaviour', 'user’s goals', 'behaviour observed', 'information', 'behaviour of all users', 'behaviour of a user group']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"user groups\", \"users\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"access paths\", \"navigation structures\", \"tasks\", \"information needs\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': ['It should be made evident to the user when individualization and/or adaptation are used'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['users'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['profiles', 'concept', 'implications']}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"users\"],\n\"External System\": [],\n\"System Requirements\": [\"see\", \"modify and delete that profile on demand\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['the CCTNS system'], 'Physical Device': [], 'Environment Object': ['users'], 'External System': [], 'System Requirements': ['must be available to users: from <xx:00> to <xx:00>; on <all weekdays/xxx days per year>'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [\"workstation\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to perform any normal System function\"],\n\"Shared Phenomena\": [\"any user is unable to perform any normal System function\", \"this failure is attributed to any component of the CCTNS system\"]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['restore the CCTNS system (with inline synchronization) within no more than <xx> hours'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"the CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"The CCTNS system must be able to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds regardless of the storage capacity or number of cases in the CCTNS system\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['result list']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['retrieve and display within 5-8 seconds the case which has been accessed within the previous 2 months', 'regardless of storage capacity or number of cases in the CCTNS system'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['rapid retrieval of frequently-used cases'], 'Shared Phenomena': ['frequency of use', 'recent use']}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"slower media\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"the proposed functional architecture\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"ease of maintenance\", \"advancement in open standards and web technologies\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['The 3 C’s (Core-Configuration-Customization)'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n```json\n{'Software System': ['CCTNS solution'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"The core services, support layer and security and access control components can be deployed as standard components with necessary configuration changes\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"the customization layer\", \"the core services\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"specific state requirements\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['the application'], 'Physical Device': [], 'Environment Object': ['state'], 'External System': [], 'System Requirements': ['The deployment of the application will be at state level and will be configured and customized as per the state specific extensions'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['CCTNS systems'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['designed with the following broad guidelines'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': ['multilingual interface'], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': ['Police Stations'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['low-bandwidth']}\n``` \n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['to have a n-tier architecture with the presentation logic separated from the business logic that is again separated from the data-access logic'], 'Shared Phenomena': []}\n``` \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['multi-tier authentication'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['The CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['The CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['selective encryption of the stored data'], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"secure transmission of data over the network\", \"utilize SSL and 2-way digital signatures\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"ensure high standards of security and access control\", \"preventing cross-site scripting\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"high standards of security and access control\"],\n\"Shared Phenomena\": [\"SQL Injection\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['high standards of security and access control'], 'Shared Phenomena': ['parameterized queries']}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"user-inputs\"],\n\"External System\": [],\n\"System Requirements\": [\"high standards of security and access control\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"The CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"high standards of security and access control\"],\n\"Shared Phenomena\": [\"incoming data or user request\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"The CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"high standards of security and access control\"],\n\"Shared Phenomena\": [\"incoming data or user request\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"The CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"high standards of security and access control\"],\n\"Shared Phenomena\": [\"validating the data\"]\n}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"high scalability and performance\"],\n\"Shared Phenomena\": [\"cache for storing frequent data\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"high scalability and performance\", \"improve user experience\"],\n\"Shared Phenomena\": [\"AJAX based technology\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['CCTNS system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['high scalability and performance'], 'Shared Phenomena': ['Asynchronous HTTP socket capabilities of web server']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"CCTNS system\"],\n\"Physical Device\": [\"the web server\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"high scalability and performance\"],\n\"Shared Phenomena\": [\"static content (documents, images)\"]\n}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [\"fetch only the fields that need to be displayed\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': ['A hierarchical cache'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['should be configured and used for caching of results of most frequently used searches'], 'Shared Phenomena': ['results of most frequently used searches']}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"Database\"], \"System Requirements\": [], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['Patient Monitoring System'], 'Physical Device': ['ECG monitor', 'blood pressure monitor'], 'Environment Object': ['patient'], 'External System': [], 'System Requirements': ['monitor patient vital signs'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  }
+]

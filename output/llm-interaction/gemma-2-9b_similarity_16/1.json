@@ -1,0 +1,344 @@
+[
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['This Center-to-Center infrastructure', 'traffic data'], ['This Center-to-Center infrastructure', 'device control information'], ['TMCs', 'device control information']], 'requirements reference': [], 'requirements constraint': [['This Center-to-Center infrastructure', 'to exchange device control information between TMCs']]} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the existing system', 'The data']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the software', 'building blocks'], ['the software', 'the configuration parameters']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The software', '“configuring” the building block of operation'], ['a building block', '“configuring” the building block of operation']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the “cloud”', 'Any data']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['Systems', 'the “cloud”'], ['Systems', 'a project defined protocol']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [['the Center', 'the network name'], ['the Center', 'link data information'], ['each roadway network', 'the network name'], ['each roadway network', 'link data information']], 'requirements reference': [], 'requirements constraint': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'the information about each incident'], ['The Center', 'network identifier'], ['The Center', 'incident description'], ['The Center', 'roadway']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center', 'a DMS']], 'requirements reference': [['the Center', 'To support DMS control in other centers'], ['a DMS', 'device control command']], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center', 'device control command'], ['the Center', 'network identifier'], ['the Center', 'Ramp Meter identifier'], ['the Center', 'username'], ['the Center', 'password'], ['the Center', 'plan'], ['a ramp meter', 'device control command'], ['a ramp meter', 'network identifier'], ['a ramp meter', 'Ramp Meter identifier'], ['a ramp meter', 'username'], ['a ramp meter', 'password'], ['a ramp meter', 'plan']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'status information'], ['The Center', 'network identifier'], ['The Center', 'HAR identifier'], ['The Center', 'HAR name'], ['The Center', 'location'], ['The Center', 'status']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [['the Center', 'a HAR'], ['the Center', 'device control command'], ['the Center', 'network identifier'], ['the Center', 'HAR identifier'], ['the Center', 'username'], ['the Center', 'password'], ['the Center', 'message']], 'requirements reference': [], 'requirements constraint': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'network identifier'], ['The Center', 'HOV identifier'], ['The Center', 'HOV name'], ['The Center', 'link identifier'], ['The Center', 'status'], ['The Center', 'plan'], ['each HOV', 'network identifier'], ['each HOV', 'HOV identifier'], ['each HOV', 'HOV name'], ['each HOV', 'link identifier'], ['each HOV', 'status'], ['each HOV', 'plan']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center', 'device control command'], ['the Center', 'network identifier'], ['the Center', 'HOV Lane identifier'], ['the Center', 'username'], ['the Center', 'password'], ['the Center', 'lane plan']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center', 'device control command'], ['the Center', 'network identifier'], ['the Center', 'school zone identifier'], ['the Center', 'username'], ['the Center', 'password'], ['the Center', 'plan'], ['a School Zone', 'device control command'], ['a School Zone', 'network identifier'], ['a School Zone', 'school zone identifier'], ['a School Zone', 'username'], ['a School Zone', 'password'], ['a School Zone', 'plan']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'status information'], ['The Center', 'network identifier'], ['The Center', 'link identifier'], ['The Center', 'rail crossing identifier'], ['The Center', 'rail crossing name'], ['The Center', 'location'], ['The Center', 'status'], ['Railroad Crossing', 'status information'], ['Railroad Crossing', 'network identifier'], ['Railroad Crossing', 'link identifier'], ['Railroad Crossing', 'rail crossing identifier'], ['Railroad Crossing', 'rail crossing name'], ['Railroad Crossing', 'location'], ['Railroad Crossing', 'status']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center', 'device control command'], ['the Center', 'network identifier'], ['the Center', 'reversible lane identifier'], ['the Center', 'username'], ['the Center', 'password'], ['the Center', 'plan'], ['the Center', 'duration']], 'requirements reference': [['To support Reversible Lane control in other centers', 'device control command'], ['To support Reversible Lane control in other centers', 'network identifier'], ['To support Reversible Lane control in other centers', 'reversible lane identifier'], ['To support Reversible Lane control in other centers', 'username'], ['To support Reversible Lane control in other centers', 'password'], ['To support Reversible Lane control in other centers', 'plan'], ['To support Reversible Lane control in other centers', 'duration']], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'status information'], ['The Center', 'network identifier'], ['The Center', 'link identifier'], ['The Center', 'dynamic lane identifier'], ['The Center', 'dynamic lane name'], ['The Center', 'failure state']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center', 'device control command'], ['the Center', 'network identifier'], ['the Center', 'dynamic lane identifier'], ['the Center', 'username'], ['the Center', 'password'], ['the Center', 'lane plan'], ['a Dynamic Lane', 'device control command'], ['a Dynamic Lane', 'network identifier'], ['a Dynamic Lane', 'dynamic lane identifier'], ['a Dynamic Lane', 'username'], ['a Dynamic Lane', 'password'], ['a Dynamic Lane', 'lane plan']], 'requirements reference': [['To support Dynamic Lane control in other centers', 'device control command'], ['To support Dynamic Lane control in other centers', 'network identifier'], ['To support Dynamic Lane control in other centers', 'dynamic lane identifier'], ['To support Dynamic Lane control in other centers', 'username'], ['To support Dynamic Lane control in other centers', 'password'], ['To support Dynamic Lane control in other centers', 'lane plan']], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'status information'], ['The Center', 'network identifier'], ['The Center', 'link identifier'], ['The Center', 'commuter or light rail stop identifier'], ['The Center', 'commuter or light rail stop name'], ['The Center', 'location'], ['The Center', 'routes']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'status information'], ['The Center', 'network identifier'], ['The Center', 'link identifier'], ['The Center', 'commuter or light rail identifier'], ['The Center', 'commuter or light rail name'], ['The Center', 'location'], ['The Center', 'schedule adherence']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'status information'], ['The Center', 'network identifier'], ['The Center', 'park and ride lot identifier'], ['The Center', 'park and ride lot name'], ['The Center', 'location'], ['The Center', 'status'], ['The Center', 'capacity']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center', 'status information'], ['The Center', 'vehicle identifier'], ['The Center', 'network identifier'], ['The Center', 'link identifier'], ['The Center', 'intersection identifier']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['Center', 'information for command timeframe request'], ['Center', 'network identifier'], ['Center', 'device type'], ['The device status requestor', 'information for command timeframe request'], ['The device status requestor', 'network identifier'], ['The device status requestor', 'device type']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Center-to-Center Project', 'the TMDD standard']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['DATEX/ASN', 'the TMDD message sets']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The map', 'the traffic conditions']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The map', 'interstates and state highways']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The map user', 'the current magnification'], ['the map', 'the current magnification']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The map user', 'the map'], ['the map user', 'North'], ['the map user', 'South'], ['the map user', 'East'], ['the map user', 'West']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the map', 'Each link'], ['Each link', 'to provide a graphical depiction of speeds']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['A configuration file', 'specific speed values']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The map', 'the current incidents']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The map', 'a DMS']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The map', 'a LCS']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The map', 'a CCTV']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Incident GUI', 'the user']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Incident GUI', 'the user'], ['the user', 'information for each incident']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The Incident GUI', 'information for each lane closure'], ['the user', 'information for each lane closure'], ['lane closure', 'information for each lane closure']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The GUI', 'a list of previously entered incidents']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The GUI', 'the data about an incident to be modified']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The GUI', 'delete a previously entered incident'], ['a user', 'delete a previously entered incident']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The GUI', 'a list of previously entered lane closures']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The GUI', 'delete a previously entered lane closure'], ['a user', 'delete a previously entered lane closure']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The GUI', 'delete a previously entered lane closure'], ['a user', 'delete a previously entered lane closure']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The remote Center Control GUI', 'a public network'], ['The remote Center Control GUI', 'the C-2-C software system']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['The user', 'a network identifier'], ['The user', 'a device command/control request']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the user', 'Target LCS'], ['the user', 'Assignment of lane arrows']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['an Center', 'a CCTV']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['an Center', 'a Ramp Meter'], ['the user', 'a Ramp Meter'], ['the user', 'Target Ramp Meter'], ['the user', 'Plan']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['an Center', 'a HAR'], ['the user', 'a HAR'], ['the user', 'Target HAR'], ['the user', 'Text to be sent to the HAR']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['an Center', 'Target Traffic Signal and Plan'], ['the user', 'Target Traffic Signal and Plan'], ['the user', 'a Traffic Signal']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['an Center', 'Target HOV and Plan'], ['the user', 'Target HOV and Plan'], ['a HOV', 'Target HOV and Plan']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['an Center', 'a School Zone'], ['the user', 'a School Zone'], ['the user', 'Target School Zone and Plan']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['an Center', 'the user'], ['the user', 'a Reversible Lane'], ['the user', 'Target Reversible Lane and Plan']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['an Center', 'a Dynamic Lane'], ['the user', 'a Dynamic Lane'], ['the user', 'Target Dynamic Lane and Plan']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n[\"the Remote GUI\", \"each device command/control status request\"],\n[\"the Remote GUI\", \"the status returned from the network identifier\"],\n[\"the GUI\", \"the status returned from the network identifier\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center-to-Center project', 'A DATEX/ASN runtime library'], ['any computer', 'A DATEX/ASN runtime library']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer:\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['C/C++', 'The Incident GUI'], ['ESRI Map Objects', 'The Incident GUI']]} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['The Remote Control GUI', 'C/C++'], ['The Remote Control GUI', 'ESRI Map Objects']]} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center-to-Center', 'data'], ['the Center-to-Center', 'the Incident GUI'], ['the Center-to-Center', 'a single data store (database)']], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [['the Center-to-Center', 'mode operations'], ['the Center-to-Center', 'activities']], 'requirements reference': [], 'requirements constraint': []}\n\n\n\n"
+  }
+]

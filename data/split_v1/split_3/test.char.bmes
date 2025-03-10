@@ -1,0 +1,5959 @@
+E	O
+-	O
+GOVERNANCE	O
+MISSION	O
+MODE	O
+PROJECT	O
+(	O
+MMP	O
+)	O
+
+CRIME	O
+&	O
+amp	O
+;	O
+CRIMINAL	B-Software System
+TRACKING	M-Software System
+NETWORK	M-Software System
+AND	M-Software System
+SYSTEMS	M-Software System
+(	M-Software System
+CCTNS	M-Software System
+)	E-Software System
+
+FUNCTIONAL	O
+REQUIREMENTS	O
+SPECIFICATION	O
+V1	O
+.	O
+0	O
+(	O
+DRAFT	O
+)	O
+
+MINISTRY	O
+OF	O
+HOME	O
+AFFAIRS	O
+GOVERNMENT	O
+OF	O
+INDIA	O
+
+The	O
+Functional	O
+Requirements	O
+Specifications	O
+(	O
+FRS	O
+)	O
+report	O
+provides	O
+the	O
+detailed	O
+description	O
+of	O
+the	O
+functionalities	O
+required	O
+for	O
+the	O
+first	O
+version	O
+of	O
+the	O
+CCTNS	O
+.	O
+
+The	O
+key	O
+guiding	O
+principle	O
+behind	O
+the	M-System Requirements
+functional	O
+design	O
+of	O
+CCTNS	B-Software System
+V1	M-Software System
+.	M-Software System
+0	E-Software System
+is	O
+to	B-System Requirements
+focus	M-System Requirements
+on	M-System Requirements
+the	O
+critical	M-System Requirements
+functionality	E-System Requirements
+that	O
+provides	O
+value	S-Shared Phenomena
+to	O
+the	O
+police	M-Environment Object
+personnel	E-Environment Object
+at	O
+the	O
+cutting	O
+edge	O
+which	O
+in	O
+turn	O
+can	O
+improve	B-System Requirements
+the	O
+outcomes	E-System Requirements
+in	O
+the	O
+areas	O
+of	O
+“	O
+Investigation	O
+of	O
+Crime	O
+”	O
+and	O
+“	O
+Detection	O
+of	O
+Criminals	O
+”	O
+.	O
+
+CCTNS	B-Software System
+V1	M-Software System
+.	M-Software System
+0	E-Software System
+functionality	O
+is	O
+designed	O
+to	B-System Requirements
+focus	M-System Requirements
+on	M-System Requirements
+delivering	M-System Requirements
+value	S-Shared Phenomena
+to	O
+IOs	S-Physical Device
+,	O
+records	B-System Requirements
+room	M-System Requirements
+staff	M-System Requirements
+and	M-System Requirements
+citizens	E-System Requirements
+within	O
+the	O
+broad	O
+crime	O
+investigation	O
+area	O
+.	O
+
+Based	O
+on	O
+the	O
+guiding	O
+principles	O
+stated	O
+above	O
+,	O
+nine	O
+different	O
+function	O
+blocks	O
+have	O
+been	O
+identified	O
+and	O
+the	O
+detailed	O
+functionality	O
+of	O
+each	O
+block	O
+was	O
+determined	O
+.	O
+
+The	O
+functionality	O
+of	M-System Requirements
+the	M-System Requirements
+CCTNS	M-Software System
+application	E-Software System
+is	O
+focused	O
+on	O
+providing	O
+value	S-Shared Phenomena
+to	M-System Requirements
+the	O
+police	M-System Requirements
+personnel	E-Environment Object
+,	O
+especially	O
+the	O
+officers	S-Environment Object
+operating	O
+at	O
+the	O
+cutting	O
+edge	O
+and	O
+easing	B-System Requirements
+the	O
+day	M-System Requirements
+to	O
+day	O
+operations	M-System Requirements
+of	O
+the	O
+police	O
+function	E-System Requirements
+.	O
+
+Citizens	S-Environment Object
+can	O
+register	O
+their	O
+complaints	S-Shared Phenomena
+with	O
+police	S-Environment Object
+and	O
+then	O
+based	O
+on	O
+the	O
+evidence	S-Shared Phenomena
+,	O
+facts	S-Shared Phenomena
+and	O
+following	B-Shared Phenomena
+investigation	E-Shared Phenomena
+,	O
+police	O
+shall	O
+take	O
+the	O
+complaint	S-Shared Phenomena
+forward	O
+.	O
+
+The	O
+Registration	B-External System
+module	E-External System
+acts	O
+as	O
+an	O
+interface	O
+between	O
+the	M-System Requirements
+police	S-Environment Object
+and	M-System Requirements
+citizens	S-Environment Object
+and	O
+it	O
+eases	B-System Requirements
+the	O
+approach	M-System Requirements
+,	M-System Requirements
+interaction	M-System Requirements
+and	O
+information	M-System Requirements
+exchange	E-System Requirements
+between	O
+police	O
+and	O
+complainants	S-Environment Object
+.	O
+
+After	O
+a	B-Environment Object
+complaint	E-Environment Object
+is	O
+initiated	O
+,	O
+police	S-Environment Object
+initiates	O
+the	O
+investigation	O
+process	O
+.	O
+
+The	O
+Investigation	O
+module	O
+of	O
+the	M-System Requirements
+CCTNS	E-Software System
+facilitates	B-System Requirements
+the	O
+investigation	M-System Requirements
+process	M-System Requirements
+and	M-System Requirements
+introduces	M-System Requirements
+operational	M-System Requirements
+efficiencies	E-System Requirements
+by	O
+automating	O
+most	O
+of	O
+the	O
+tasks	O
+that	O
+take	O
+place	O
+after	O
+initial	B-Shared Phenomena
+entries	E-Shared Phenomena
+are	O
+made	O
+during	O
+Registration	O
+.	O
+
+Interfacing	O
+with	O
+the	O
+courts	S-Environment Object
+during	O
+the	O
+prosecution	O
+of	O
+cases	S-Shared Phenomena
+is	O
+an	O
+integral	O
+part	O
+of	O
+the	O
+responsibilities	O
+of	O
+police	B-Environment Object
+personnel	E-Environment Object
+.	O
+
+A	O
+designated	O
+constable	S-Shared Phenomena
+from	O
+each	O
+police	B-Environment Object
+station	E-Environment Object
+constantly	O
+interfaces	O
+with	O
+the	O
+courts	S-Environment Object
+.	O
+
+The	B-Software System
+Prosecution	M-Software System
+module	M-Software System
+of	M-Shared Phenomena
+the	M-Shared Phenomena
+CCTNS	E-Software System
+aids	O
+this	O
+interfacing	O
+by	O
+providing	O
+a	B-Environment Object
+platform	E-Environment Object
+to	B-System Requirements
+record	M-System Requirements
+entries	B-Shared Phenomena
+of	O
+the	O
+court	M-Shared Phenomena
+interactions	E-Shared Phenomena
+.	O
+
+The	B-Software System
+Search	M-Software System
+module	M-Software System
+of	M-Software System
+the	M-Software System
+CCTNS	E-Software System
+gives	O
+police	B-Environment Object
+personnel	E-Environment Object
+the	O
+ability	O
+to	B-System Requirements
+execute	M-System Requirements
+a	M-System Requirements
+basic	M-System Requirements
+or	M-System Requirements
+advanced	M-System Requirements
+search	M-System Requirements
+on	M-System Requirements
+cases	E-System Requirements
+.	O
+
+Using	O
+the	B-Software System
+search	B-System Requirements
+functionality	E-Software System
+,	M-System Requirements
+police	B-Environment Object
+personnel	E-Environment Object
+can	O
+search	O
+for	M-System Requirements
+a	M-System Requirements
+particular	M-System Requirements
+person	M-System Requirements
+,	O
+type	M-System Requirements
+of	M-System Requirements
+crime	M-System Requirements
+,	O
+modus	M-System Requirements
+operandi	M-System Requirements
+,	O
+property	M-System Requirements
+etc	E-System Requirements
+.	O
+
+It	O
+also	O
+gives	O
+the	M-System Requirements
+user	E-Environment Object
+the	O
+ability	O
+to	O
+customize	B-System Requirements
+the	O
+results	M-System Requirements
+view	M-System Requirements
+by	M-System Requirements
+criminal	M-System Requirements
+/	M-System Requirements
+accused	M-System Requirements
+or	M-System Requirements
+by	O
+cases	E-System Requirements
+.	O
+
+It	O
+makes	O
+reporting	E-Shared Phenomena
+easy	E-System Requirements
+for	O
+police	S-Environment Object
+by	O
+enabling	O
+them	O
+to	B-System Requirements
+execute	M-System Requirements
+different	M-System Requirements
+types	M-System Requirements
+of	M-System Requirements
+queries	E-System Requirements
+such	O
+as	O
+monthly	B-Shared Phenomena
+reporting	O
+,	O
+RTI	B-Shared Phenomena
+related	E-Shared Phenomena
+etc	O
+.	O
+
+The	B-Software System
+Citizen	M-Software System
+Interface	M-Software System
+module	M-Software System
+of	M-Software System
+the	B-Shared Phenomena
+CCTNS	E-Software System
+acts	O
+as	O
+a	O
+conduit	O
+for	O
+the	O
+information	E-Shared Phenomena
+exchange	O
+between	O
+citizens	S-Environment Object
+and	O
+police	S-Environment Object
+units	O
+/	O
+personnel	O
+.	O
+
+Citizens	S-Environment Object
+can	O
+use	O
+it	O
+as	O
+a	O
+tool	O
+to	O
+get	B-System Requirements
+information	S-Shared Phenomena
+or	M-System Requirements
+acknowledgements	S-Shared Phenomena
+from	O
+police	S-Environment Object
+.	O
+
+The	B-Environment Object
+police	E-Environment Object
+in	O
+turn	O
+can	O
+use	O
+it	O
+to	M-System Requirements
+respond	M-System Requirements
+to	O
+citizens	E-System Requirements
+with	O
+very	O
+little	O
+turnaround	O
+time	O
+.	O
+
+It	O
+improves	B-System Requirements
+overall	M-System Requirements
+productivity	E-System Requirements
+by	O
+helping	O
+citizens	S-Environment Object
+and	O
+police	S-Environment Object
+to	B-System Requirements
+cut	M-System Requirements
+short	M-System Requirements
+the	M-System Requirements
+drudgery	M-System Requirements
+of	M-System Requirements
+large	M-System Requirements
+amounts	M-System Requirements
+of	O
+paperwork	E-System Requirements
+.	O
+
+The	B-Software System
+Navigation	M-Software System
+module	M-Software System
+of	M-Software System
+the	M-Software System
+CCTNS	B-Software System
+provides	O
+role	O
+based	O
+landing	O
+pages	O
+which	O
+help	B-System Requirements
+in	M-System Requirements
+navigating	E-System Requirements
+through	O
+the	O
+CCTNS	O
+application	E-Software System
+.	O
+
+It	O
+shows	O
+information	S-Shared Phenomena
+such	O
+as	O
+cases	O
+assigned	O
+,	O
+alerts	O
+,	O
+pending	O
+tasks	O
+etc	O
+hence	O
+helping	O
+police	B-Environment Object
+personnel	E-Environment Object
+to	O
+plan	B-System Requirements
+better	M-System Requirements
+and	M-System Requirements
+execute	E-System Requirements
+with	O
+greater	O
+efficiency	O
+.	O
+
+The	B-Software System
+Configuration	M-Software System
+module	M-Software System
+of	M-Software System
+the	M-System Requirements
+CCTNS	E-Software System
+helps	O
+keep	B-System Requirements
+the	O
+application	M-System Requirements
+configured	E-System Requirements
+according	O
+to	O
+the	O
+states	O
+’	O
+requirements	O
+in	O
+addition	O
+to	O
+keeping	O
+data	O
+elements	O
+/	O
+rules	O
+up	O
+to	O
+date	O
+.	O
+
+With	O
+a	O
+proper	O
+configuration	O
+,	O
+information	O
+such	O
+as	O
+act	O
+and	O
+sections	O
+,	O
+state	O
+specific	O
+data	O
+,	O
+castes	O
+,	O
+tribes	O
+,	O
+property	O
+information	O
+etc	O
+.	O
+
+The	O
+functional	O
+requirements	O
+for	O
+each	O
+of	O
+the	O
+modules	O
+are	O
+provided	O
+as	O
+A1	O
+to	O
+A7	O
+in	O
+separate	O
+enclosures	O
+.	O
+
+The	O
+non	O
+-	O
+functional	O
+requirements	O
+specify	O
+the	B-Software System
+qualitative	O
+attributes	O
+such	O
+as	O
+user	O
+-	O
+friendliness	O
+and	O
+performance	O
+of	O
+the	O
+CCTNS	M-Software System
+system	E-Software System
+that	O
+are	O
+critical	O
+for	O
+the	O
+increased	O
+user	O
+-	O
+acceptance	O
+of	O
+the	O
+application	O
+.	O
+
+The	O
+solution	O
+should	O
+provide	O
+detailed	B-Shared Phenomena
+context	M-Shared Phenomena
+-	M-Shared Phenomena
+sensitive	M-Shared Phenomena
+help	M-Shared Phenomena
+material	E-Shared Phenomena
+for	O
+all	B-Environment Object
+the	O
+possible	O
+actions	O
+and	O
+scenarios	O
+on	O
+all	O
+user	M-Environment Object
+interfaces	E-Environment Object
+in	O
+the	O
+application	O
+.	O
+
+The	O
+solution	O
+should	O
+provide	O
+detailed	B-System Requirements
+context	M-System Requirements
+-	M-System Requirements
+sensitive	E-System Requirements
+help	O
+material	O
+for	O
+all	B-Environment Object
+the	O
+possible	O
+actions	O
+and	O
+scenarios	O
+on	O
+all	O
+user	E-Environment Object
+interfaces	O
+in	O
+the	O
+application	O
+.	O
+
+The	O
+solution	O
+should	O
+provide	O
+an	O
+interface	O
+for	O
+the	B-Environment Object
+user	E-Environment Object
+to	O
+log	B-System Requirements
+any	M-System Requirements
+defects	E-System Requirements
+or	O
+enhancement	B-System Requirements
+requests	E-System Requirements
+on	O
+the	O
+application	O
+and	O
+track	B-System Requirements
+thereafter	E-System Requirements
+.	O
+
+The	O
+solution	O
+should	O
+send	O
+alerts	S-Shared Phenomena
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+email	O
+,	O
+SMS	O
+)	O
+to	O
+the	B-Environment Object
+user	E-Environment Object
+if	O
+the	O
+user	O
+chooses	O
+to	O
+whenever	O
+any	O
+action	O
+has	O
+been	O
+taken	O
+on	O
+the	O
+alert	O
+.	O
+
+The	O
+solution	O
+should	O
+enable	O
+the	M-System Requirements
+user	E-Environment Object
+to	O
+track	B-System Requirements
+the	O
+submitted	M-System Requirements
+defect	E-System Requirements
+or	O
+enhancement	B-System Requirements
+request	E-System Requirements
+.	O
+
+The	O
+solution	O
+should	O
+enable	O
+the	M-System Requirements
+help	M-Environment Object
+-	M-Environment Object
+desk	M-Environment Object
+user	E-Environment Object
+to	O
+view	B-System Requirements
+the	O
+reports	S-Shared Phenomena
+on	O
+the	O
+submitted	O
+defects	O
+or	O
+enhancement	O
+requests	O
+category	O
+-	O
+wise	O
+,	O
+status	O
+-	O
+wise	O
+,	O
+and	O
+age	O
+-	O
+wise	O
+.	O
+
+The	O
+support	O
+solution	O
+should	O
+be	O
+accessible	O
+to	O
+the	B-Environment Object
+users	E-Environment Object
+both	O
+from	O
+within	O
+the	O
+application	O
+and	O
+also	O
+outside	O
+the	O
+application	O
+through	O
+a	B-External System
+browser	M-External System
+interface	E-External System
+.	O
+
+An	B-Shared Phenomena
+audit	M-Shared Phenomena
+trail	E-Shared Phenomena
+is	O
+a	O
+record	O
+of	O
+actions	O
+taken	O
+by	O
+either	O
+the	B-Environment Object
+user	E-Environment Object
+or	O
+the	O
+CCTNS	M-Software System
+system	E-Software System
+triggers	O
+.	O
+
+This	O
+includes	O
+actions	S-Shared Phenomena
+taken	O
+by	O
+users	S-Environment Object
+or	O
+Administrators	S-Environment Object
+,	O
+or	O
+actions	O
+initiated	O
+automatically	O
+by	O
+the	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+as	O
+a	O
+result	O
+of	O
+system	O
+parameters	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+keep	O
+an	B-Environment Object
+unalterable	M-Environment Object
+audit	M-Environment Object
+trail	E-Environment Object
+capable	O
+of	O
+automatically	O
+capturing	O
+and	O
+storing	O
+information	B-Shared Phenomena
+about	M-Shared Phenomena
+all	M-Shared Phenomena
+the	M-Shared Phenomena
+actions	E-Shared Phenomena
+(	O
+create	O
+/	O
+read	O
+/	O
+update	O
+/	O
+delete	O
+)	O
+that	O
+are	O
+taken	O
+upon	O
+the	O
+critical	O
+entity	O
+in	O
+the	O
+CCTNS	O
+system	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+keep	O
+an	B-Environment Object
+unalterable	M-Environment Object
+audit	M-Environment Object
+trail	E-Environment Object
+capable	O
+of	O
+automatically	O
+capturing	O
+and	O
+storing	O
+information	B-Shared Phenomena
+about	M-Shared Phenomena
+the	M-Shared Phenomena
+user	M-Shared Phenomena
+initiating	E-Shared Phenomena
+and	O
+or	O
+carrying	O
+out	O
+the	O
+action	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+keep	O
+an	B-Environment Object
+unalterable	M-Environment Object
+audit	M-Environment Object
+trail	E-Environment Object
+capable	O
+of	M-Shared Phenomena
+automatically	O
+capturing	O
+and	O
+storing	O
+information	B-Shared Phenomena
+about	M-Shared Phenomena
+the	M-Shared Phenomena
+date	E-Shared Phenomena
+and	O
+time	B-Shared Phenomena
+of	O
+the	O
+event	E-Shared Phenomena
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+keep	O
+an	B-Environment Object
+unalterable	M-Environment Object
+audit	M-Environment Object
+trail	E-Environment Object
+capable	O
+of	O
+automatically	O
+capturing	O
+and	O
+storing	O
+information	B-Shared Phenomena
+about	M-Shared Phenomena
+administrative	M-Shared Phenomena
+parameters	E-Shared Phenomena
+.	O
+
+The	O
+word	O
+“	O
+unalterable	O
+”	O
+is	O
+to	O
+mean	O
+that	O
+the	B-Shared Phenomena
+audit	M-Shared Phenomena
+trail	M-Shared Phenomena
+data	E-Shared Phenomena
+cannot	O
+be	O
+modified	O
+in	O
+any	B-Environment Object
+way	O
+or	O
+deleted	O
+by	O
+any	O
+user	E-Environment Object
+.	O
+
+It	O
+may	O
+be	O
+subject	O
+to	O
+re	O
+-	O
+department	O
+and	O
+copying	O
+to	O
+removable	O
+media	O
+if	O
+required	O
+,	O
+so	O
+long	O
+as	O
+its	O
+contents	O
+remain	O
+unchanged	O
+.	O
+
+Once	O
+the	B-Environment Object
+audit	M-Environment Object
+trail	E-Environment Object
+functionality	O
+has	O
+been	O
+activated	O
+,	O
+the	O
+CCTNS	M-Software System
+system	E-Software System
+must	O
+track	O
+events	S-Shared Phenomena
+without	O
+manual	O
+intervention	O
+,	O
+and	O
+store	O
+in	O
+the	O
+audit	O
+trail	O
+information	O
+about	O
+them	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+maintain	O
+the	B-Environment Object
+audit	M-Environment Object
+trail	E-Environment Object
+for	O
+as	O
+long	O
+as	O
+required	O
+,	O
+which	O
+will	O
+be	O
+at	O
+least	O
+for	O
+the	O
+life	O
+of	O
+the	O
+case	O
+to	O
+which	O
+it	O
+refers	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+ensure	O
+that	O
+audit	B-Shared Phenomena
+trail	M-Shared Phenomena
+data	E-Shared Phenomena
+is	O
+available	O
+for	O
+inspection	O
+on	O
+request	O
+,	O
+so	O
+that	O
+a	B-Shared Phenomena
+specific	M-Shared Phenomena
+event	E-Shared Phenomena
+can	O
+be	O
+identified	O
+and	O
+all	B-Shared Phenomena
+related	M-Shared Phenomena
+data	O
+made	O
+accessible	O
+,	O
+and	O
+that	O
+this	O
+can	O
+be	O
+achieved	O
+by	O
+authorised	O
+external	B-Environment Object
+personnel	E-Environment Object
+who	O
+have	O
+little	O
+or	O
+no	O
+familiarity	O
+with	O
+the	B-Software System
+CCTNS	O
+system	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+be	O
+able	O
+to	O
+export	B-System Requirements
+audit	M-System Requirements
+trails	E-System Requirements
+for	O
+specified	O
+cases	O
+(	O
+without	O
+affecting	O
+the	O
+audit	O
+trail	O
+stored	O
+by	O
+The	O
+CCTNS	O
+system	O
+)	O
+.	O
+
+This	O
+functionality	O
+can	O
+be	O
+used	O
+by	O
+external	B-Environment Object
+auditors	E-Environment Object
+who	O
+wish	O
+to	B-System Requirements
+examine	M-System Requirements
+or	M-System Requirements
+analyse	M-System Requirements
+system	M-System Requirements
+activity	E-System Requirements
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+be	O
+able	O
+to	B-System Requirements
+capture	M-System Requirements
+and	M-System Requirements
+store	M-System Requirements
+violations	E-System Requirements
+(	O
+i	O
+.	O
+e	O
+.	O
+A	O
+user	O
+’	O
+s	O
+attempts	O
+to	O
+access	O
+a	O
+case	O
+to	O
+which	O
+he	O
+is	O
+denied	O
+access	O
+)	O
+,	O
+and	O
+(	O
+where	O
+violations	O
+can	O
+validly	O
+be	O
+attempted	B-System Requirements
+)	O
+attempted	O
+violations	O
+,	O
+of	O
+access	O
+control	O
+mechanisms	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+able	O
+to	O
+provide	O
+reports	S-Shared Phenomena
+for	O
+actions	O
+on	O
+cases	O
+organised	O
+by	O
+workstation	S-Environment Object
+and	O
+(	O
+where	O
+technically	O
+appropriate	O
+)	O
+by	O
+network	O
+address	O
+.	O
+
+The	O
+requirements	O
+specify	O
+the	B-Software System
+requirements	O
+to	O
+control	O
+the	O
+user	O
+access	O
+to	O
+correspondences	O
+,	O
+files	O
+,	O
+and	O
+records	O
+and	O
+various	O
+functionalities	O
+provided	O
+within	O
+the	O
+CCTNS	M-Software System
+system	E-Software System
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+allow	O
+the	O
+user	B-Environment Object
+to	O
+limit	B-System Requirements
+access	E-System Requirements
+to	O
+cases	O
+to	O
+specified	O
+users	S-Environment Object
+or	O
+user	O
+groups	E-Environment Object
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+provide	O
+for	O
+role	B-System Requirements
+-	M-System Requirements
+based	M-System Requirements
+control	E-System Requirements
+for	O
+the	B-Software System
+functionality	O
+within	O
+the	O
+CCTNS	O
+system	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+allow	O
+a	B-Environment Object
+user	E-Environment Object
+to	O
+be	O
+a	O
+member	O
+of	O
+more	O
+than	O
+one	O
+group	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+allow	O
+only	O
+admin	B-Environment Object
+-	M-Environment Object
+users	E-Environment Object
+to	O
+set	O
+up	O
+user	B-Shared Phenomena
+profiles	E-Shared Phenomena
+and	O
+allocate	O
+users	O
+to	O
+groups	S-Shared Phenomena
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+allow	O
+a	B-Environment Object
+user	E-Environment Object
+to	O
+stipulate	B-System Requirements
+which	M-System Requirements
+other	M-System Requirements
+users	M-System Requirements
+or	M-System Requirements
+groups	M-System Requirements
+can	M-System Requirements
+access	M-System Requirements
+cases	E-System Requirements
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+allow	O
+changes	O
+to	O
+security	B-Shared Phenomena
+attributes	E-Shared Phenomena
+for	O
+groups	S-Environment Object
+or	O
+users	S-Environment Object
+(	O
+such	O
+as	O
+access	O
+rights	O
+,	O
+security	O
+level	O
+,	O
+privileges	O
+,	O
+password	O
+allocation	O
+and	O
+management	O
+)	O
+to	O
+be	O
+made	O
+only	O
+by	O
+super	O
+-	O
+user	O
+.	O
+
+If	O
+a	M-Shared Phenomena
+user	E-Environment Object
+requests	B-Shared Phenomena
+access	E-Shared Phenomena
+to	O
+,	O
+or	O
+searches	O
+for	O
+,	O
+a	O
+case	E-Shared Phenomena
+which	O
+he	O
+does	O
+not	O
+have	O
+the	B-Shared Phenomena
+right	O
+to	O
+access	O
+,	O
+the	O
+CCTNS	M-Software System
+system	E-Software System
+must	O
+provide	O
+one	O
+of	M-Shared Phenomena
+the	O
+following	O
+responses	O
+(	O
+selectable	O
+at	O
+configuration	O
+time	O
+)	O
+:	O
+display	O
+title	S-Shared Phenomena
+and	O
+metadata	S-Shared Phenomena
+;	O
+display	O
+the	O
+existence	M-Shared Phenomena
+of	O
+a	O
+case	O
+but	O
+not	O
+its	O
+title	O
+or	O
+other	O
+metadata	O
+;	O
+do	O
+not	O
+display	O
+any	O
+case	O
+information	O
+or	O
+indicate	O
+its	O
+existence	O
+in	O
+any	O
+way	O
+.	O
+
+These	O
+options	O
+are	O
+presented	O
+in	O
+order	O
+of	O
+increasing	O
+security	O
+.	O
+
+Note	O
+that	O
+the	B-Software System
+requirement	O
+in	O
+the	O
+third	O
+option	O
+(	O
+i	O
+.	O
+e	O
+.	O
+the	O
+most	O
+stringent	O
+)	O
+implies	O
+that	O
+the	O
+CCTNS	M-Software System
+system	E-Software System
+must	O
+not	O
+include	O
+such	O
+cases	O
+in	O
+any	O
+count	O
+of	O
+search	O
+results	O
+;	O
+this	O
+level	O
+of	O
+security	O
+is	O
+normally	O
+appropriate	O
+for	O
+cases	O
+dealing	O
+with	O
+matters	O
+such	O
+as	O
+national	O
+security	O
+.	O
+
+If	O
+a	B-Environment Object
+user	E-Environment Object
+performs	O
+a	O
+quick	O
+or	O
+advanced	O
+search	S-Shared Phenomena
+,	O
+the	B-Shared Phenomena
+CCTNS	M-Software System
+system	E-Software System
+must	O
+never	O
+include	O
+in	O
+the	O
+search	O
+result	E-Shared Phenomena
+list	O
+any	O
+record	O
+which	O
+the	O
+user	O
+does	O
+not	O
+have	O
+the	O
+right	O
+to	O
+access	O
+.	O
+
+If	O
+the	B-Environment Object
+CCTNS	M-Software System
+system	E-Software System
+allows	O
+users	S-Environment Object
+to	O
+make	O
+unauthorised	B-Shared Phenomena
+attempts	E-Shared Phenomena
+to	O
+access	O
+cases	S-Environment Object
+,	O
+it	O
+must	O
+log	O
+these	O
+in	O
+the	O
+audit	M-Environment Object
+trail	E-Environment Object
+.	O
+
+Any	O
+access	O
+to	B-System Requirements
+cases	O
+,	O
+and	O
+all	O
+other	O
+activities	O
+involving	O
+the	B-Environment Object
+cases	O
+and	O
+related	O
+documents	S-Shared Phenomena
+or	O
+data	S-Shared Phenomena
+should	O
+also	O
+need	O
+to	O
+be	O
+stored	O
+in	M-System Requirements
+the	O
+audit	M-Environment Object
+trail	E-Environment Object
+to	O
+ensure	M-System Requirements
+legal	M-System Requirements
+admissibility	E-System Requirements
+and	O
+to	O
+assist	M-System Requirements
+in	O
+data	O
+recovery	E-System Requirements
+.	O
+
+All	O
+error	B-Shared Phenomena
+messages	E-Shared Phenomena
+produced	O
+by	O
+the	B-Environment Object
+CCTNS	M-Software System
+system	E-Software System
+must	O
+be	O
+meaningful	O
+,	O
+so	O
+that	O
+they	O
+can	O
+be	O
+appropriately	O
+acted	O
+upon	O
+by	O
+the	O
+users	E-Environment Object
+who	O
+are	O
+likely	O
+to	O
+see	O
+them	O
+.	O
+
+Ideally	O
+,	O
+each	O
+error	B-Shared Phenomena
+message	E-Shared Phenomena
+will	O
+be	O
+accompanied	O
+by	O
+explanatory	O
+text	O
+and	O
+an	O
+indication	O
+of	O
+the	B-Environment Object
+action	O
+(	O
+s	O
+)	O
+which	O
+the	O
+user	E-Environment Object
+can	O
+take	O
+in	O
+response	O
+to	O
+the	O
+error	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+employ	O
+a	M-System Requirements
+single	O
+set	O
+of	O
+user	B-Shared Phenomena
+interface	M-Shared Phenomena
+rules	E-Shared Phenomena
+,	O
+or	O
+a	O
+small	O
+number	O
+of	O
+sets	O
+to	B-System Requirements
+provide	M-System Requirements
+a	O
+familiar	M-System Requirements
+and	M-System Requirements
+common	M-System Requirements
+look	E-System Requirements
+and	O
+feel	O
+for	O
+the	O
+application	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+be	O
+able	O
+to	O
+display	O
+several	B-Shared Phenomena
+entity	E-Shared Phenomena
+(	O
+cases	O
+,	O
+suspects	O
+)	O
+simultaneously	O
+.	O
+
+The	O
+interfaces	O
+must	O
+be	O
+made	O
+customizable	O
+or	O
+user	O
+-	O
+configurable	O
+to	O
+the	O
+extent	O
+possible	O
+.	O
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+the	O
+displayed	O
+columns	O
+in	O
+the	O
+table	O
+,	O
+move	O
+,	O
+resize	O
+,	O
+modify	O
+the	O
+appearance	O
+)	O
+.	O
+
+Such	O
+configurations	S-Shared Phenomena
+must	O
+be	O
+saved	O
+in	O
+the	B-Environment Object
+user	E-Environment Object
+profile	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+user	O
+interface	O
+must	O
+be	O
+suitable	O
+for	O
+users	S-Environment Object
+with	O
+special	O
+needs	O
+;	O
+that	O
+is	O
+,	O
+compatible	O
+with	O
+specialist	O
+software	O
+that	O
+may	O
+be	O
+used	O
+and	O
+with	O
+appropriate	O
+interface	O
+guidelines	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+provide	O
+End	B-Environment Object
+User	E-Environment Object
+and	M-System Requirements
+Administrator	S-Environment Object
+functions	O
+which	O
+are	O
+easy	B-System Requirements
+to	M-System Requirements
+use	M-System Requirements
+and	O
+intuitive	M-System Requirements
+throughout	E-System Requirements
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+allow	O
+persistent	B-Shared Phenomena
+defaults	E-Shared Phenomena
+for	O
+data	B-Environment Object
+entry	E-Environment Object
+where	O
+desirable	O
+.	O
+
+These	O
+defaults	O
+should	O
+include	O
+:	O
+user	O
+-	O
+definable	O
+values	O
+;	O
+values	O
+same	O
+as	O
+previous	O
+item	O
+;	O
+values	O
+derived	O
+from	O
+context	O
+,	O
+e	O
+.	O
+g	O
+.	O
+date	O
+,	O
+file	O
+reference	O
+,	O
+user	O
+identifier	O
+;	O
+
+Frequently	O
+-	O
+executed	O
+System	O
+transactions	O
+must	O
+be	O
+designed	O
+so	O
+that	O
+they	O
+can	O
+be	O
+completed	O
+with	O
+a	O
+small	O
+number	O
+of	O
+interactions	O
+(	O
+e	O
+.	O
+g	O
+.	O
+mouse	O
+clicks	O
+)	O
+.	O
+
+Where	O
+the	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+employs	O
+a	B-Shared Phenomena
+graphical	M-Shared Phenomena
+user	M-Shared Phenomena
+interface	E-Shared Phenomena
+,	O
+it	O
+must	O
+allow	O
+users	S-Environment Object
+to	O
+customise	O
+it	O
+.	O
+
+Customisation	O
+should	O
+include	O
+,	O
+but	O
+need	O
+not	O
+be	O
+limited	O
+to	O
+the	O
+following	O
+changes	O
+:	O
+menu	O
+contents	O
+;	O
+layout	O
+of	O
+screens	O
+;	O
+use	O
+of	O
+function	O
+keys	O
+;	O
+on	O
+-	O
+screen	O
+colours	O
+,	O
+fonts	O
+and	O
+font	O
+sizes	O
+;	O
+
+The	O
+user	O
+interfaces	O
+should	O
+be	O
+designed	O
+to	O
+make	O
+them	O
+user	O
+-	O
+intuitive	O
+.	O
+
+The	O
+user	O
+interfaces	O
+of	O
+the	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+comply	O
+with	O
+Standard	O
+ISO	O
+9241	O
+.	O
+
+ICT	O
+accessibility	O
+:	O
+ISO	O
+9241	O
+-	O
+20	O
+shall	O
+be	O
+the	O
+standard	O
+for	O
+guidance	O
+on	O
+ICT	O
+accessibility	O
+.	O
+
+Application	O
+user	O
+interfaces	O
+to	O
+meet	O
+its	O
+requirements	O
+and	O
+recommendations	O
+.	O
+
+Software	O
+accessibility	O
+ISO	O
+9241	O
+-	O
+171	O
+shall	O
+be	O
+the	O
+standard	O
+for	O
+guidance	O
+on	O
+software	O
+accessibility	O
+.	O
+
+User	O
+interfaces	O
+should	O
+meet	O
+its	O
+requirements	O
+and	O
+recommendations	O
+.	O
+
+Content	O
+accessibility	O
+WCAG	O
+1	O
+.	O
+0	O
+shall	O
+be	O
+the	O
+standard	O
+used	O
+for	O
+guidance	O
+on	O
+content	O
+accessibility	O
+.	O
+
+The	O
+application	O
+logo	O
+to	O
+be	O
+available	O
+on	O
+all	O
+pages	O
+as	O
+a	O
+link	O
+to	O
+the	O
+home	O
+page	O
+.	O
+
+Providing	O
+text	M-Shared Phenomena
+equivalents	O
+for	O
+non	O
+-	M-Shared Phenomena
+text	O
+media	O
+objects	O
+:	O
+All	O
+non	O
+-	O
+text	O
+media	O
+objects	O
+,	O
+such	O
+as	O
+graphical	B-Shared Phenomena
+images	E-Shared Phenomena
+or	O
+video	S-Shared Phenomena
+,	O
+should	O
+be	O
+provided	O
+with	O
+alternative	B-Shared Phenomena
+equivalent	B-Shared Phenomena
+textual	M-Shared Phenomena
+descriptions	E-Shared Phenomena
+and	O
+/	O
+or	O
+with	O
+equivalent	O
+text	O
+-	O
+based	M-Shared Phenomena
+functionality	E-Shared Phenomena
+.	O
+
+Making	O
+navigation	O
+self	O
+-	O
+descriptive	O
+:	O
+Navigation	S-External System
+should	O
+be	O
+designed	O
+to	O
+help	O
+users	S-Environment Object
+understand	O
+where	B-Shared Phenomena
+they	M-Shared Phenomena
+are	E-Shared Phenomena
+,	O
+where	O
+they	O
+have	M-Shared Phenomena
+been	E-Shared Phenomena
+and	O
+where	O
+they	O
+can	M-Shared Phenomena
+go	M-Shared Phenomena
+next	E-Shared Phenomena
+.	O
+
+General	O
+guidance	O
+on	O
+achieving	O
+self	O
+-	O
+descriptiveness	O
+is	O
+given	O
+in	O
+ISO	O
+9241	O
+-	O
+110	O
+.	O
+
+Showing	O
+users	O
+where	O
+they	O
+are	O
+:	O
+Each	B-External System
+presentation	M-External System
+segment	E-External System
+(	O
+page	O
+or	O
+window	O
+)	O
+should	O
+provide	O
+the	B-Environment Object
+user	E-Environment Object
+with	O
+a	B-Shared Phenomena
+clear	M-Shared Phenomena
+and	M-Shared Phenomena
+sufficient	M-Shared Phenomena
+indication	E-Shared Phenomena
+of	O
+where	O
+he	O
+or	O
+she	O
+is	O
+in	O
+the	O
+navigation	O
+structure	O
+and	O
+of	O
+the	O
+current	O
+segment	O
+position	O
+with	O
+respect	O
+to	O
+the	O
+overall	O
+structure	O
+.	O
+
+Offering	O
+alternative	O
+access	M-Shared Phenomena
+paths	E-Shared Phenomena
+:	O
+Alternative	B-Shared Phenomena
+access	O
+paths	O
+for	O
+navigating	O
+to	B-System Requirements
+a	B-Environment Object
+specific	M-Environment Object
+unit	M-Environment Object
+of	M-Environment Object
+content	E-Environment Object
+should	O
+be	O
+offered	O
+to	O
+support	M-System Requirements
+different	M-System Requirements
+navigation	M-System Requirements
+strategies	E-System Requirements
+.	O
+
+Minimizing	O
+navigation	O
+effort	O
+:	O
+The	O
+number	O
+of	O
+navigation	O
+steps	O
+needed	O
+to	O
+reach	O
+a	O
+certain	O
+piece	O
+of	O
+content	O
+should	O
+be	O
+minimized	O
+as	O
+long	O
+as	O
+different	O
+mental	O
+models	O
+,	O
+navigation	O
+strategies	O
+and	O
+tasks	O
+of	O
+the	B-Environment Object
+user	E-Environment Object
+are	O
+taken	O
+into	O
+account	O
+.	O
+
+Splash	B-Environment Object
+screens	E-Environment Object
+should	O
+be	O
+avoided	O
+unless	O
+they	O
+provide	O
+useful	B-Shared Phenomena
+content	M-Shared Phenomena
+or	M-Shared Phenomena
+feedback	E-Shared Phenomena
+about	O
+the	B-Environment Object
+application	O
+state	O
+to	O
+the	O
+user	E-Environment Object
+.	O
+
+If	O
+a	B-Shared Phenomena
+splash	M-Environment Object
+screen	E-Environment Object
+is	O
+used	O
+,	O
+a	O
+navigation	M-Shared Phenomena
+option	E-Shared Phenomena
+to	O
+skip	O
+it	O
+should	O
+be	O
+offered	O
+.	O
+
+Avoiding	O
+opening	O
+unnecessary	O
+windows	E-External System
+:	O
+Additional	B-External System
+windows	O
+such	O
+as	O
+new	O
+browser	O
+windows	O
+or	O
+pop	O
+-	O
+up	O
+windows	O
+should	O
+only	O
+be	O
+opened	S-Shared Phenomena
+if	O
+this	O
+supports	O
+the	B-Environment Object
+user	E-Environment Object
+’	O
+s	O
+task	O
+.	O
+
+Opening	O
+new	B-External System
+windows	E-External System
+can	O
+distract	O
+,	O
+confuse	O
+or	O
+impede	O
+users	S-Environment Object
+for	O
+a	O
+variety	O
+of	O
+reasons	O
+.	O
+
+They	O
+can	O
+superimpose	O
+the	O
+primary	O
+window	O
+,	O
+hiding	O
+relevant	O
+information	O
+.	O
+
+They	O
+could	O
+make	O
+it	O
+cognitively	O
+more	O
+difficult	O
+to	O
+understand	O
+the	O
+navigation	O
+structure	O
+with	O
+negative	O
+effects	O
+on	O
+both	O
+usability	O
+and	O
+accessibility	O
+.	O
+
+They	O
+also	O
+require	O
+additional	O
+user	B-Shared Phenomena
+actions	E-Shared Phenomena
+for	B-System Requirements
+closing	M-System Requirements
+unwanted	M-System Requirements
+windows	E-System Requirements
+.	O
+
+This	O
+may	O
+be	O
+done	O
+by	O
+placing	O
+important	B-Shared Phenomena
+information	E-Shared Phenomena
+at	O
+the	O
+top	O
+and	O
+providing	O
+links	B-Shared Phenomena
+to	M-Shared Phenomena
+information	O
+that	O
+is	O
+further	O
+down	O
+the	O
+page	O
+.	O
+
+Horizontal	O
+scrolling	O
+should	O
+be	O
+avoided	O
+wherever	O
+possible	O
+.	O
+
+Designing	O
+for	O
+input	B-Physical Device
+device	E-Physical Device
+independence	O
+:	O
+User	O
+interfaces	O
+should	O
+be	O
+designed	O
+to	B-System Requirements
+allow	M-System Requirements
+activation	M-System Requirements
+of	M-System Requirements
+controls	E-System Requirements
+by	O
+a	O
+variety	O
+of	O
+input	O
+devices	E-Physical Device
+.	O
+
+The	O
+ability	O
+to	O
+choose	O
+between	O
+different	O
+input	B-Physical Device
+devices	E-Physical Device
+for	O
+activating	O
+controls	O
+such	O
+as	O
+links	O
+,	O
+fields	O
+and	O
+buttons	O
+is	O
+important	O
+both	O
+for	O
+users	B-Environment Object
+who	O
+prefer	O
+a	O
+certain	O
+input	O
+mode	O
+,	O
+mobile	B-Environment Object
+users	O
+and	O
+users	O
+with	M-Environment Object
+disabilities	E-Environment Object
+.	O
+
+In	O
+general	O
+,	O
+device	O
+independence	O
+can	O
+be	O
+achieved	O
+if	O
+the	O
+functionality	O
+is	O
+operable	O
+via	O
+a	O
+keyboard	O
+.	O
+
+Making	B-System Requirements
+user	M-System Requirements
+interfaces	M-System Requirements
+robust	E-System Requirements
+:	O
+User	B-External System
+interfaces	O
+should	O
+be	O
+designed	O
+to	O
+be	O
+as	O
+robust	O
+as	O
+possible	O
+in	O
+the	O
+face	O
+of	O
+changing	O
+technology	O
+.	O
+
+This	O
+encompasses	O
+being	O
+able	O
+to	O
+present	O
+content	B-Shared Phenomena
+containing	M-Shared Phenomena
+newer	M-Shared Phenomena
+technologies	E-Shared Phenomena
+by	O
+older	B-Environment Object
+user	M-Environment Object
+agents	E-Environment Object
+as	O
+well	O
+as	O
+designing	O
+content	O
+to	O
+be	O
+usable	O
+with	O
+future	O
+technologies	O
+.	O
+
+Acceptable	O
+opening	O
+/	O
+download	O
+times	O
+:	O
+Application	B-External System
+pages	E-External System
+should	O
+be	O
+designed	O
+and	O
+implemented	O
+so	O
+that	O
+there	O
+are	O
+acceptable	O
+opening	O
+times	O
+and	O
+download	O
+times	O
+for	O
+the	O
+expected	O
+range	O
+of	O
+technical	O
+contexts	O
+of	O
+use	O
+(	O
+e	O
+.	O
+g	O
+.	O
+
+bandwidth	O
+between	O
+the	B-Environment Object
+application	O
+and	O
+the	O
+user	E-Environment Object
+)	O
+.	O
+
+This	O
+is	O
+particularly	O
+important	O
+for	O
+frequently	O
+accessed	O
+pages	O
+or	O
+pages	O
+that	O
+are	O
+important	O
+for	O
+user	O
+navigation	O
+and	O
+exploration	O
+,	O
+such	O
+as	O
+the	O
+home	O
+page	O
+.	O
+
+Minimizing	O
+user	M-Shared Phenomena
+errors	E-Shared Phenomena
+:	O
+Potential	B-Shared Phenomena
+user	O
+errors	O
+as	O
+well	O
+as	O
+the	O
+effort	O
+needed	O
+to	O
+recover	O
+from	O
+errors	O
+should	O
+be	O
+minimized	O
+.	O
+
+Providing	O
+clear	O
+error	M-Shared Phenomena
+messages	E-Shared Phenomena
+:	O
+The	B-Shared Phenomena
+content	M-Shared Phenomena
+of	M-Shared Phenomena
+error	O
+messages	O
+shown	O
+on	O
+the	M-System Requirements
+pages	E-External System
+or	O
+special	B-External System
+error	O
+pages	O
+should	O
+clearly	O
+state	O
+the	O
+reason	O
+why	O
+the	O
+error	O
+occurred	O
+and	O
+,	O
+if	O
+possible	O
+,	O
+actions	S-Shared Phenomena
+the	O
+user	E-Environment Object
+can	O
+take	O
+to	O
+resolve	B-System Requirements
+the	O
+error	O
+.	O
+
+Users	S-Environment Object
+expect	O
+error	B-Shared Phenomena
+messages	E-Shared Phenomena
+to	O
+be	O
+in	O
+the	O
+same	O
+language	O
+as	O
+the	O
+user	O
+interface	O
+.	O
+
+Using	O
+appropriate	O
+formats	O
+,	O
+units	O
+of	O
+measurement	O
+or	O
+currency	O
+:	O
+When	O
+designing	O
+user	O
+interfaces	O
+for	O
+use	O
+by	O
+diverse	O
+groups	O
+,	O
+input	O
+and	O
+output	O
+of	O
+information	O
+elements	O
+such	O
+as	O
+currency	O
+,	O
+units	O
+of	O
+measurement	O
+,	O
+temperatures	O
+,	O
+date	O
+and	O
+time	O
+,	O
+phone	O
+numbers	O
+,	O
+address	O
+or	O
+postal	O
+codes	O
+should	O
+be	O
+designed	O
+so	O
+that	O
+they	O
+are	O
+usable	O
+.	O
+
+Making	B-System Requirements
+text	M-System Requirements
+resizable	M-System Requirements
+by	M-System Requirements
+the	M-System Requirements
+user	E-System Requirements
+:	O
+Text	S-Shared Phenomena
+should	O
+be	O
+able	O
+to	O
+be	O
+resized	O
+by	O
+the	O
+user	O
+,	O
+using	O
+functions	O
+provided	O
+by	O
+the	O
+user	O
+agent	E-Environment Object
+or	O
+other	O
+appropriate	O
+means	O
+i	O
+.	O
+e	O
+.	O
+
+Text	O
+quality	O
+:	O
+The	O
+quality	O
+of	O
+textual	O
+content	O
+with	O
+respect	O
+to	O
+spelling	O
+and	O
+grammar	O
+should	O
+be	O
+sufficient	O
+so	O
+as	O
+not	O
+to	O
+impede	O
+readability	O
+.	O
+
+Writing	O
+style	O
+:	O
+The	O
+reading	O
+and	O
+understanding	O
+of	O
+the	O
+textual	O
+content	O
+on	O
+the	O
+screen	O
+should	O
+be	O
+supported	O
+by	O
+suitable	O
+means	O
+,	O
+including	O
+the	O
+use	O
+of	O
+short	O
+sentences	O
+,	O
+the	O
+division	O
+of	O
+the	O
+text	O
+into	O
+shorter	O
+chunks	O
+or	O
+the	O
+presentation	O
+of	O
+content	O
+items	O
+in	O
+the	O
+form	O
+of	O
+bullet	O
+points	O
+.	O
+
+Supporting	O
+text	O
+skimming	O
+:	O
+Fast	O
+skimming	O
+of	O
+text	O
+should	O
+be	O
+supported	O
+by	O
+the	O
+provision	O
+of	O
+clear	O
+links	O
+,	O
+bulleted	O
+lists	O
+,	O
+highlighted	O
+keywords	O
+,	O
+logical	O
+headings	O
+,	O
+and	O
+short	O
+phrases	O
+and	O
+sentences	O
+.	O
+
+Readability	O
+of	O
+text	O
+:	O
+Text	O
+presented	O
+on	O
+the	O
+pages	O
+should	O
+be	O
+readable	O
+taking	O
+into	O
+account	O
+the	O
+expected	O
+display	O
+characteristics	O
+and	O
+spatial	O
+arrangement	O
+.	O
+
+ISO	O
+9241	O
+-	O
+303	O
+shall	O
+be	O
+consulted	O
+for	O
+screen	O
+text	O
+legibility	O
+requirements	O
+.	O
+
+Distinguishable	O
+within	O
+-	O
+page	O
+links	O
+:	O
+Within	O
+-	O
+page	O
+links	O
+should	O
+be	O
+clearly	O
+distinguishable	O
+from	O
+other	O
+links	O
+that	O
+lead	O
+to	O
+a	O
+different	O
+page	O
+.	O
+
+Within	O
+-	O
+page	O
+links	O
+are	O
+shown	O
+with	O
+dashed	O
+rather	O
+than	O
+solid	O
+underlines	O
+
+Avoiding	O
+link	O
+overload	O
+:	O
+Text	O
+pages	O
+containing	O
+large	O
+proportions	O
+of	O
+links	O
+should	O
+be	O
+formatted	O
+so	O
+that	O
+the	O
+presence	O
+of	O
+links	O
+does	O
+not	O
+impede	O
+the	O
+readability	O
+of	O
+the	O
+text	O
+.	O
+
+Using	O
+familiar	O
+terminology	O
+for	O
+navigation	O
+links	O
+:	O
+Navigation	O
+links	O
+—	O
+particularly	O
+links	O
+representing	O
+the	B-Environment Object
+main	O
+navigation	O
+structure	O
+—	O
+should	O
+be	O
+labelled	O
+with	O
+terms	O
+that	O
+are	O
+familiar	O
+to	O
+the	O
+user	E-Environment Object
+,	O
+based	O
+on	O
+his	O
+/	O
+her	O
+general	O
+knowledge	O
+,	O
+prior	O
+experience	O
+in	O
+the	O
+application	O
+domain	O
+or	O
+experience	O
+of	O
+using	O
+other	O
+systems	O
+.	O
+
+Using	O
+descriptive	O
+link	O
+labels	O
+:	O
+The	O
+target	O
+or	O
+purpose	O
+of	O
+a	O
+link	O
+should	O
+be	O
+directly	O
+indicated	O
+by	O
+its	O
+label	O
+,	O
+avoiding	O
+generic	O
+labels	O
+such	O
+as	O
+“	O
+go	O
+”	O
+or	O
+“	O
+click	O
+here	O
+”	O
+except	O
+where	O
+the	O
+purpose	O
+of	O
+the	O
+link	O
+is	O
+clear	O
+from	O
+its	O
+context	O
+on	O
+the	O
+page	O
+or	O
+the	O
+labels	O
+have	O
+commonly	O
+understood	O
+semantics	O
+in	O
+the	O
+particular	O
+application	O
+domain	O
+.	O
+
+Using	O
+appropriate	B-Shared Phenomena
+terminology	E-Shared Phenomena
+specific	O
+to	M-System Requirements
+the	M-System Requirements
+user	E-Environment Object
+’	O
+s	O
+tasks	O
+and	O
+information	O
+needs	O
+is	O
+important	O
+for	O
+making	B-System Requirements
+the	O
+content	M-System Requirements
+easy	M-System Requirements
+to	O
+understand	E-System Requirements
+.	O
+
+Marking	O
+links	O
+opening	O
+new	O
+windows	O
+:	O
+Links	O
+that	O
+open	O
+new	O
+browser	O
+windows	O
+or	O
+pop	O
+-	O
+up	O
+windows	O
+should	O
+be	O
+clearly	O
+marked	O
+.	O
+
+Distinguishing	O
+navigation	O
+links	O
+from	O
+controls	O
+:	O
+Navigation	O
+links	O
+should	O
+be	O
+clearly	O
+distinguishable	O
+from	O
+controls	O
+activating	O
+some	O
+action	O
+.	O
+
+Typical	O
+action	O
+types	O
+in	O
+user	O
+interfaces	O
+include	O
+manipulating	O
+application	O
+data	O
+,	O
+performing	O
+searches	O
+,	O
+communication	O
+actions	O
+,	O
+such	O
+as	O
+opening	O
+a	O
+new	O
+e	O
+-	O
+mail	O
+window	O
+or	O
+starting	O
+a	O
+chat	O
+function	O
+,	O
+and	O
+presentation	O
+-	O
+related	O
+actions	O
+,	O
+such	O
+as	O
+sorting	O
+a	O
+list	O
+of	O
+search	O
+results	O
+.	O
+
+Providing	O
+printable	O
+document	E-Shared Phenomena
+versions	O
+:	O
+If	O
+a	O
+document	O
+is	O
+either	O
+too	O
+long	O
+,	O
+dispersed	O
+over	O
+several	O
+pages	O
+or	O
+in	O
+a	O
+specific	O
+layout	O
+that	O
+is	O
+not	O
+suitable	O
+for	O
+online	O
+reading	O
+,	O
+a	O
+printer	O
+-	O
+friendly	O
+version	O
+of	O
+the	B-Shared Phenomena
+document	O
+should	O
+be	O
+provided	O
+that	O
+prints	O
+the	O
+content	O
+in	O
+a	O
+form	O
+acceptable	O
+to	O
+the	O
+user	E-Environment Object
+(	O
+e	O
+.	O
+g	O
+.	O
+
+in	O
+the	O
+expected	O
+layout	O
+,	O
+paper	O
+format	O
+,	O
+or	O
+orientation	O
+)	O
+.	O
+
+Use	O
+of	O
+“	O
+white	O
+space	O
+”	O
+:	O
+“	O
+White	O
+space	O
+”	O
+on	O
+a	O
+page	O
+i	O
+.	O
+e	O
+.	O
+
+space	O
+filled	O
+only	O
+with	O
+the	O
+background	O
+color	O
+should	O
+be	O
+used	O
+in	O
+such	O
+a	O
+way	O
+that	O
+it	O
+does	O
+not	O
+impair	O
+the	O
+visual	O
+skimming	O
+of	O
+the	O
+page	O
+.	O
+
+While	O
+white	O
+space	O
+is	O
+an	O
+important	O
+means	O
+of	O
+visually	O
+organizing	O
+the	O
+different	O
+content	O
+elements	O
+on	O
+a	O
+page	O
+,	O
+if	O
+the	O
+distance	O
+between	O
+the	O
+blocks	O
+of	O
+information	O
+displayed	O
+becomes	O
+too	O
+large	O
+,	O
+rapid	O
+skimming	O
+of	O
+the	O
+page	O
+can	O
+be	O
+impeded	O
+.	O
+
+Selecting	O
+appropriate	O
+page	O
+lengths	O
+The	O
+length	O
+of	O
+a	O
+page	O
+should	O
+be	O
+selected	O
+so	O
+as	O
+to	O
+support	O
+the	O
+primary	O
+purpose	O
+and	O
+use	O
+of	O
+the	O
+page	O
+.	O
+
+Short	O
+pages	O
+are	O
+generally	O
+more	O
+appropriate	O
+for	O
+homepages	O
+,	O
+navigation	O
+pages	O
+,	O
+or	O
+overview	O
+pages	O
+that	O
+need	O
+to	O
+be	O
+read	O
+quickly	O
+.	O
+
+Longer	O
+pages	O
+can	O
+be	O
+more	O
+appropriate	O
+when	O
+users	S-Environment Object
+want	O
+to	O
+read	O
+the	O
+content	O
+without	O
+interruptions	O
+or	O
+when	O
+the	O
+page	O
+needs	O
+to	O
+match	O
+a	O
+paper	O
+counterpart	O
+.	O
+
+Using	O
+colour	O
+:	O
+Colour	O
+should	O
+be	O
+used	O
+with	O
+care	O
+,	O
+taking	O
+into	O
+account	O
+human	O
+capabilities	O
+and	O
+restrictions	O
+in	O
+perceiving	O
+colour	O
+,	O
+and	O
+not	O
+as	O
+the	O
+only	O
+means	O
+of	O
+conveying	O
+information	O
+.	O
+
+Color	O
+should	O
+never	O
+be	O
+the	O
+only	O
+means	O
+of	O
+coding	O
+.	O
+
+Some	O
+users	S-Environment Object
+may	O
+have	O
+difficulties	O
+in	O
+perceiving	O
+certain	O
+colors	O
+or	O
+color	O
+combinations	O
+(	O
+color	O
+-	O
+blindness	O
+)	O
+.	O
+
+Using	O
+frames	O
+with	O
+care	O
+:	O
+If	O
+frames	O
+are	O
+used	O
+,	O
+care	O
+should	O
+be	O
+taken	O
+to	O
+avoid	O
+possible	O
+problems	O
+,	O
+for	O
+example	O
+,	O
+those	O
+involving	O
+the	O
+use	O
+of	O
+the	O
+back	O
+button	O
+,	O
+bookmarking	O
+of	O
+pages	O
+,	O
+or	O
+scrolling	O
+of	O
+information	O
+.	O
+
+When	O
+frames	O
+are	O
+used	O
+,	O
+it	O
+is	O
+important	O
+to	O
+title	O
+each	O
+frame	O
+,	O
+and	O
+to	O
+describe	O
+its	O
+purpose	O
+and	O
+how	O
+frames	O
+relate	O
+to	O
+one	O
+another	O
+other	O
+.	O
+
+Providing	O
+alternatives	O
+to	O
+frame	O
+-	O
+based	O
+presentation	O
+:	O
+If	O
+frames	O
+are	O
+used	O
+,	O
+an	O
+alternative	O
+way	O
+of	O
+presenting	O
+relevant	O
+information	O
+without	O
+frames	O
+should	O
+be	O
+provided	O
+.	O
+
+Providing	O
+alternative	M-Shared Phenomena
+text	M-Shared Phenomena
+-	M-Shared Phenomena
+only	M-Shared Phenomena
+pages	O
+:	O
+When	O
+style	B-Shared Phenomena
+sheets	M-Shared Phenomena
+and	M-Shared Phenomena
+/	M-Shared Phenomena
+or	M-Shared Phenomena
+frames	E-Shared Phenomena
+are	O
+turned	O
+off	O
+it	O
+should	O
+be	O
+possible	O
+for	O
+the	B-Shared Phenomena
+user	E-Environment Object
+to	O
+read	O
+and	O
+understand	O
+the	O
+page	E-Shared Phenomena
+;	O
+alternatively	O
+,	O
+the	O
+user	O
+should	O
+be	O
+provided	O
+with	O
+an	B-Shared Phenomena
+equivalent	M-Shared Phenomena
+alternative	O
+text	O
+-	O
+only	O
+page	O
+.	O
+
+Consistent	O
+page	O
+layout	O
+:	O
+Pages	S-Shared Phenomena
+should	O
+be	O
+designed	O
+using	O
+consistent	O
+layout	O
+schemes	O
+,	O
+supporting	O
+the	M-System Requirements
+user	E-Environment Object
+in	O
+finding	B-System Requirements
+similar	M-System Requirements
+information	M-System Requirements
+at	M-System Requirements
+the	O
+same	M-System Requirements
+position	E-System Requirements
+on	O
+different	O
+pages	O
+.	O
+
+Overall	O
+layout	O
+schemes	O
+apply	O
+to	O
+all	O
+pages	O
+and	O
+are	O
+preferable	O
+when	O
+all	O
+pages	O
+have	O
+a	O
+similar	O
+structure	O
+.	O
+
+Frequently	O
+,	O
+however	O
+,	O
+different	O
+pages	O
+have	O
+different	O
+purposes	O
+and	O
+types	O
+of	O
+content	O
+.	O
+
+In	O
+such	O
+cases	O
+,	O
+pages	O
+can	O
+usually	O
+be	O
+grouped	O
+in	O
+different	O
+categories	O
+,	O
+using	O
+one	O
+layout	O
+scheme	O
+for	O
+each	O
+category	O
+consistently	O
+.	O
+
+Placing	O
+title	O
+information	O
+consistently	O
+:	O
+Page	O
+titles	O
+should	O
+be	O
+placed	O
+in	O
+a	O
+consistent	O
+location	O
+on	O
+the	O
+different	O
+pages	O
+.	O
+
+Observing	O
+principles	O
+of	O
+human	O
+perception	O
+When	O
+designing	O
+application	O
+pages	O
+,	O
+the	O
+general	O
+principles	O
+of	O
+human	O
+perception	O
+should	O
+be	O
+taken	O
+into	O
+account	O
+.	O
+
+The	O
+International	O
+Standards	O
+mentioned	O
+below	O
+shall	O
+be	O
+consulted	O
+for	O
+guidance	O
+.	O
+
+Practical	O
+guidelines	O
+for	O
+presenting	O
+information	O
+to	O
+the	O
+user	O
+are	O
+to	O
+be	O
+found	O
+in	O
+ISO	O
+9241	O
+-	O
+12	O
+.	O
+
+Guidance	O
+on	O
+selecting	O
+and	O
+using	O
+different	O
+forms	O
+of	O
+interaction	O
+techniques	O
+is	O
+to	O
+be	O
+found	O
+in	O
+ISO	O
+9241	O
+-	O
+14	O
+to	O
+ISO	O
+9241	O
+-	O
+17	O
+.	O
+
+ISO	O
+9241	O
+-	O
+14	O
+gives	O
+guidance	O
+about	O
+menus	O
+,	O
+ISO	O
+9241	O
+-	O
+15	O
+about	O
+command	O
+dialogues	O
+,	O
+ISO	O
+9241	O
+-	O
+16	O
+about	O
+direct	O
+manipulation	O
+and	O
+ISO	O
+9241	O
+-	O
+17	O
+about	O
+forms	O
+.	O
+
+In	O
+addition	O
+,	O
+when	O
+designing	O
+multimedia	O
+information	O
+presentations	O
+,	O
+the	O
+design	O
+principles	O
+and	O
+recommendations	O
+described	O
+in	O
+ISO	O
+14915	O
+-	O
+1	O
+to	O
+ISO	O
+14915	O
+-	O
+3	O
+should	O
+be	O
+taken	O
+into	O
+account	O
+.	O
+
+Appropriate	O
+content	O
+presentation	O
+also	O
+plays	O
+a	O
+key	O
+role	O
+in	O
+accessibility	O
+.	O
+
+Linking	O
+back	O
+to	M-System Requirements
+the	B-Environment Object
+home	O
+page	E-Shared Phenomena
+or	O
+landmark	M-Shared Phenomena
+pages	O
+:	O
+Each	B-External System
+page	O
+should	O
+contain	O
+a	B-Shared Phenomena
+link	E-Shared Phenomena
+leading	O
+to	O
+the	O
+home	O
+page	O
+of	O
+the	O
+application	O
+or	O
+to	O
+a	O
+landmark	O
+page	O
+that	O
+is	B-System Requirements
+easy	M-System Requirements
+to	O
+recognize	E-System Requirements
+for	O
+the	O
+user	E-Environment Object
+.	O
+
+Providing	O
+a	O
+site	O
+map	O
+:	O
+A	O
+separate	O
+navigation	O
+overview	O
+such	O
+as	O
+a	O
+site	O
+map	O
+should	O
+be	O
+provided	O
+for	O
+application	O
+showing	O
+the	O
+structure	O
+of	O
+the	O
+site	O
+in	O
+an	O
+overview	O
+form	O
+.	O
+
+Consistency	O
+between	O
+navigation	O
+components	O
+and	O
+content	O
+:	O
+If	O
+navigation	O
+components	O
+(	O
+or	O
+overviews	O
+)	O
+are	O
+shown	O
+in	O
+conjunction	O
+with	O
+associated	O
+content	O
+,	O
+consistency	O
+between	O
+the	O
+navigation	O
+component	O
+and	O
+the	O
+content	O
+shown	O
+should	O
+be	O
+maintained	O
+by	O
+indicating	O
+in	O
+the	O
+navigation	O
+component	O
+(	O
+e	O
+.	O
+g	O
+.	O
+
+highlighting	O
+)	O
+the	O
+topic	O
+currently	O
+visible	O
+in	O
+the	O
+content	O
+area	O
+.	O
+
+Placing	O
+navigation	O
+components	O
+consistently	O
+:	O
+Navigation	O
+components	O
+should	O
+be	O
+placed	O
+consistently	O
+on	O
+the	O
+pages	O
+or	O
+in	O
+the	O
+framesets	O
+in	O
+the	O
+pages	O
+of	O
+the	O
+application	O
+.	O
+
+Individualization	O
+and	M-Shared Phenomena
+user	M-External System
+adaptation	O
+:	O
+Adapting	O
+the	M-Shared Phenomena
+content	M-Shared Phenomena
+and	O
+the	O
+navigation	E-Shared Phenomena
+of	O
+a	B-External System
+user	O
+interface	E-External System
+to	M-System Requirements
+individual	B-Environment Object
+users	S-Environment Object
+or	O
+user	O
+groups	E-Environment Object
+can	O
+be	O
+a	O
+useful	O
+mechanism	O
+for	O
+providing	O
+information	S-Shared Phenomena
+that	O
+is	O
+of	O
+interest	O
+to	O
+the	O
+users	O
+and	O
+for	O
+making	B-System Requirements
+access	M-System Requirements
+to	O
+relevant	M-System Requirements
+information	O
+more	M-System Requirements
+efficient	E-System Requirements
+.	O
+
+User	O
+adaptation	O
+can	O
+also	O
+be	O
+important	O
+for	O
+making	O
+the	B-External System
+user	M-External System
+interface	E-External System
+more	O
+accessible	O
+.	O
+
+Different	O
+approaches	O
+can	O
+be	O
+used	O
+for	O
+achieving	O
+these	O
+goals	O
+,	O
+like	O
+providing	O
+users	S-Environment Object
+with	O
+means	O
+for	O
+customizing	O
+the	B-External System
+user	M-External System
+interface	E-External System
+to	O
+their	O
+personal	O
+needs	O
+i	O
+.	O
+e	O
+.	O
+
+individualization	O
+designing	O
+content	O
+and	O
+navigation	O
+differently	O
+for	O
+varying	O
+user	O
+groups	O
+or	O
+roles	O
+i	O
+.	O
+e	O
+.	O
+
+such	O
+as	O
+employees	S-Environment Object
+of	O
+different	O
+levels	O
+,	O
+citizens	S-Environment Object
+etc	O
+,	O
+monitoring	B-System Requirements
+the	M-System Requirements
+user	M-System Requirements
+’	M-System Requirements
+s	M-System Requirements
+behaviour	M-System Requirements
+and	M-System Requirements
+adapting	M-System Requirements
+to	M-System Requirements
+the	O
+user	O
+’	O
+s	O
+goals	E-System Requirements
+that	O
+are	O
+inferred	O
+from	O
+the	O
+behaviour	O
+observed	O
+,	O
+recommending	B-System Requirements
+information	E-System Requirements
+that	O
+is	O
+potentially	O
+more	O
+relevant	O
+or	O
+interesting	O
+to	O
+the	O
+specific	O
+user	O
+,	O
+based	O
+on	O
+the	O
+behaviour	O
+of	O
+all	O
+users	O
+or	O
+a	O
+user	O
+group	O
+.	O
+
+Taking	O
+account	O
+of	O
+the	O
+users	O
+’	O
+tasks	O
+and	O
+information	O
+needs	O
+:	O
+When	O
+providing	O
+different	O
+access	B-Shared Phenomena
+paths	E-Shared Phenomena
+or	O
+navigation	B-Shared Phenomena
+structures	E-Shared Phenomena
+for	O
+different	O
+user	B-Environment Object
+groups	E-Environment Object
+,	O
+the	O
+tasks	O
+and	O
+information	O
+needs	O
+of	O
+these	O
+user	O
+groups	O
+should	O
+be	O
+taken	O
+into	O
+consideration	O
+.	O
+
+Making	O
+individualization	O
+and	O
+adaptation	O
+evident	O
+:	O
+It	O
+should	O
+be	O
+made	O
+evident	O
+to	O
+the	B-Environment Object
+user	E-Environment Object
+when	O
+individualization	O
+and	O
+/	O
+or	O
+adaptation	O
+are	O
+used	O
+.	O
+
+Making	O
+user	B-Shared Phenomena
+profiles	E-Shared Phenomena
+evident	O
+:	O
+If	O
+predefined	O
+user	O
+profiles	O
+or	O
+user	O
+-	M-Shared Phenomena
+specified	M-Shared Phenomena
+profiles	O
+are	O
+used	O
+for	O
+individualizing	O
+or	O
+adapting	O
+content	O
+,	O
+the	O
+profile	O
+currently	O
+used	O
+should	O
+be	O
+made	O
+evident	O
+.	O
+
+If	O
+profiles	O
+are	O
+used	O
+,	O
+it	O
+is	O
+important	O
+to	O
+provide	O
+users	S-Environment Object
+with	O
+information	S-Shared Phenomena
+about	O
+this	O
+concept	O
+and	O
+its	O
+implications	O
+.	O
+
+Allowing	O
+users	S-Environment Object
+to	O
+see	B-System Requirements
+and	M-System Requirements
+change	O
+profiles	E-Shared Phenomena
+:	O
+If	O
+user	B-Shared Phenomena
+-	M-Shared Phenomena
+specified	M-Shared Phenomena
+profiles	O
+are	O
+used	O
+,	M-System Requirements
+users	O
+should	O
+be	O
+able	O
+to	O
+see	O
+,	O
+modify	M-System Requirements
+and	O
+delete	M-System Requirements
+that	M-System Requirements
+profile	M-System Requirements
+on	M-System Requirements
+demand	E-System Requirements
+.	O
+
+The	O
+user	O
+interfaces	O
+of	O
+the	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+follow	O
+the	O
+guidelines	O
+specified	O
+under	O
+www	O
+.	O
+usability	O
+.	O
+gov	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+be	O
+available	O
+to	O
+users	S-Environment Object
+:	O
+from	O
+<	O
+xx	O
+:	O
+00	O
+>	O
+to	O
+<	O
+xx	O
+:	O
+00	O
+>	O
+;	O
+on	O
+<	O
+all	O
+weekdays	O
+/	O
+xxx	O
+days	O
+per	O
+year	O
+>	O
+.	O
+
+The	O
+planned	O
+downtime	O
+for	O
+the	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+not	O
+exceed	O
+<	O
+xx	O
+>	O
+hours	O
+per	O
+<	O
+rolling	O
+three	O
+month	O
+period	O
+>	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+is	O
+considered	O
+to	O
+be	O
+down	O
+if	O
+any	O
+user	S-Environment Object
+is	O
+unable	O
+to	O
+perform	O
+any	O
+normal	O
+System	O
+function	O
+and	O
+if	O
+this	O
+failure	O
+is	O
+attributed	O
+to	O
+any	O
+component	O
+of	O
+the	B-Software System
+CCTNS	O
+system	O
+other	O
+than	O
+the	O
+workstation	O
+.	O
+
+Unplanned	O
+downtime	O
+for	O
+the	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+not	O
+exceed	O
+<	O
+xx	O
+hours	O
+/	O
+minutes	O
+>	O
+per	O
+<	O
+rolling	O
+three	O
+month	O
+period	O
+>	O
+.	O
+
+The	O
+number	O
+of	O
+incidents	O
+of	O
+unplanned	O
+downtime	O
+for	O
+the	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+not	O
+exceed	O
+<	O
+x	O
+>	O
+per	O
+<	O
+rolling	O
+three	O
+month	O
+period	O
+>	O
+.	O
+
+In	O
+the	B-Software System
+event	O
+of	O
+any	O
+software	O
+or	O
+hardware	O
+failure	O
+,	O
+it	O
+must	O
+be	O
+possible	O
+to	O
+restore	O
+the	O
+CCTNS	M-Software System
+system	E-Software System
+(	O
+with	O
+inline	O
+synchronization	O
+)	O
+within	O
+no	O
+more	O
+than	O
+<	O
+xx	O
+>	O
+hours	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+provide	B-System Requirements
+adequate	M-System Requirements
+response	M-System Requirements
+times	E-System Requirements
+for	O
+commonly	O
+performed	O
+functions	O
+under	O
+both	O
+standard	O
+and	O
+peak	O
+conditions	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+be	O
+able	O
+to	B-System Requirements
+perform	M-System Requirements
+a	M-System Requirements
+simple	M-System Requirements
+search	M-System Requirements
+within	M-System Requirements
+5	M-System Requirements
+-	M-System Requirements
+8	M-System Requirements
+seconds	E-System Requirements
+and	M-System Requirements
+a	O
+advanced	M-System Requirements
+search	O
+(	M-System Requirements
+multiple	M-System Requirements
+search	O
+criteria	M-System Requirements
+)	M-System Requirements
+within	O
+10	M-System Requirements
+-	O
+15	M-System Requirements
+seconds	O
+regardless	O
+of	M-Shared Phenomena
+the	B-Shared Phenomena
+storage	M-Shared Phenomena
+capacity	E-Shared Phenomena
+or	O
+number	B-Shared Phenomena
+of	O
+cases	E-Shared Phenomena
+in	O
+the	O
+CCTNS	O
+system	O
+.	O
+
+In	O
+this	O
+context	O
+,	O
+performing	O
+a	O
+search	O
+means	O
+returning	O
+a	O
+result	O
+list	O
+.	O
+
+It	O
+does	O
+not	O
+include	O
+retrieving	O
+the	B-Shared Phenomena
+records	E-Shared Phenomena
+themselves	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+be	O
+able	O
+to	B-System Requirements
+retrieve	M-System Requirements
+and	M-System Requirements
+display	M-System Requirements
+within	M-System Requirements
+5	M-System Requirements
+-	M-System Requirements
+8	M-System Requirements
+seconds	M-System Requirements
+the	M-System Requirements
+case	E-System Requirements
+which	O
+has	O
+been	O
+accessed	O
+within	O
+the	O
+previous	O
+2	O
+months	O
+,	O
+regardless	O
+of	M-Shared Phenomena
+storage	B-Shared Phenomena
+capacity	E-Shared Phenomena
+or	O
+number	B-Shared Phenomena
+of	O
+cases	E-Shared Phenomena
+in	O
+the	O
+CCTNS	O
+system	O
+.	O
+
+This	O
+requirement	O
+is	O
+intended	O
+to	B-System Requirements
+allow	M-System Requirements
+for	M-System Requirements
+rapid	M-System Requirements
+retrieval	M-System Requirements
+of	M-System Requirements
+frequently	M-System Requirements
+-	M-System Requirements
+used	M-System Requirements
+cases	E-System Requirements
+,	O
+on	O
+the	O
+understanding	O
+that	O
+frequency	O
+of	O
+use	O
+is	O
+typically	O
+correlated	O
+with	O
+recent	O
+use	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+be	O
+able	O
+to	B-System Requirements
+retrieve	M-System Requirements
+and	M-System Requirements
+display	M-System Requirements
+within	M-System Requirements
+20	M-System Requirements
+seconds	M-System Requirements
+the	M-System Requirements
+case	E-System Requirements
+which	O
+has	O
+not	O
+been	O
+accessed	O
+within	O
+the	O
+previous	O
+2	O
+months	O
+,	O
+regardless	O
+of	M-Shared Phenomena
+storage	B-Shared Phenomena
+capacity	E-Shared Phenomena
+or	O
+number	B-Shared Phenomena
+of	O
+cases	E-Shared Phenomena
+in	O
+the	O
+CCTNS	O
+system	O
+.	O
+
+This	O
+requirement	O
+is	O
+intended	O
+to	O
+allow	O
+for	O
+cases	O
+where	O
+cases	O
+used	O
+infrequently	O
+are	O
+stored	O
+on	O
+slower	O
+media	O
+than	O
+more	O
+active	O
+records	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+be	O
+scaleable	O
+and	O
+must	O
+not	O
+have	O
+any	O
+features	O
+which	O
+would	O
+preclude	O
+use	O
+in	O
+small	O
+or	O
+large	O
+police	O
+stations	O
+,	O
+with	O
+varying	O
+numbers	O
+of	O
+cases	O
+handled	O
+.	O
+
+The	O
+proposed	O
+functional	O
+architecture	O
+is	O
+modeled	O
+around	O
+centralized	O
+deployment	O
+to	O
+facilitate	O
+ease	O
+of	O
+maintenance	O
+and	O
+leverage	O
+advancement	O
+in	O
+open	O
+standards	O
+and	O
+web	O
+technologies	O
+.	O
+
+The	O
+3	O
+C	O
+’	O
+s	O
+(	O
+Core	O
+-	O
+Configuration	O
+-	O
+Customization	O
+)	O
+forms	O
+the	O
+guiding	O
+principle	O
+for	O
+the	O
+architecture	O
+.	O
+
+The	O
+functional	O
+architecture	O
+of	O
+the	O
+CCTNS	O
+solution	O
+is	O
+given	O
+in	O
+the	O
+figure	O
+below	O
+.	O
+
+The	O
+functional	O
+architecture	O
+is	O
+composed	O
+of	O
+4	O
+major	O
+components	O
+based	O
+on	O
+SOA	O
+principles	O
+.	O
+
+Each	O
+of	O
+the	O
+components	O
+contains	O
+multiple	O
+services	O
+as	O
+defined	O
+by	O
+Service	O
+Definition	O
+.	O
+
+The	O
+core	O
+services	O
+,	O
+support	O
+layer	O
+and	O
+security	O
+and	O
+access	O
+control	O
+components	O
+can	O
+be	O
+deployed	O
+as	O
+standard	O
+components	O
+with	O
+necessary	O
+configuration	O
+changes	O
+.	O
+
+The	O
+customization	O
+layer	O
+can	O
+override	O
+and	O
+add	O
+to	O
+the	O
+core	O
+services	O
+based	O
+on	O
+the	O
+specific	O
+state	O
+requirements	O
+and	O
+can	O
+be	O
+plugged	O
+with	O
+the	O
+core	O
+services	O
+.	O
+
+The	O
+deployment	O
+of	O
+the	O
+application	O
+will	O
+be	O
+at	O
+state	O
+level	O
+and	O
+will	O
+be	O
+configured	O
+and	O
+customized	O
+as	O
+per	O
+the	O
+state	O
+specific	O
+extensions	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+systems	E-Software System
+should	O
+be	O
+designed	O
+with	O
+the	O
+following	O
+broad	O
+guidelines	O
+:	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+support	B-System Requirements
+multilingual	M-System Requirements
+interface	E-System Requirements
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+designed	O
+in	O
+manner	O
+that	O
+operational	B-Shared Phenomena
+data	E-Shared Phenomena
+is	O
+not	O
+lost	O
+in	O
+case	O
+of	O
+any	O
+failure	O
+of	O
+equipment	S-Physical Device
+or	O
+communication	B-External System
+network	E-External System
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+work	O
+even	O
+in	O
+an	O
+offline	O
+mode	O
+with	O
+the	O
+critical	O
+functionality	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+designed	O
+to	B-System Requirements
+have	M-System Requirements
+satisfactory	M-System Requirements
+performance	E-System Requirements
+even	O
+in	O
+Police	O
+Stations	O
+connected	O
+on	O
+low	O
+-	O
+bandwidth	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+implemented	O
+using	O
+Service	O
+Oriented	O
+Architecture	O
+(	O
+SOA	O
+)	O
+and	O
+have	O
+a	O
+modular	O
+design	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+developed	O
+on	O
+Open	O
+Standards	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+built	O
+on	O
+a	B-Shared Phenomena
+common	M-Shared Phenomena
+User	M-Shared Phenomena
+Access	E-Shared Phenomena
+and	O
+Authentication	B-Shared Phenomena
+Service	E-Shared Phenomena
+to	B-System Requirements
+ensure	M-System Requirements
+Single	M-System Requirements
+-	M-System Requirements
+Sign	E-System Requirements
+on	O
+for	O
+the	B-Environment Object
+end	M-Environment Object
+-	O
+user	E-Environment Object
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+developed	O
+for	O
+a	O
+centralized	O
+deployment	O
+and	O
+maintenance	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+developed	O
+to	O
+be	O
+deployed	O
+in	O
+a	O
+3	O
+-	O
+tier	O
+datacenter	O
+architecture	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+designed	O
+to	B-System Requirements
+have	M-System Requirements
+a	M-System Requirements
+n	M-System Requirements
+-	M-System Requirements
+tier	M-System Requirements
+architecture	E-System Requirements
+with	O
+the	O
+presentation	O
+logic	O
+separated	O
+from	O
+the	O
+business	O
+logic	O
+that	O
+is	O
+again	O
+separated	O
+from	O
+the	O
+data	O
+-	O
+access	O
+logic	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+extensible	O
+to	M-System Requirements
+provide	M-System Requirements
+access	M-System Requirements
+to	O
+the	M-System Requirements
+interfaces	E-System Requirements
+through	O
+PDA	O
+’	O
+s	O
+and	O
+mobile	O
+data	O
+terminals	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+adopt	O
+standardized	O
+formats	O
+and	O
+common	O
+metadata	O
+elements	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+be	O
+designed	O
+for	O
+access	O
+through	O
+browser	O
+-	O
+based	O
+systems	O
+and	O
+must	O
+impose	O
+minimal	O
+requirements	O
+on	O
+the	O
+client	O
+device	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+must	O
+support	B-System Requirements
+multiple	M-System Requirements
+types	M-System Requirements
+of	M-System Requirements
+communication	M-System Requirements
+services	M-System Requirements
+for	M-System Requirements
+remote	M-System Requirements
+access	E-System Requirements
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+have	O
+capability	O
+to	M-System Requirements
+support	M-System Requirements
+public	M-System Requirements
+access	M-System Requirements
+to	O
+a	M-System Requirements
+subset	M-System Requirements
+of	M-System Requirements
+data	M-System Requirements
+and	M-System Requirements
+functionality	E-System Requirements
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+support	B-System Requirements
+multi	M-System Requirements
+-	M-System Requirements
+tier	M-System Requirements
+authentication	E-System Requirements
+where	O
+required	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+support	B-System Requirements
+SSL	M-System Requirements
+encrypted	M-System Requirements
+connections	E-System Requirements
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+support	B-System Requirements
+secure	M-System Requirements
+virtual	M-System Requirements
+private	M-System Requirements
+network	M-System Requirements
+connections	E-System Requirements
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+use	O
+HTTPS	O
+as	O
+the	O
+communication	O
+protocol	O
+,	O
+i	O
+.	O
+e	O
+.	O
+,	O
+HTTP	O
+over	O
+an	O
+encrypted	O
+secure	O
+socket	O
+layer	O
+(	O
+SSL	O
+)	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+run	B-System Requirements
+on	M-System Requirements
+multiple	M-System Requirements
+browsers	E-System Requirements
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+support	O
+selective	B-System Requirements
+encryption	E-System Requirements
+of	O
+the	B-Shared Phenomena
+stored	M-Shared Phenomena
+data	E-Shared Phenomena
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+secure	M-System Requirements
+transmission	E-System Requirements
+of	O
+data	O
+over	O
+the	O
+network	O
+and	O
+utilize	O
+SSL	O
+and	O
+2	O
+-	O
+way	O
+digital	O
+signatures	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+standards	M-System Requirements
+of	M-System Requirements
+security	M-System Requirements
+and	M-System Requirements
+access	M-System Requirements
+control	E-System Requirements
+through	O
+preventing	O
+cross	O
+-	O
+site	O
+scripting	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+standards	M-System Requirements
+of	M-System Requirements
+security	M-System Requirements
+and	M-System Requirements
+access	M-System Requirements
+control	E-System Requirements
+through	O
+preventing	O
+SQL	B-External System
+Injection	E-External System
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+standards	M-System Requirements
+of	M-System Requirements
+security	M-System Requirements
+and	M-System Requirements
+access	M-System Requirements
+control	E-System Requirements
+through	O
+utilizing	O
+parameterized	O
+queries	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+standards	M-System Requirements
+of	M-System Requirements
+security	M-System Requirements
+and	M-System Requirements
+access	M-System Requirements
+control	E-System Requirements
+through	O
+sanitizing	O
+the	O
+user	O
+-	O
+inputs	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+standards	M-System Requirements
+of	M-System Requirements
+security	M-System Requirements
+and	M-System Requirements
+access	M-System Requirements
+control	E-System Requirements
+through	O
+validating	O
+the	B-Shared Phenomena
+incoming	M-Shared Phenomena
+data	E-Shared Phenomena
+or	O
+user	B-Shared Phenomena
+request	E-Shared Phenomena
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+standards	M-System Requirements
+of	M-System Requirements
+security	M-System Requirements
+and	M-System Requirements
+access	M-System Requirements
+control	E-System Requirements
+through	O
+encoding	O
+the	B-Shared Phenomena
+incoming	M-Shared Phenomena
+data	E-Shared Phenomena
+or	O
+user	B-Shared Phenomena
+request	E-Shared Phenomena
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+standards	M-System Requirements
+of	M-System Requirements
+security	M-System Requirements
+and	M-System Requirements
+access	M-System Requirements
+control	M-System Requirements
+through	E-System Requirements
+validating	O
+the	B-Shared Phenomena
+data	E-Shared Phenomena
+both	O
+at	O
+the	O
+client	E-External System
+and	O
+server	S-External System
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+standards	M-System Requirements
+of	M-System Requirements
+security	M-System Requirements
+and	M-System Requirements
+access	M-System Requirements
+control	E-System Requirements
+through	O
+do	O
+not	O
+allow	O
+hard	O
+delete	O
+and	O
+perform	O
+only	O
+soft	O
+tagging	O
+the	O
+row	O
+for	O
+deletion	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+scalability	M-System Requirements
+and	M-System Requirements
+performance	E-System Requirements
+through	O
+using	O
+of	O
+cache	O
+for	O
+storing	O
+frequent	O
+data	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+scalability	M-System Requirements
+and	M-System Requirements
+performance	E-System Requirements
+through	O
+using	O
+of	O
+AJAX	O
+based	O
+technology	O
+to	O
+improve	O
+user	O
+experience	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+scalability	M-System Requirements
+and	M-System Requirements
+performance	E-System Requirements
+through	O
+leveraging	O
+Asynchronous	O
+HTTP	O
+socket	O
+capabilities	O
+of	O
+web	O
+server	O
+for	O
+scalability	O
+and	O
+performance	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+scalability	M-System Requirements
+and	M-System Requirements
+performance	E-System Requirements
+through	O
+hosting	O
+all	O
+the	B-Shared Phenomena
+static	M-Shared Phenomena
+content	E-Shared Phenomena
+(	O
+documents	O
+,	O
+images	O
+)	O
+on	O
+the	O
+web	M-External System
+server	E-External System
+.	O
+
+The	O
+search	O
+results	O
+should	O
+be	O
+fetched	O
+from	O
+the	B-External System
+database	E-External System
+in	O
+batches	O
+of	O
+10	O
+or	O
+20	O
+maximum	O
+as	O
+configured	O
+within	O
+the	O
+application	O
+.	O
+
+The	B-Software System
+CCTNS	M-Software System
+system	E-Software System
+should	O
+ensure	B-System Requirements
+high	M-System Requirements
+scalability	M-System Requirements
+and	M-System Requirements
+performance	E-System Requirements
+through	O
+displaying	O
+of	O
+records	S-Shared Phenomena
+on	O
+the	B-Physical Device
+screen	E-Physical Device
+in	O
+batches	O
+/	O
+paged	O
+manner	O
+.	O
+
+The	O
+search	O
+should	O
+fetch	O
+only	O
+the	B-Environment Object
+fields	O
+that	O
+need	O
+to	O
+be	O
+displayed	O
+to	O
+the	O
+user	E-Environment Object
+.	O
+
+Only	O
+when	O
+the	B-Environment Object
+user	E-Environment Object
+clicks	O
+on	O
+a	O
+particular	O
+record	O
+to	O
+view	O
+its	O
+further	O
+details	O
+should	O
+a	O
+query	O
+be	O
+fired	O
+to	O
+fetch	O
+the	O
+additional	O
+details	O
+for	O
+this	O
+particular	O
+record	O
+only	O
+.	O
+
+A	O
+hierarchical	O
+cache	O
+should	O
+be	O
+configured	O
+and	O
+used	O
+for	O
+caching	O
+of	O
+results	O
+of	O
+most	O
+frequently	O
+used	O
+searches	O
+.	O
+
+Database	O
+Indexes	O
+should	O
+be	O
+applied	O
+on	O
+the	O
+key	O
+columns	O
+used	O
+for	O
+searching	O
+.	O
+
+

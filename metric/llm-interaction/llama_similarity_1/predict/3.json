@@ -1,0 +1,2594 @@
+[
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": "Phenomena Interface",
+      "Requirements Reference": "requirements reference",
+      "Requirements Constraint": "requirements constraint"
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "CCTNS V1.0",
+          "value"
+        ],
+        [
+          "value",
+          "Investigation of Crime"
+        ],
+        [
+          "value",
+          "Detection of Criminals"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "CCTNS V1.0",
+          "to focus on the critical functionality"
+        ],
+        [
+          "CCTNS V1.0",
+          "improve the outcomes"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "CCTNS V1.0",
+          "IOs"
+        ],
+        [
+          "CCTNS V1.0",
+          "room staff"
+        ],
+        [
+          "CCTNS V1.0",
+          "citizens"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "CCTNS V1.0",
+          "to focus on delivering value"
+        ],
+        [
+          "CCTNS V1.0",
+          "records room staff and citizens"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the CCTNS application",
+          "value"
+        ],
+        [
+          "value",
+          "officers"
+        ],
+        [
+          "officers",
+          "the police personnel"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the CCTNS application",
+          "easing the day to day operations of the police function"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Citizens",
+          "complaints"
+        ],
+        [
+          "police",
+          "complaints"
+        ],
+        [
+          "police",
+          "evidence"
+        ],
+        [
+          "police",
+          "facts"
+        ],
+        [
+          "police",
+          "following investigation"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "police",
+          "Registration module"
+        ],
+        [
+          "citizens",
+          "Registration module"
+        ],
+        [
+          "police",
+          "Registration module"
+        ],
+        [
+          "complainants",
+          "Registration module"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Registration module",
+          "eases the approach, interaction and information exchange"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "the CCTNS"
+      ],
+      "Requirements Reference": [
+        "facilitates the investigation process and introduces operational efficiencies"
+      ],
+      "Requirements Constraint": [
+        "initial entries"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "constable",
+          "constantly interfaces"
+        ],
+        [
+          "police station",
+          "constantly interfaces"
+        ],
+        [
+          "courts",
+          "constantly interfaces"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Prosecution module of the CCTNS",
+          "entries of the court interactions"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Prosecution module of the CCTNS",
+          "to record entries of the court interactions"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "customize the results view by criminal/accused or by cases"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Citizen Interface module of the CCTNS",
+          "the information"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Citizen Interface module of the CCTNS",
+          "information exchange between citizens and police units/personnel"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Citizens",
+          "police"
+        ],
+        [
+          "Citizens",
+          "get information or acknowledgements"
+        ],
+        [
+          "police",
+          "get information or acknowledgements"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Navigation module of the CCTNS",
+          "CCTNS application"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Configuration module of the CCTNS",
+          "keep the application configured"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Software System",
+        "External System"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "An audit trail"
+        ],
+        [
+          "the CCTNS system",
+          "An audit trail"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The CCTNS system",
+        "an unalterable audit trail"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The CCTNS system",
+        "an unalterable audit trail"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "information about the date"
+        ],
+        [
+          "The CCTNS system",
+          "time of the event"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The CCTNS system",
+          "an unalterable audit trail"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "an unalterable audit trail",
+          "information about administrative parameters"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "events",
+          "the CCTNS system"
+        ],
+        [
+          "the audit trail",
+          "events"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "export audit trails"
+        ],
+        [
+          "The CCTNS system",
+          "specified cases"
+        ],
+        [
+          "The CCTNS system",
+          "audit trails"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "The CCTNS system"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "external auditors",
+          "examine or analyse system activity"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "system activity",
+          "to examine or analyse system activity"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "access control mechanisms"
+        ],
+        [
+          "The CCTNS system",
+          "a case"
+        ],
+        [
+          "The CCTNS system",
+          "access control mechanisms"
+        ],
+        [
+          "The CCTNS system",
+          "a case"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "to capture and store violations"
+        ],
+        [
+          "The CCTNS system",
+          "attempted violations"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "reports"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "user profiles"
+        ],
+        [
+          "admin-users",
+          "user profiles"
+        ],
+        [
+          "The CCTNS system",
+          "groups"
+        ],
+        [
+          "admin-users",
+          "groups"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "a user"
+        ],
+        [
+          "The CCTNS system",
+          "users"
+        ],
+        [
+          "The CCTNS system",
+          "groups"
+        ],
+        [
+          "The CCTNS system",
+          "cases"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "stipulate which other users or groups can access cases"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The CCTNS system",
+          "security attributes"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "groups",
+          "security attributes"
+        ],
+        [
+          "users",
+          "security attributes"
+        ]
+      ],
+      "Requirements Constraint": [
+        [
+          "groups",
+          "security attributes"
+        ],
+        [
+          "users",
+          "security attributes"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the CCTNS system",
+          "national security"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "search"
+        ],
+        [
+          "a user",
+          "access"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the CCTNS system",
+          "search"
+        ],
+        [
+          "the CCTNS system",
+          "access"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "the CCTNS system",
+          "search"
+        ],
+        [
+          "the CCTNS system",
+          "access"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "users",
+          "unauthorised attempts"
+        ],
+        [
+          "cases",
+          "unauthorised attempts"
+        ],
+        [
+          "the audit trail",
+          "unauthorised attempts"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the CCTNS system",
+          "users"
+        ],
+        [
+          "the CCTNS system",
+          "cases"
+        ],
+        [
+          "the CCTNS system",
+          "the audit trail"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "the CCTNS system",
+          "users"
+        ],
+        [
+          "the CCTNS system",
+          "cases"
+        ],
+        [
+          "the CCTNS system",
+          "the audit trail"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "cases",
+          "the audit trail"
+        ],
+        [
+          "cases",
+          "documents"
+        ],
+        [
+          "cases",
+          "data"
+        ],
+        [
+          "related documents",
+          "the audit trail"
+        ],
+        [
+          "related documents",
+          "documents"
+        ],
+        [
+          "related documents",
+          "data"
+        ],
+        [
+          "related documents",
+          "data"
+        ],
+        [
+          "all other activities",
+          "the audit trail"
+        ],
+        [
+          "all other activities",
+          "documents"
+        ],
+        [
+          "all other activities",
+          "data"
+        ],
+        [
+          "all other activities",
+          "data"
+        ]
+      ],
+      "Requirements Constraint": [
+        [
+          "cases",
+          "to ensure legal admissibility"
+        ],
+        [
+          "cases",
+          "to assist in data recovery"
+        ],
+        [
+          "related documents",
+          "to ensure legal admissibility"
+        ],
+        [
+          "related documents",
+          "to assist in data recovery"
+        ],
+        [
+          "all other activities",
+          "to ensure legal admissibility"
+        ],
+        [
+          "all other activities",
+          "to assist in data recovery"
+        ],
+        [
+          "all other activities",
+          "to ensure legal admissibility"
+        ],
+        [
+          "all other activities",
+          "to assist in data recovery"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the CCTNS system",
+          "error messages"
+        ],
+        [
+          "the users",
+          "error messages"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The CCTNS system",
+        "user interface rules"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": [
+        "to provide a familiar and common look"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "several entity"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The CCTNS system",
+        "Administrator"
+      ],
+      "Requirements Reference": [
+        "The CCTNS system",
+        "easy to use and intuitive throughout"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "data entry"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "Standard ISO 9241",
+          "the CCTNS system"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Navigation",
+          "where they are"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "Navigation",
+          "users"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "Navigation",
+          "where they can go next"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "Each presentation segment"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "System Requirements",
+          "a splash screen"
+        ]
+      ],
+      "Requirements Constraint": [
+        [
+          "System Requirements",
+          "a navigation option"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Making user interfaces robust",
+          "User interfaces"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the pages",
+          "The content of error messages"
+        ],
+        [
+          "special error pages",
+          "The content of error messages"
+        ],
+        [
+          "the user",
+          "actions"
+        ],
+        [
+          "the user",
+          "resolve the error"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the pages",
+          "resolve the error"
+        ],
+        [
+          "special error pages",
+          "resolve the error"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "the pages",
+          "The content of error messages"
+        ],
+        [
+          "special error pages",
+          "The content of error messages"
+        ],
+        [
+          "the user",
+          "actions"
+        ],
+        [
+          "the user",
+          "resolve the error"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Users",
+          "error messages"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "employees",
+          "monitoring the user’s behaviour and adapting to the user’s goals"
+        ],
+        [
+          "citizens",
+          "monitoring the user’s behaviour and adapting to the user’s goals"
+        ],
+        [
+          "employees",
+          "recommending information"
+        ],
+        [
+          "citizens",
+          "recommending information"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "user groups",
+          "navigation structures"
+        ],
+        [
+          "user groups",
+          "access paths"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "information",
+          "users"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "users",
+          "see, modify and delete that profile on demand"
+        ],
+        [
+          "users",
+          "see, modify and delete that profile on demand"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "users",
+          "The CCTNS system"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the CCTNS system",
+          "unplanned downtime"
+        ],
+        [
+          "the CCTNS system",
+          "rolling three month period"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "the CCTNS system",
+          "unplanned downtime"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "storage capacity"
+        ],
+        [
+          "The CCTNS system",
+          "number of cases"
+        ],
+        [
+          "the CCTNS system",
+          "storage capacity"
+        ],
+        [
+          "the CCTNS system",
+          "number of cases"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "to retrieve and display within 5-8 seconds the case",
+          "storage capacity"
+        ],
+        [
+          "to retrieve and display within 5-8 seconds the case",
+          "number of cases"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "to retrieve and display within 5-8 seconds the case",
+          "storage capacity"
+        ],
+        [
+          "to retrieve and display within 5-8 seconds the case",
+          "number of cases"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "small or large police stations"
+        ],
+        [
+          "The CCTNS system",
+          "varying numbers of cases handled"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "support multilingual interface"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The CCTNS system",
+        "equipment"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": [
+        "The CCTNS system",
+        "communication network"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The CCTNS system"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": [
+        "to have satisfactory performance"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "a common User Access"
+        ],
+        [
+          "The CCTNS system",
+          "Authentication Service"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "to ensure Single-Sign"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "n-tier architecture"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "to have a n-tier architecture"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "interfaces"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "to provide access to the interfaces"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "browser-based systems"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "The CCTNS system",
+          "client device"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "support multiple types of communication services for remote access"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "support SSL encrypted connections"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "the stored data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "selective encryption"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "secure transmission of data over the network"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "ensure secure transmission"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "The CCTNS system",
+          "ensure secure transmission"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "cross-site scripting"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "ensure high standards of security and access control"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "SQL Injection"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "ensure high standards of security and access control"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "ensure high standards of security and access control"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "user-inputs"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "ensure high standards of security and access control"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "the incoming data"
+        ],
+        [
+          "The CCTNS system",
+          "user request"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "ensure high standards of security and access control"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "the incoming data"
+        ],
+        [
+          "The CCTNS system",
+          "user request"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "ensure high standards of security and access control"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "the data"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "ensure high standards of security and access control through"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "ensure high standards of security and access control"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "ensure high scalability and performance"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The CCTNS system",
+          "scalability"
+        ],
+        [
+          "The CCTNS system",
+          "performance"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The CCTNS system",
+          "scalability and performance"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "The CCTNS system",
+          "scalability and performance"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the static content",
+          "documents"
+        ],
+        [
+          "the static content",
+          "images"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the web server",
+          "ensure high scalability and performance"
+        ],
+        [
+          "The CCTNS system",
+          "ensure high scalability and performance"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "records",
+          "The CCTNS system"
+        ],
+        [
+          "records",
+          "the screen"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "ensure high scalability and performance",
+          "The CCTNS system"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "Software System",
+        "Physical Device"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  }
+]

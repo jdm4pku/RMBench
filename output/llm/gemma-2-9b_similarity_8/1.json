@@ -1,0 +1,344 @@
+[
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"the cloud\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"ITS standards\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"New systems\", \"the project defined protocol\", \"the ITS standards\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"the cloud\"],\n\"System Requirements\": [\"will not utilize the project defined protocol\", \"will be moved “into” the cloud\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['Center-to-Center project'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': [], 'Physical Device': ['DMS'], 'Environment Object': [], 'External System': [], 'System Requirements': ['support DMS control in other centers', 'support the following device control command for a DMS, including network identifier, DMS identifier, username and Password'], 'Shared Phenomena': []}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['Center'], 'Physical Device': ['CCTV'], 'Environment Object': [], 'External System': [], 'System Requirements': ['support the following CCTV control request'], 'Shared Phenomena': ['network identifier', 'CCTV identifier', 'username', 'Password']}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['The Center'], 'Physical Device': ['CCTV'], 'Environment Object': [], 'External System': [], 'System Requirements': ['support the following CCTV switching command'], 'Shared Phenomena': ['network identifier', 'username', 'Password', 'video channel input identifier']}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"ramp meter\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"support Ramp Meter control\", \"support the following device control command for a ramp meter\"],\n\"Shared Phenomena\": [\"network identifier\", \"Ramp Meter identifier\", \"username\", \"password\", \"plan\"]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['HAR', 'HAR'], 'External System': [], 'System Requirements': ['support the following status information'], 'Shared Phenomena': ['network identifier', 'HAR identifier', 'HAR name', 'location and status']}\n```\n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['Center'], 'Physical Device': ['HAR'], 'Environment Object': [], 'External System': [], 'System Requirements': ['support the following device control command for a HAR, including network identifier, HAR identifier, username, password and message'], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['Center'], 'Physical Device': ['Traffic Signal'], 'Environment Object': [], 'External System': [], 'System Requirements': ['support the following device control command for a Traffic Signal, including network identifier, traffic signal identifier, username, password and traffic signal plan identifier'], 'Shared Phenomena': ['network identifier', 'traffic signal identifier', 'username', 'password', 'traffic signal plan identifier']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"HOV Lane\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"support the following device control command for a HOV Lane, including network identifier, HOV Lane identifier, username, password and lane plan\"],\n\"Shared Phenomena\": [\"network identifier\", \"HOV Lane identifier\", \"username\", \"password\", \"lane plan\"]\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['Center'], 'Physical Device': ['School Zone'], 'Environment Object': [], 'External System': [], 'System Requirements': ['support School Zone control', 'support the following device control command for a School Zone'], 'Shared Phenomena': ['network identifier', 'school zone identifier', 'username', 'password', 'plan']}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['Center'], 'Physical Device': [], 'Environment Object': ['Reversible Lane'], 'External System': [], 'System Requirements': ['support the following device control command for a Reversible Lane, including network identifier, reversible lane identifier, username, password, plan and duration'], 'Shared Phenomena': ['network identifier', 'reversible lane identifier', 'username', 'password', 'plan', 'duration']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['Center'], 'Physical Device': [], 'Environment Object': ['Dynamic Lane'], 'External System': [], 'System Requirements': ['support Dynamic Lane control', 'support the following device control command for a Dynamic Lane'], 'Shared Phenomena': ['network identifier', 'dynamic lane identifier', 'username', 'password', 'lane plan']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"network device\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"support the following information about network device status\"],\n\"Shared Phenomena\": [\"network identifier\", \"number of DMSs\", \"number of LCSs\", \"DMS status data\", \"LCS status data\", \"CCTV status data\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': ['device'], 'Environment Object': ['Center', 'device status requestor'], 'External System': [], 'System Requirements': ['support the following information for command timeframe request, including network identifier and device type'], 'Shared Phenomena': ['network identifier', 'device type']}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['map'], 'External System': [], 'System Requirements': ['displaying the following for a DMS'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"map\"],\n\"External System\": [],\n\"System Requirements\": [\"displaying the following for a LCS\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"The map\"],\n\"Physical Device\": [\"CCTV\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"displaying the following for a CCTV\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [\"input the following information for each incident\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [\"input the following information for each lane closure\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"the user\"],\n\"External System\": [],\n\"System Requirements\": [\"prompted for the following information\", \"User name and Password\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the user'], 'External System': [], 'System Requirements': ['be able to select a Ramp Meter from a list and provide the following information, including Target Ramp Meter and Plan'], 'Shared Phenomena': ['Target Ramp Meter', 'Plan']}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the user', 'Center', 'Traffic Signal'], 'External System': [], 'System Requirements': ['select a Traffic Signal from a list and provide the following information'], 'Shared Phenomena': ['Target Traffic Signal', 'Plan']}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['Remote GUI', 'GUI'], 'Physical Device': [], 'Environment Object': [], 'External System': ['network identifier'], 'System Requirements': ['to be displayed in a scrollable list'], 'Shared Phenomena': ['device command/control status request', 'status']}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['Center-to-Center'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  }
+]

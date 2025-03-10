@@ -1,0 +1,710 @@
+[
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [[\"CCTNS V1.0\", \"to focus on the critical functionality\"], [\"CCTNS V1.0\", \"improve the outcomes\"], [\"CCTNS V1.0\", \"the police personnel\"]], \"Requirements Constraint\": [[\"CCTNS V1.0\", \"value\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [['CCTNS V1.0', 'IOs'], ['CCTNS V1.0', 'citizens'], ['CCTNS V1.0', 'room staff']], \"Requirements Reference\": [['to focus on delivering value', 'CCTNS V1.0'], ['records room staff and citizens', 'CCTNS V1.0']], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the CCTNS application\", \"officers\"], [\"the CCTNS application\", \"the police personnel\"], [\"the CCTNS application\", \"the police\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [[\"Citizens\", \"complaints\"], [\"police\", \"complaints\"], [\"police\", \"evidence\"], [\"police\", \"facts\"], [\"police\", \"following investigation\"], [\"police\", \"complaint\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"Registration module\", \"police\"], [\"Registration module\", \"citizens\"], [\"Registration module\", \"complainants\"]], \"Requirements Reference\": [[\"eases the approach, interaction and information exchange\", \"Registration module\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the CCTNS\", \"initial entries\"]], \"Requirements Reference\": [[\"facilitates the investigation process and introduces operational efficiencies\", \"the CCTNS\"], [\"facilitates the investigation process and introduces operational efficiencies\", \"initial entries\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"courts\", \"cases\"], [\"police personnel\", \"cases\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"police station\", \"courts\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The Prosecution module of the CCTNS\", \"entries of the court interactions\"], [\"a platform\", \"entries of the court interactions\"]], \"Requirements Reference\": [[\"The Prosecution module of the CCTNS\", \"to record entries of the court interactions\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the search functionality\", \"police personnel\"]], \"Requirements Reference\": [[\"the search functionality\", \"search for a particular person, type of crime, modus operandi, property etc\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [\n    {\n      \"from\": \"System Requirements\",\n      \"to\": \"Environment Object\",\n      \"relation\": \"reporting easy for police\"\n    },\n    {\n      \"from\": \"System Requirements\",\n      \"to\": \"Shared Phenomena\",\n      \"relation\": \"to execute different types of queries such as monthly reporting, RTI related\"\n    }\n  ],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The Citizen Interface module of the CCTNS\", \"citizens\"], [\"The Citizen Interface module of the CCTNS\", \"police\"], [\"The Citizen Interface module of the CCTNS\", \"the information\"], [\"citizens\", \"the information\"], [\"police\", \"the information\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"Citizens\", \"get information or acknowledgements\"], [\"Citizens\", \"police\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"System Requirements\", \"Environment Object\", \"improves overall productivity\", \"citizens\"], [\"System Requirements\", \"Environment Object\", \"improves overall productivity\", \"police\"], [\"System Requirements\", \"Environment Object\", \"to cut short the drudgery of large amounts of paperwork\", \"citizens\"], [\"System Requirements\", \"Environment Object\", \"to cut short the drudgery of large amounts of paperwork\", \"police\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"The Navigation module of the CCTNS\", \"help in navigating\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The Configuration module of the CCTNS\", \"keep the application configured\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Phenomena Interface\": [[\"all user interfaces\", \"detailed context-sensitive help material\"]], \"requirements reference\": [], \"requirements constraint\": []}"
+  },
+  {
+    "predict": "{\"Phenomena Interface\": [], \"requirements reference\": [[\"detailed context-sensitive\", \"all user\"]], \"requirements constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the user\", \"log any defects\"], [\"the user\", \"enhancement requests\"], [\"the user\", \"track thereafter\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"the user\", \"alerts\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the user\", \"track the submitted defect\"], [\"the user\", \"enhancement request\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Phenomena Interface\": [[\"the help-desk user\", \"view the reports\"], [\"view the reports\", \"reports\"]],\n  \"requirements reference\": [],\n  \"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the users\", \"a browser interface\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"the user\", \"An audit trail\"], [\"the CCTNS system\", \"An audit trail\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"users\", \"actions\"], [\"Administrators\", \"actions\"], [\"the CCTNS system\", \"actions\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"an unalterable audit trail\"], [\"the CCTNS system\", \"information about all the actions\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"an unalterable audit trail\"], [\"The CCTNS system\", \"information about the user initiating\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Phenomena Interface\": [[\"The CCTNS system\", \"information about the date\"], [\"The CCTNS system\", \"time of the event\"], [\"an unalterable audit trail\", \"information about the date\"], [\"an unalterable audit trail\", \"time of the event\"]], \"requirements reference\": [], \"requirements constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"an unalterable audit trail\"]], \"Requirements Reference\": [[\"The CCTNS system\", \"information about administrative parameters\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the CCTNS system\", \"events\"], [\"the CCTNS system\", \"the audit trail\"]], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"the CCTNS system\", \"events\"]]}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"the audit trail\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Phenomena Interface\": [], \"requirements reference\": [[\"The CCTNS system\", \"export audit trails\"]], \"requirements constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [[\"external auditors\", \"to examine or analyse system activity\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [\n    [\"The CCTNS system\", \"to capture and store violations\"],\n    [\"The CCTNS system\", \"attempted violations\"]\n  ],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"workstation\"], [\"The CCTNS system\", \"reports\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"user\"], [\"The CCTNS system\", \"users\"], [\"The CCTNS system\", \"user groups\"]], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"limit access\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"role-based control\"]], \"Requirements Constraint\": [[\"The CCTNS system\", \"role-based control\"]]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": [[\"The CCTNS system\", \"a user\"]]\n}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The CCTNS system\", \"user profiles\"], [\"The CCTNS system\", \"groups\"], [\"admin-users\", \"user profiles\"], [\"admin-users\", \"groups\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"a user\"]], \"Requirements Reference\": [[\"The CCTNS system\", \"stipulate which other users or groups can access cases\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [[\"The CCTNS system\", \"security attributes\"], [\"groups\", \"security attributes\"], [\"users\", \"security attributes\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"a user\", \"requests access\"], [\"a user\", \"the existence of a case\"], [\"the CCTNS system\", \"title\"], [\"the CCTNS system\", \"metadata\"], [\"the CCTNS system\", \"the existence of a case\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"a user\", \"search\"], [\"the CCTNS system\", \"the search result\"]], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"the CCTNS system\", \"the search result\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the CCTNS system\", \"unauthorised attempts\"], [\"the CCTNS system\", \"the audit trail\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the audit trail\", \"documents\"], [\"the audit trail\", \"data\"]], \"Requirements Reference\": [[\"to ensure legal admissibility\", \"the audit trail\"], [\"to assist in data recovery\", \"the audit trail\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the CCTNS system\", \"error messages\"], [\"the users\", \"error messages\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The CCTNS system\", \"user interface rules\"]], \"Requirements Reference\": [[\"The CCTNS system\", \"to provide a familiar and common look\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [[\"The CCTNS system\", \"several entity\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": [[\"The CCTNS system\", \"users\"]]\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [{\"Software System\": \"The CCTNS system\", \"System Requirements\": \"easy to use and intuitive throughout\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"data entry\"], [\"The CCTNS system\", \"persistent defaults\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the CCTNS system\", \"a graphical user interface\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [\"user interfaces\"], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"the CCTNS system\", \"Standard ISO 9241\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"Software System\", \"ISO 9241-171\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Phenomena Interface\": [[\"Navigation\", \"where they are\"], [\"Navigation\", \"where they have been\"], [\"Navigation\", \"where they can go next\"]], \"requirements reference\": [], \"requirements constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"Each presentation segment\", \"the user\"], [\"Each presentation segment\", \"a clear and sufficient indication\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"Entity1\": \"Alternative access paths\", \"Entity2\": \"a specific unit of content\"}], \"Requirements Reference\": [{\"Entity1\": \"to support different navigation strategies\", \"Entity2\": \"Alternative access paths\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [[\"Splash screens\", \"useful content or feedback\"]],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": [[\"Splash screens\", \"the user\"]]\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"a splash screen\", \"a navigation option\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"Additional windows\", \"the user\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"new windows\", \"users\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"unwanted windows\", \"user actions\"]], \"Requirements Reference\": [[\"for closing unwanted windows\", \"unwanted windows\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"input device\", \"to allow activation of controls\"], [\"input devices\", \"to allow activation of controls\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [['users', 'input devices'], ['mobile users', 'input devices'], ['users with disabilities', 'input devices']], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"Making user interfaces robust\", \"User interfaces\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the application\", \"the user\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the pages\", \"The content of error messages\"], [\"special error pages\", \"The content of error messages\"], [\"the user\", \"actions\"]], \"Requirements Reference\": [[\"resolve the error\", \"actions\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"Users\", \"error messages\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"Making text resizable by the user\", \"the user\"], [\"Making text resizable by the user\", \"the user agent\"], [\"Making text resizable by the user\", \"Text\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [{\"System Requirements\": \"making the content easy to understand\", \"Environment Object\": \"the user\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"the document\", \"the user\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [{\"requirements domain\": \"System Requirements\", \"other entity\": \"Shared Phenomena\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"Each page\", \"a link\"], [\"Each page\", \"a landmark page\"]], \"Requirements Reference\": [[\"is easy to recognize\", \"the user\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [[\"a user interface\", \"individual users\"], [\"a user interface\", \"user groups\"]],\n  \"Requirements Reference\": [[\"making access to relevant information more efficient\", \"information\"]],\n  \"Requirements Constraint\": [[\"making access to relevant information more efficient\", \"the content and the navigation\"]]\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [{\"External System\": \"the user interface\"}], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"System Requirements\", \"Environment Object\"]], \"Requirements Constraint\": [[\"System Requirements\", \"Environment Object\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"user groups\", \"navigation structures\"], [\"user groups\", \"access paths\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"users\", \"information\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [[\"users\", \"see, modify and delete that profile on demand\"], [\"users\", \"user-specified profiles\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [[\"The CCTNS system\", \"users\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [\"the CCTNS system\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": [[\"The CCTNS system\", \"user\"]]\n}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [\"the CCTNS system\"]}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds\"], [\"the CCTNS system\", \"to perform a simple search within 5-8 seconds and a advanced search (multiple search criteria) within 10-15 seconds\"]], \"Requirements Constraint\": [[\"The CCTNS system\", \"the storage capacity\"], [\"The CCTNS system\", \"number of cases\"], [\"the CCTNS system\", \"the storage capacity\"], [\"the CCTNS system\", \"number of cases\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"to retrieve and display within 5-8 seconds the case\"], [\"the CCTNS system\", \"to retrieve and display within 5-8 seconds the case\"]], \"Requirements Constraint\": [[\"The CCTNS system\", \"storage capacity\"], [\"The CCTNS system\", \"number of cases\"], [\"the CCTNS system\", \"storage capacity\"], [\"the CCTNS system\", \"number of cases\"]]}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [\"System Requirements to Shared Phenomena\"]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [['The CCTNS system', 'support multilingual interface']], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"operational data\"], [\"equipment\", \"operational data\"], [\"communication network\", \"operational data\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [{\"Software System\": \"The CCTNS system\", \"System Requirements\": \"to have satisfactory performance\"}], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [\n    {\n      \"source\": \"The CCTNS system\",\n      \"relation\": \"should be implemented using\",\n      \"target\": \"Service Oriented Architecture (SOA)\"\n    },\n    {\n      \"source\": \"The CCTNS system\",\n      \"relation\": \"should have\",\n      \"target\": \"a modular design\"\n    }\n  ],\n  \"Requirements Constraint\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"Open Standards\"]]}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The CCTNS system\", \"a common User Access\"], [\"The CCTNS system\", \"Authentication Service\"]], \"Requirements Reference\": [[\"The CCTNS system\", \"to ensure Single-Sign\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"to have a n-tier architecture\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"to provide access to the interfaces\"]], \"Requirements Reference\": [[\"The CCTNS system\", \"to provide access to the interfaces\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The CCTNS system\", \"browser-based systems\"]], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"client device\"]]}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"support multiple types of communication services for remote access\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"to support public access to a subset of data and functionality\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"support multi-tier authentication\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The CCTNS system\", \"support SSL encrypted connections\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"support secure virtual private network connections\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [[\"The CCTNS system\", \"run on multiple browsers\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"the stored data\"]], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"selective encryption\"]]}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"ensure secure transmission\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [['The CCTNS system', 'ensure high standards of security and access control']], \"Requirements Reference\": [['The CCTNS system', 'ensure high standards of security and access control']], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [[\"The CCTNS system\", \"SQL Injection\"]],\n  \"Requirements Reference\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]],\n  \"Requirements Constraint\": [[\"ensure high standards of security and access control\", \"SQL Injection\"]]\n}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]]}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The CCTNS system\", \"the incoming data\"], [\"The CCTNS system\", \"user request\"]], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]]}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The CCTNS system\", \"the incoming data\"], [\"The CCTNS system\", \"user request\"]], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]]}"
+  },
+  {
+    "predict": "{\"Interface\": [[\"The CCTNS system\", \"the data\"], [\"the client\", \"the data\"], [\"server\", \"the data\"]], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"ensure high standards of security and access control through\"]]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [[\"The CCTNS system\", \"ensure high standards of security and access control\"]],\n  \"Requirements Constraint\": [[\"The CCTNS system\", \"do not allow hard delete\"], [\"The CCTNS system\", \"perform only soft tagging the row for deletion\"]]\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [],\n  \"Requirements Reference\": [],\n  \"Requirements Constraint\": [[\"The CCTNS system\", \"ensure high scalability and performance\"]]\n}\n```"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"ensure high scalability and performance\"]], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": [[\"The CCTNS system\", \"ensure high scalability and performance\"]]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Interface\": [[\"The CCTNS system\", \"the web server\"]],\n  \"Requirements Reference\": [[\"The CCTNS system\", \"ensure high scalability and performance\"]],\n  \"Requirements Constraint\": [[\"The CCTNS system\", \"the static content\"]]\n}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [[\"The CCTNS system\", \"records\"], [\"the screen\", \"records\"]], \"Requirements Reference\": [[\"The CCTNS system\", \"ensure high scalability and performance\"]], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer:{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "```json\n{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}\n```"
+  },
+  {
+    "predict": "{\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  },
+  {
+    "predict": "Answer: {\"Interface\": [], \"Requirements Reference\": [], \"Requirements Constraint\": []}"
+  }
+]

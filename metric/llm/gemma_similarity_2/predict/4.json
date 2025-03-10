@@ -1,0 +1,1804 @@
+[
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome (DH)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "It is made up of a list of the principal features of the system."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome",
+        "DigitalHomeOwner"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "HomeOwner"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the DigitalHome"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "DigitalHomeOwner Division",
+        "Marketing Division of HomeOwner Inc."
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Digital Home system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a home"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "allow a home user to manage devices that control the environment of a home"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "DigitalHome web server",
+        "a local home server"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "communicates through a personal web page"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The product"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Digital Home High Level Requirements Definition"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Digital Home"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "prototype",
+        "commercial product"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "devices",
+        "small appliances",
+        "lighting units",
+        "web-ready device"
+      ],
+      "Environment Object": [
+        "temperature",
+        "humidity",
+        "security",
+        "power"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "management of devices which control temperature, humidity, security, and power to small appliances and lighting units"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The prototype DigitalHome software system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a simulated environment"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "sensors",
+        "controllers"
+      ],
+      "Environment Object": [
+        "home"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the environment in his/her home"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "monitor and control"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "A Master user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to change the configuration of the system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome system"
+      ],
+      "Physical Device": [
+        "hardware"
+      ],
+      "Environment Object": [
+        "DigitalHome Technician"
+      ],
+      "External System": [
+        "web services"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHomeOwner Director"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide management and communication support"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Digital HomeOwner Inc."
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome project"
+      ],
+      "Physical Device": [
+        "hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [
+        "sensors",
+        "controllers",
+        "server",
+        "tools"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the cost of DigitalHome elements"
+      ],
+      "Shared Phenomena": [
+        "potential market competition"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "minimize costs",
+        "price comparisons"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a simulated environment"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "sensors",
+        "controllers"
+      ],
+      "Environment Object": [
+        "home"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "sensors",
+        "controllers"
+      ],
+      "Environment Object": [
+        "home"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the system to be developed"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Homeowner Inc."
+      ],
+      "External System": [],
+      "System Requirements": [
+        "a “proof of concept” system intended to help"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "long-term production and marketing"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The home system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Internet Service Provider (ISP)"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "cable modem",
+        "high speed DSL"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "Bright House",
+        "Bellsouth FastAccess"
+      ],
+      "System Requirements": [
+        "should be widely available"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "home web server"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "DigitalHome elements"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "interaction with and control of"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The home web server"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "storage of DigitalHome plans and data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "user account information",
+        "user plans",
+        "a home database"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "Gateway device"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "1000-foot range",
+        "indoor transmission"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The thermostat"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the space"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "shall provide a reading of the current temperature"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the controller part of thermostat"
+      ],
+      "Physical Device": [
+        "thermostat",
+        "heating or cooling devices"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provides a “set point” temperature",
+        "control the flow of heat energy",
+        "achieve the set point temperature"
+      ],
+      "Shared Phenomena": [
+        "set point temperature",
+        "heat energy"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "thermostat",
+        "sensor"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "14ºF",
+        "104ºF",
+        "-10ºC",
+        "40ºC"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "digital programmable humidistats"
+      ],
+      "Environment Object": [
+        "enclosed space"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "monitor and regulate the humidity"
+      ],
+      "Shared Phenomena": [
+        "humidity"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The humidistat"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the space"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "provide a reading of the current humidity"
+      ],
+      "Shared Phenomena": [
+        "the current humidity"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "magnetic alarm contact switches"
+      ],
+      "Environment Object": [
+        "door",
+        "window"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "monitor entry through a door or window"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the system"
+      ],
+      "Physical Device": [
+        "digital programmable power switches",
+        "appliance",
+        "coffee maker"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "monitor the current state"
+      ],
+      "Shared Phenomena": [
+        "current state"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the system"
+      ],
+      "Physical Device": [
+        "a power switch",
+        "the appliance"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be able to use a power switch to change the state of the appliance (e.g., from “off” to “on”)"
+      ],
+      "Shared Phenomena": [
+        "state",
+        "off",
+        "on"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "This section provides a description of the functional requirements."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "overview of the system functionality",
+        "relationhips between the DigitalHome System entity"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome System"
+      ],
+      "Physical Device": [
+        "web-ready computer",
+        "cell phone",
+        "PDA",
+        "home's temperature",
+        "home's humidity",
+        "lights",
+        "security",
+        "small appliances"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "allow a web-ready computer, cell phone or PDA to control a home's temperature, humidity, lights, security, and the state of small appliances"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the DigitalHome system",
+        "DigitalHome home web server"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "user",
+        "home devices",
+        "home systems"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome",
+        "DigitalHome Gateway Device",
+        "DigitalHome system"
+      ],
+      "Physical Device": [
+        "master control device",
+        "home devices",
+        "home’s broadband Internet connection"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "connects to the home’s broadband Internet connection",
+        "uses wireless communication to send and receive communication between the DigitalHome system and the home devices and systems"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "sensor"
+      ],
+      "Environment Object": [
+        "home"
+      ],
+      "External System": [
+        "home database"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Controller"
+      ],
+      "Physical Device": [
+        "controllers"
+      ],
+      "Environment Object": [
+        "DigitalHome environment"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "change the DigitalHome environment"
+      ],
+      "Shared Phenomena": [
+        "Controller values"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [
+        "thermostat"
+      ],
+      "Environment Object": [
+        "A DigitalHome user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "be able to read the temperature"
+      ],
+      "Shared Phenomena": [
+        "the temperature",
+        "thermostat position"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [
+        "thermostat"
+      ],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "set the thermostat temperatures to between 60 °F and 80 °F, inclusive, at one degree increments"
+      ],
+      "Shared Phenomena": [
+        "60 °F",
+        "80 °F",
+        "one degree increments"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "thermostats"
+      ],
+      "Environment Object": [
+        "rooms",
+        "home"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Up to eight thermostats shall be placed"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "thermostat"
+      ],
+      "Environment Object": [
+        "room"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "A single thermostat shall be placed in an enclosed space (e.g., a room in the house) for which the air temperature is to be controlled."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "thermostat"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "thermostat unit",
+        "master control unit"
+      ],
+      "Physical Device": [
+        "thermostat unit",
+        "master control unit"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "communicate, through wireless signals, with the master control unit"
+      ],
+      "Shared Phenomena": [
+        "wireless signals"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Fahrenheit",
+        "Celsius"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "temperature values"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "HVAC (Heating, Ventilation and Air Conditioning) systems",
+        "gas",
+        "oil",
+        "electricity",
+        "solar"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be compatible with",
+        "compatible with a centralized HVAC (Heating, Ventilation and Air Conditioning) systems"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ASHRAE 2010"
+      ],
+      "System Requirements": [
+        "adhere to the standards, policies and procedures of the American Society of Heating, Refrigerating and Air-Conditioning Engineers [ASHRAE 2010]"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The DigitalHome programmable humidistat"
+      ],
+      "Physical Device": [
+        "a web ready computer",
+        "cell phone",
+        "PDA"
+      ],
+      "Environment Object": [
+        "a home",
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "monitor and control a home’s humidity from any location"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "humidistat"
+      ],
+      "Environment Object": [
+        "A DigitalHome user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "A DigitalHome user shall be able to read the humidity at a humidistat position"
+      ],
+      "Shared Phenomena": [
+        "humidity"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "humidistat"
+      ],
+      "Environment Object": [
+        "space",
+        "room"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "humidity is to be controlled"
+      ],
+      "Shared Phenomena": [
+        "humidity"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome system"
+      ],
+      "Physical Device": [
+        "master control unit",
+        "humidistats"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "use wireless signals to communicate, through the master control unit, with the humidistats"
+      ],
+      "Shared Phenomena": [
+        "wireless signals"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The DigitalHome security system"
+      ],
+      "Physical Device": [
+        "contact sensors",
+        "a set security alarms"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome system"
+      ],
+      "Physical Device": [
+        "light alarm subsystem",
+        "light alarm subsystem",
+        "multiple lights"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to activate both light and sound alarms"
+      ],
+      "Shared Phenomena": [
+        "sound alarms",
+        "light alarms"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the alarm system"
+      ],
+      "Physical Device": [
+        "a contact sensor"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "shall be activated"
+      ],
+      "Shared Phenomena": [
+        "a security breach",
+        "a contact sensor is set OPEN"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The DigitalHome programmable Appliance Manager"
+      ],
+      "Physical Device": [
+        "lighting units",
+        "small appliances"
+      ],
+      "Environment Object": [
+        "a user",
+        "a home"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "provide for management of a home’s small appliances, including lighting units, by allowing a user to turn them on or off as desired"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Appliance Manager"
+      ],
+      "Physical Device": [
+        "power switches"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to manage up to one hundred 115 volt, 10 amp power switches"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "power switch",
+        "appliance"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to provide information about the state of a power switch",
+        "indicating the whether an appliance connected to the power switch is OFF or ON"
+      ],
+      "Shared Phenomena": [
+        "OFF or ON",
+        "OFF or ON"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "power switch",
+        "appliance"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to change the state of a power switch (OFF to ON, or ON to OFF)",
+        "in turn changing the state of an appliance connected to the power switch"
+      ],
+      "Shared Phenomena": [
+        "state",
+        "OFF",
+        "ON"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "power switch device"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "state",
+        "planned or default time period",
+        "planned or default setting"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome Planner"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "provide a user with the capability to direct the system to set various preset home parameters (temperature, humidity, security contacts, and on/off appliance/light status) for certain time periods"
+      ],
+      "Shared Phenomena": [
+        "preset home parameters",
+        "temperature",
+        "humidity",
+        "security contacts",
+        "on/off appliance/light status",
+        "certain time periods"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The month report shall provide the day and time for which any security breaches occurred, that is, when the security alarms were activated."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide a section that indicates the periods of time when the DigitalHome System was not in operation"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "Displays",
+        "contact sensors",
+        "power switches"
+      ],
+      "Environment Object": [
+        "environmental conditions",
+        "temperature",
+        "humidity"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "shall be updated at least every two seconds"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "with no more than 1 failure per 10,000 hours of operation"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Digital Home System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "incorporate backup and recovery mechanisms"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the DigitalHome System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "backup all system data (configuration, default parameter settings, planning, and usage data) on a daily basis",
+        "the backup time set by the DigitalHome Technician at system set up"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "system recovery mechanism",
+        "restore system data",
+        "configuration",
+        "default parameter settings",
+        "planning",
+        "usage data"
+      ],
+      "Shared Phenomena": [
+        "power loss",
+        "loss of internet access",
+        "software or hardware failure"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "incorporate exception handling so that the system responds to a user with a clear, descriptive message when an error or an exceptional condition occurs"
+      ],
+      "Shared Phenomena": [
+        "an error or an exceptional condition"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "high system reliability"
+      ],
+      "Shared Phenomena": [
+        "system failures",
+        "user requests"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "home dwellers",
+        "young children"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "security breaches",
+        "inadequate lighting",
+        "temperature",
+        "humidity"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "establish a DigitalHome user account"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Log in to an account shall require entry of an account name and a password."
+      ],
+      "Shared Phenomena": [
+        "account name",
+        "password"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The development of the DigitalHome system shall use methods and techniques such as the following to support system maintenance."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "DigitalHome System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "HomeOwner Document Archive"
+      ],
+      "System Requirements": [
+        "Software Requirements Specification"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the CIO"
+      ],
+      "System Requirements": [
+        "Exceptions to this rule must be approved"
+      ],
+      "Shared Phenomena": []
+    }
+  }
+]

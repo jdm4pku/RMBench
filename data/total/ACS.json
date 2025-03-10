@@ -1,0 +1,840 @@
+[
+    {
+        "text": "Exceeding sensor limits shall latch an autopilot pullup when the pilot is not in control (not standby) and the system is supported without failures (not apfail).   \n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [
+                "sensor",
+                "autopilot"
+            ],
+            "Environment Entity": [
+                "pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [
+                [
+                    "sensor",
+                    "autopilot"
+                ],
+                [
+                    "autopilot",
+                    "pilot"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The autopilot shall change states from TRANSITION to STANDBY when the pilot is in control (standby).\n",
+        "entity": {
+            "Machine Domain": [
+                "The autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The autopilot shall change states from TRANSITION to NOMINAL when the system is supported and sensor data is good.\n",
+        "entity": {
+            "Machine Domain": [
+                "The autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "sensor data"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The autopilot",
+                    "sensor data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The autopilot shall change states from NOMINAL to MANEUVER when the sensor data is not good.\n",
+        "entity": {
+            "Machine Domain": [
+                "The autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "the sensor data"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The autopilot",
+                    "the sensor data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The autopilot shall change states from NOMINAL to STANDBY when the pilot is in control (standby).\n",
+        "entity": {
+            "Machine Domain": [
+                "The autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [
+                "change states from NOMINAL to STANDBY"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The autopilot",
+                    "change states from NOMINAL to STANDBY"
+                ],
+                [
+                    "the pilot",
+                    "change states from NOMINAL to STANDBY"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The autopilot shall change states from MANEUVER to STANDBY when the pilot is in control (standby) and sensor data is good.\n",
+        "entity": {
+            "Machine Domain": [
+                "The autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "standby",
+                "sensor data"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The autopilot",
+                    "standby"
+                ],
+                [
+                    "the pilot",
+                    "standby"
+                ],
+                [
+                    "The autopilot",
+                    "sensor data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The autopilot shall change states from PULLUP to TRANSITION when the system is supported and sensor data is good.\n",
+        "entity": {
+            "Machine Domain": [
+                "The autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "sensor data"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The autopilot",
+                    "sensor data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The autopilot shall change states from STANDBY to TRANSITION when the pilot is not in control (not standby).\n",
+        "entity": {
+            "Machine Domain": [
+                "The autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The autopilot",
+                    "the pilot"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The autopilot shall change states from STANDBY to MANEUVER when a failure occurs (apfail).\n",
+        "entity": {
+            "Machine Domain": [
+                "The autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "a failure"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The autopilot",
+                    "a failure"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "This document describes an example set of requirements that apply to an autopilot controller.  The purpose of this example is to demonstrate traceability between requirements, design, code and test cases/procedures for sample requirements.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "an autopilot controller"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Roll Autopilot shall engage when the pilot selects the autopilot engage switch in the cockpit and disengage when the switch is deselected. \n",
+        "entity": {
+            "Machine Domain": [
+                "Roll Autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "the autopilot engage switch",
+                "the switch"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "Roll Autopilot",
+                    "the autopilot engage switch"
+                ],
+                [
+                    "the pilot",
+                    "the switch"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "When not engaged, the command to the roll actuator shall be zero.The autopilot should only be engaged when the pilot selects it. \n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Roll hold mode shall be the active mode whenever the autopilot is engaged and no other lateral mode is active.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Roll hold mode is the default mode in the roll axis for the autopilot when no other mode is active. \n",
+        "entity": {
+            "Machine Domain": [
+                "the autopilot"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "When roll hold mode becomes the active mode the roll hold reference shall be set to the actual roll attitude of the aircraft, except under the following conditions.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the aircraft"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "the roll hold reference",
+                "the actual roll attitude"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "the aircraft",
+                    "the roll hold reference"
+                ],
+                [
+                    "the aircraft",
+                    "the actual roll attitude"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The roll hold reference shall be set to zero if the actual roll angle is less than 6 degrees, in either direction, at the time of roll hold engagement.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "The roll hold reference"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "zero",
+                "the actual roll angle"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The roll hold reference",
+                    "zero"
+                ],
+                [
+                    "The roll hold reference",
+                    "the actual roll angle"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The roll hold reference shall be set to 30 degrees in the same direction as the actual roll angle if the actual roll angle is greater than 30 degrees at the time of roll hold engagement.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "The roll hold reference"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "the actual roll angle"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The roll hold reference",
+                    "the actual roll angle"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The roll reference shall be set to the cockpit turn knob command, up to a 30 degree limit, if the turn knob is commanding 3 degrees or more in either direction.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [
+                "The roll reference",
+                "the turn knob"
+            ],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "the cockpit turn knob command"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The roll reference",
+                    "the cockpit turn knob command"
+                ],
+                [
+                    "the turn knob",
+                    "the cockpit turn knob command"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "When engaging the mode at a small bank angle, it is assumed that the pilot wants to maintain level flight.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "When the mode is engaged above the autopilot roll limit, the autopilot should control to the limit.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The turn knob will be considered to be in dent when it is less than 3 degrees.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [
+                "The turn knob"
+            ],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Steady state roll commands shall be tracked within 1 degree in calm air.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "Steady state roll commands"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "calm air"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "Steady state roll commands",
+                    "calm air"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Response to roll step commands shall not exceed 10% overshoot in calm air.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "step commands"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "overshoot"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "step commands",
+                    "overshoot"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Small signal (<3 degree) roll bandwidth shall be at least 0.5 rad/sec.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "These tracking, overshoot and bandwidth requirements are necessary for good roll performance in lateral modes. \n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The maximum roll rate for large commands shall be 6 deg/sec +/-10% in calm air.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "This roll rate allows good performance while still maintaining passenger comfort. \n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "passenger"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The maximum roll angle allowed shall be 30 deg +/-10% in calm air.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "This roll angle allows good turn rate while still maintaining passenger comfort. \n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "passenger"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The maximum aileron command allowed shall be 15 deg.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "This is the maximum deflection allowed by the mechanical control system. \n",
+        "entity": {
+            "Machine Domain": [
+                "the mechanical control system"
+            ],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Heading Hold shall become the active mode when the pilot selects the heading switch in the cockpit and deactivate when the switch is deselected.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Heading hold mode will be the active mode when selected by the pilot. \n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "When heading hold mode becomes the active mode the heading hold reference shall be set by the pilot via a cockpit control.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "the pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "the heading hold reference"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "the pilot",
+                    "the heading hold reference"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "The pilot will select the desired heading to track via the cockpit control.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "The pilot"
+            ],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": [
+                "the desired heading to track"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "The pilot",
+                    "the desired heading to track"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Steady state heading commands shall be tracked within 1 degree in calm air.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [
+                "Steady state heading commands"
+            ],
+            "Design Domain": [],
+            "Requirements": [
+                "tracked within 1 degree"
+            ],
+            "Shared Phenomena": [
+                "calm air"
+            ]
+        },
+        "relation": {
+            "interface": [
+                [
+                    "Steady state heading commands",
+                    "calm air"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "Response to heading step commands shall not exceed 10% overshoot in calm air.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    },
+    {
+        "text": "These tracking and overshoot requirements are necessary for good heading performance.\n",
+        "entity": {
+            "Machine Domain": [],
+            "Physical Device": [],
+            "Environment Entity": [],
+            "Design Domain": [],
+            "Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "interface": [],
+            "requirements reference": [],
+            "requirements constraints": []
+        }
+    }
+]

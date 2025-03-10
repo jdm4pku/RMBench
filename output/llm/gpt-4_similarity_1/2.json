@@ -1,0 +1,401 @@
+[
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"VLA Expansion Project Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"provide a complete and accurate list of requirements\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"project leaders\", \"the designers\", \"developers\", \"the end user\"], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [\"VLA Expansion Project project scientists\", \"engineers\", \"individuals involved in similar projects\"], \"External System\": [], \"System Requirements\": [\"similar requirements\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"requirements\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The Correlator Monitor and Control System\", \"the VLA Expansion Project monitor and control system\"],\n  \"Physical Device\": [\"the WIDAR Correlator hardware\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"provides the physical link between the WIDAR Correlator hardware and the VLA Expansion Project monitor and control system\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"correlator\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"the primary interface by which the correlator is configured, operated, and serviced\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Correlator Monitor and Control System\", \"the VLA Expansion Project Monitor and Control System system\"], \"Physical Device\": [\"a physical correlator hardware configuration\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"receive configuration information from the VLA Expansion Project Monitor and Control System system and translate this info into a physical correlator hardware configuration\"], \"Shared Phenomena\": [\"receive configuration information from the VLA Expansion Project Monitor and Control System system\", \"translate this info into a physical correlator hardware configuration\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"process and transfer dynamic control data and monitor data\"],\n  \"Shared Phenomena\": [\"dynamic control data\", \"monitor data\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Correlator Monitor and Control System\"], \"Physical Device\": [\"correlator\", \"correlator subsystem\", \"computing system\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"monitor correlator and correlator subsystem health\", \"take corrective action autonomously\", \"recover from hardware and computing system faults\"], \"Shared Phenomena\": [\"hardware faults\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"perform limited amounts of real-time data processing and probing\", \"providing tools to collect and display auto correlation products\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"allow for easy system access to aid testing and debugging\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Correlator Monitor and Control System\", \"EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"primary requirements necessary to design and build the EVLA Correlator Monitor and Control System\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"VLA Expansion Project Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"correlator configuration\", \"real time monitor/control\", \"hardware testing/servicing\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Correlator Monitor and Control System\", \"VLA Expansion Project Monitor and Control Structure\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The Correlator Monitor and Control System\", \"the correlator system\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [\"the VLA Expansion Project environment\"],\n  \"External System\": [],\n  \"System Requirements\": [\"provide a level of abstraction to modularize the correlator system\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The Virtual Correlator Interface\", \"The Correlator Monitor and Control System\"],\n  \"Physical Device\": [\"intelligent hardware control processors\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [],\n  \"Shared Phenomena\": [\"Master/Slave network\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"the correlator hardware systems\"], \"Physical Device\": [\"the monitor\"], \"Environment Object\": [\"The Master\", \"the outside world\", \"the slaves\"], \"External System\": [], \"System Requirements\": [\"handle the bulk of the monitor or control interface\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"This topology\"], \"Physical Device\": [], \"Environment Object\": [\"slave layer\", \"master layer\"], \"External System\": [], \"System Requirements\": [\"place the real-time computing requirements in the slave layer\", \"the quasi real-time, network-chaotic loads into the master layer\"], \"Shared Phenomena\": [\"real-time computing requirements\", \"quasi real-time, network-chaotic loads\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [\"correlator hardware\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"isolation of the correlator hardware\", \"be redundant in critical areas\", \"highly modular\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Correlator monitor subsystem\", \"VLA Expansion Project system\", \"Monitor and Control System supervisor system\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"will provide VLA Expansion Project system wide access to all correlator system states including the Monitor and Control System supervisor system state\"], \"Shared Phenomena\": [\"all correlator system states\", \"Monitor and Control System supervisor system state\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [],\n  \"Shared Phenomena\": [\"time synchronous basis\", \"request basis\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Correlator Monitor and Control System\"], \"Physical Device\": [\"hardware\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"be a fully observable system\", \"limits placed on information access\"], \"Shared Phenomena\": [\"bandwidth\", \"security restrictions\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"provided in a concise time/location referenced format to upper system levels in a content controllable manner\"], \"Shared Phenomena\": [\"Error and status messages\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"the VLA Expansion Project Monitor and Control System system\", \"the Master Correlator Control Computer\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Correlator configurations and control instructions will be received from the VLA Expansion Project Monitor and Control System system in a form suitable for translation by the Master Correlator Control Computer\"], \"Shared Phenomena\": [\"Correlator configurations and control instructions\", \"received\", \"translation\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"correlator hardware\"],\n  \"Environment Object\": [],\n  \"External System\": [\"human GUI\"],\n  \"System Requirements\": [\"translation\", \"specific goal oriented hardware configuration tables\", \"configuration of the correlator hardware\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\"Software System\": [\"Virtual Correlator Interface\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Backend Data Processing System\"], \"Physical Device\": [], \"Environment Object\": [\"a secondary virtual network\"], \"External System\": [], \"System Requirements\": [\"Specific data sets required\", \"provided in a timely and robust fashion\"], \"Shared Phenomena\": [\"Specific data sets\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"VLA Expansion Project Monitor and Control System\"], \"Physical Device\": [\"Ancillary monitor\"], \"Environment Object\": [], \"External System\": [\"network communication\"], \"System Requirements\": [], \"Shared Phenomena\": [\"system health\", \"error messages\", \"configuration echoes\", \"monitor data\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"the VLA Expansion Project Monitor and Control System\", \"the Backend processing controller\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Data sample rates and contents will be fully controllable\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Master Correlator Control Computer\"], \"Physical Device\": [\"the correlator hardware\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"accept external data feeds for models, time standards, fiber-link phase corrections and other required data to be packaged with control data delivered to the correlator hardware\"], \"Shared Phenomena\": [\"external data feeds for models, time standards, fiber-link phase corrections and other required data\", \"control data delivered to the correlator hardware\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"this system\"], \"Physical Device\": [\"hardware devices\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"The ability to attempt recovery from failure or hot-swapped hardware devices\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"CMIB subsystem\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [\"appropriate personnel\"],\n  \"External System\": [],\n  \"System Requirements\": [\"an alert notice will be issued so appropriate personnel can affect a hardware repair\"],\n  \"Shared Phenomena\": [\"an alert notice\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"CMIB subsystem\"], \"Physical Device\": [], \"Environment Object\": [\"current operational environment\"], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Master Correlator Control Computer systems\", \"Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Master Correlator Control Computer\", \"Correlator Power Control Computer\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"monitor Correlator Power Control Computer health\"], \"Shared Phenomena\": [\"Watchdog processes\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Correlator Power Control Computer\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [\"external system\"],\n  \"System Requirements\": [\"actions taken upon hard failures are TBD\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"the Correlator Monitor and Control System\", \"the VCI\", \"Master Correlator Control Computer\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"All use of the Correlator Monitor and Control System will be through the VCI or Master Correlator Control Computer\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"Software tools\"], \"Physical Device\": [], \"Environment Object\": [\"user\"], \"External System\": [], \"System Requirements\": [\"assist the user at all access levels from system wide configuration and control to a low level CMIB command line instruction\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"The primary contact with array operations will be via status and error messages channeled through the Monitor and Control System\"], \"Shared Phenomena\": [\"status and error messages\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Correlator System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"achieve and maintain high reliability and uptime\", \"reliable operation and rapid diagnosis and repair of faults in the hardware and software systems\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [\"These individuals\"], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"CMIB layer devices\"], \"Environment Object\": [\"Engineers\", \"technicians\"], \"External System\": [], \"System Requirements\": [\"inspect and monitor individual CMIB layer devices\", \"fault trace to a specific hot-swappable subsystem\"], \"Shared Phenomena\": [\"remote locations\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"software\", \"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"These individuals\"], \"External System\": [], \"System Requirements\": [\"developing the software\", \"ensure that it is functioning properly\"], \"Shared Phenomena\": [\"interact\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The software developer\", \"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"the VLA Expansion Project\"], \"External System\": [], \"System Requirements\": [\"remote access to the EVLA Correlator Monitor and Control System\", \"troubleshooting can be accomplished away from the the VLA Expansion Project and during non-working hours\"], \"Shared Phenomena\": [\"remote access\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [\"individuals\"],\n  \"External System\": [],\n  \"System Requirements\": [\"allowed access\", \"restricted\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Correlator Monitor and Control\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"Astronomical data path\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"incoming astronomical data\"], \"Shared Phenomena\": [\"incoming astronomical data\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"correlator\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Functionality needs to be modularized\", \"provide the easiest means of fault detection and repair\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\"Software System\": [\"the Correlator Monitor and Control System software\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"ease of use\", \"flexibility\"], \"Shared Phenomena\": []}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Full access is required with a high level of data integration to provide the user with a logical and coherent interface.\"], \"Shared Phenomena\": [\"data integration\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"Correlator\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"receive configuration data in a format that is unambiguous and results in a convergent hardware configuration\"], \"Shared Phenomena\": [\"configuration data\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"VLA Expansion Project Monitor and Control System system\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [\"dedicated servers\"],\n  \"System Requirements\": [\"real time update of correlator parameters\"],\n  \"Shared Phenomena\": [\"auxiliary data\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"the backend data processing\", \"VLA Expansion Project Monitor and Control System\", \"Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"be capable of accepting output data rates generated by the Correlator Monitor and Control System\"], \"Shared Phenomena\": [\"output data rates generated by the Correlator Monitor and Control System\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"Master Correlator Control Computer\", \"Correlator Power Control Computer\"], \"Physical Device\": [\"CMIB\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"be Ethernet of 100 Mbits/sec or better data rate\"], \"Shared Phenomena\": [\"The interface between the CMIB, Master Correlator Control Computer, and Correlator Power Control Computer\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The interface\"], \"Physical Device\": [\"transformer\", \"copper twisted pair\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"noise\", \"ground isolation\", \"physical layout constraints\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"Network switches\", \"correlator rack\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"distribute traffic within a correlator rack\", \"reduce overall network wiring complexity\"], \"Shared Phenomena\": [\"traffic\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The Master Correlator Control Computer-CMIB\", \"Master Correlator Control Computer-Correlator Power Control Computer\", \"Master Correlator Control Computer-VLA Expansion Project Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"shall be on separate physical interfaces\"], \"Shared Phenomena\": [\"networks\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"Master Correlator Control Computer\", \"Correlator Power Control Computer\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"provide for remote reboot\"], \"Shared Phenomena\": [\"networking or computing failure\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"Master Correlator Control Computer\"], \"Physical Device\": [\"Ethernet\", \"fiber optic\"], \"Environment Object\": [], \"External System\": [\"external networks\"], \"System Requirements\": [\"RFI specifications\"], \"Shared Phenomena\": [\"interface\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"Master Correlator Control Computer-VLA Expansion Project Monitor and Control System\"], \"Physical Device\": [\"Network routers/switches\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"protect the Master Correlator Control Computer from unauthorized access and irrelevant network traffic\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"the CMIB daughter board\", \"the correlator carrier boards\"], \"Physical Device\": [\"PCI\", \"ISA busses\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"communicate\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Alternative communication paths may be through a serial or parallel connection as required.\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"CMIB\"], \"Physical Device\": [\"host correlator board\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"shall be capable of reading a 16-bit identifier\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"hot swap modules\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"unique IP address for CMIB network addressing\", \"carry over IP addressing\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The CMIB\"], \"Physical Device\": [\"hardware control registers\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"be able to read back the contents of all writeable\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"the correlator hardware\", \"the CMIB bus\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"the state of the correlator hardware be available through interrogation across the CMIB bus for monitoring and fault tolerance\"], \"Shared Phenomena\": [\"the state of the correlator hardware\", \"interrogation\", \"monitoring\", \"fault tolerance\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"CMIB\", \"Master Correlator Control Computer\"], \"Physical Device\": [\"hardware warm boots\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"have control of hardware warm boots\", \"reboot the CMIB\", \"force a hardware warm boot\"], \"Shared Phenomena\": [\"external command\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"The carrier board for the CMIB\"], \"Physical Device\": [\"externally visible indicator\"], \"Environment Object\": [\"user\"], \"External System\": [], \"System Requirements\": [\"have an externally visible indicator that will provide a user with a physical indication of CMIB operational status\"], \"Shared Phenomena\": [\"CMIB operational status\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"computers\", \"peripherals\", \"UPS type devices\", \"correlator hardware\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"powered though UPS type devices with sufficient capacity for the computers to safely coordinate a system wide shutdown in the event of a prolonged power outage\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Correlator Monitor and Control System\", \"Correlator Monitor and Control System app\"],\n  \"Physical Device\": [\"UPS devices\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"the ability to signal the Correlator Monitor and Control System when a power outage has occurred\", \"keep the Correlator Monitor and Control System apprised of time remaining on backup power\"],\n  \"Shared Phenomena\": [\"power outage\", \"time remaining on backup power\"]\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"the Correlator Monitor and Control System system\"],\n  \"Physical Device\": [\"computers\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"have the ability for authorized users to directly access individual systems for maintenance and monitoring through remote logins\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Correlator Monitor and Control System\", \"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [\"computer system\", \"hardware based watchdog timer\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"to reboot the EVLA Correlator Monitor and Control System in the case of a system hang\"], \"Shared Phenomena\": [\"a system hang\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"CPU\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"Reboots should result in minimal system interruptions\", \"offending CPU reconfiguring and returning to service autonomously\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The CMIB\"],\n  \"Physical Device\": [\"64 Mbytes or greater of SDRAM\", \"IDE hard disk interface\", \"one serial and one parallel interface\", \"PCI/ISA buses\", \"100BaseT network interface\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"conform to both electrical and physical\", \"capacity to boot and run a generic COTS operating system in a near real-time environment from local non-volatile storage\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"The operating system/module combination\", \"The Master Correlator Control Computer\", \"CMIB operating system\"], \"Physical Device\": [\"correlator hardware\", \"Ethernet interfaces\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"supporting the real-time requirements of the correlator hardware\", \"hardware monitor/control/diagnostics with support for standalone test bench operation with simulated control data generation\", \"the ability to access and upgrade correlator hardware\", \"supporting multiple Ethernet interfaces\", \"support server/host services for the CMIB operating system\"], \"Shared Phenomena\": [\"real-time requirements\", \"simulated control data generation\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"CPU device\"],\n  \"Environment Object\": [\"computer\"],\n  \"External System\": [],\n  \"System Requirements\": [\"capable of self-healing\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The Master Correlator Control Computer\", \"the EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"have all required disk and file system facilities installed locally\", \"can boot and run in a stand-alone configuration\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [\"correlator CMIBs\"],\n  \"System Requirements\": [\"boot, configure, and run without any communication outside of the correlator Monitor and Control System network\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"COTS operating system\"], \"Physical Device\": [\"Correlator Power Control Computer\", \"external interface hardware\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"high availability type general purpose computer\", \"ability to accept a large number of external hardware status signals\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"CPU device\"], \"Environment Object\": [\"computer\"], \"External System\": [], \"System Requirements\": [\"capable of self-healing\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The Correlator Power Control Computer\", \"the EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"have all required disk and file system facilities installed locally\", \"can boot and run in a stand-alone configuration\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [\"correlator\"],\n  \"External System\": [],\n  \"System Requirements\": [\"allow correlator power monitoring and control to continue in the event of a network failure\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The Correlator Monitor and Control System\"],\n  \"Physical Device\": [\"The Correlator Monitor and Control System processors\", \"correlator hardware\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\n    \"be capable of meeting all data processing deadlines and anticipated future requirements\",\n    \"be capable of responding to correlator hardware inputs in a deterministic fashion with sufficient performance to avoid data loss, corruption or overflows\"\n  ],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"the Master Correlator Control Computer\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"All lower system error and debug messages shall be present at the layer\"],\n  \"Shared Phenomena\": [\"All lower system error and debug messages\"]\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"CPU\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"display error messages\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"message traffic can be filtered as to content, detail, and message rate\"], \"Shared Phenomena\": [\"system error and debug messages\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [\"Personnel\"], \"External System\": [], \"System Requirements\": [\"filter the error message stream\"], \"Shared Phenomena\": [\"error messages\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"have both UTC and wall clock time stamp information appropriate for the message type\"],\n  \"Shared Phenomena\": [\"UTC\", \"wall clock time stamp information\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"Error messages\", \"discovery time\", \"control messages\", \"generation time\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"monitor/control parameters\"],\n  \"Shared Phenomena\": [\"internal time stamps\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Software\"], \"Physical Device\": [], \"Environment Object\": [\"an authorized user\"], \"External System\": [], \"System Requirements\": [\"full access to all messaging, monitor, and control traffic\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"This software\", \"the VLA Expansion Project Monitor and Control System system\", \"the VLA Expansion Project Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"provide full system access for testing, debugging, and control\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Correlator Monitor and Control System test software\", \"Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [\"Graphical User Interface\", \"VCI\"], \"System Requirements\": [\"shall be provided as an interface\", \"allows for a convenient and configurable tool to access the Correlator Monitor and Control System remotely\"], \"Shared Phenomena\": [\"access the Correlator Monitor and Control System remotely\"]}"
+  },
+  {
+    "predict": "```json\n{\"Software System\": [\"Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"be self-monitoring\"], \"Shared Phenomena\": []}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"processor hardware\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\n    \"detecting, reporting on and automatically taking action to remedy or lessen the impact of abnormal conditions\",\n    \"operating system hangs or crashes\",\n    \"temperature or voltage deviations\",\n    \"computational performance below minimum specifications\",\n    \"computational error rates above maximum specification\",\n    \"internal communications failures\"\n  ],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"the EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"be able to perform without total system restart due to internal failure between system maintenance windows\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [\"hardware part\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"be able to perform indefinitely without complete loss of service, except in the event of total failure of primary and backup power\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"be able to continue processing of all correlator configuration/control events until the queues of parameters are exhausted and external communications are restored\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"The EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"be able to sit at idle and resume operations with minimal delay\"],\n  \"Shared Phenomena\": [\"sit at idle\", \"resume operations\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"interconnect hardware\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"be readily accessible for maintenance, repair, replacement and reconfiguration\"], \"Shared Phenomena\": [\"system processing\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"items\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"ready access\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control Systems\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"All systems and application source code shall be available to or on the EVLA Correlator Monitor and Control Systems that execute it\"], \"Shared Phenomena\": [\"All systems and application source code\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"software application modules\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"debuggable\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"all inputs and outputs\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"All software processes shall be killable, restartable, debuggable and testable with minimal impact on normal system operations.\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Software tools\", \"pre-built applications\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"complete diagnostic package\", \"customer support\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"Operating system software\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"have source code available\", \"come with sufficient diagnostics and customer support\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"I/O\", \"communications\", \"processing hardware\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"easily expandable\", \"reconfigurable\", \"augmentable and replaceable to meet increasing data traffic and processing demands imposed by VLA Expansion Project science, Correlator changes, and availability of new hardware\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"Transparency\"],\n  \"Shared Phenomena\": [\"processing\", \"communications\", \"I/O software functions\", \"recompilation of executables\"]\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [\"hardware modules\"],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"Seamlessness shall be accomplished in a manner that is seamless, in that it does not affect hardware modules or software functionality that it meets at interfaces.\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\"Software System\": [\"The Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"unauthorized users\"], \"External System\": [], \"System Requirements\": [\"needs a robust security mechanism in place so that unauthorized users are not allowed access\"], \"Shared Phenomena\": []}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"users\"], \"External System\": [], \"System Requirements\": [\"uniquely identified\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [\"the user\"],\n  \"External System\": [],\n  \"System Requirements\": [\"authenticate and authorize the user access\", \"grant the user access to restricted or controlled parts\"],\n  \"Shared Phenomena\": [\"a username and associated password scheme\"]\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [],\n  \"Physical Device\": [],\n  \"Environment Object\": [\"a user\"],\n  \"External System\": [],\n  \"System Requirements\": [\"be given access\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"monitor all past access\", \"all attempts to access the EVLA Correlator Monitor and Control System should be logged\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"Users\"], \"External System\": [], \"System Requirements\": [\"needs and expectations\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"given unrestricted access to all aspects\", \"have the authority to grant and revoke privileges on a per-user basis\"], \"Shared Phenomena\": [\"Systems operations\"]}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"the EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [\"Development, testing and maintenance personnel\"],\n  \"External System\": [],\n  \"System Requirements\": [],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [\"All users\"],\n  \"External System\": [],\n  \"System Requirements\": [\"login using some form of unique identification\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"All login attempts shall be done in a secure manner\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "```json\n{\n  \"Software System\": [\"the EVLA Correlator Monitor and Control System\"],\n  \"Physical Device\": [],\n  \"Environment Object\": [],\n  \"External System\": [],\n  \"System Requirements\": [\"have unrestricted access to all aspects\"],\n  \"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [\"the EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"The administrator\"], \"External System\": [], \"System Requirements\": [\"create and add a new user\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"The administrator\", \"a user\"], \"External System\": [], \"System Requirements\": [\"have the ability to remove a user\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [\"The administrator\"], \"External System\": [], \"System Requirements\": [\"edit a user’s system access properties\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [\"administrator\", \"users\"], \"External System\": [], \"System Requirements\": [\"block all access to the EVLA Correlator Monitor and Control System for all users or selectively by user\"], \"Shared Phenomena\": [\"access to the EVLA Correlator Monitor and Control System\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [\"EVLA Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"continue operations\", \"not necessarily at full capacity\", \"during partial shutdowns for maintenance, repair and/or upgrade\"], \"Shared Phenomena\": [\"operations\", \"partial shutdowns\"]}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Replaceability modular design principles\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"hot swappable devices\", \"components\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Maximal practical use of available hot swappable devices and components shall be made\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"hardware systems\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Complete and comprehensible hardware systems specifications and configuration information shall be readily available\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [\"Software system\", \"application code\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"shall be well documented and written in a generally familiar language or languages\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"easily readable\", \"minimal confusion\"], \"Shared Phenomena\": []}"
+  }
+]

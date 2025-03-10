@@ -1,0 +1,3357 @@
+This	O
+document	O
+specifies	O
+the	O
+requirements	O
+for	O
+the	O
+development	O
+of	O
+a	O
+“	O
+Smart	B-Software System
+House	E-Software System
+”	O
+,	O
+called	O
+DigitalHome	O
+(	O
+DH	O
+)	O
+,	O
+by	O
+the	O
+DigitalHomeOwner	O
+Division	O
+of	O
+HomeOwner	O
+Inc	O
+.	O
+
+A	O
+“	O
+Smart	O
+House	O
+”	O
+is	O
+a	B-Shared Phenomena
+home	B-Environment Object
+management	M-Software System
+system	E-Software System
+that	O
+allows	O
+home	O
+residents	E-Environment Object
+to	B-System Requirements
+easily	M-System Requirements
+manage	M-System Requirements
+their	M-System Requirements
+daily	M-System Requirements
+lives	E-System Requirements
+by	O
+providing	O
+for	O
+a	O
+lifestyle	E-Shared Phenomena
+that	O
+brings	O
+together	O
+security	O
+,	O
+environmental	O
+and	O
+energy	O
+management	O
+(	O
+temperature	O
+,	O
+humidity	O
+and	O
+lighting	O
+)	O
+,	O
+entertainment	O
+,	O
+and	O
+communications	O
+.	O
+
+The	B-Software System
+Smart	M-Software System
+House	E-Software System
+components	O
+consist	O
+of	O
+household	O
+devices	O
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+a	B-External System
+heating	M-Physical Device
+and	M-Physical Device
+air	M-Physical Device
+conditioning	M-Physical Device
+unit	E-Physical Device
+,	O
+a	O
+security	M-External System
+system	E-External System
+,	O
+and	O
+small	B-External System
+appliances	E-External System
+and	O
+lighting	B-Physical Device
+units	E-Physical Device
+,	O
+etc	O
+.	O
+)	O
+,	O
+sensors	S-Physical Device
+and	O
+controllers	S-Physical Device
+for	O
+the	O
+devices	O
+,	O
+communication	B-Shared Phenomena
+links	E-Shared Phenomena
+between	O
+the	O
+components	O
+,	O
+and	O
+a	O
+computer	M-External System
+system	O
+,	O
+which	O
+will	O
+manage	O
+the	O
+components	O
+.	O
+
+The	O
+DigitalHome	O
+Software	O
+Requirements	O
+Specification	O
+(	O
+SRS	O
+)	O
+is	O
+based	O
+on	O
+the	O
+DigitalHome	O
+Customer	O
+Need	O
+Statement	O
+.	O
+
+It	O
+is	O
+made	O
+up	O
+of	O
+a	O
+list	O
+of	O
+the	O
+principal	O
+features	O
+of	O
+the	O
+system	O
+.	O
+
+This	O
+initial	O
+version	O
+of	O
+DigitalHome	S-Software System
+will	O
+be	O
+a	O
+limited	O
+prototype	O
+version	O
+,	O
+which	O
+will	O
+be	O
+used	O
+by	O
+HomeOwner	S-Environment Object
+management	O
+to	O
+make	O
+business	O
+decisions	O
+about	O
+the	O
+future	O
+commercial	O
+development	O
+of	O
+DigitalHomeOwner	O
+products	O
+and	O
+services	O
+.	O
+
+Hence	O
+,	O
+the	O
+SRS	O
+is	O
+not	O
+intended	O
+as	O
+a	O
+comprehensive	O
+or	O
+complete	O
+specification	O
+of	O
+DigitalHome	S-Software System
+requirements	O
+.	O
+
+There	O
+is	O
+a	O
+supplementary	O
+document	O
+that	O
+provides	O
+additional	O
+detail	O
+and	O
+information	O
+about	O
+the	O
+DigitalHome	S-Software System
+requirements	O
+:	O
+the	O
+Digital	O
+Home	O
+Use	O
+Case	O
+Model	O
+.	O
+
+These	O
+document	O
+were	O
+prepared	O
+by	O
+the	O
+DigitalHomeOwner	O
+Division	O
+,	O
+in	O
+consultation	O
+with	O
+the	O
+Marketing	O
+Division	O
+of	O
+HomeOwner	S-Environment Object
+Inc	O
+.	O
+
+The	B-Software System
+Digital	M-Software System
+Home	M-Software System
+system	E-Software System
+,	O
+for	O
+the	M-System Requirements
+purposes	O
+of	M-System Requirements
+this	O
+document	O
+,	O
+is	O
+a	M-System Requirements
+system	O
+that	O
+will	O
+allow	O
+a	O
+home	E-System Requirements
+user	E-Environment Object
+to	O
+manage	B-System Requirements
+devices	E-System Requirements
+that	O
+control	B-System Requirements
+the	O
+environment	M-System Requirements
+of	O
+a	O
+home	O
+.	O
+
+The	B-Environment Object
+user	E-Environment Object
+communicates	O
+through	O
+a	B-Shared Phenomena
+personal	M-Shared Phenomena
+web	M-Shared Phenomena
+page	E-Shared Phenomena
+on	O
+the	B-External System
+DigitalHome	M-External System
+web	O
+server	E-External System
+or	O
+on	O
+a	O
+local	M-External System
+home	M-External System
+server	O
+.	O
+
+The	B-External System
+DigitalHome	M-External System
+web	M-External System
+server	E-External System
+communicates	O
+,	O
+through	O
+a	B-Physical Device
+home	E-Environment Object
+wireless	M-Physical Device
+gateway	M-Physical Device
+device	E-Physical Device
+,	O
+with	O
+the	B-Environment Object
+sensor	E-Physical Device
+and	O
+controller	B-Physical Device
+devices	E-Physical Device
+in	O
+the	O
+home	O
+.	O
+
+The	O
+product	O
+is	O
+based	O
+on	O
+the	O
+Digital	O
+Home	O
+High	O
+Level	O
+Requirements	O
+Definition	O
+.	O
+
+The	O
+Digital	O
+Home	O
+High	O
+Level	O
+Requirements	O
+Definition	O
+is	O
+intended	O
+as	O
+a	O
+prototype	O
+,	O
+which	O
+will	O
+allow	O
+business	O
+decisions	O
+to	O
+be	O
+made	O
+about	O
+future	O
+development	O
+of	O
+a	O
+commercial	O
+product	O
+.	O
+
+The	O
+scope	O
+of	O
+the	O
+project	O
+will	O
+be	O
+limited	O
+to	M-System Requirements
+the	O
+management	O
+of	O
+devices	O
+which	O
+control	B-System Requirements
+temperature	M-System Requirements
+,	E-System Requirements
+humidity	M-System Requirements
+,	O
+security	M-System Requirements
+,	O
+and	M-System Requirements
+power	M-System Requirements
+to	O
+small	M-System Requirements
+appliances	M-System Requirements
+and	O
+lighting	M-System Requirements
+units	M-System Requirements
+,	O
+through	O
+the	O
+use	O
+of	O
+a	B-Physical Device
+web	M-Physical Device
+-	M-Physical Device
+ready	M-Physical Device
+device	E-Physical Device
+.	O
+
+The	O
+prototype	O
+DigitalHome	B-Software System
+software	M-Software System
+system	E-Software System
+will	O
+be	O
+situated	O
+in	O
+a	O
+simulated	O
+environment	O
+.	O
+
+There	O
+will	O
+be	O
+no	O
+actual	O
+physical	B-Environment Object
+home	E-Environment Object
+and	O
+all	O
+sensors	S-Physical Device
+and	O
+controllers	S-Physical Device
+will	O
+be	O
+simulated	O
+.	O
+
+The	B-Environment Object
+general	M-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+use	O
+the	M-System Requirements
+DigitalHome	B-Software System
+system	E-Software System
+capabilities	O
+to	O
+monitor	B-System Requirements
+and	M-System Requirements
+control	M-System Requirements
+the	O
+environment	E-System Requirements
+in	O
+his	O
+/	O
+her	O
+home	S-Environment Object
+.	O
+
+The	B-Environment Object
+general	M-Environment Object
+user	E-Environment Object
+is	O
+familiar	O
+with	O
+the	O
+layout	O
+of	O
+his	O
+/	O
+her	O
+home	S-Environment Object
+and	O
+the	O
+location	O
+of	O
+sensor	S-Physical Device
+and	O
+control	B-Physical Device
+devices	E-Physical Device
+(	O
+for	O
+temperature	O
+,	O
+for	O
+humidity	O
+,	O
+and	O
+for	O
+power	O
+to	O
+small	O
+appliances	O
+and	O
+lighting	B-Physical Device
+units	E-Physical Device
+)	O
+.	O
+
+Although	O
+the	B-Environment Object
+general	M-Environment Object
+user	E-Environment Object
+is	O
+not	O
+familiar	O
+with	O
+the	O
+technical	O
+features	O
+of	O
+the	O
+DigitalHome	B-Software System
+system	E-Software System
+,	O
+he	O
+/	O
+she	O
+is	O
+familiar	O
+with	O
+the	O
+use	O
+of	O
+a	B-External System
+web	M-System Requirements
+interface	E-External System
+and	O
+can	O
+perform	B-System Requirements
+simple	M-System Requirements
+web	O
+operations	E-System Requirements
+(	O
+logging	O
+in	O
+and	O
+logging	O
+out	O
+,	O
+browsing	O
+web	O
+pages	O
+,	O
+and	O
+submitting	O
+information	O
+and	O
+requests	O
+via	O
+a	O
+web	O
+interface	O
+)	O
+.	O
+
+A	B-Environment Object
+Master	M-Environment Object
+user	E-Environment Object
+will	O
+be	O
+designated	O
+,	O
+who	O
+shall	O
+be	O
+able	O
+to	O
+change	B-System Requirements
+the	M-System Requirements
+configuration	E-System Requirements
+of	O
+the	O
+system	E-Software System
+.	O
+
+For	O
+example	O
+,	O
+a	M-System Requirements
+Master	M-Environment Object
+User	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+add	B-System Requirements
+a	O
+user	M-System Requirements
+account	E-System Requirements
+or	O
+change	B-System Requirements
+the	M-System Requirements
+default	M-System Requirements
+parameter	M-System Requirements
+settings	E-System Requirements
+.	O
+
+He	O
+/	O
+she	O
+will	O
+have	O
+the	O
+same	O
+right	O
+as	O
+the	O
+DigitalHome	B-Environment Object
+Technician	M-Environment Object
+.	E-Environment Object
+
+A	B-Environment Object
+DigitalHome	M-Environment Object
+Technician	E-Environment Object
+is	O
+responsible	O
+for	O
+setting	B-System Requirements
+up	M-System Requirements
+and	M-System Requirements
+maintaining	M-System Requirements
+the	B-Shared Phenomena
+configuration	E-Shared Phenomena
+of	O
+a	O
+DigitalHome	O
+system	E-Software System
+.	O
+
+A	B-Environment Object
+DigitalHome	M-Environment Object
+Technician	E-Environment Object
+has	O
+experience	O
+with	O
+the	B-Software System
+type	O
+of	O
+hardware	O
+,	O
+software	O
+,	O
+and	O
+web	O
+services	O
+associated	O
+with	O
+a	O
+system	E-Software System
+like	O
+the	O
+DigitalHome	O
+system	O
+.	O
+
+A	B-Environment Object
+DigitalHome	M-Environment Object
+Technician	E-Environment Object
+is	O
+specially	O
+trained	O
+by	O
+DigitalHomeOwner	O
+to	O
+be	O
+familiar	O
+with	O
+the	O
+functionality	O
+,	O
+architecture	O
+,	O
+and	O
+operation	O
+of	O
+the	O
+DigitalHome	O
+system	E-Software System
+product	O
+.	O
+
+A	B-Environment Object
+DigitalHome	M-Environment Object
+Technician	E-Environment Object
+will	O
+have	O
+rights	O
+beyond	O
+the	B-Shared Phenomena
+DigitalHome	O
+General	M-Environment Object
+User	E-Environment Object
+,	O
+capable	O
+of	O
+setting	B-System Requirements
+up	M-System Requirements
+and	M-System Requirements
+making	M-System Requirements
+changes	M-System Requirements
+in	M-System Requirements
+the	O
+configuration	E-Shared Phenomena
+of	O
+the	O
+system	O
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+setting	O
+system	O
+parameters	O
+and	O
+establishing	O
+user	O
+accounts	O
+)	O
+,	O
+and	O
+starting	B-System Requirements
+and	O
+stopping	M-System Requirements
+operation	E-System Requirements
+of	O
+the	O
+DigitalHome	O
+System	E-Software System
+.	O
+
+The	O
+“	O
+prototype	O
+”	O
+version	O
+of	O
+the	O
+DigitalHome	B-Software System
+System	E-Software System
+(	O
+as	O
+specified	O
+in	O
+this	O
+document	O
+)	O
+must	O
+be	O
+completed	O
+within	O
+twelve	O
+months	O
+of	O
+inception	O
+.	O
+
+The	O
+development	O
+team	O
+will	O
+consist	O
+of	O
+five	O
+engineers	O
+.	O
+
+DigitalHomeOwner	B-Environment Object
+Director	E-Environment Object
+will	O
+provide	O
+management	B-Shared Phenomena
+and	M-Shared Phenomena
+communication	M-Shared Phenomena
+support	E-Shared Phenomena
+.	O
+
+The	B-Environment Object
+development	M-Shared Phenomena
+team	E-Environment Object
+will	O
+use	O
+the	B-Shared Phenomena
+development	O
+process	E-Shared Phenomena
+specified	O
+by	O
+the	O
+Digital	M-Environment Object
+HomeOwner	M-Environment Object
+Inc	E-Environment Object
+.	O
+
+Where	O
+possible	O
+,	O
+the	O
+DigitalHome	S-Software System
+project	O
+will	O
+employ	O
+widely	O
+used	O
+,	O
+accepted	O
+,	O
+and	O
+available	O
+hardware	O
+and	O
+software	O
+technology	O
+and	O
+standards	O
+,	O
+both	O
+for	O
+product	O
+elements	O
+and	O
+for	O
+development	O
+tools	O
+.	O
+
+Because	O
+of	O
+potential	O
+market	O
+competition	O
+for	O
+DigitalHome	B-Software System
+products	E-Software System
+,	O
+the	O
+cost	O
+of	O
+DigitalHome	O
+elements	O
+(	O
+sensors	S-Physical Device
+,	O
+controllers	S-Physical Device
+,	O
+server	S-Physical Device
+,	O
+tools	S-Physical Device
+,	O
+etc	O
+.	O
+)	O
+,	O
+for	O
+this	O
+project	O
+should	O
+be	O
+minimized	O
+.	O
+
+As	O
+part	O
+of	O
+the	O
+final	O
+project	O
+report	O
+the	O
+development	O
+team	O
+will	O
+describe	O
+their	O
+efforts	O
+to	O
+minimize	O
+costs	O
+,	O
+including	O
+price	O
+comparisons	O
+between	O
+DigitalHome	O
+elements	O
+and	O
+comparable	O
+/	O
+competitive	O
+elements	O
+.	O
+
+The	B-Software System
+DigitalHome	M-Software System
+system	E-Software System
+will	O
+be	O
+tested	O
+in	O
+a	O
+simulated	O
+environment	O
+.	O
+
+There	O
+will	O
+be	O
+no	O
+actual	O
+physical	B-Environment Object
+home	E-Environment Object
+and	O
+all	O
+sensors	S-Physical Device
+and	O
+controllers	S-Physical Device
+will	O
+be	O
+simulated	O
+.	O
+
+However	O
+,	O
+the	O
+simulated	O
+environment	O
+will	O
+be	O
+realistic	O
+and	O
+adhere	O
+to	O
+the	O
+physical	O
+properties	O
+and	O
+constraints	O
+of	O
+an	B-Environment Object
+actual	M-Environment Object
+home	E-Environment Object
+and	O
+to	O
+real	O
+sensors	S-Physical Device
+and	O
+controllers	S-Physical Device
+.	O
+
+Major	O
+changes	O
+to	O
+this	O
+document	O
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+changes	O
+in	O
+requirements	O
+)	O
+must	O
+be	O
+approved	O
+by	O
+the	M-Environment Object
+Director	B-Environment Object
+of	M-Environment Object
+the	O
+DigitalHomeOwner	M-Environment Object
+Division	E-Environment Object
+.	O
+
+Although	O
+the	B-Software System
+system	E-Software System
+to	O
+be	O
+developed	O
+is	O
+a	O
+“	O
+proof	O
+of	O
+concept	O
+”	O
+system	O
+intended	O
+to	O
+help	B-System Requirements
+Homeowner	M-System Requirements
+Inc	E-System Requirements
+.	O
+
+To	O
+make	O
+marketing	O
+and	O
+development	O
+decisions	O
+,	O
+the	O
+following	O
+sections	O
+describe	O
+operational	O
+environment	O
+concerns	O
+and	O
+constraints	O
+.	O
+
+Some	O
+of	O
+them	O
+are	O
+related	O
+to	O
+issues	O
+of	O
+long	O
+-	O
+term	O
+production	O
+and	O
+marketing	O
+of	O
+a	B-Software System
+DigitalHome	M-Software System
+product	E-Software System
+.	O
+
+The	B-Software System
+home	M-Software System
+system	E-Software System
+shall	O
+require	O
+an	B-External System
+Internet	M-External System
+Service	M-External System
+Provider	M-External System
+(	M-External System
+ISP	M-External System
+)	E-External System
+.	O
+
+The	B-External System
+Internet	M-External System
+Service	M-External System
+Provider	E-External System
+should	O
+be	O
+widely	O
+available	O
+(	O
+cable	B-Physical Device
+modem	E-Physical Device
+,	O
+high	B-Physical Device
+speed	M-Physical Device
+DSL	E-Physical Device
+)	O
+,	O
+such	O
+as	O
+Bright	O
+House	O
+or	O
+Bellsouth	O
+FastAccess	O
+.	O
+
+A	B-Software System
+DigitalHome	M-Software System
+System	E-Software System
+shall	O
+have	O
+the	O
+capability	O
+to	O
+establish	O
+an	B-External System
+individual	M-External System
+home	M-External System
+web	M-External System
+server	E-External System
+hosted	O
+on	O
+a	B-Physical Device
+home	O
+computer	E-Physical Device
+.	O
+
+The	B-External System
+home	M-External System
+web	M-External System
+server	E-External System
+will	O
+provide	O
+interaction	O
+with	O
+and	O
+control	O
+of	O
+the	O
+DigitalHome	B-Physical Device
+elements	M-Physical Device
+.	E-Physical Device
+
+The	B-External System
+home	M-External System
+web	M-External System
+server	E-External System
+will	O
+provide	B-System Requirements
+storage	E-System Requirements
+of	O
+DigitalHome	B-Shared Phenomena
+plans	M-Shared Phenomena
+and	M-Shared Phenomena
+data	E-Shared Phenomena
+.	O
+
+The	B-External System
+home	M-External System
+web	M-External System
+server	E-External System
+will	O
+provide	O
+ability	O
+to	O
+establish	B-System Requirements
+and	M-System Requirements
+maintain	M-System Requirements
+DigitalHome	M-System Requirements
+User	M-System Requirements
+Accounts	E-System Requirements
+.	O
+
+The	B-External System
+home	M-External System
+web	M-External System
+server	E-External System
+will	O
+provide	B-System Requirements
+backup	M-System Requirements
+service	E-System Requirements
+for	O
+user	B-Shared Phenomena
+account	M-Shared Phenomena
+information	E-Shared Phenomena
+,	O
+user	O
+plans	E-Shared Phenomena
+and	O
+a	B-External System
+home	O
+database	E-External System
+.	O
+
+The	B-Physical Device
+DigitalHome	B-Physical Device
+Gateway	M-Physical Device
+device	E-Physical Device
+shall	O
+provide	B-System Requirements
+communication	S-Shared Phenomena
+with	O
+all	O
+the	O
+DigitalHome	O
+devices	E-Physical Device
+and	O
+shall	O
+connect	O
+with	O
+a	B-External System
+broadband	M-External System
+Internet	M-External System
+connection	E-External System
+.	O
+
+The	B-Physical Device
+Gateway	S-Physical Device
+shall	O
+contain	O
+an	B-Physical Device
+RF	M-Physical Device
+Module	E-Physical Device
+,	O
+which	O
+shall	O
+send	O
+and	O
+receive	O
+wireless	B-Shared Phenomena
+communications	E-Shared Phenomena
+between	O
+the	O
+Gateway	O
+and	O
+the	O
+other	O
+DigitalHome	O
+devices	O
+(	O
+sensors	S-Physical Device
+and	O
+controllers	S-Physical Device
+)	O
+.	O
+
+The	B-Physical Device
+Gateway	M-Physical Device
+device	E-Physical Device
+shall	O
+operate	O
+up	O
+to	O
+a	O
+1000	O
+-	O
+foot	O
+range	O
+for	O
+indoor	O
+transmission	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+include	O
+digital	B-Physical Device
+programmable	M-Physical Device
+thermostats	E-Physical Device
+,	O
+which	O
+shall	O
+be	O
+used	O
+to	O
+monitor	B-System Requirements
+and	M-System Requirements
+regulate	M-System Requirements
+the	B-Shared Phenomena
+temperature	E-Shared Phenomena
+of	M-System Requirements
+an	M-System Requirements
+enclosed	M-System Requirements
+space	E-System Requirements
+.	O
+
+The	B-Physical Device
+thermostat	E-Physical Device
+shall	O
+provide	B-System Requirements
+a	M-System Requirements
+reading	M-System Requirements
+of	M-System Requirements
+the	B-Shared Phenomena
+current	M-Shared Phenomena
+temperature	E-Shared Phenomena
+in	M-System Requirements
+the	O
+space	E-System Requirements
+where	O
+the	O
+thermostat	O
+is	O
+located	O
+.	O
+
+The	B-Physical Device
+controller	M-Physical Device
+part	M-Physical Device
+of	M-System Requirements
+thermostat	E-Physical Device
+shall	O
+provides	O
+a	B-Shared Phenomena
+“	M-Shared Phenomena
+set	M-Shared Phenomena
+point	M-Shared Phenomena
+”	M-Shared Phenomena
+temperature	E-Shared Phenomena
+that	O
+is	O
+used	O
+to	B-System Requirements
+control	M-System Requirements
+the	M-System Requirements
+flow	M-System Requirements
+of	O
+heat	M-System Requirements
+energy	E-System Requirements
+(	O
+by	O
+switching	O
+heating	O
+or	O
+cooling	O
+devices	O
+on	O
+or	O
+off	O
+as	O
+needed	O
+)	O
+to	O
+achieve	M-System Requirements
+the	O
+set	O
+point	O
+temperature	O
+.	O
+
+The	B-Physical Device
+sensor	M-Physical Device
+part	M-Physical Device
+of	M-Physical Device
+the	M-Physical Device
+thermostat	E-Physical Device
+has	O
+a	B-Shared Phenomena
+sensitivity	M-Shared Phenomena
+range	E-Shared Phenomena
+between	O
+14ºF	O
+and	O
+104ºF	O
+(	O
+-	O
+10ºC	O
+and	O
+40ºC	O
+)	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+include	O
+digital	B-Physical Device
+programmable	M-Physical Device
+humidistats	E-Physical Device
+,	O
+which	O
+shall	O
+be	O
+used	O
+to	O
+monitor	B-System Requirements
+and	M-System Requirements
+regulate	M-System Requirements
+the	B-Shared Phenomena
+humidity	E-Shared Phenomena
+of	M-System Requirements
+an	M-System Requirements
+enclosed	M-System Requirements
+space	E-System Requirements
+.	O
+
+The	B-Physical Device
+humidistat	E-Physical Device
+shall	O
+provide	O
+a	O
+reading	O
+of	O
+the	B-Shared Phenomena
+current	M-Shared Phenomena
+humidity	E-Shared Phenomena
+in	O
+the	O
+space	E-Environment Object
+where	O
+the	O
+humidistat	O
+is	O
+located	O
+.	O
+
+The	B-Physical Device
+humidistat	E-Physical Device
+shall	O
+provide	O
+a	B-Shared Phenomena
+“	M-Shared Phenomena
+set	M-Shared Phenomena
+point	M-Shared Phenomena
+”	M-Shared Phenomena
+humidity	E-Shared Phenomena
+that	O
+is	O
+used	O
+to	O
+control	O
+humidifiers	S-Physical Device
+and	O
+dehumidifiers	S-Physical Device
+achieve	B-System Requirements
+the	M-System Requirements
+set	O
+point	O
+humidity	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+include	O
+magnetic	B-Physical Device
+alarm	M-Physical Device
+contact	M-Physical Device
+switches	E-Physical Device
+which	O
+shall	O
+be	O
+used	O
+to	O
+monitor	O
+entry	S-Shared Phenomena
+through	O
+a	B-Environment Object
+door	E-Environment Object
+or	O
+window	S-Environment Object
+when	O
+the	O
+switch	S-Physical Device
+is	O
+active	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+include	O
+security	M-Shared Phenomena
+sound	M-Physical Device
+and	M-Physical Device
+light	M-Physical Device
+alarms	E-Physical Device
+,	O
+which	O
+can	O
+be	O
+activated	O
+when	O
+DigitalHome	S-Software System
+senses	O
+a	B-Shared Phenomena
+security	O
+breach	E-Shared Phenomena
+from	O
+a	O
+magnetic	M-Physical Device
+contact	E-Physical Device
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+include	O
+digital	B-Physical Device
+programmable	M-Physical Device
+power	M-Physical Device
+switches	E-Physical Device
+which	O
+shall	O
+be	O
+used	O
+to	B-System Requirements
+monitor	M-System Requirements
+the	B-Shared Phenomena
+current	M-Shared Phenomena
+state	M-Shared Phenomena
+of	M-Shared Phenomena
+an	M-Shared Phenomena
+appliance	E-Shared Phenomena
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+a	O
+coffee	B-Physical Device
+maker	E-Physical Device
+is	O
+off	O
+or	O
+on	O
+)	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+be	O
+able	O
+to	O
+use	O
+a	B-Physical Device
+power	M-Physical Device
+switch	E-Physical Device
+to	O
+change	B-System Requirements
+the	M-Shared Phenomena
+state	M-Shared Phenomena
+of	M-Shared Phenomena
+the	O
+appliance	E-Shared Phenomena
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+from	O
+“	O
+off	O
+”	O
+to	O
+“	O
+on	O
+”	O
+)	O
+.	O
+
+This	O
+section	O
+provides	O
+a	O
+description	O
+of	O
+the	O
+functional	O
+requirements	O
+.	O
+
+There	O
+is	O
+a	O
+DigitalHome	B-Software System
+Use	O
+Case	O
+Model	O
+in	O
+the	O
+Appendix	O
+,	O
+which	O
+provides	O
+an	O
+overview	O
+of	O
+the	O
+system	O
+functionality	O
+and	O
+shows	O
+the	O
+relationhips	O
+between	O
+the	O
+DigitalHome	O
+System	E-Software System
+entity	O
+.	O
+
+The	B-Software System
+DigitalHome	M-Software System
+System	E-Software System
+shall	O
+allow	O
+a	M-System Requirements
+web	M-Physical Device
+-	M-Physical Device
+ready	M-Physical Device
+computer	E-Physical Device
+,	O
+cell	B-Physical Device
+phone	E-Physical Device
+or	O
+PDA	S-Physical Device
+to	B-System Requirements
+control	M-System Requirements
+a	O
+home	E-System Requirements
+'	O
+s	O
+temperature	S-Shared Phenomena
+,	O
+humidity	S-Shared Phenomena
+,	O
+lights	S-Shared Phenomena
+,	O
+security	S-Shared Phenomena
+,	O
+and	O
+the	B-Shared Phenomena
+state	E-Shared Phenomena
+of	O
+small	B-External System
+appliances	E-External System
+.	O
+
+The	O
+communication	O
+center	O
+of	O
+the	O
+DigitalHome	M-External System
+system	E-Software System
+shall	O
+be	O
+a	B-External System
+DigitalHome	O
+home	M-System Requirements
+web	M-External System
+server	E-External System
+,	O
+through	O
+which	O
+a	O
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+monitor	B-System Requirements
+and	M-System Requirements
+control	M-System Requirements
+home	O
+devices	M-System Requirements
+and	O
+systems	E-System Requirements
+.	O
+
+Each	O
+DigitalHome	M-Software System
+shall	O
+contain	O
+a	B-Physical Device
+master	M-Physical Device
+control	M-Physical Device
+device	E-Physical Device
+(	O
+the	B-Physical Device
+DigitalHome	O
+Gateway	O
+Device	O
+)	O
+that	O
+connects	O
+to	O
+the	O
+home	M-Physical Device
+’	M-Physical Device
+s	M-Physical Device
+broadband	M-Physical Device
+Internet	M-Physical Device
+connection	E-Physical Device
+,	O
+and	M-System Requirements
+uses	O
+wireless	B-Shared Phenomena
+communication	E-Shared Phenomena
+to	O
+send	B-System Requirements
+and	O
+receive	M-System Requirements
+communication	O
+between	O
+the	O
+DigitalHome	O
+system	E-Software System
+and	O
+the	O
+home	O
+devices	E-Physical Device
+and	O
+systems	O
+.	O
+
+The	O
+DigitalHome	S-Software System
+shall	O
+be	O
+equipped	O
+with	O
+various	O
+environmental	B-Physical Device
+controllers	E-Physical Device
+and	O
+sensors	E-Physical Device
+(	O
+temperature	O
+controller	O
+-	O
+sensors	O
+:	O
+thermostats	S-Physical Device
+,	O
+humidity	O
+controller	O
+-	O
+sensors	O
+:	O
+humidistats	S-Physical Device
+,	O
+contact	B-Physical Device
+sensors	O
+,	O
+security	B-Physical Device
+sound	E-Physical Device
+and	O
+light	B-Physical Device
+alarms	E-Physical Device
+,	O
+and	O
+power	B-Physical Device
+switches	E-Physical Device
+)	O
+.	O
+
+Using	O
+wireless	B-Shared Phenomena
+communication	E-Shared Phenomena
+,	O
+sensor	S-Physical Device
+values	S-Shared Phenomena
+can	O
+be	O
+read	O
+and	O
+saved	O
+in	O
+the	B-External System
+home	M-External System
+database	E-External System
+.	O
+
+Controller	B-Shared Phenomena
+values	E-Shared Phenomena
+can	O
+be	O
+sent	O
+to	B-System Requirements
+controllers	S-Physical Device
+to	O
+change	M-System Requirements
+the	M-System Requirements
+DigitalHome	M-System Requirements
+environment	E-System Requirements
+.	O
+
+The	B-Physical Device
+DigitalHome	M-Physical Device
+programmable	M-Physical Device
+thermostat	E-Physical Device
+shall	O
+allow	O
+a	M-System Requirements
+user	E-Environment Object
+to	B-System Requirements
+monitor	M-System Requirements
+and	M-System Requirements
+control	M-System Requirements
+a	O
+home	M-System Requirements
+’	M-System Requirements
+s	M-System Requirements
+temperature	S-Shared Phenomena
+from	O
+any	O
+location	O
+,	O
+using	O
+a	O
+web	M-Physical Device
+ready	M-Physical Device
+computer	E-Physical Device
+,	O
+cell	B-Physical Device
+phone	E-Physical Device
+,	O
+or	O
+PDA	S-Physical Device
+.	O
+
+A	B-Environment Object
+DigitalHome	M-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+read	O
+the	B-Shared Phenomena
+temperature	E-Shared Phenomena
+at	O
+a	B-Physical Device
+thermostat	E-Physical Device
+position	O
+.	O
+
+A	B-Environment Object
+DigitalHome	M-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+set	O
+the	B-Physical Device
+thermostat	E-Physical Device
+temperatures	S-Shared Phenomena
+to	O
+between	O
+60	O
+°F	O
+and	O
+80	O
+°F	O
+,	O
+inclusive	O
+,	O
+at	O
+one	O
+degree	O
+increments	O
+.	O
+
+Up	O
+to	O
+eight	O
+thermostats	S-Physical Device
+shall	O
+be	O
+placed	O
+in	O
+rooms	S-Environment Object
+throughout	O
+the	O
+home	S-Environment Object
+.	O
+
+The	B-Physical Device
+thermostats	E-Physical Device
+may	O
+be	O
+controlled	O
+individually	O
+or	O
+collectively	O
+,	O
+so	O
+that	O
+temperature	S-Shared Phenomena
+can	O
+be	O
+controlled	O
+at	O
+different	O
+levels	O
+in	O
+different	O
+home	B-Environment Object
+spaces	E-Environment Object
+.	O
+
+A	O
+single	O
+thermostat	S-Physical Device
+shall	O
+be	M-System Requirements
+placed	O
+in	O
+an	B-Environment Object
+enclosed	M-Environment Object
+space	E-Environment Object
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+a	O
+room	O
+in	O
+the	B-Shared Phenomena
+house	O
+)	O
+for	O
+which	O
+the	O
+air	M-Shared Phenomena
+temperature	E-Shared Phenomena
+is	M-System Requirements
+to	M-System Requirements
+be	O
+controlled	E-System Requirements
+.	O
+
+For	O
+each	O
+thermostat	S-Physical Device
+,	O
+up	O
+to	O
+twenty	O
+-	O
+four	O
+one	O
+hour	O
+settings	O
+per	O
+day	O
+for	O
+every	O
+day	O
+of	O
+the	O
+week	O
+can	O
+be	O
+scheduled	O
+.	O
+
+If	O
+a	M-System Requirements
+thermostat	B-Physical Device
+device	E-Physical Device
+allows	O
+a	O
+user	E-Environment Object
+to	O
+make	B-System Requirements
+a	O
+manual	M-System Requirements
+temperature	M-System Requirements
+setting	E-System Requirements
+,	O
+the	O
+setting	O
+shall	O
+remain	O
+in	O
+effect	O
+until	O
+the	O
+end	O
+of	O
+the	O
+planned	O
+or	O
+default	O
+time	O
+period	O
+,	O
+at	O
+which	O
+time	O
+the	O
+planned	O
+or	O
+default	O
+setting	O
+will	O
+be	O
+used	O
+for	O
+the	O
+next	O
+time	O
+period	O
+.	O
+
+A	B-Physical Device
+thermostat	M-Physical Device
+unit	E-Physical Device
+shall	O
+communicate	O
+,	O
+through	O
+wireless	B-Shared Phenomena
+signals	E-Shared Phenomena
+,	O
+with	O
+the	B-Physical Device
+master	M-Physical Device
+control	M-Physical Device
+unit	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+support	O
+Fahrenheit	O
+and	O
+Celsius	O
+temperature	O
+values	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+be	O
+compatible	O
+with	O
+a	B-External System
+centralized	M-External System
+HVAC	M-External System
+(	M-External System
+Heating	M-External System
+,	M-External System
+Ventilation	M-External System
+and	M-External System
+Air	M-External System
+Conditioning	M-External System
+)	M-External System
+systems	E-External System
+:	O
+gas	O
+,	O
+oil	O
+,	O
+electricity	O
+,	O
+solar	O
+,	O
+or	O
+a	O
+combination	O
+of	O
+two	O
+or	O
+more	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+adhere	O
+to	O
+the	O
+standards	O
+,	O
+policies	O
+and	O
+procedures	O
+of	O
+the	O
+American	O
+Society	O
+of	O
+Heating	O
+,	O
+Refrigerating	O
+and	O
+Air	O
+-	O
+Conditioning	O
+Engineers	O
+[	O
+ASHRAE	O
+2010	O
+]	O
+.	O
+
+The	B-Physical Device
+DigitalHome	M-Physical Device
+programmable	M-Physical Device
+humidistat	E-Physical Device
+shall	O
+allow	O
+a	M-System Requirements
+user	E-Environment Object
+to	B-System Requirements
+monitor	M-System Requirements
+and	M-System Requirements
+control	M-System Requirements
+a	O
+home	E-System Requirements
+’	O
+s	O
+humidity	S-Shared Phenomena
+from	O
+any	O
+location	O
+,	O
+using	O
+a	O
+web	B-Physical Device
+ready	M-Physical Device
+computer	E-Physical Device
+,	O
+cell	B-Physical Device
+phone	E-Physical Device
+,	O
+or	O
+PDA	S-Physical Device
+.	O
+
+A	B-Environment Object
+DigitalHome	M-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+read	O
+the	B-Shared Phenomena
+humidity	E-Shared Phenomena
+at	O
+a	B-Physical Device
+humidistat	E-Physical Device
+position	O
+.	O
+
+A	B-Environment Object
+DigitalHome	M-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+set	O
+the	B-Shared Phenomena
+humidity	M-Shared Phenomena
+level	E-Shared Phenomena
+for	O
+a	B-Physical Device
+humidistat	E-Physical Device
+,	O
+from	O
+30	O
+%	O
+to	O
+60	O
+%	O
+,	O
+inclusive	O
+a	O
+1	O
+%	O
+increments	O
+.	O
+
+Up	O
+to	O
+eight	O
+humidistats	S-Physical Device
+shall	O
+be	O
+placed	O
+in	O
+rooms	S-Environment Object
+throughout	O
+the	O
+home	S-Environment Object
+.	O
+
+A	B-Physical Device
+single	M-Physical Device
+humidistat	E-Physical Device
+shall	O
+be	O
+placed	O
+in	O
+an	O
+enclosed	O
+space	O
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+a	B-Environment Object
+room	E-Environment Object
+in	O
+the	B-Shared Phenomena
+house	O
+)	O
+for	O
+which	O
+the	O
+humidity	E-Shared Phenomena
+is	O
+to	O
+be	O
+controlled	O
+.	O
+
+If	O
+a	B-Shared Phenomena
+humdistat	M-Physical Device
+device	E-Physical Device
+allows	O
+a	O
+user	E-Environment Object
+to	O
+make	O
+a	O
+manual	M-Shared Phenomena
+temperature	M-Shared Phenomena
+setting	E-Shared Phenomena
+,	O
+the	O
+setting	O
+shall	O
+remain	O
+in	O
+effect	O
+until	O
+the	O
+end	O
+of	O
+the	O
+planned	O
+or	O
+default	O
+time	O
+period	O
+,	O
+at	O
+which	O
+time	O
+the	O
+planned	O
+or	O
+default	O
+setting	O
+will	O
+be	O
+used	O
+for	O
+the	O
+next	O
+time	O
+period	O
+.	O
+
+For	O
+each	O
+humidistat	S-Physical Device
+,	O
+up	O
+to	O
+twenty	O
+-	O
+four	O
+one	O
+hour	O
+settings	O
+per	O
+day	O
+for	O
+every	O
+day	O
+of	O
+the	O
+week	O
+can	O
+be	O
+scheduled	O
+.	O
+
+A	B-Software System
+DigitalHome	M-Software System
+system	E-Software System
+shall	O
+use	O
+wireless	B-Shared Phenomena
+signals	E-Shared Phenomena
+to	O
+communicate	O
+,	O
+through	O
+the	B-Physical Device
+master	M-Physical Device
+control	M-Physical Device
+unit	E-Physical Device
+,	O
+with	O
+the	O
+humidistats	E-Physical Device
+.	O
+
+The	B-Software System
+DigitalHome	M-Software System
+security	B-Physical Device
+system	E-Software System
+consists	O
+of	O
+contact	B-Physical Device
+sensors	E-Physical Device
+and	O
+a	O
+set	O
+security	O
+alarms	E-Physical Device
+.	O
+
+A	B-Software System
+DigitalHome	M-Software System
+system	E-Software System
+shall	O
+be	O
+able	O
+to	O
+manage	O
+up	O
+to	O
+fifty	O
+door	O
+and	O
+window	B-Environment Object
+contact	M-Environment Object
+sensors	E-Environment Object
+.	O
+
+A	B-Software System
+DigitalHome	M-Software System
+system	E-Software System
+shall	O
+be	O
+able	O
+to	O
+activate	O
+both	O
+light	B-External System
+and	M-Physical Device
+sound	B-Physical Device
+alarms	E-Physical Device
+:	O
+one	O
+sound	O
+alarm	M-External System
+and	O
+one	O
+light	O
+alarm	O
+subsystem	E-External System
+,	O
+with	O
+multiple	O
+lights	S-Environment Object
+.	O
+
+When	O
+a	B-Physical Device
+security	M-Physical Device
+breach	E-Physical Device
+occurs	O
+and	O
+a	O
+contact	M-Physical Device
+sensor	E-Physical Device
+is	O
+set	O
+OPEN	S-Shared Phenomena
+,	O
+the	B-External System
+alarm	M-External System
+system	E-External System
+shall	O
+be	O
+activated	O
+.	O
+
+The	B-Environment Object
+DigitalHome	M-Environment Object
+programmable	M-Environment Object
+Appliance	M-Environment Object
+Manager	E-Environment Object
+shall	O
+provide	B-System Requirements
+for	M-System Requirements
+management	E-System Requirements
+of	O
+a	B-Environment Object
+home	M-Environment Object
+’	M-Environment Object
+s	M-Environment Object
+small	M-Environment Object
+appliances	E-Environment Object
+,	O
+including	O
+lighting	B-Physical Device
+units	E-Physical Device
+,	O
+by	O
+allowing	O
+a	O
+user	E-Environment Object
+to	O
+turn	O
+them	O
+on	B-Shared Phenomena
+or	M-Shared Phenomena
+off	E-Shared Phenomena
+as	O
+desired	O
+.	O
+
+The	B-Environment Object
+Appliance	M-Environment Object
+Manager	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+manage	O
+up	O
+to	O
+one	O
+hundred	O
+115	O
+volt	O
+,	O
+10	O
+amp	O
+power	B-Physical Device
+switches	E-Physical Device
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+be	O
+able	O
+to	O
+provide	O
+information	B-Shared Phenomena
+about	M-Shared Phenomena
+the	M-Shared Phenomena
+state	E-Shared Phenomena
+of	O
+a	B-Physical Device
+power	M-Physical Device
+switch	E-Physical Device
+(	O
+OFF	O
+or	O
+ON	O
+)	O
+,	O
+indicating	O
+the	O
+whether	O
+an	O
+appliance	O
+connected	O
+to	O
+the	O
+power	O
+switch	O
+is	O
+OFF	O
+or	O
+ON	O
+.	O
+
+The	B-Software System
+system	E-Software System
+shall	O
+be	O
+able	O
+to	O
+change	O
+the	B-Shared Phenomena
+state	E-Shared Phenomena
+of	O
+a	B-Physical Device
+power	M-Physical Device
+switch	E-Physical Device
+(	O
+OFF	O
+to	O
+ON	O
+,	O
+or	O
+ON	O
+to	O
+OFF	O
+)	O
+,	O
+in	O
+turn	O
+changing	O
+the	O
+state	O
+of	O
+an	B-External System
+appliance	E-External System
+connected	O
+to	O
+the	O
+power	O
+switch	O
+.	O
+
+If	O
+a	B-Environment Object
+user	E-Environment Object
+changes	O
+the	B-Shared Phenomena
+state	E-Shared Phenomena
+of	O
+power	B-Physical Device
+switch	M-Physical Device
+device	E-Physical Device
+manually	O
+,	O
+the	O
+device	O
+shall	O
+remain	O
+in	O
+that	O
+state	O
+until	O
+the	O
+end	O
+of	O
+the	O
+planned	O
+or	O
+default	O
+time	O
+period	O
+,	O
+at	O
+which	O
+time	O
+the	O
+planned	O
+or	O
+default	O
+setting	O
+will	O
+be	O
+used	O
+for	O
+the	O
+next	O
+time	O
+period	O
+.	O
+
+DigitalHome	B-Environment Object
+Planner	E-Environment Object
+shall	O
+provide	O
+a	B-Environment Object
+user	E-Environment Object
+with	O
+the	B-Software System
+capability	O
+to	O
+direct	O
+the	O
+system	E-Software System
+to	O
+set	O
+various	O
+preset	O
+home	B-Shared Phenomena
+parameters	E-Shared Phenomena
+(	O
+temperature	S-Shared Phenomena
+,	O
+humidity	S-Shared Phenomena
+,	O
+security	B-Shared Phenomena
+contacts	E-Shared Phenomena
+,	O
+and	O
+on	B-Shared Phenomena
+/	M-Shared Phenomena
+off	M-Shared Phenomena
+appliance	M-Shared Phenomena
+/	O
+light	M-Shared Phenomena
+status	E-Shared Phenomena
+)	O
+for	O
+certain	O
+time	O
+periods	O
+.	O
+
+For	O
+a	B-Shared Phenomena
+given	O
+month	M-Shared Phenomena
+and	O
+year	O
+,	O
+a	O
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+create	O
+or	O
+modify	O
+a	O
+month	O
+plan	E-Shared Phenomena
+that	O
+specifies	O
+for	O
+each	O
+day	O
+,	O
+for	O
+up	O
+to	O
+four	O
+daily	O
+time	O
+periods	O
+,	O
+the	O
+environmental	B-Shared Phenomena
+parameter	M-Shared Phenomena
+settings	E-Shared Phenomena
+(	O
+temperature	S-Shared Phenomena
+,	O
+humidity	S-Shared Phenomena
+,	O
+contact	B-Physical Device
+sensors	E-Physical Device
+and	O
+power	B-Physical Device
+switches	E-Physical Device
+)	O
+.	O
+
+A	B-Environment Object
+user	E-Environment Object
+shall	O
+be	O
+able	O
+to	O
+override	B-System Requirements
+planned	M-System Requirements
+parameter	M-System Requirements
+values	M-System Requirements
+,	E-System Requirements
+through	O
+the	B-External System
+DigitalHome	M-External System
+website	E-External System
+,	O
+or	O
+if	O
+available	O
+,	O
+through	O
+manual	O
+switches	S-Physical Device
+on	O
+household	B-Physical Device
+devices	E-Physical Device
+
+For	O
+a	B-Shared Phenomena
+given	O
+month	O
+and	O
+year	O
+,	O
+in	O
+the	B-Environment Object
+past	O
+two	O
+years	O
+,	O
+DigitalHome	S-Software System
+shall	O
+be	O
+able	O
+to	O
+provide	O
+a	O
+report	E-Shared Phenomena
+on	O
+the	O
+management	O
+and	O
+control	O
+of	O
+the	O
+home	E-Environment Object
+.	O
+
+The	B-Environment Object
+month	M-Environment Object
+report	E-Environment Object
+shall	O
+contain	O
+daily	O
+average	O
+,	O
+maximum	O
+(	O
+with	O
+time	O
+)	O
+and	O
+minimum	O
+(	O
+with	O
+time	O
+)	O
+values	O
+of	O
+temperature	S-Shared Phenomena
+and	O
+humidity	S-Shared Phenomena
+for	O
+each	O
+thermostat	S-Physical Device
+and	O
+humidistat	S-Physical Device
+,	O
+respectively	O
+.	O
+
+The	B-Environment Object
+month	M-Environment Object
+report	E-Environment Object
+shall	O
+provide	O
+the	B-Shared Phenomena
+day	M-Shared Phenomena
+and	M-Shared Phenomena
+time	E-Shared Phenomena
+for	O
+which	O
+any	O
+security	B-Physical Device
+breaches	E-Physical Device
+occurred	O
+,	O
+that	O
+is	O
+,	O
+when	O
+the	O
+security	O
+alarms	E-Physical Device
+were	O
+activated	O
+.	O
+
+The	B-Environment Object
+month	M-Environment Object
+report	E-Environment Object
+shall	O
+provide	O
+a	O
+section	O
+that	O
+indicates	O
+the	B-Shared Phenomena
+periods	M-Shared Phenomena
+of	M-Shared Phenomena
+time	E-Shared Phenomena
+when	O
+the	O
+DigitalHome	M-Software System
+System	E-Software System
+was	O
+not	O
+in	O
+operation	O
+.	O
+
+Displays	B-Shared Phenomena
+of	M-Shared Phenomena
+environmental	M-Shared Phenomena
+conditions	E-Shared Phenomena
+(	O
+temperature	S-Shared Phenomena
+,	O
+humidity	S-Shared Phenomena
+,	O
+contact	B-Physical Device
+sensors	E-Physical Device
+and	O
+power	B-Physical Device
+switches	E-Physical Device
+)	O
+shall	O
+be	O
+updated	O
+at	O
+least	O
+every	O
+two	O
+seconds	O
+.	O
+
+Sensor	S-Physical Device
+(	O
+temperature	O
+,	O
+humidity	O
+,	O
+contact	O
+sensor	O
+,	O
+power	O
+state	O
+)	O
+shall	O
+have	O
+a	O
+minimum	O
+data	O
+acquisition	O
+rate	O
+of	O
+10	O
+Hz	O
+.	O
+
+An	B-Physical Device
+environmental	M-Physical Device
+sensor	E-Physical Device
+or	O
+controller	B-Physical Device
+device	E-Physical Device
+shall	O
+have	O
+to	O
+be	O
+within	O
+1000	O
+feet	O
+of	O
+the	O
+master	O
+control	O
+device	O
+,	O
+in	O
+order	O
+to	O
+be	O
+in	O
+communication	O
+with	O
+the	O
+system	O
+.	O
+
+The	B-Software System
+DigitalHome	M-Software System
+System	E-Software System
+must	O
+be	O
+highly	O
+reliable	O
+with	O
+no	O
+more	O
+than	O
+1	O
+failure	O
+per	O
+10	O
+,	O
+000	O
+hours	O
+of	O
+operation	O
+.	O
+
+The	B-Software System
+Digital	M-Software System
+Home	M-Software System
+System	E-Software System
+shall	O
+incorporate	O
+backup	O
+and	O
+recovery	O
+mechanisms	O
+.	O
+
+The	B-Software System
+DigitalHome	M-Environment Object
+System	E-Software System
+will	O
+backup	O
+all	O
+system	B-Shared Phenomena
+data	E-Shared Phenomena
+(	O
+configuration	S-Shared Phenomena
+,	O
+default	B-Shared Phenomena
+parameter	M-Shared Phenomena
+settings	E-Shared Phenomena
+,	O
+planning	S-Shared Phenomena
+,	O
+and	O
+usage	B-Shared Phenomena
+data	O
+)	O
+on	O
+a	O
+daily	O
+basis	O
+,	O
+with	O
+the	B-Environment Object
+backup	O
+time	O
+set	O
+by	O
+the	O
+DigitalHome	O
+Technician	E-Environment Object
+at	O
+system	O
+set	O
+up	O
+.	O
+
+If	O
+the	B-Environment Object
+DigitalHome	M-Software System
+System	E-Software System
+fails	O
+(	O
+due	O
+to	O
+power	O
+loss	O
+,	O
+loss	O
+of	O
+internet	O
+access	O
+,	O
+or	O
+other	O
+software	O
+or	O
+hardware	O
+failure	O
+)	O
+,	O
+the	O
+system	B-Shared Phenomena
+recovery	M-Environment Object
+mechanism	E-Environment Object
+shall	O
+restore	O
+system	O
+data	E-Shared Phenomena
+(	O
+configuration	S-Shared Phenomena
+,	O
+default	B-Shared Phenomena
+parameter	M-Shared Phenomena
+settings	E-Shared Phenomena
+,	O
+planning	S-Shared Phenomena
+,	O
+and	O
+usage	B-Shared Phenomena
+data	O
+)	O
+from	O
+the	O
+most	O
+recent	O
+backup	O
+.	O
+
+All	O
+DigitalHome	O
+operations	O
+shall	O
+incorporate	O
+exception	O
+handling	O
+so	O
+that	O
+the	B-Software System
+system	E-Software System
+responds	O
+to	O
+a	B-Environment Object
+user	E-Environment Object
+with	O
+a	O
+clear	O
+,	O
+descriptive	O
+message	S-Shared Phenomena
+when	O
+an	O
+error	O
+or	O
+an	O
+exceptional	O
+condition	O
+occurs	O
+.	O
+
+Although	O
+there	O
+are	O
+no	O
+specific	O
+safety	O
+requirements	O
+,	O
+high	O
+system	O
+reliability	O
+is	O
+important	O
+to	O
+insure	O
+there	O
+are	O
+no	O
+system	O
+failures	O
+in	O
+carrying	O
+out	O
+user	O
+requests	O
+.	O
+
+Such	O
+failures	O
+might	O
+affect	O
+the	O
+safety	O
+of	O
+home	B-Environment Object
+dwellers	E-Environment Object
+(	O
+e	O
+.	O
+g	O
+.	O
+,	O
+security	O
+breaches	O
+,	O
+inadequate	O
+lighting	O
+in	O
+dark	O
+spaces	O
+,	O
+inappropriate	O
+temperature	O
+and	O
+humidity	O
+for	O
+people	O
+who	O
+are	O
+in	O
+ill	O
+-	O
+health	O
+,	O
+or	O
+powering	O
+certain	O
+appliances	O
+when	O
+young	B-Environment Object
+children	E-Environment Object
+are	O
+present	O
+)	O
+.	O
+
+Upon	O
+installation	O
+,	O
+a	B-Environment Object
+DigitalHome	M-Environment Object
+user	E-Environment Object
+account	O
+shall	O
+be	O
+established	O
+.	O
+
+The	B-Software System
+DigitalHome	M-Software System
+web	M-Software System
+system	E-Software System
+shall	O
+provide	O
+for	O
+authentication	B-Shared Phenomena
+and	M-Shared Phenomena
+information	M-Shared Phenomena
+encryption	E-Shared Phenomena
+through	O
+a	O
+recognized	O
+reliable	O
+and	O
+effective	O
+security	O
+technology	O
+,	O
+such	O
+as	O
+Transport	O
+Layer	O
+Security	O
+.	O
+
+Log	O
+in	O
+to	O
+an	B-Shared Phenomena
+account	M-Shared Phenomena
+shall	O
+require	O
+entry	O
+of	O
+an	O
+account	O
+name	E-Shared Phenomena
+and	O
+a	B-Shared Phenomena
+password	E-Shared Phenomena
+.	O
+
+The	O
+development	O
+of	O
+the	B-Software System
+DigitalHome	M-Software System
+system	E-Software System
+shall	O
+use	O
+methods	O
+and	O
+techniques	O
+such	O
+as	O
+the	O
+following	O
+to	O
+support	O
+system	O
+maintenance	O
+.	O
+
+Although	O
+the	B-Software System
+product	O
+produced	O
+under	O
+this	O
+document	O
+will	O
+be	O
+a	O
+“	O
+prototype	O
+”	O
+version	O
+,	O
+all	O
+modules	O
+and	O
+components	O
+of	O
+this	O
+prototype	O
+version	O
+shall	O
+be	O
+designed	O
+and	O
+implemented	O
+in	O
+such	O
+a	O
+manner	O
+that	O
+it	O
+may	O
+be	O
+incorporated	O
+in	O
+a	O
+fully	O
+specified	O
+commercial	O
+version	O
+of	O
+the	O
+DigitalHome	M-Software System
+System	E-Software System
+.	O
+
+All	O
+system	O
+documents	O
+(	O
+Software	O
+Requirements	O
+Specification	O
+,	O
+Architectural	O
+Design	O
+Specification	O
+,	O
+Module	O
+Detailed	O
+Design	O
+,	O
+Module	O
+Source	O
+Code	O
+,	O
+and	O
+all	O
+Test	O
+Plans	O
+)	O
+shall	O
+be	O
+up	O
+-	O
+to	O
+-	O
+date	O
+,	O
+use	O
+the	O
+Homeowner	O
+document	O
+format	O
+[	O
+HO2305	O
+]	O
+and	O
+reside	O
+in	O
+the	O
+HomeOwner	O
+Document	O
+Archive	O
+at	O
+completion	O
+of	O
+the	O
+project	O
+.	O
+
+HomeOwner	O
+has	O
+designated	O
+object	O
+-	O
+oriented	O
+development	O
+,	O
+using	O
+UML	O
+2	O
+.	O
+0	O
+,	O
+as	O
+the	O
+preferred	O
+method	O
+for	O
+development	O
+of	O
+software	O
+for	O
+HomeOwner	O
+products	O
+.	O
+
+Exceptions	O
+to	O
+this	O
+rule	O
+must	O
+be	O
+approved	O
+by	O
+the	O
+CIO	O
+.	O
+

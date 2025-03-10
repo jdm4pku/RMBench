@@ -1,0 +1,3808 @@
+The	O
+primary	O
+goal	O
+of	O
+this	O
+document	O
+is	O
+to	O
+provide	O
+a	O
+complete	O
+and	M-Software System
+accurate	O
+list	O
+of	O
+requirements	O
+for	O
+the	B-Software System
+VLA	M-Software System
+Expansion	M-Software System
+Project	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+.	O
+
+The	O
+primary	O
+audience	O
+of	O
+this	O
+document	O
+includes	O
+,	O
+but	O
+is	O
+not	O
+limited	O
+to	O
+,	O
+project	O
+leaders	O
+,	O
+the	B-Environment Object
+designers	O
+and	M-Software System
+developers	O
+of	O
+the	O
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+and	O
+the	O
+end	M-Environment Object
+user	E-Environment Object
+.	O
+
+The	O
+document	O
+may	O
+also	O
+be	O
+of	O
+interest	O
+to	O
+VLA	O
+Expansion	O
+Project	O
+project	O
+scientists	O
+and	O
+engineers	O
+or	O
+as	O
+a	O
+reference	O
+for	O
+individuals	O
+involved	O
+in	O
+similar	O
+projects	O
+with	O
+similar	O
+requirements	O
+.	O
+
+The	O
+requirements	O
+contained	O
+in	O
+this	O
+document	O
+are	O
+numbered	O
+based	O
+on	O
+the	O
+section	O
+/	O
+subsection	O
+in	O
+which	O
+they	O
+appear	O
+.	O
+
+The	B-Software System
+Correlator	M-Physical Device
+Monitor	M-Software System
+and	M-External System
+Control	M-Software System
+System	E-Software System
+provides	O
+the	B-Shared Phenomena
+physical	M-Shared Phenomena
+link	E-Shared Phenomena
+between	O
+the	O
+WIDAR	M-Physical Device
+Correlator	O
+hardware	E-Physical Device
+and	O
+the	O
+VLA	M-External System
+Expansion	M-External System
+Project	M-External System
+monitor	M-External System
+and	O
+control	M-External System
+system	E-External System
+.	O
+
+It	O
+is	O
+the	B-Physical Device
+primary	O
+interface	O
+by	O
+which	O
+the	O
+correlator	E-Physical Device
+is	O
+configured	O
+,	O
+operated	O
+,	O
+and	O
+serviced	O
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-External System
+and	M-External System
+Control	M-External System
+System	E-External System
+shall	O
+receive	O
+configuration	E-Shared Phenomena
+information	E-Shared Phenomena
+from	O
+the	B-External System
+VLA	M-External System
+Expansion	M-External System
+Project	M-External System
+Monitor	O
+and	O
+Control	O
+System	O
+system	O
+and	O
+translate	O
+this	O
+info	O
+into	O
+a	B-Shared Phenomena
+physical	M-Shared Phenomena
+correlator	M-Shared Phenomena
+hardware	M-Shared Phenomena
+configuration	O
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+shall	O
+process	O
+and	O
+transfer	B-System Requirements
+dynamic	B-Shared Phenomena
+control	M-Shared Phenomena
+data	E-Shared Phenomena
+and	O
+monitor	B-System Requirements
+data	O
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-System Requirements
+Control	M-Software System
+System	E-Software System
+shall	O
+monitor	B-System Requirements
+correlator	M-System Requirements
+and	O
+correlator	O
+subsystem	M-System Requirements
+health	E-System Requirements
+and	O
+take	O
+corrective	O
+action	O
+autonomously	O
+to	O
+recover	B-System Requirements
+from	M-System Requirements
+hardware	M-System Requirements
+and	O
+computing	M-System Requirements
+system	M-System Requirements
+faults	E-System Requirements
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-System Requirements
+Control	M-Software System
+System	E-Software System
+shall	O
+perform	O
+limited	B-Shared Phenomena
+amounts	M-Shared Phenomena
+of	M-Shared Phenomena
+real	M-Shared Phenomena
+-	M-Shared Phenomena
+time	M-Shared Phenomena
+data	E-Shared Phenomena
+processing	O
+and	O
+probing	O
+such	O
+as	O
+providing	O
+tools	O
+to	B-System Requirements
+collect	M-System Requirements
+and	O
+display	M-System Requirements
+auto	M-System Requirements
+correlation	M-System Requirements
+products	E-System Requirements
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+shall	O
+allow	O
+for	O
+easy	O
+system	O
+access	O
+to	O
+aid	O
+testing	O
+and	O
+debugging	O
+.	O
+
+The	O
+remainder	O
+of	O
+this	O
+document	O
+contains	O
+a	O
+more	O
+detailed	O
+description	O
+of	O
+the	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+as	O
+well	O
+as	O
+the	O
+primary	O
+requirements	O
+necessary	O
+to	O
+design	O
+and	O
+build	O
+the	O
+EVLA	M-Software System
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+.	O
+
+The	O
+format	O
+of	O
+the	O
+document	O
+follows	O
+that	O
+outlined	O
+in	O
+the	O
+IEEE	O
+STD	O
+830	O
+document	O
+,	O
+IEEE	O
+The	O
+VLA	O
+Expansion	O
+Project	O
+Correlator	B-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+is	O
+responsible	O
+for	O
+correlator	B-System Requirements
+configuration	E-System Requirements
+,	O
+real	B-System Requirements
+time	M-System Requirements
+monitor	M-System Requirements
+/	M-System Requirements
+control	E-System Requirements
+,	O
+and	O
+hardware	B-System Requirements
+testing	M-System Requirements
+/	O
+servicing	E-System Requirements
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-External System
+and	M-External System
+Control	M-External System
+System	E-Software System
+exists	O
+as	O
+an	O
+integrated	O
+part	O
+of	O
+the	O
+overall	O
+VLA	B-External System
+Expansion	M-External System
+Project	M-External System
+Monitor	O
+and	O
+Control	O
+Structure	E-External System
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+will	O
+provide	O
+a	O
+level	O
+of	O
+abstraction	O
+to	O
+modularize	O
+the	B-External System
+correlator	O
+system	O
+within	O
+the	O
+VLA	M-External System
+Expansion	M-External System
+Project	M-External System
+environment	E-External System
+.	O
+
+The	B-Software System
+gateway	O
+to	O
+the	B-External System
+correlator	E-Environment Object
+will	O
+be	O
+through	O
+the	O
+Virtual	M-External System
+Correlator	M-External System
+Interface	E-External System
+which	O
+will	O
+exist	O
+as	O
+a	O
+software	O
+entity	O
+on	O
+the	O
+The	O
+Correlator	O
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+will	O
+be	O
+designed	O
+and	O
+implemented	O
+as	O
+a	O
+Master	O
+/	O
+Slave	O
+network	O
+with	O
+one	B-External System
+computer	M-External System
+system	E-External System
+coordinating	O
+the	O
+activities	O
+of	O
+a	O
+number	O
+of	O
+intelligent	O
+hardware	B-Physical Device
+control	M-Physical Device
+processors	E-Physical Device
+.	O
+
+The	B-Environment Object
+Master	E-Environment Object
+is	O
+expected	O
+to	O
+handle	O
+the	B-External System
+bulk	O
+of	O
+the	O
+monitor	M-Environment Object
+or	M-Environment Object
+control	M-Environment Object
+interface	E-Environment Object
+with	O
+the	O
+outside	O
+world	O
+whereas	O
+the	O
+slaves	E-Environment Object
+will	O
+be	O
+only	O
+concerned	O
+with	O
+the	O
+correlator	M-External System
+hardware	M-External System
+systems	E-External System
+under	O
+their	O
+direct	O
+control	O
+.	O
+
+This	O
+topology	O
+will	O
+place	O
+the	B-System Requirements
+real	M-System Requirements
+-	M-System Requirements
+time	M-System Requirements
+computing	E-System Requirements
+requirements	O
+in	O
+the	O
+slave	M-Environment Object
+layer	E-Environment Object
+and	O
+the	O
+quasi	M-System Requirements
+real	O
+-	O
+time	O
+,	M-System Requirements
+network	M-System Requirements
+-	O
+chaotic	E-System Requirements
+loads	O
+into	O
+the	O
+master	M-Environment Object
+layer	O
+.	O
+
+One	O
+of	O
+the	B-Physical Device
+primary	O
+benefits	O
+of	O
+this	O
+structure	O
+is	O
+isolation	O
+of	O
+the	O
+correlator	M-Physical Device
+hardware	E-Physical Device
+from	O
+the	O
+the	O
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+is	O
+expected	O
+to	O
+be	O
+redundant	O
+in	O
+critical	O
+areas	O
+and	O
+highly	O
+modular	O
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+monitor	M-Software System
+subsystem	E-Software System
+will	O
+provide	O
+VLA	B-External System
+Expansion	M-External System
+Project	M-External System
+system	M-Shared Phenomena
+wide	O
+access	O
+to	O
+all	B-Shared Phenomena
+correlator	M-Shared Phenomena
+system	O
+states	E-Shared Phenomena
+including	O
+the	B-Shared Phenomena
+Monitor	M-Shared Phenomena
+and	M-Shared Phenomena
+Control	M-Shared Phenomena
+System	M-Shared Phenomena
+supervisor	M-Shared Phenomena
+system	O
+state	E-Shared Phenomena
+.	O
+
+Some	O
+of	O
+this	O
+information	O
+will	O
+be	O
+provided	O
+on	O
+a	O
+time	O
+synchronous	O
+basis	O
+as	O
+required	O
+by	O
+other	O
+systems	O
+and	O
+other	O
+information	O
+will	O
+only	O
+be	O
+presented	O
+on	O
+a	O
+request	O
+basis	O
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+will	O
+be	O
+a	O
+fully	O
+observable	O
+system	O
+with	O
+the	O
+only	O
+limits	O
+placed	O
+on	O
+information	O
+access	O
+being	O
+those	O
+imposed	O
+by	O
+hardware	O
+,	O
+bandwidth	O
+,	O
+and	O
+/	O
+or	O
+security	O
+restrictions	O
+.	O
+
+Error	B-Shared Phenomena
+and	M-Shared Phenomena
+status	M-Shared Phenomena
+messages	E-Shared Phenomena
+will	O
+be	O
+provided	O
+in	O
+a	O
+concise	O
+time	O
+/	O
+location	O
+referenced	O
+format	O
+to	O
+upper	B-External System
+system	E-External System
+levels	O
+in	O
+a	O
+content	O
+controllable	O
+manner	O
+.	O
+
+Correlator	B-Shared Phenomena
+configurations	E-Shared Phenomena
+and	M-Software System
+control	B-Shared Phenomena
+instructions	E-Shared Phenomena
+will	O
+be	O
+received	O
+from	O
+the	B-Physical Device
+VLA	M-Software System
+Expansion	M-Software System
+Project	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Physical Device
+System	E-Software System
+system	O
+in	O
+a	O
+form	O
+suitable	O
+for	O
+translation	O
+by	O
+the	O
+Master	M-Physical Device
+Correlator	O
+Control	O
+Computer	E-Physical Device
+.	O
+
+The	O
+translation	O
+will	O
+provide	O
+the	M-System Requirements
+correlator	M-Physical Device
+with	O
+specific	O
+goal	O
+oriented	O
+hardware	B-Shared Phenomena
+configuration	S-Shared Phenomena
+tables	E-Shared Phenomena
+to	B-System Requirements
+satisfy	M-System Requirements
+the	O
+configuration	O
+requested	O
+by	O
+the	O
+A	O
+second	O
+interface	O
+with	O
+a	B-Software System
+human	M-Software System
+GUI	E-Software System
+will	O
+also	O
+allow	O
+for	O
+configuration	O
+of	O
+the	O
+correlator	O
+hardware	O
+,	O
+preferably	O
+through	O
+the	O
+same	O
+table	O
+structures	O
+used	O
+above	O
+.	O
+
+This	O
+translation	O
+interface	O
+will	O
+be	O
+called	O
+the	O
+Virtual	O
+Correlator	O
+Interface	O
+.	O
+
+Specific	B-Shared Phenomena
+data	M-Shared Phenomena
+sets	E-Shared Phenomena
+required	O
+by	O
+the	B-External System
+Backend	M-External System
+Data	M-External System
+Processing	M-External System
+System	E-External System
+will	O
+be	O
+provided	O
+in	O
+a	B-Physical Device
+timely	O
+and	O
+robust	O
+fashion	O
+over	O
+a	O
+secondary	M-Physical Device
+virtual	M-Physical Device
+network	E-Physical Device
+.	O
+
+Ancillary	B-Shared Phenomena
+monitor	M-Shared Phenomena
+data	E-Shared Phenomena
+including	O
+system	B-Shared Phenomena
+health	E-Shared Phenomena
+,	O
+error	B-Shared Phenomena
+messages	E-Shared Phenomena
+and	M-Software System
+configuration	B-Shared Phenomena
+echoes	E-Shared Phenomena
+will	O
+be	O
+spooled	O
+such	O
+that	O
+temporary	O
+loss	M-System Requirements
+of	M-System Requirements
+network	O
+communication	O
+with	O
+the	B-Software System
+VLA	M-Software System
+Expansion	M-Software System
+Project	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+network	O
+will	O
+not	B-System Requirements
+result	M-System Requirements
+in	M-System Requirements
+loss	O
+of	O
+monitor	O
+data	O
+.	O
+
+Data	B-Shared Phenomena
+sample	M-Shared Phenomena
+rates	E-Shared Phenomena
+and	M-Software System
+contents	S-Shared Phenomena
+will	O
+be	O
+fully	O
+controllable	O
+via	O
+either	O
+the	B-External System
+VLA	M-Software System
+Expansion	M-Software System
+Project	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+or	O
+the	O
+Backend	M-External System
+processing	M-External System
+controller	E-External System
+.	O
+
+The	B-Physical Device
+Master	M-Physical Device
+Correlator	M-Physical Device
+Control	M-Physical Device
+Computer	E-Physical Device
+will	O
+accept	O
+external	O
+data	E-Shared Phenomena
+feeds	O
+for	O
+models	S-Shared Phenomena
+,	O
+time	B-Shared Phenomena
+standards	E-Shared Phenomena
+,	O
+fiber	B-Shared Phenomena
+-	M-Shared Phenomena
+link	M-Shared Phenomena
+phase	M-Shared Phenomena
+corrections	E-Shared Phenomena
+and	O
+other	O
+required	O
+data	O
+to	O
+be	O
+packaged	O
+with	O
+control	B-Shared Phenomena
+data	O
+delivered	O
+to	O
+the	B-Physical Device
+correlator	M-Physical Device
+hardware	E-Physical Device
+.	O
+
+The	O
+ability	O
+to	O
+attempt	O
+recovery	B-System Requirements
+from	M-System Requirements
+failure	E-System Requirements
+or	O
+hot	B-Physical Device
+-	M-Physical Device
+swapped	M-Physical Device
+hardware	M-Physical Device
+devices	E-Physical Device
+will	O
+be	O
+built	O
+into	O
+this	B-Software System
+system	E-Software System
+.	O
+
+Should	O
+a	B-System Requirements
+CMIB	M-Software System
+subsystem	E-Software System
+fail	O
+and	O
+not	O
+respond	O
+to	O
+reboot	B-Shared Phenomena
+requests	E-Shared Phenomena
+or	O
+other	O
+self	B-Shared Phenomena
+-	M-Shared Phenomena
+heal	M-Shared Phenomena
+attempts	E-Shared Phenomena
+,	O
+an	B-Shared Phenomena
+alert	M-Shared Phenomena
+notice	E-Shared Phenomena
+will	O
+be	O
+issued	O
+so	O
+appropriate	O
+personnel	S-Environment Object
+can	O
+affect	O
+a	O
+hardware	M-System Requirements
+repair	E-System Requirements
+.	O
+
+The	B-Software System
+CMIB	M-Software System
+subsystem	E-Software System
+will	O
+then	O
+be	O
+automatically	O
+restarted	O
+and	O
+configured	O
+back	O
+into	O
+the	B-Environment Object
+current	M-Environment Object
+operational	M-Environment Object
+environment	E-Environment Object
+.	O
+
+It	O
+is	O
+intended	O
+that	O
+both	O
+primary	M-System Requirements
+and	M-Shared Phenomena
+secondary	M-Environment Object
+Master	M-Environment Object
+Correlator	B-Shared Phenomena
+Control	M-Shared Phenomena
+Computer	M-Environment Object
+systems	E-Environment Object
+maintain	O
+full	O
+Correlator	O
+Monitor	M-Shared Phenomena
+and	O
+Control	O
+System	M-Shared Phenomena
+state	M-Shared Phenomena
+information	E-Shared Phenomena
+such	O
+that	O
+any	O
+hard	B-System Requirements
+failure	M-System Requirements
+in	M-System Requirements
+the	M-System Requirements
+primary	O
+node	M-System Requirements
+can	M-System Requirements
+be	M-System Requirements
+corrected	E-System Requirements
+by	O
+simply	O
+rerouting	O
+Monitor	O
+and	O
+Control	O
+System	O
+communications	O
+to	O
+the	O
+secondary	O
+.	O
+
+Watchdog	B-Environment Object
+processes	E-Environment Object
+and	O
+the	B-Physical Device
+Master	M-Physical Device
+Correlator	B-Shared Phenomena
+Control	M-Shared Phenomena
+Computer	M-Shared Phenomena
+will	O
+likewise	O
+monitor	O
+Correlator	O
+Power	M-Shared Phenomena
+Control	O
+Computer	O
+health	E-Shared Phenomena
+.	O
+
+Due	O
+to	O
+the	B-Physical Device
+more	O
+hardware	O
+specific	O
+connections	O
+and	O
+controls	O
+of	O
+the	O
+Correlator	M-Physical Device
+Power	M-Physical Device
+Control	M-Physical Device
+Computer	M-Physical Device
+,	E-Physical Device
+actions	S-Shared Phenomena
+taken	O
+by	O
+external	B-External System
+system	E-External System
+upon	O
+hard	O
+failures	O
+are	O
+TBD	O
+.	O
+
+All	O
+use	O
+of	O
+the	B-Software System
+Correlator	M-Physical Device
+Monitor	M-Software System
+and	M-Software System
+Control	M-Physical Device
+System	E-Software System
+will	O
+be	O
+through	O
+the	O
+VCI	S-Environment Object
+or	O
+Master	B-Physical Device
+Correlator	O
+Control	O
+Computer	E-Physical Device
+.	O
+
+Software	B-External System
+tools	E-External System
+will	O
+be	O
+provided	O
+to	O
+assist	O
+the	B-Environment Object
+user	E-Environment Object
+at	O
+all	O
+access	O
+levels	O
+from	O
+system	B-Shared Phenomena
+wide	M-Shared Phenomena
+configuration	E-Shared Phenomena
+and	O
+control	O
+to	O
+a	B-Shared Phenomena
+low	M-Shared Phenomena
+level	M-Shared Phenomena
+CMIB	M-Shared Phenomena
+command	M-Shared Phenomena
+line	M-Shared Phenomena
+instruction	E-Shared Phenomena
+.	O
+
+The	O
+primary	O
+contact	O
+with	O
+array	O
+operations	O
+will	O
+be	O
+via	O
+status	B-Shared Phenomena
+and	M-Shared Phenomena
+error	M-Shared Phenomena
+messages	E-Shared Phenomena
+channeled	O
+through	O
+the	B-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+.	O
+
+The	O
+ability	O
+of	O
+the	O
+Correlator	O
+System	O
+to	O
+achieve	O
+and	O
+maintain	O
+high	O
+reliability	O
+and	O
+uptime	O
+will	O
+be	O
+vitally	O
+dependent	O
+upon	O
+reliable	O
+operation	O
+and	O
+rapid	O
+diagnosis	O
+and	O
+repair	O
+of	O
+faults	O
+in	O
+the	O
+hardware	O
+and	O
+software	O
+systems	O
+.	O
+
+These	O
+individuals	O
+will	O
+be	O
+responsible	O
+for	O
+performing	O
+corrective	O
+and	O
+preventive	O
+maintenance	O
+along	O
+with	O
+periodic	O
+performance	O
+tests	O
+and	O
+upgrades	O
+.	O
+
+Engineers	S-Environment Object
+and	M-System Requirements
+technicians	S-Environment Object
+will	O
+need	O
+tools	S-Physical Device
+to	O
+inspect	B-System Requirements
+and	O
+monitor	M-System Requirements
+individual	M-System Requirements
+CMIB	M-System Requirements
+layer	M-System Requirements
+devices	E-System Requirements
+from	O
+remote	O
+locations	O
+and	O
+have	O
+the	O
+ability	O
+to	O
+fault	B-Shared Phenomena
+trace	E-Shared Phenomena
+to	O
+a	B-External System
+specific	M-External System
+hot	M-External System
+-	M-External System
+swappable	M-External System
+subsystem	E-External System
+.	O
+
+These	B-Environment Object
+individuals	E-Environment Object
+are	O
+responsible	O
+for	O
+developing	O
+the	B-Software System
+software	O
+and	M-Software System
+will	O
+interact	O
+with	O
+the	O
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+to	B-System Requirements
+ensure	M-System Requirements
+that	M-System Requirements
+it	M-System Requirements
+is	M-System Requirements
+functioning	M-System Requirements
+properly	M-System Requirements
+.	E-System Requirements
+
+The	B-Environment Object
+software	M-Environment Object
+developer	E-Environment Object
+requires	O
+remote	B-Shared Phenomena
+access	E-Shared Phenomena
+to	O
+the	B-Software System
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+so	O
+that	O
+troubleshooting	S-System Requirements
+can	O
+be	O
+accomplished	O
+away	O
+from	O
+the	O
+the	O
+VLA	O
+Expansion	O
+Project	O
+and	O
+during	O
+non	O
+-	O
+working	O
+hours	O
+.	O
+
+A	O
+few	O
+authorized	O
+individuals	O
+may	O
+be	O
+allowed	O
+access	O
+to	O
+parts	O
+of	O
+the	O
+EVLA	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+that	O
+are	O
+usually	O
+considered	O
+restricted	O
+.	O
+
+The	B-System Requirements
+Correlator	M-System Requirements
+Monitor	M-System Requirements
+and	M-System Requirements
+Control	E-System Requirements
+is	O
+a	O
+critical	O
+component	O
+in	O
+the	O
+Astronomical	O
+data	O
+path	O
+.	O
+
+If	O
+it	O
+is	O
+unavailable	O
+,	O
+incoming	B-Shared Phenomena
+astronomical	M-Shared Phenomena
+data	E-Shared Phenomena
+will	O
+be	O
+lost	O
+.	O
+
+The	O
+ultimate	O
+determiner	O
+of	O
+a	O
+reliable	O
+and	O
+available	O
+correlator	O
+is	O
+dependent	O
+on	O
+the	O
+stability	O
+of	O
+the	O
+Functionality	O
+needs	O
+to	O
+be	O
+modularized	O
+to	O
+provide	O
+the	O
+easiest	O
+means	O
+of	O
+fault	O
+detection	O
+and	O
+repair	O
+.	O
+
+The	O
+ultimate	O
+ease	O
+of	O
+use	O
+and	O
+flexibility	O
+of	O
+the	O
+correlator	O
+is	O
+rooted	O
+in	O
+the	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+software	O
+.	O
+
+Full	O
+access	O
+is	O
+required	O
+with	O
+a	B-Shared Phenomena
+high	O
+level	O
+of	O
+data	O
+integration	O
+to	O
+provide	O
+the	B-Environment Object
+user	E-Environment Object
+with	O
+a	O
+logical	M-Shared Phenomena
+and	M-Shared Phenomena
+coherent	M-Shared Phenomena
+interface	E-Shared Phenomena
+.	O
+
+It	O
+is	O
+assumed	O
+that	O
+the	B-Physical Device
+Correlator	E-Physical Device
+will	O
+receive	O
+configuration	B-Shared Phenomena
+data	E-Shared Phenomena
+in	O
+a	O
+format	O
+that	O
+is	O
+unambiguous	O
+and	O
+results	O
+in	O
+a	O
+convergent	O
+hardware	O
+configuration	O
+.	O
+
+It	O
+is	O
+assumed	O
+that	O
+all	B-Shared Phenomena
+auxiliary	M-Shared Phenomena
+data	E-Shared Phenomena
+needed	O
+for	O
+real	B-System Requirements
+time	M-System Requirements
+update	M-System Requirements
+of	M-System Requirements
+correlator	M-System Requirements
+parameters	E-System Requirements
+will	O
+be	O
+provided	O
+directly	O
+by	O
+the	B-Software System
+VLA	M-Software System
+Expansion	M-Software System
+Project	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+system	O
+or	O
+by	O
+dedicated	B-External System
+servers	E-External System
+.	O
+
+It	O
+is	O
+assumed	O
+that	O
+the	B-Software System
+backend	M-Software System
+data	B-Shared Phenomena
+processing	E-Software System
+and	M-Software System
+VLA	B-Software System
+Expansion	M-Software System
+Project	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+systems	O
+will	O
+be	O
+capable	O
+of	O
+accepting	O
+output	O
+data	O
+rates	E-Shared Phenomena
+generated	O
+by	O
+the	O
+Correlator	M-Software System
+Monitor	O
+and	O
+Control	O
+System	O
+.	O
+
+The	O
+interface	O
+between	O
+the	O
+CMIB	O
+,	O
+Master	O
+Correlator	O
+Control	O
+Computer	O
+,	O
+and	O
+Correlator	O
+Power	O
+Control	O
+Computer	O
+shall	O
+be	O
+Ethernet	O
+of	O
+100	O
+Mbits	O
+/	O
+sec	O
+or	O
+better	O
+data	O
+rate	O
+.	O
+
+The	O
+interface	O
+shall	O
+be	O
+transformer	O
+coupled	O
+copper	O
+twisted	O
+pair	O
+unless	O
+other	O
+materials	O
+are	O
+required	O
+for	O
+noise	O
+,	O
+ground	O
+isolation	O
+,	O
+or	O
+physical	O
+layout	O
+constraints	O
+.	O
+
+Network	B-Physical Device
+switches	E-Physical Device
+shall	O
+be	O
+employed	O
+to	O
+distribute	O
+traffic	O
+within	O
+a	B-Physical Device
+correlator	M-Physical Device
+rack	E-Physical Device
+and	O
+where	O
+their	O
+use	O
+will	O
+significantly	O
+reduce	O
+overall	O
+network	O
+wiring	O
+complexity	O
+.	O
+
+The	B-Physical Device
+Master	B-Physical Device
+Correlator	M-Physical Device
+Control	M-Physical Device
+Computer	E-Physical Device
+-	M-Physical Device
+CMIB	E-Physical Device
+,	O
+Master	O
+Correlator	O
+Control	O
+Computer	O
+-	O
+Correlator	O
+Power	M-Physical Device
+Control	O
+Computer	O
+,	O
+and	M-Software System
+Master	O
+Correlator	O
+Control	O
+Computer	O
+-	O
+VLA	M-Software System
+Expansion	M-Software System
+Project	M-Software System
+Monitor	M-Software System
+and	O
+Control	O
+System	E-Software System
+networks	O
+shall	O
+be	O
+on	O
+separate	O
+physical	O
+interfaces	O
+.	O
+
+There	O
+shall	O
+be	O
+a	B-Shared Phenomena
+redundant	M-Shared Phenomena
+communication	M-Shared Phenomena
+path	E-Shared Phenomena
+between	O
+the	B-Physical Device
+Master	M-Physical Device
+Correlator	B-Physical Device
+Control	M-Physical Device
+Computer	E-Physical Device
+and	O
+Correlator	O
+Power	M-Physical Device
+Control	O
+Computer	O
+to	B-System Requirements
+provide	M-System Requirements
+for	M-System Requirements
+remote	M-System Requirements
+reboot	E-System Requirements
+in	O
+the	O
+event	O
+of	O
+a	O
+networking	O
+or	O
+computing	O
+failure	O
+.	O
+
+The	O
+interface	O
+between	O
+the	O
+Master	O
+Correlator	O
+Control	O
+Computer	O
+and	O
+external	O
+networks	O
+shall	O
+be	O
+Ethernet	O
+of	O
+100	O
+Pathways	O
+penetrating	O
+the	O
+correlator	O
+shielded	O
+room	O
+shall	O
+be	O
+fiber	O
+optic	O
+or	O
+other	O
+low	O
+RFI	O
+material	O
+to	O
+meet	O
+RFI	O
+specifications	O
+.	O
+
+Network	B-Physical Device
+routers	M-Physical Device
+/	M-Physical Device
+switches	E-Physical Device
+shall	O
+be	O
+employed	O
+at	O
+the	M-System Requirements
+Master	M-System Requirements
+Correlator	M-System Requirements
+Control	M-System Requirements
+Computer	M-System Requirements
+-	M-Software System
+VLA	M-Software System
+Expansion	M-Software System
+Project	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	O
+System	E-Software System
+interface	O
+level	O
+to	B-System Requirements
+protect	M-System Requirements
+the	O
+Master	O
+Correlator	O
+Control	O
+Computer	O
+from	M-System Requirements
+unauthorized	M-System Requirements
+access	E-System Requirements
+and	O
+irrelevant	O
+network	O
+traffic	O
+.	O
+
+The	B-Physical Device
+CMIB	M-Physical Device
+daughter	M-Physical Device
+board	E-Physical Device
+shall	O
+communicate	O
+with	O
+the	B-Shared Phenomena
+correlator	M-Physical Device
+carrier	M-Physical Device
+boards	E-Physical Device
+via	O
+either	O
+the	O
+PCI	E-Shared Phenomena
+or	O
+ISA	B-Shared Phenomena
+busses	E-Shared Phenomena
+.	O
+
+Alternative	O
+communication	O
+paths	O
+may	O
+be	O
+through	O
+a	O
+serial	O
+or	O
+parallel	O
+connection	O
+as	O
+required	O
+.	O
+
+The	B-Physical Device
+CMIB	E-Physical Device
+shall	O
+be	O
+capable	O
+of	O
+reading	O
+a	B-Shared Phenomena
+16	M-Shared Phenomena
+-	M-Shared Phenomena
+bit	M-Shared Phenomena
+identifier	E-Shared Phenomena
+from	O
+the	B-Physical Device
+host	M-Physical Device
+correlator	M-Physical Device
+board	M-Physical Device
+.	E-Physical Device
+
+This	O
+identifier	O
+will	O
+be	O
+used	O
+to	O
+form	O
+a	O
+unique	O
+IP	O
+address	O
+for	O
+CMIB	O
+network	O
+addressing	O
+and	O
+allow	O
+carry	O
+over	O
+IP	O
+addressing	O
+for	O
+hot	O
+swap	O
+modules	O
+.	O
+
+The	B-Physical Device
+CMIB	E-Physical Device
+shall	O
+be	O
+able	O
+to	O
+read	O
+back	O
+the	B-Shared Phenomena
+contents	E-Shared Phenomena
+of	O
+all	B-Physical Device
+writeable	M-Physical Device
+hardware	M-Physical Device
+control	M-Physical Device
+registers	E-Physical Device
+where	O
+meaningful	O
+.	O
+
+It	O
+is	O
+desired	O
+that	O
+the	B-Shared Phenomena
+state	E-Shared Phenomena
+of	O
+the	O
+correlator	M-Physical Device
+hardware	E-Physical Device
+be	O
+available	O
+through	O
+interrogation	O
+across	O
+the	O
+CMIB	E-Physical Device
+bus	O
+for	O
+monitoring	B-System Requirements
+and	M-System Requirements
+fault	M-System Requirements
+tolerance	E-System Requirements
+.	O
+
+The	B-Physical Device
+CMIB	E-Physical Device
+shall	O
+have	O
+control	O
+of	O
+hardware	M-System Requirements
+warm	M-System Requirements
+boots	O
+such	O
+that	O
+an	B-Shared Phenomena
+external	M-Shared Phenomena
+command	E-Shared Phenomena
+from	O
+the	B-Physical Device
+Master	M-Physical Device
+Correlator	M-Physical Device
+Control	M-Physical Device
+Computer	E-Physical Device
+to	B-System Requirements
+reboot	O
+the	O
+CMIB	O
+shall	O
+have	O
+an	O
+option	O
+to	O
+force	M-System Requirements
+a	M-System Requirements
+hardware	O
+warm	O
+boot	E-System Requirements
+.	O
+
+The	B-Physical Device
+carrier	M-Physical Device
+board	M-Physical Device
+for	M-Physical Device
+the	M-Physical Device
+CMIB	M-Shared Phenomena
+shall	O
+have	O
+an	O
+externally	O
+visible	B-Physical Device
+indicator	E-Physical Device
+that	O
+will	O
+provide	O
+a	B-Shared Phenomena
+user	E-Environment Object
+with	O
+a	O
+physical	M-Shared Phenomena
+indication	M-Shared Phenomena
+of	M-Shared Phenomena
+CMIB	O
+operational	M-Shared Phenomena
+status	E-Shared Phenomena
+.	O
+
+Where	O
+applicable	O
+,	O
+all	O
+computers	O
+and	O
+peripherals	O
+shall	O
+be	O
+powered	O
+though	O
+UPS	O
+type	O
+devices	O
+with	O
+sufficient	O
+capacity	O
+for	O
+the	O
+computers	O
+to	O
+safely	O
+coordinate	O
+a	O
+system	O
+wide	O
+shutdown	O
+of	O
+the	O
+correlator	O
+hardware	O
+in	O
+the	O
+event	O
+of	O
+a	O
+prolonged	O
+power	O
+outage	O
+.	O
+
+The	B-Physical Device
+UPS	M-Physical Device
+devices	E-Physical Device
+need	O
+the	B-Software System
+ability	O
+to	O
+signal	S-Shared Phenomena
+the	O
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+when	O
+a	O
+power	E-Shared Phenomena
+outage	O
+has	O
+occurred	O
+and	O
+keep	O
+the	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+apprised	O
+of	O
+time	B-Shared Phenomena
+remaining	M-Shared Phenomena
+on	M-Shared Phenomena
+backup	M-Shared Phenomena
+power	O
+.	O
+
+All	B-Physical Device
+computers	E-Physical Device
+within	O
+the	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-System Requirements
+Control	M-Software System
+System	E-Software System
+system	O
+shall	O
+have	O
+the	O
+ability	O
+for	O
+authorized	O
+users	S-Environment Object
+to	O
+directly	O
+access	O
+individual	O
+systems	O
+for	O
+maintenance	B-System Requirements
+and	O
+monitoring	M-System Requirements
+through	M-System Requirements
+remote	M-System Requirements
+logins	E-System Requirements
+.	O
+
+Each	B-Physical Device
+computer	M-Physical Device
+system	E-Physical Device
+in	O
+the	M-System Requirements
+Correlator	M-System Requirements
+Monitor	M-System Requirements
+and	M-System Requirements
+Control	M-System Requirements
+System	E-System Requirements
+shall	O
+have	O
+a	O
+hardware	O
+based	O
+watchdog	B-Physical Device
+timer	E-Physical Device
+configured	O
+to	O
+reboot	B-System Requirements
+the	O
+EVLA	M-System Requirements
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+in	O
+the	O
+case	O
+of	O
+a	O
+system	O
+hang	O
+.	O
+
+Reboots	O
+should	O
+result	O
+in	O
+minimal	O
+system	O
+interruptions	O
+with	O
+the	O
+offending	O
+CPU	O
+reconfiguring	O
+and	O
+returning	O
+to	O
+service	O
+autonomously	O
+.	O
+
+The	O
+CMIB	O
+shall	O
+conform	O
+to	O
+both	O
+electrical	O
+and	O
+physical	O
+The	O
+CMIB	O
+shall	O
+contain	O
+64	O
+Mbytes	O
+or	O
+greater	O
+of	O
+SDRAM	O
+,	O
+IDE	O
+hard	O
+disk	O
+interface	O
+,	O
+minimum	O
+of	O
+one	O
+serial	O
+and	O
+one	O
+parallel	O
+interface	O
+,	O
+PCI	O
+/	O
+ISA	O
+buses	O
+,	O
+100BaseT	O
+network	O
+interface	O
+,	O
+capacity	O
+to	O
+boot	O
+and	O
+run	O
+a	O
+generic	O
+COTS	O
+operating	O
+system	O
+in	O
+a	O
+near	O
+real	O
+-	O
+time	O
+environment	O
+from	O
+local	O
+non	O
+-	O
+volatile	O
+storage	O
+.	O
+
+The	O
+operating	O
+system	O
+/	O
+module	O
+combination	O
+shall	O
+be	O
+capable	O
+of	O
+supporting	O
+the	O
+real	O
+-	O
+time	O
+requirements	O
+of	O
+the	O
+correlator	O
+hardware	O
+,	O
+hardware	O
+monitor	O
+/	O
+control	O
+/	O
+diagnostics	O
+with	O
+support	O
+for	O
+standalone	O
+test	O
+bench	O
+operation	O
+with	O
+simulated	O
+control	O
+data	O
+generation	O
+,	O
+and	O
+the	O
+ability	O
+to	O
+access	O
+and	O
+upgrade	O
+correlator	O
+hardware	O
+The	O
+Master	O
+Correlator	O
+Control	O
+Computer	O
+shall	O
+be	O
+a	O
+high	O
+availability	O
+type	O
+general	O
+-	O
+purpose	O
+computer	O
+capable	O
+of	O
+supporting	O
+multiple	O
+Ethernet	O
+interfaces	O
+,	O
+COTS	O
+operating	O
+systems	O
+,	O
+and	O
+support	O
+server	O
+/	O
+host	O
+services	O
+for	O
+the	O
+CMIB	O
+operating	O
+system	O
+.	O
+
+This	B-Physical Device
+computer	E-Physical Device
+may	O
+exist	O
+as	O
+a	O
+hot	O
+swappable	O
+or	O
+redundant	O
+CPU	B-Physical Device
+device	E-Physical Device
+capable	O
+of	O
+self	B-System Requirements
+-	M-System Requirements
+healing	E-System Requirements
+where	O
+possible	O
+.	O
+
+The	B-Physical Device
+Master	M-Physical Device
+Correlator	M-Physical Device
+Control	M-Physical Device
+Computer	E-Physical Device
+shall	O
+have	O
+all	O
+required	O
+disk	S-External System
+and	M-System Requirements
+file	B-External System
+system	M-External System
+facilities	E-External System
+installed	O
+locally	O
+such	O
+that	O
+the	B-Software System
+EVLA	M-Software System
+Correlator	O
+Monitor	M-Software System
+and	O
+Control	O
+System	E-Software System
+can	O
+boot	B-System Requirements
+and	O
+run	M-System Requirements
+in	M-System Requirements
+a	M-System Requirements
+stand	M-System Requirements
+-	M-System Requirements
+alone	M-System Requirements
+configuration	E-System Requirements
+.	O
+
+This	O
+should	O
+allow	O
+the	B-External System
+correlator	M-External System
+CMIBs	E-Physical Device
+to	O
+boot	O
+,	O
+configure	O
+,	O
+and	M-External System
+run	O
+without	O
+any	O
+communication	O
+outside	O
+of	O
+the	O
+correlator	O
+Monitor	M-External System
+and	O
+Control	M-External System
+System	M-External System
+network	E-External System
+.	O
+
+The	B-Physical Device
+Correlator	M-Physical Device
+Power	M-Physical Device
+Control	M-Physical Device
+Computer	E-Physical Device
+shall	O
+be	O
+a	B-External System
+high	O
+availability	O
+type	O
+general	O
+purpose	O
+computer	O
+capable	O
+of	O
+supporting	O
+a	O
+COTS	M-External System
+operating	M-External System
+system	E-External System
+and	O
+have	O
+the	O
+ability	O
+to	O
+accept	O
+a	O
+large	O
+number	O
+of	O
+external	B-Shared Phenomena
+hardware	M-Shared Phenomena
+status	M-Shared Phenomena
+signals	E-Shared Phenomena
+either	O
+directly	O
+or	O
+through	O
+external	O
+interface	M-Physical Device
+hardware	O
+.	O
+
+This	B-Physical Device
+computer	E-Physical Device
+may	O
+exist	O
+as	O
+a	O
+hot	O
+swappable	O
+or	O
+redundant	O
+CPU	B-Physical Device
+device	E-Physical Device
+capable	O
+of	O
+self	B-System Requirements
+-	M-System Requirements
+healing	E-System Requirements
+where	O
+possible	O
+.	O
+
+The	B-Physical Device
+Correlator	M-Physical Device
+Power	M-Physical Device
+Control	M-Physical Device
+Computer	E-Physical Device
+shall	O
+have	O
+all	O
+required	O
+disk	S-External System
+and	M-System Requirements
+file	B-External System
+system	M-External System
+facilities	E-External System
+installed	O
+locally	O
+such	O
+that	O
+the	B-Software System
+EVLA	M-Software System
+Correlator	O
+Monitor	M-Software System
+and	O
+Control	O
+System	E-Software System
+can	O
+boot	B-System Requirements
+and	O
+run	M-System Requirements
+in	M-System Requirements
+a	M-System Requirements
+stand	M-System Requirements
+-	M-System Requirements
+alone	M-System Requirements
+configuration	E-System Requirements
+.	O
+
+This	O
+requirement	O
+is	O
+to	O
+allow	O
+correlator	O
+power	O
+monitoring	O
+and	O
+control	O
+to	O
+continue	O
+in	O
+the	O
+event	O
+of	O
+an	O
+Monitor	O
+and	O
+Control	O
+System	O
+network	O
+failure	O
+.	O
+
+The	B-Physical Device
+Correlator	M-Physical Device
+Monitor	M-Physical Device
+and	M-Physical Device
+Control	M-Physical Device
+System	E-Physical Device
+processors	E-Physical Device
+shall	O
+be	O
+capable	O
+of	O
+meeting	O
+all	B-Shared Phenomena
+data	M-Shared Phenomena
+processing	M-Shared Phenomena
+deadlines	E-Shared Phenomena
+and	O
+anticipated	B-Shared Phenomena
+future	M-Shared Phenomena
+requirements	E-Shared Phenomena
+The	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+processors	O
+shall	O
+be	O
+capable	O
+of	O
+responding	O
+to	B-System Requirements
+correlator	B-Shared Phenomena
+hardware	M-Shared Phenomena
+inputs	E-Shared Phenomena
+in	O
+a	O
+deterministic	O
+fashion	O
+with	O
+sufficient	O
+performance	O
+to	O
+avoid	M-System Requirements
+data	O
+loss	M-System Requirements
+,	M-System Requirements
+corruption	M-System Requirements
+or	M-System Requirements
+overflows	E-System Requirements
+.	O
+
+All	O
+lower	O
+system	O
+error	S-Shared Phenomena
+and	O
+debug	B-Shared Phenomena
+messages	E-Shared Phenomena
+shall	O
+be	O
+present	O
+at	O
+the	B-Software System
+Master	M-Software System
+Correlator	M-Software System
+Control	M-Software System
+Computer	M-Software System
+layer	E-Software System
+.	O
+
+Aside	O
+from	O
+a	O
+networking	O
+or	O
+CPU	O
+failure	O
+,	O
+it	O
+should	O
+never	O
+be	O
+necessary	O
+to	O
+directly	O
+access	O
+a	O
+CPU	O
+to	O
+display	O
+error	O
+messages	O
+.	O
+
+All	O
+system	O
+error	O
+and	O
+debug	O
+messages	O
+shall	O
+be	O
+categorized	O
+in	O
+a	O
+logical	O
+fashion	O
+such	O
+that	O
+message	O
+traffic	O
+can	O
+be	O
+filtered	O
+as	O
+to	O
+content	O
+,	O
+detail	O
+,	O
+and	O
+message	O
+rate	O
+.	O
+
+Personnel	O
+interested	O
+in	O
+error	O
+messages	O
+should	O
+be	O
+able	O
+to	O
+easily	O
+filter	O
+the	O
+error	O
+message	O
+stream	O
+.	O
+
+All	O
+messages	S-Shared Phenomena
+passed	O
+between	O
+Correlator	B-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	M-Software System
+system	M-Software System
+layers	E-Software System
+shall	O
+have	O
+both	O
+UTC	O
+and	O
+wall	O
+clock	O
+time	O
+stamp	O
+information	O
+appropriate	O
+for	O
+the	O
+message	O
+type	O
+.	O
+
+Error	O
+messages	O
+will	O
+be	O
+stamped	O
+with	O
+their	O
+discovery	O
+time	O
+,	O
+control	O
+messages	O
+will	O
+be	O
+stamped	O
+with	O
+their	O
+generation	O
+time	O
+.	O
+
+Other	O
+message	O
+internal	O
+time	O
+stamps	O
+can	O
+be	O
+used	O
+as	O
+monitor	O
+/	O
+control	O
+parameters	O
+as	O
+deemed	O
+necessary	O
+.	O
+
+Software	S-External System
+shall	O
+be	O
+provided	O
+that	O
+allows	O
+an	B-Environment Object
+authorized	M-Environment Object
+user	E-Environment Object
+full	O
+access	B-System Requirements
+to	M-System Requirements
+all	M-System Requirements
+messaging	M-System Requirements
+,	M-System Requirements
+monitor	B-System Requirements
+,	O
+and	M-System Requirements
+control	M-System Requirements
+traffic	E-System Requirements
+.	O
+
+This	B-External System
+software	E-External System
+will	O
+provide	O
+full	B-Shared Phenomena
+system	M-Shared Phenomena
+access	E-Shared Phenomena
+for	O
+testing	O
+,	O
+debugging	O
+,	O
+and	M-Software System
+control	O
+while	O
+the	B-Physical Device
+correlator	E-Physical Device
+is	O
+off	O
+line	O
+or	O
+under	O
+the	O
+control	O
+of	O
+the	O
+VLA	M-Software System
+Expansion	M-Software System
+Project	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	M-Software System
+system	O
+.	O
+
+A	O
+Graphical	O
+User	O
+Interface	O
+shall	O
+be	O
+provided	O
+as	O
+an	O
+interface	O
+to	O
+the	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+test	O
+software	O
+that	O
+allows	O
+for	O
+a	O
+convenient	O
+and	O
+configurable	O
+tool	O
+to	O
+access	O
+the	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+remotely	O
+through	O
+the	O
+VCI	O
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+shall	O
+be	O
+self	B-System Requirements
+-	M-System Requirements
+monitoring	E-System Requirements
+.	O
+
+It	O
+will	O
+be	O
+capable	O
+of	O
+detecting	O
+,	O
+reporting	O
+on	O
+and	O
+automatically	O
+taking	O
+action	O
+to	O
+remedy	O
+or	O
+lessen	O
+the	O
+impact	O
+of	O
+the	O
+following	O
+types	O
+of	O
+abnormal	O
+conditions	O
+:	O
+processor	O
+hardware	O
+failure	O
+,	O
+operating	O
+system	O
+hangs	O
+or	O
+crashes	O
+,	O
+temperature	O
+or	O
+voltage	O
+deviations	O
+,	O
+computational	O
+performance	O
+below	O
+minimum	O
+specifications	O
+,	O
+computational	O
+error	O
+rates	O
+above	O
+maximum	O
+specification	O
+,	O
+internal	O
+communications	O
+failures	O
+.	O
+
+The	O
+software	O
+part	O
+of	O
+the	O
+EVLA	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+shall	O
+be	O
+able	O
+to	O
+perform	O
+without	O
+total	O
+system	O
+restart	O
+due	O
+to	O
+internal	O
+failure	O
+between	O
+system	O
+maintenance	O
+windows	O
+.	O
+
+The	O
+hardware	O
+part	O
+of	O
+the	B-Software System
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Physical Device
+Control	M-Software System
+System	E-Software System
+shall	O
+be	O
+able	O
+to	O
+perform	O
+indefinitely	O
+without	O
+complete	O
+loss	O
+of	O
+service	O
+,	O
+except	O
+in	O
+the	O
+event	O
+of	O
+total	O
+failure	O
+of	O
+primary	B-Physical Device
+and	O
+backup	M-Physical Device
+power	E-Physical Device
+.	O
+
+The	B-Software System
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+shall	O
+be	O
+able	O
+to	O
+continue	O
+processing	O
+of	O
+all	B-Shared Phenomena
+correlator	M-Shared Phenomena
+configuration	M-Shared Phenomena
+/	M-Shared Phenomena
+control	M-Shared Phenomena
+events	E-Shared Phenomena
+until	O
+the	O
+queues	O
+of	O
+parameters	O
+are	O
+exhausted	O
+and	O
+external	O
+communications	O
+are	O
+restored	O
+.	O
+
+The	B-Software System
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+shall	O
+be	O
+able	O
+to	O
+sit	O
+at	O
+idle	O
+and	O
+resume	O
+operations	O
+with	O
+minimal	O
+delay	O
+.	O
+
+All	O
+system	O
+processing	O
+and	O
+interconnect	O
+hardware	O
+shall	O
+be	O
+readily	O
+accessible	O
+for	O
+maintenance	O
+,	O
+repair	O
+,	O
+replacement	O
+and	O
+reconfiguration	O
+.	O
+
+This	O
+excludes	O
+items	O
+that	O
+due	O
+to	O
+their	O
+physical	O
+location	O
+,	O
+are	O
+not	O
+practical	O
+to	O
+configure	O
+for	O
+ready	O
+access	O
+.	O
+
+All	O
+systems	O
+and	O
+application	O
+source	O
+code	O
+shall	O
+be	O
+available	O
+to	O
+or	O
+on	O
+the	O
+EVLA	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+Systems	O
+that	O
+execute	O
+it	O
+.	O
+
+All	O
+software	O
+application	O
+modules	O
+shall	O
+be	O
+debuggable	O
+.	O
+
+They	O
+should	O
+be	O
+organized	O
+such	O
+that	O
+all	O
+inputs	O
+and	O
+outputs	O
+can	O
+be	O
+simulated	O
+if	O
+necessary	O
+.	O
+
+All	O
+software	O
+processes	O
+shall	O
+be	O
+killable	O
+,	O
+restartable	O
+,	O
+debuggable	O
+and	O
+testable	O
+with	O
+minimal	O
+impact	O
+on	O
+normal	O
+system	O
+operations	O
+.	O
+
+Software	O
+tools	O
+and	O
+pre	O
+-	O
+built	O
+applications	O
+that	O
+do	O
+not	O
+have	O
+source	O
+code	O
+available	O
+shall	O
+come	O
+with	O
+a	O
+complete	O
+diagnostic	O
+package	O
+and	O
+customer	O
+support	O
+.	O
+
+Operating	O
+system	O
+software	O
+shall	O
+either	O
+have	O
+source	O
+code	O
+available	O
+or	O
+come	O
+with	O
+sufficient	O
+diagnostics	O
+and	O
+customer	O
+support	O
+.	O
+
+I	O
+/	O
+O	O
+,	O
+communications	O
+,	O
+and	O
+processing	O
+hardware	O
+shall	O
+be	O
+easily	O
+expandable	O
+,	O
+reconfigurable	O
+,	O
+augmentable	O
+and	O
+replaceable	O
+to	O
+meet	O
+increasing	O
+data	O
+traffic	O
+and	O
+processing	O
+demands	O
+imposed	O
+by	O
+VLA	O
+Expansion	O
+Project	O
+science	O
+,	O
+Correlator	O
+changes	O
+,	O
+and	O
+availability	O
+of	O
+new	O
+hardware	O
+.	O
+
+Transparency	O
+shall	O
+be	O
+accomplished	O
+in	O
+manner	O
+that	O
+is	O
+transparent	O
+to	O
+processing	O
+,	O
+communications	O
+and	O
+I	O
+/	O
+O	O
+software	O
+functions	O
+with	O
+the	O
+possible	O
+exception	O
+of	O
+recompilation	O
+of	O
+executables	O
+.	O
+
+Seamlessness	O
+shall	O
+be	O
+accomplished	O
+in	O
+a	O
+manner	O
+that	O
+is	O
+seamless	O
+,	O
+in	O
+that	O
+it	O
+does	O
+not	O
+affect	O
+hardware	O
+modules	O
+or	O
+software	O
+functionality	O
+that	O
+it	O
+meets	O
+at	O
+interfaces	O
+.	O
+
+The	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+needs	O
+a	O
+robust	O
+security	O
+mechanism	O
+in	O
+place	O
+so	O
+that	O
+unauthorized	B-Environment Object
+users	E-Environment Object
+are	O
+not	O
+allowed	O
+access	O
+.	O
+
+Authorized	O
+users	O
+are	O
+expected	O
+to	O
+be	O
+restricted	O
+to	O
+software	O
+and	O
+hardware	O
+development	O
+,	O
+testing	O
+,	O
+maintenance	O
+and	O
+operations	O
+personnel	O
+.	O
+
+All	B-Environment Object
+users	E-Environment Object
+of	O
+the	B-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+must	O
+be	O
+uniquely	O
+identified	O
+.	O
+
+This	O
+could	O
+be	O
+done	O
+via	O
+a	O
+username	O
+and	O
+associated	O
+password	O
+scheme	O
+that	O
+would	O
+authenticate	O
+and	O
+authorize	O
+the	O
+user	O
+access	O
+to	O
+the	O
+EVLA	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+and	O
+,	O
+if	O
+applicable	O
+,	O
+grant	O
+the	O
+user	O
+access	O
+to	O
+restricted	O
+or	O
+controlled	O
+parts	O
+of	O
+the	O
+EVLA	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+.	O
+
+If	O
+a	B-Environment Object
+user	E-Environment Object
+cannot	O
+be	O
+identified	O
+,	O
+they	O
+will	O
+not	O
+be	O
+given	O
+access	S-Shared Phenomena
+.	O
+
+In	O
+order	O
+to	O
+monitor	O
+all	B-Shared Phenomena
+past	M-Shared Phenomena
+access	E-Shared Phenomena
+to	O
+the	B-Software System
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+,	O
+all	O
+attempts	E-Shared Phenomena
+to	O
+access	O
+the	O
+EVLA	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+should	O
+be	O
+logged	O
+.	O
+
+Users	S-Environment Object
+’	O
+needs	B-Shared Phenomena
+and	M-Shared Phenomena
+expectations	E-Shared Phenomena
+from	O
+the	B-Software System
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+will	O
+be	O
+different	O
+.	O
+
+Systems	O
+operations	O
+should	O
+be	O
+given	O
+unrestricted	O
+access	O
+to	O
+all	O
+aspects	O
+of	O
+the	O
+EVLA	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+and	O
+should	O
+have	O
+the	O
+authority	O
+to	O
+grant	O
+and	O
+revoke	O
+privileges	O
+on	O
+a	O
+per	O
+-	O
+user	O
+basis	O
+.	O
+
+Development	S-Environment Object
+,	O
+testing	B-Environment Object
+and	M-Environment Object
+maintenance	M-Environment Object
+personnel	E-Environment Object
+,	O
+on	O
+the	B-Software System
+other	O
+hand	O
+,	O
+require	O
+access	S-Shared Phenomena
+to	O
+some	O
+parts	O
+of	O
+the	O
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+,	O
+but	O
+not	O
+all	O
+,	O
+indicating	O
+that	O
+an	O
+access	O
+level	O
+is	O
+needed	O
+that	O
+allows	O
+privileges	O
+to	O
+be	O
+granted	O
+on	O
+a	O
+per	O
+-	O
+user	O
+and	O
+what	O
+-	O
+do	O
+-	O
+you	O
+-	O
+need	O
+-	O
+to	O
+-	O
+do	O
+basis	O
+.	O
+
+All	B-Environment Object
+users	E-Environment Object
+of	O
+the	B-Software System
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+shall	O
+login	O
+using	O
+some	O
+form	O
+of	O
+unique	B-Shared Phenomena
+identification	E-Shared Phenomena
+.	O
+
+All	O
+login	O
+attempts	O
+shall	O
+be	O
+done	O
+in	O
+a	O
+secure	O
+manner	O
+.	O
+
+A	B-Environment Object
+system	M-Environment Object
+administrator	E-Environment Object
+shall	O
+have	O
+unrestricted	B-Shared Phenomena
+access	E-Shared Phenomena
+to	O
+all	O
+aspects	O
+of	O
+the	B-Software System
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+.	O
+
+Each	B-Environment Object
+user	E-Environment Object
+shall	O
+have	O
+a	B-Shared Phenomena
+set	M-Shared Phenomena
+of	M-Shared Phenomena
+system	M-Shared Phenomena
+access	M-Shared Phenomena
+properties	E-Shared Phenomena
+that	O
+defines	O
+the	B-Software System
+user	O
+’	O
+s	O
+privileges	O
+within	O
+the	O
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+.	O
+
+The	B-Environment Object
+administrator	E-Environment Object
+shall	O
+have	O
+the	B-Software System
+ability	O
+to	O
+create	B-Shared Phenomena
+and	M-Shared Phenomena
+add	M-Shared Phenomena
+a	M-Shared Phenomena
+new	M-Shared Phenomena
+user	E-Shared Phenomena
+to	O
+the	O
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	O
+Control	M-Software System
+System	E-Software System
+.	O
+
+The	B-Environment Object
+administrator	E-Environment Object
+shall	O
+have	O
+the	B-Software System
+ability	O
+to	O
+remove	B-Shared Phenomena
+a	M-Shared Phenomena
+user	E-Shared Phenomena
+from	O
+the	O
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+.	O
+
+The	B-Environment Object
+administrator	E-Environment Object
+shall	O
+have	O
+the	O
+ability	O
+to	B-System Requirements
+edit	M-System Requirements
+a	M-System Requirements
+user	M-System Requirements
+’	M-System Requirements
+s	M-System Requirements
+system	M-System Requirements
+access	M-System Requirements
+properties	E-System Requirements
+.	O
+
+The	B-Environment Object
+administrator	E-Environment Object
+shall	O
+have	O
+the	B-Software System
+ability	O
+to	O
+block	B-Shared Phenomena
+all	M-Shared Phenomena
+access	E-Shared Phenomena
+to	O
+the	O
+EVLA	M-Software System
+Correlator	M-Software System
+Monitor	M-Software System
+and	M-Software System
+Control	M-Software System
+System	E-Software System
+for	O
+all	O
+users	E-Environment Object
+or	O
+selectively	O
+by	O
+user	O
+.	O
+
+The	O
+EVLA	O
+Correlator	O
+Monitor	O
+and	O
+Control	O
+System	O
+shall	O
+continue	O
+operations	O
+,	O
+although	O
+not	O
+Description	O
+necessarily	O
+at	O
+full	O
+capacity	O
+,	O
+on	O
+all	O
+unaffected	O
+resources	O
+during	O
+partial	O
+shutdowns	O
+for	O
+maintenance	O
+,	O
+repair	O
+and	O
+/	O
+or	O
+upgrade	O
+.	O
+
+Replaceability	O
+modular	O
+design	O
+principles	O
+shall	O
+be	O
+employed	O
+to	O
+the	O
+maximum	O
+extent	O
+possible	O
+.	O
+
+Maximal	O
+practical	O
+use	O
+of	O
+available	O
+hot	O
+swappable	O
+devices	O
+and	O
+components	O
+shall	O
+be	O
+made	O
+.	O
+
+Complete	O
+and	O
+comprehensible	O
+hardware	O
+systems	O
+specifications	O
+and	O
+configuration	O
+information	O
+shall	O
+be	O
+readily	O
+available	O
+.	O
+
+Software	O
+system	O
+and	O
+application	O
+code	O
+shall	O
+be	O
+well	O
+documented	O
+and	O
+written	O
+in	O
+a	O
+generally	O
+familiar	O
+language	O
+or	O
+languages	O
+.	O
+
+Software	O
+shall	O
+be	O
+written	O
+in	O
+a	O
+style	O
+that	O
+is	O
+easily	O
+readable	O
+and	O
+using	O
+practices	O
+that	O
+allow	O
+for	O
+minimal	O
+confusion	O
+.	O
+

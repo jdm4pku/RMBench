@@ -1,0 +1,1182 @@
+[
+  {
+    "entity": {
+      "Software System": [
+        "the ASPERA-3 Processing and Archiving Facility (APAF) ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "Mars Express",
+        "ASPERA-3 instrument package"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "European Space Agency (ESA)"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "ASPERA-3"
+      ],
+      "Environment Object": [
+        "particles",
+        "neutral atoms",
+        "fields",
+        "near Martian environment"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Southwest Research Institute"
+      ],
+      "External System": [
+        "data system"
+      ],
+      "System Requirements": [
+        "produce data products in a form suitable for analysis and archiving"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Instrument Data File Set (IDFS)"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "processing all of the ASPERA-3 telemetry"
+      ],
+      "Shared Phenomena": [
+        "telemetry"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF data system",
+        "IDFS data sets",
+        "ASPERA-3 team",
+        "SwRI archive",
+        "PDS"
+      ],
+      "Physical Device": [
+        "NISN",
+        "local SwRI archive"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "web-based displays",
+        "PDS"
+      ],
+      "System Requirements": [
+        "acquires the telemetry data",
+        "processes the data into IDFS data sets",
+        "distributes the IDFS data sets to the ASPERA-3 team",
+        "provides web-based displays of the most current data for public view",
+        "stores the telemetry and IDFS data sets on a local SwRI archive",
+        "submits the ASPERA-3 IDFS data sets to PDS for long-term archival"
+      ],
+      "Shared Phenomena": [
+        "telemetry data",
+        "IDFS data sets"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "physical instruments"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "Electron Spectrometer(ELS)",
+        "Ion Mass Analyzer(IMA)",
+        "Neutral Particle Detector(NPD)",
+        "Neutral Particle Imager(NPI)",
+        "Scanning Unit(SU)"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "Data Processing Unit(DPU)",
+        "Orbit/Attitude(OA)"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "physical components"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide data processing algorithms and support"
+      ],
+      "Shared Phenomena": [
+        "data processing algorithms",
+        "support",
+        "Mission Operations and Data Analysis (MO&DA) phase of the Mars Express mission"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the APAF"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "NASA Planetary Data System (PDS)"
+      ],
+      "System Requirements": [
+        "validation and archiving of all ASPERA-3 scientific data in the NASA Planetary Data System (PDS) within 6 months of receipt in a form useable by the general scientific community"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ESOC",
+        "Mars Express"
+      ],
+      "System Requirements": [
+        "acquire from ESOC the telemetry data of the ASPERA-3 Experiment and Mars Express Orbit/Attitude to automatically process the data on a daily basis"
+      ],
+      "Shared Phenomena": [
+        "telemetry data of the ASPERA-3 Experiment",
+        "Mars Express Orbit/Attitude"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "all ASPERA-3 science data",
+        "IDFS data sets"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "IDFS data sets"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "engineering and ancillary information necessary for calibration and science validation"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ESOC"
+      ],
+      "System Requirements": [
+        "support the ASPERA-3 team in meeting mission goals and objectives"
+      ],
+      "Shared Phenomena": [
+        "cleaned-up ASPERA-3 and MEX OA telemetry",
+        "cleaned-up telemetry"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "ASPERA-3",
+        "MEX OA"
+      ],
+      "External System": [
+        "local SwRI archive"
+      ],
+      "System Requirements": [
+        "shall be stored on a local SwRI archive for data availability and re-processing"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "ASPERA-3",
+        "MEX OA IDFS data sets"
+      ],
+      "External System": [
+        "local SwRI archive"
+      ],
+      "System Requirements": [
+        "stored on a local SwRI archive for data availability and analysis"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "APAF-generated intermediate files of ASPERA-3 and MEX OA cleaned-up telemetry"
+      ],
+      "External System": [
+        "local SwRI archive"
+      ],
+      "System Requirements": [
+        "stored on a local SwRI archive for data availability and re-processing, and to support the ASPERA-3 team"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Web-based displays"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ASPERA-3 data"
+      ],
+      "System Requirements": [
+        "be provided for public view to monitor instrument performance"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Web-based displays defined by ASPERA-3 team"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ASPERA-3 data"
+      ],
+      "System Requirements": [
+        "be provided where any available ASPERA-3 data (as opposed to just the most current) can be used for science analysis to support the ASPERA-3 team in meeting mission goals and objectives"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "web-based displays"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ASPERA-3 team"
+      ],
+      "System Requirements": [
+        "password protected until the ASPERA-3 data is made public"
+      ],
+      "Shared Phenomena": [
+        "science analysis",
+        "mission goals and objectives"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "have built-in error handling for better data integrity"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "IDFS data access software developed by SwRI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "ASPERA-3 team"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to support the ASPERA-3 team in meeting mission goals and objectives"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Science analysis software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "analyze IDFS-formatted data"
+      ],
+      "Shared Phenomena": [
+        "IDFS-formatted data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "All internal data requirements are left to the design"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "the virtual instrument data items"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the privacy of the APAF ground data system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Privacy Requirement"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The APAF system web server"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "ASPERA-3 team members"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "password protection"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "computer hardware"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "computer software",
+        "computer communication"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF system development computer"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF system production computer"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "an archival system"
+      ],
+      "System Requirements": [
+        "There shall be a UNIX-based APAF system production computer with an archival system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "a web server"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "for data transfers and distribution"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "SwRI software team"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide system maintenance and software support"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide APAF system maintenance"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "SwRI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the APAF data system"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "ASPERA-3"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "ASPERA-3 IDFS data"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to support the ASPERA-3 team in meeting MEX mission goals and objectives"
+      ],
+      "Shared Phenomena": [
+        "ASPERA-3 telemetry"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ASPERA-3 Co-I’s"
+      ],
+      "System Requirements": [
+        "to support the ASPERA-3 team in meeting MEX mission goals and objectives"
+      ],
+      "Shared Phenomena": [
+        "MEX OA IDFS data",
+        "MEX OA telemetry"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "APAF-generated intermediate files",
+        "ASPERA-3 Co-I’s",
+        "MEX mission goals and objectives"
+      ],
+      "System Requirements": [
+        "to support the ASPERA-3 team in meeting MEX mission goals and objectives"
+      ],
+      "Shared Phenomena": [
+        "electronic distribution",
+        "acquiring ASPERA-3 and MEX OA telemetry",
+        "transmission and processing are error-free"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "ASPERA-3 IDFS data",
+        "MEX OA IDFS data"
+      ],
+      "External System": [
+        "NASA PDS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "ASPERA-3 data"
+      ],
+      "External System": [
+        "NASA PDS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "NASA PDS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "ASPERA-3 data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "ASPERA-3"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "NASA PDS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "IDFS",
+        "IRF"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "data processing algorithms"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Science analysis software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "NASA approved data repository"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "IDFS data access software developed by SwRI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "ASPERA-3 team"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to support the ASPERA-3 team in meeting mission goals and objectives"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Science analysis software developed by SwRI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be made avaiable to the ASPERA=3 Co-I’s to support the ASPERA-3 team in meeting mission goals and objectives"
+      ],
+      "Shared Phenomena": [
+        "IDFS-formatted data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ASPERA-3",
+        "MEX"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "data and exactly what data sets are to be distributed to each Co-I"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "APAF Operation Procedures Document"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The APAF data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the APAF data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the APAF Operations Procedures Document"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The APAF data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF ground data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "APAF data system"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the APAF data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "reliability",
+        "maintainability",
+        "availability",
+        "flexibility",
+        "portability",
+        "testability",
+        "usability"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "SwRI software team",
+        "APAF data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the APAF system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "APAF data system"
+      ],
+      "System Requirements": [
+        "installation and operations procedures of the APAF system in enough detail where there are no training-related requirements for users and operators of the APAF data system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "APAF data system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  }
+]

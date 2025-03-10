@@ -1,0 +1,1682 @@
+[
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the Center-to-Center (C2C) Communications Network",
+          "a Texas Department of Transportation (TxDOT) C2C project"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "TMCs",
+          "device control information"
+        ],
+        [
+          "This Center-to-Center infrastructure",
+          "traffic data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "Center-to-Center infrastructure",
+          "the existing systems"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the existing system",
+          "The data"
+        ],
+        [
+          "these interfaces",
+          "The data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the software",
+          "the configuration parameters"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The software",
+          "building block of operation"
+        ],
+        [
+          "a building block",
+          "building block of operation"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "Any data",
+          "the “cloud”"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "Systems",
+          "a project defined protocol"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomened Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "the information about each lane closure"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "lane closure id"
+        ],
+        [
+          "The Center",
+          "closure description"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "LCS identifier,"
+        ],
+        [
+          "The Center",
+          "LCS name"
+        ],
+        [
+          "The Center",
+          "Location"
+        ],
+        [
+          "The Center",
+          "Status"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "the status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "Ramp Meter identifier"
+        ],
+        [
+          "The Center",
+          "Ramp Meter name"
+        ],
+        [
+          "The Center",
+          "Location"
+        ],
+        [
+          "The Center",
+          "Status"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "HAR identifier"
+        ],
+        [
+          "The Center",
+          "HAR name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "traffic signal identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "traffic signal plan identifier"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "each ESS"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "environmental sensor identifier"
+        ],
+        [
+          "The Center",
+          "environment sensor name"
+        ],
+        [
+          "The Center",
+          "type"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "each HOV"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "HOV identifier"
+        ],
+        [
+          "The Center",
+          "HOV name"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "status"
+        ],
+        [
+          "The Center",
+          "plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "HOV Lane identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "lane plan"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the Center",
+          "To support HOV Lane control in other centers"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "school zone identifier"
+        ],
+        [
+          "The Center",
+          "school zone name"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "school zone identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "plan"
+        ],
+        [
+          "a School Zone",
+          "device control command"
+        ],
+        [
+          "a School Zone",
+          "network identifier"
+        ],
+        [
+          "a School Zone",
+          "school zone identifier"
+        ],
+        [
+          "a School Zone",
+          "username"
+        ],
+        [
+          "a School Zone",
+          "password"
+        ],
+        [
+          "a School Zone",
+          "plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "rail crossing identifier"
+        ],
+        [
+          "The Center",
+          "rail crossing name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the Center",
+          "Dynamic Lane"
+        ],
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "dynamic lane identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "lane plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "bus identifier"
+        ],
+        [
+          "The Center",
+          "bus name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "schedule adherece"
+        ],
+        [
+          "Bus Location",
+          "status information"
+        ],
+        [
+          "Bus Location",
+          "network identifier"
+        ],
+        [
+          "Bus Location",
+          "link identifier"
+        ],
+        [
+          "Bus Location",
+          "bus identifier"
+        ],
+        [
+          "Bus Location",
+          "bus name"
+        ],
+        [
+          "Bus Location",
+          "location"
+        ],
+        [
+          "Bus Location",
+          "schedule adherece"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "commuter or light rail stop identifier"
+        ],
+        [
+          "The Center",
+          "commuter or light rail stop name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "routes"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "commuter or light rail identifier"
+        ],
+        [
+          "The Center",
+          "commuter or light rail name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "schedule adherence"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "park and ride lot identifier"
+        ],
+        [
+          "The Center",
+          "park and ride lot name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ],
+        [
+          "The Center",
+          "capacity"
+        ],
+        [
+          "Park and Ride Lot",
+          "status information"
+        ],
+        [
+          "Park and Ride Lot",
+          "network identifier"
+        ],
+        [
+          "Park and Ride Lot",
+          "park and Ride Lot identifier"
+        ],
+        [
+          "Park and Ride Lot",
+          "park and ride lot name"
+        ],
+        [
+          "Park and Ride Lot",
+          "location"
+        ],
+        [
+          "Park and Ride Lot",
+          "status"
+        ],
+        [
+          "Park and Ride Lot",
+          "capacity"
+        ]
+      ]
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "vehicle identifier"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "intersection identifier"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "Center",
+          "information for command timeframe request"
+        ],
+        [
+          "Center",
+          "network identifier"
+        ],
+        [
+          "Center",
+          "device type"
+        ],
+        [
+          "The device status requestor",
+          "information for command timeframe request"
+        ],
+        [
+          "The device status requestor",
+          "network identifier"
+        ],
+        [
+          "The device status requestor",
+          "device type"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "DATEX/ASN",
+          "the TMDD message sets"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "TCP/IP",
+          "DATEX/ASN data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Web Map application",
+          "a map"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The map",
+          "the traffic conditions"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The map",
+          "interstates and state highways"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "GeoData warehouse",
+          "The basemap data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The map user",
+          "the map"
+        ],
+        [
+          "the map",
+          "the current magnification"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The map user",
+          "the map"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "Each link",
+          "the map"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "A configuration file",
+          "specific speed values"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the Center-to-Center Project",
+          "the current incidents"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The user",
+          "an incident icon"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The map",
+          "DMS"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The Incident GUI",
+          "an Center"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "information for each incident"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "information for each lane closure"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The GUI",
+          "a list of previously entered incidents"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The GUI",
+          "delete a previously entered incident"
+        ],
+        [
+          "a user",
+          "delete a previously entered incident"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "delete a previously entered lane closure"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "delete a previously entered lane closure"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "a public network",
+          "The remote Center Control GUI"
+        ],
+        [
+          "The remote Center Control GUI",
+          "the C-2-C software system"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements interface": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The user",
+          "a network identifier"
+        ],
+        [
+          "a device command/control request",
+          "a network identifier"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target DMS"
+        ],
+        [
+          "an Center",
+          "Message to be displayed"
+        ],
+        [
+          "an Center",
+          "Beacons On/Off"
+        ],
+        [
+          "the user",
+          "Target DMS"
+        ],
+        [
+          "the user",
+          "Message to be displayed"
+        ],
+        [
+          "the user",
+          "Beacons On/Off"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "a CCTV switching command"
+        ],
+        [
+          "the user",
+          "a CCTV switching command"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the user",
+          "a CCTV switching command"
+        ],
+        [
+          "an Center",
+          "a CCTV switching command"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "the following information"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target Ramp Meter"
+        ],
+        [
+          "an Center",
+          "Plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "Target HAR"
+        ],
+        [
+          "the user",
+          "Text to be sent to the HAR"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "an Center",
+          "Target HAR"
+        ],
+        [
+          "an Center",
+          "Text to be sent to the HAR"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target Traffic Signal and Plan"
+        ],
+        [
+          "a Traffic Signal",
+          "Target Traffic Signal and Plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements interface": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target HOV and Plan"
+        ],
+        [
+          "a HOV",
+          "Target HOV and Plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target School Zone and Plan"
+        ],
+        [
+          "a School Zone",
+          "Target School Zone and Plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the Remote GUI",
+          "the GUI"
+        ],
+        [
+          "each device command/control status request",
+          "the status returned from the network identifier"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the Center-to-Center project",
+          "any computer"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "any computer",
+          "A DATEX/ASN runtime library"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The web server application",
+          "map images."
+        ]
+      ],
+      "requirements reference": [
+        [
+          "ESRI's ARC Internet Map Server (ARC IMS) product",
+          "map images."
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the Center-to-Center",
+          "data"
+        ],
+        [
+          "the Center-to-Center",
+          "the data"
+        ],
+        [
+          "the Incident GUI",
+          "data"
+        ],
+        [
+          "the Incident GUI",
+          "the data"
+        ],
+        [
+          "a single data store (database)",
+          "data"
+        ],
+        [
+          "a single data store (database)",
+          "the data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  }
+]

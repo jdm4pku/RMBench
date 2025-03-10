@@ -1,0 +1,4251 @@
+[
+    {
+        "text": "The main function of the sun search control system is to perform sun acquisition by collecting measurement data from gyroscopes and sun sensors to determine the current attitude of the satellite, and then control the satellite to rotate around the pitch or roll axis so that the sun sensor can detect the sun and maintain the spacecraft's sun-pointing attitude.\n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [
+                "gyroscopes",
+                "sun sensors",
+                "the sun sensor"
+            ],
+            "Environment Object": [
+                "the satellite",
+                "the spacecraft"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "to perform sun acquisition"
+            ],
+            "Shared Phenomena": [
+                "measurement data",
+                "the current attitude of the satellite"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "measurement data"
+                ],
+                [
+                    "the sun search control system",
+                    "the current attitude of the satellite"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "the sun search control system",
+                    "to perform sun acquisition"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system can receive ground commands through a serial port, perform command verification, and set the satellite's operating mode word.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun searchcontrol system sends a two-byte data acquisition command to the gyroscope through a serial port in each cycle, and then receives the gyroscope measurement data through another serial port. The serial port addresses used for sending and receiving commands are both 0x881.\n",
+        "entity": {
+            "Software System": [
+                "The sun searchcontrol system"
+            ],
+            "Physical Device": [
+                "the gyroscope"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "a two-byte data acquisition command",
+                "the gyroscope measurement data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun searchcontrol system",
+                    "a two-byte data acquisition command"
+                ],
+                [
+                    "the gyroscope",
+                    "a two-byte data acquisition command"
+                ],
+                [
+                    "the gyroscope",
+                    "the gyroscope measurement data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The angle measurement data is obtained by analog-to-digital conversion of the angle analog signal, which is a 12-bit measurement (offset binary code, range 0x000~0xFFF). \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system collects the SP signal and the tuning element state signal through a stored circuit.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "a stored circuit"
+            ],
+            "Environment Object": [
+                "the SP signal",
+                "the tuning element state signal"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "a stored circuit"
+                ],
+                [
+                    "The sun search control system",
+                    "the SP signal"
+                ],
+                [
+                    "The sun search control system",
+                    "the tuning element state signal"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The power status signal is collected by AD conversion. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "AD"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "The power status signal"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "AD",
+                    "The power status signal"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "When powered on, the sun search control system sends a gyroscope home appliance command (0xEB92) through a serial port, and then sends a gyroscope control command through another serial port with address 0x881A. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the sun search control system",
+                "a gyroscope home appliance command",
+                "a gyroscope control command"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "a serial port"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "a serial port"
+                ],
+                [
+                    "a serial port",
+                    "a gyroscope home appliance command"
+                ],
+                [
+                    "a serial port",
+                    "a gyroscope control command"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The interval between each byte sent is less than 5us.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun sensor switching instruction is 190ms, with a positive pulse of 1ms. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system controls the pulse output by writing the enable signal to the controller, as shown in the table below.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "the controller"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the pulse output",
+                "the enable signal"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the enable signal"
+                ],
+                [
+                    "The sun search control system",
+                    "the pulse output"
+                ],
+                [
+                    "the controller",
+                    "the enable signal"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search software controller consists of gyroscopes, sun sensors, three-axis control thrusters, and a data management computer. There are four sun sensors and nine gyroscopes in total.\n",
+        "entity": {
+            "Software System": [
+                "The sun search software controller"
+            ],
+            "Physical Device": [
+                "gyroscopes",
+                "sun sensors",
+                "three-axis control thrusters"
+            ],
+            "Environment Object": [],
+            "External System": [
+                "a data management computer"
+            ],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use a data management computer to receive ground operator commands for packaging telemetry data and sending telemetry commands.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "a data management computer"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "receive ground operator commands for packaging telemetry data and sending telemetry commands"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use gyroscopes to monitor the satellite's three-axis angular velocity in order to obtain the angular velocity analog signal.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use sun sensors to monitor the sun's position in order to obtain the sun measurement angle and perceive the sun visible flag.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "sun sensors"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "obtain the sun measurement angle",
+                "perceive the sun visible flag"
+            ],
+            "Shared Phenomena": [
+                "the sun measurement angle",
+                "the sun visible flag"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "sun sensors",
+                    "the sun measurement angle"
+                ],
+                [
+                    "sun sensors",
+                    "the sun visible flag"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use three-axis control thrusters to control the three-axis torque in order to drive the satellite to rotate.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "the satellite"
+            ],
+            "External System": [
+                "three-axis control thrusters"
+            ],
+            "System Requirements": [
+                "control the three-axis torque",
+                "drive the satellite to rotate"
+            ],
+            "Shared Phenomena": [
+                "three-axis torque"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "three-axis torque"
+                ],
+                [
+                    "three-axis control thrusters",
+                    "three-axis torque"
+                ],
+                [
+                    "the satellite",
+                    "three-axis torque"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "The sun search control system",
+                    "control the three-axis torque"
+                ],
+                [
+                    "three-axis control thrusters",
+                    "control the three-axis torque"
+                ],
+                [
+                    "the satellite",
+                    "drive the satellite to rotate"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use a mode register to store the current operating mode word, the current mode duration, the target angle, and the target angular velocity in order to control the operating mode.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "control the operating mode"
+            ],
+            "Shared Phenomena": [
+                "the current operating mode word",
+                "the current mode duration",
+                "the target angle",
+                "the target angular velocity"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the current operating mode word"
+                ],
+                [
+                    "The sun search control system",
+                    "the current mode duration"
+                ],
+                [
+                    "The sun search control system",
+                    "the target angle"
+                ],
+                [
+                    "The sun search control system",
+                    "the target angular velocity"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "control the operating mode",
+                    "the current operating mode word"
+                ],
+                [
+                    "control the operating mode",
+                    "the current mode duration"
+                ],
+                [
+                    "control the operating mode",
+                    "the target angle"
+                ],
+                [
+                    "control the operating mode",
+                    "the target angular velocity"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The whole search process is divided into four stages: rate damping RDSM, pitching search PASM, rolling search RASM and sun cruise CSM.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The function of rate damping is to reduce the angular velocity of the three-axis rotation of the star to maintain a stable attitude.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the star"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "to maintain a stable attitude"
+            ],
+            "Shared Phenomena": [
+                "the angular velocity"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the star",
+                    "the angular velocity"
+                ],
+                [
+                    "the star",
+                    "to maintain a stable attitude"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The function of pitch search is to control the star to rotate along the pitch axis to search for the sun at a certain angular velocity.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the star"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to search for the sun"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The function of roll search is to control the star to rotate along the roll axis at a certain angular velocity Searching for the sun.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the star"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to rotate"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The functions of cruising towards the sun are to keep a stable attitude and keep tracking the sun after searching for the sun, \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the sun"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The satellite is composed of several subsystems, and the control system is the subsystem with the most functions and the most complex processing logic.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The satellite",
+                "the control system"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system includes Sensor, Actuator and Controller.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "Sensor",
+                "Actuator",
+                "Controller"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sensor includes 4 sun sensors and 9 gyroscopes.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The sensor",
+                "sun sensors",
+                "gyroscopes"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The actuator includes 12 10N thrusters, of which 2A/2B, 3A/3B provide the attitude control torque of the roll axis, 4A/4B, 5A/5B provide the attitude control torque of the pitch axis, 6A/6B, 7A/ 7B provides yaw axis control torque.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The actuator",
+                "thrusters"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "torque"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The actuator",
+                    "torque"
+                ],
+                [
+                    "thrusters",
+                    "torque"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The control computer CPU uses 80C32, PROM32K bytes, and SRAM8K bytes.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The control computer CPU"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system composition is shown in the figure below.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The control computer runs in the mode of main program plus interruption, the main program is an infinite loop, and the interruption is 32 milliseconds regular cycle interruption.\n",
+        "entity": {
+            "Software System": [
+                "The control computer"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "At the 128th ms of each 160ms control cycle, the switch data of 12 10N thrusters will be sequentially output (the system needs to output the jet at a certain time).\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "10N thrusters"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "switch data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "10N thrusters",
+                    "switch data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The control computer takes the microcontroller 80C32E as the core, the main frequency is 11.0592MHZ, including 32KB of PROM and 8KB of SRAM.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The control computer",
+                "the microcontroller 80C32E"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "11.0592MHZ",
+                "32KB of PROM",
+                "8KB of SRAM"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The control computer",
+                    "11.0592MHZ"
+                ],
+                [
+                    "The control computer",
+                    "32KB of PROM"
+                ],
+                [
+                    "The control computer",
+                    "8KB of SRAM"
+                ],
+                [
+                    "the microcontroller 80C32E",
+                    "11.0592MHZ"
+                ],
+                [
+                    "the microcontroller 80C32E",
+                    "32KB of PROM"
+                ],
+                [
+                    "the microcontroller 80C32E",
+                    "8KB of SRAM"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Only one interrupt is processed in the sun search control system, that is, the 32ms timer interrupt.\n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the 32ms timer interrupt"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "the 32ms timer interrupt"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "When the sun search control system is initialized, the timer can be started to generate a continuous 32ms timer interrupt signal by writing a '1' to the D[0] bit of the timing control register GTCR0.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The address of register GTCR0 is 0x8083.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The initialization setting of the sun search control system should be executed once in the main program upon power on or reset.\n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [
+                "the main program"
+            ],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "the main program"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The initialization process involves a call that utilizes the component switch control operation register address as input and produces a component power switch control signal as output. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "To acheive the initialization setting, the processing sequence starts with the execution of controller parameter initialization, setting the initial working mode to rate damping. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Subsequently, the component power-on operation is carried out, which includes powering on the sun sensor, gyroscope, and thruster; the specific steps for this power-on process are detailed in section 3.2.8 of the documentation. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun sensor",
+                "gyroscope",
+                "thruster"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Finally, a 32ms timer interrupt is activated to manage and monitor the operation timing accurately.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "After the software is initialized, the timer can be started to generate a continuous 32ms cycle interrupt signal by writing '1' to the D[0] bit of the timing control register GTCR0. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to receive ground commands through the serial port, perform command verification, and set the satellite working mode word.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "the serial port",
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "receive ground commands",
+                "perform command verification",
+                "set the satellite working mode word"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This process is mandated to occur in a 160ms cycle. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Specifically, data is to be received from the asynchronous serial port every cycle, with the remote control receiving serial port being designated as address 0x88DA. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the asynchronous serial port",
+                "the remote control receiving serial port"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the asynchronous serial port",
+                    "data"
+                ],
+                [
+                    "the remote control receiving serial port",
+                    "data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "It's important to note that the digital control sub-system is restricted to sending no more than one remote command to the control software within each 160ms interval. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Following the receipt of data, the sun search control system must verify whether the data length, frame header, and checksum conform to the specifications detailed in Table 3.2-1. \n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "verify whether the data length, frame header, and checksum conform to the specifications"
+            ],
+            "Shared Phenomena": [
+                "data",
+                "data length",
+                "frame header",
+                "checksum"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "data"
+                ],
+                [
+                    "the sun search control system",
+                    "data length"
+                ],
+                [
+                    "the sun search control system",
+                    "frame header"
+                ],
+                [
+                    "the sun search control system",
+                    "checksum"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "the sun search control system",
+                    "verify whether the data length, frame header, and checksum conform to the specifications"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Only commands that successfully pass this verification process will be executed, leading to the setting of the satellite's working mode for the next cycle.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system need to collect the power-on status of each component and the sensor measurement data.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "each component",
+                "the sensor"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "collect the power-on status of each component and the sensor measurement data"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system is designed to gather data from specified register addresses. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The outputs expected from this process include the power-on status of each component, the count of seconds pulsed by the gyroscope, as well as the visibility, sign, and angle of the sun as detected by the sun sensor. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the gyroscope",
+                "the sun sensor"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the power-on status of each component",
+                "the count of seconds pulsed by the gyroscope",
+                "the visibility, sign, and angle of the sun"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the gyroscope",
+                    "the visibility, sign, and angle of the sun"
+                ],
+                [
+                    "the sun sensor",
+                    "the power-on status of each component"
+                ],
+                [
+                    "the sun sensor",
+                    "the count of seconds pulsed by the gyroscope"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Specifically, the power-on status and the pulse count of the gyroscope are collected via the serial port. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the gyroscope"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the power-on status",
+                "the pulse count"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the gyroscope",
+                    "the power-on status"
+                ],
+                [
+                    "the gyroscope",
+                    "the pulse count"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Meanwhile, the power-on state of the sun sensor, alongside the sun's visibility, sign, and the measurement angle \u2013 defined as the angle between the sunlight and the sensor's normal line \u2013 are obtained through Analog to Digital (AD) conversion. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun sensor",
+                "the sensor"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the power-on state",
+                "the sun's visibility",
+                "the measurement angle"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun sensor",
+                    "the power-on state"
+                ],
+                [
+                    "the sun sensor",
+                    "the sun's visibility"
+                ],
+                [
+                    "the sun sensor",
+                    "the measurement angle"
+                ],
+                [
+                    "the sensor",
+                    "the power-on state"
+                ],
+                [
+                    "the sensor",
+                    "the sun's visibility"
+                ],
+                [
+                    "the sensor",
+                    "the measurement angle"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Additionally, the power-on state of the thruster is also collected through AD conversion. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the thruster"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the power-on state"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the thruster",
+                    "the power-on state"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to acquire gyroscope data. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "acquire gyroscope data"
+            ],
+            "Shared Phenomena": [
+                "gyroscope data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "gyroscope data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "In order to acquire gyroscope data, the sun search control system sends a two-byte fetch command 0xEB91 to the gyro through the asynchronous serial port every cycle.\n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [
+                "the gyro"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "acquire gyroscope data"
+            ],
+            "Shared Phenomena": [
+                "gyroscope data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "gyroscope data"
+                ],
+                [
+                    "the gyro",
+                    "gyroscope data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system receives the gyro measurement data through the asynchronous serial port, and the serial port address used for sending commands and receiving data is 0x881A.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "the asynchronous serial port"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the gyro measurement data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the gyro measurement data"
+                ],
+                [
+                    "the asynchronous serial port",
+                    "the gyro measurement data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The time interval from sending fetch instruction to reading data from asynchronous serial port should be greater than 5ms.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "asynchronous serial port"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to judge the length, frame header and checksum of the collected data.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The timing relationhip of gyroscope data acquisition is shown in the figure below.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "gyroscope"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to acquire sun sensor data, which must be carried out every 160ms.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "sun search control system",
+                "sun sensor"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun sensor data acquisition involves the use of an Analog to Digital (AD) acquisition register address through which the system inputs data. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the Analog to Digital (AD) acquisition register"
+            ],
+            "Environment Object": [
+                "The sun sensor data acquisition"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the system inputs data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun sensor data acquisition",
+                    "the system inputs data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The expected outputs from the sun sensor include the power-on status of the component, the visibility of the sun (denoted as the sun visible sign), and the measurement angle of the sun.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun sensor"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the power-on status of the component",
+                "the visibility of the sun",
+                "the measurement angle of the sun"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "12-bit angle data is obtained through AD conversion of the angle analog quantity, and the SP signal and the power state signal are compared by the latch circuit to collect.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to acquire thruster data, which is sheduled to occur every 160ms.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "thruster data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "thruster data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The thruster receive AD acquisition register address and output the thruster power-on status. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The thruster",
+                "AD acquisition register"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "output the thruster power-on status"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The thruster",
+                    "output the thruster power-on status"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "In the process, the sun search control system can collect the power status signal through AD.\n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the power status signal"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "the power status signal"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to determine the three-axis attitude of the satellite, which is carried out every 160 ms.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The sun search control system",
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the three-axis attitude"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the three-axis attitude"
+                ],
+                [
+                    "the satellite",
+                    "the three-axis attitude"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "In order to determine the three-axis attitude of the satellite, the sun search control system receive angular velocity measured by the gyroscope, attitude angle collected by the sun sensor and visible sign of the sun.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun search control system",
+                "the gyroscope",
+                "the sun sensor"
+            ],
+            "Environment Object": [
+                "the satellite",
+                "the sun"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "angular velocity",
+                "attitude angle",
+                "visible sign"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "angular velocity"
+                ],
+                [
+                    "the sun search control system",
+                    "attitude angle"
+                ],
+                [
+                    "the sun search control system",
+                    "visible sign"
+                ],
+                [
+                    "the gyroscope",
+                    "angular velocity"
+                ],
+                [
+                    "the sun sensor",
+                    "attitude angle"
+                ],
+                [
+                    "the satellite",
+                    "three-axis attitude"
+                ],
+                [
+                    "the sun",
+                    "visible sign"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Then the sun search control system calculate the three-axis angular velocity based on the gyro measurement data, and estimate the attitude angle.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun search control system",
+                "the gyro"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the three-axis angular velocity",
+                "the attitude angle"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "the three-axis angular velocity"
+                ],
+                [
+                    "the gyro",
+                    "the three-axis angular velocity"
+                ],
+                [
+                    "the sun search control system",
+                    "the attitude angle"
+                ],
+                [
+                    "the gyro",
+                    "the attitude angle"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to have the sun search mode switching management, which must be scheduled to occur every 160ms.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to have the sun search mode switching management",
+                "scheduled to occur every 160ms"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system is tasked with managing the three-axis angular velocity of the satellite to ensure the stability of its attitude, meaning that the three-axis angular velocity should be maintained at minimal levels. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "managing the three-axis angular velocity of the satellite to ensure the stability of its attitude"
+            ],
+            "Shared Phenomena": [
+                "the three-axis angular velocity"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the three-axis angular velocity"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "The sun search control system",
+                    "managing the three-axis angular velocity of the satellite to ensure the stability of its attitude"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system operates by receiving the current three-axis angular velocity of the satellite and the current working mode word as inputs. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the current three-axis angular velocity",
+                "the current working mode word"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the current three-axis angular velocity"
+                ],
+                [
+                    "The sun search control system",
+                    "the current working mode word"
+                ],
+                [
+                    "the satellite",
+                    "the current three-axis angular velocity"
+                ],
+                [
+                    "the satellite",
+                    "the current working mode word"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Based on these inputs, the sun search control system is to control the satellite to achieve a target three-axis angular velocity, which is set to zero to stabilize the satellite's attitude.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite",
+                "the sun search control system"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to achieve a target three-axis angular velocity",
+                "stabilize the satellite's attitude"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system also needs to accumulate the working time in the current mode, allowing the sun search control system to monitor how long the satellite has been operating under specific conditions.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "to monitor how long the satellite has been operating under specific conditions"
+            ],
+            "Shared Phenomena": [
+                "the working time"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the working time"
+                ],
+                [
+                    "the satellite",
+                    "the working time"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "The sun search control system",
+                    "to monitor how long the satellite has been operating under specific conditions"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Finally, the sun search control system can evaluate the operational status and decide whether there is a need to switch the working mode based on predefined criteria or thresholds, which could be detailed in a specific algorithm \n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "switch the working mode"
+            ],
+            "Shared Phenomena": [
+                "the operational status"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "the operational status"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": [
+                [
+                    "the sun search control system",
+                    "switch the working mode"
+                ]
+            ]
+        }
+    },
+    {
+        "text": "The Sun Search Control System is designed to ensure the stability of a satellite's attitude by controlling its three-axis angular velocity, with the aim of keeping these velocities minimal. \n",
+        "entity": {
+            "Software System": [
+                "The Sun Search Control System"
+            ],
+            "Physical Device": [
+                "a satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to ensure the stability of a satellite's attitude",
+                "keeping these velocities minimal"
+            ],
+            "Shared Phenomena": [
+                "three-axis angular velocity"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The Sun Search Control System",
+                    "three-axis angular velocity"
+                ],
+                [
+                    "a satellite",
+                    "three-axis angular velocity"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "The Sun Search Control System",
+                    "to ensure the stability of a satellite's attitude"
+                ],
+                [
+                    "a satellite",
+                    "keeping these velocities minimal"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This functionality is initiated either during the satellite's power-on initialization or when the sun search control system fails to detect the sun. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite",
+                "the sun search control system"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The process involves taking the current three-axis angular velocity and the working mode word as inputs. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "In response, the sun search control system sets the satellite's target three-axis angular velocity to zero to stabilize its attitude and accumulates the working time of the current mode to track duration and efficiency. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun search control system",
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "stabilize its attitude",
+                "track duration and efficiency"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "It then evaluates whether a switch in the working mode is necessary based on the satellite's performance and operational conditions. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This approach ensures that the satellite maintains a stable position, which is crucial for its operational efficiency and the success of its mission objectives.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to maintain a stable position"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The primary function of the sun search control system is to manage the three-axis angular velocity of the satellite to ensure its attitude remains stable, with minimal angular velocity across all axes. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun search control system",
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to manage the three-axis angular velocity of the satellite to ensure its attitude remains stable",
+                "with minimal angular velocity across all axes"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This requirement is activated during two key events: the initial power-on of the satellite and situations where the sun is no longer detectable. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system operates by assessing the current three-axis angular velocity and the operational mode of the satellite. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The sun search control system",
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the current three-axis angular velocity",
+                "the operational mode"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the current three-axis angular velocity"
+                ],
+                [
+                    "The sun search control system",
+                    "the operational mode"
+                ],
+                [
+                    "the satellite",
+                    "the current three-axis angular velocity"
+                ],
+                [
+                    "the satellite",
+                    "the operational mode"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "From these inputs, the sun search control system aims to achieve a stable satellite attitude by setting the target three-axis angular velocity to zero. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the sun"
+            ],
+            "External System": [
+                "search control system"
+            ],
+            "System Requirements": [
+                "to achieve a stable satellite attitude"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Additionally, it tracks the duration for which the satellite has operated in the current mode and evaluates whether there is a need to transition to a different working mode based on the satellite's performance and prevailing conditions. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This mechanism ensures that the satellite maintains optimal stability and operational efficiency under varying circumstances.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "maintains optimal stability and operational efficiency"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This operation is initiated when rate damping has been successfully completed or if an initial attempt to search for the sun has failed. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system takes the current three-axis angular velocity and the working mode word of the satellite as inputs. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the current three-axis angular velocity",
+                "the working mode word"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the current three-axis angular velocity"
+                ],
+                [
+                    "The sun search control system",
+                    "the working mode word"
+                ],
+                [
+                    "the satellite",
+                    "the current three-axis angular velocity"
+                ],
+                [
+                    "the satellite",
+                    "the working mode word"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Based on these, the sun search control system sets a new control target to rotate the satellite around the Y axis at the specified rate. \n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "rotate the satellite around the Y axis at the specified rate"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Additionally, it continues to track the time spent in the current operational mode and assesses whether a change in the working mode is warranted based on the outcomes of this sun-search procedure and other operational factors. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This process is critical for ensuring that the satellite can reorient itself to successfully locate the sun, especially after initial attempts have been unsuccessful or after completing rate damping activities.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite",
+                "the sun"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This procedure is initiated if a previous pitch search for the sun proves unsuccessful. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "In response to this scenario, the sun search control system utilizes the satellite's current three-axis angular velocity and its operational mode as inputs to adjust its trajectory. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The designated output from this operation is a new control target, which directs the satellite to rotate around the X axis at the specified rate, alongside an updated working mode word if necessary. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system then sets this control target, monitors the duration spent in the current working mode, and evaluates whether a transition to a different working mode is required based on the satellite's search performance and other contextual factors. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "The sun",
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "this control target",
+                "the current working mode",
+                "a different working mode"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun",
+                    "this control target"
+                ],
+                [
+                    "the satellite",
+                    "this control target"
+                ],
+                [
+                    "the satellite",
+                    "the current working mode"
+                ],
+                [
+                    "the satellite",
+                    "a different working mode"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This ensures that the satellite can adjust its orientation effectively in its continued efforts to locate the sun.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This condition is met following successful sun detection, which triggers the sun search control system to manage the satellite's orientation based on the inputs received: the satellite's three-axis angular velocity and the elapsed working time in the current mode.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The response of the sun search control system is to set the satellite's control targets, aiming to reduce the three-axis angular velocity to zero, thereby stabilizing the satellite's attitude. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "It continues to record the duration of time spent in the current operational mode. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This process ensures the satellite maintains a stable orientation after successfully locating the sun, crucial for operational effectiveness and subsequent mission phases. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite",
+                "the sun"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "maintains a stable orientation",
+                "operational effectiveness"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "It reflects a systematic approach to managing the satellite's posture and operational status, ensuring that it remains optimally positioned following successful sun-search maneuvers.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "optimally positioned"
+            ],
+            "Shared Phenomena": [
+                "posture",
+                "operational status"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the satellite",
+                    "posture"
+                ],
+                [
+                    "the satellite",
+                    "operational status"
+                ],
+                [
+                    "the satellite",
+                    "optimally positioned"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system is concerned with the protocol for switching to a backup sun sensor in the event that efforts to locate the sun prove unsuccessful. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "switching to a backup sun sensor"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "When the sun's visible sign, or SP, remains undetected following two consecutive attempts at both pitch and roll searches, the sun search control system deduces that the search has been unsuccessful.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system sends a signal to switch off the primary sun sensor and activate the backup sun sensor. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "the primary sun sensor",
+                "the backup sun sensor"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "a signal"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "a signal"
+                ],
+                [
+                    "a signal",
+                    "the primary sun sensor"
+                ],
+                [
+                    "a signal",
+                    "the backup sun sensor"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system emits a signal to adjust the thruster settings as necessary for the new search phase. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "a signal"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "a signal"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system restarts the search for the sun using the backup sensor and re-enters rate damping mode to stabilize the satellite's attitude. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "rate damping mode"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This process ensures that the satellite can continue to function effectively by attempting to re-establish a lock on the sun's position using alternate hardware, thereby maintaining operational integrity and continuing its mission without undue delay.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite",
+                "alternate hardware"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "maintaining operational integrity",
+                "continuing its mission without undue delay"
+            ],
+            "Shared Phenomena": [
+                "a lock on the sun's position"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system addresses the diagnosis and management of faults characterized by frequent air injections from the thruster. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "the thruster"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "diagnosis and management of faults"
+            ],
+            "Shared Phenomena": [
+                "frequent air injections"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "frequent air injections"
+                ],
+                [
+                    "the thruster",
+                    "frequent air injections"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "The sun search control system",
+                    "diagnosis and management of faults"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Operating under a routine review every 160ms, this aspect of the Sun Search Control System responds to the input of thruster injection interval times. \n",
+        "entity": {
+            "Software System": [
+                "the Sun Search Control System"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "When the sun search control system detects that the thruster has been firing at intervals shorter than 1 second for a continuous duration of 5 seconds, it concludes that a fault condition of frequent jetting is occurring.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun search control system",
+                "the thruster"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "intervals shorter than 1 second",
+                "a continuous duration of 5 seconds"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "intervals shorter than 1 second"
+                ],
+                [
+                    "the sun search control system",
+                    "a continuous duration of 5 seconds"
+                ],
+                [
+                    "the thruster",
+                    "intervals shorter than 1 second"
+                ],
+                [
+                    "the thruster",
+                    "a continuous duration of 5 seconds"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "To counteract this fault, the sun search control system outputs a signal to switch off the thruster, effectively halting its operation to prevent further erroneous behavior. \n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "To counteract this fault"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This measure ensures the satellite's safety and operational integrity by stopping the unnecessary and potentially harmful rapid firing of the thruster, thereby allowing for necessary adjustments or investigations into the cause of the fault.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite",
+                "the thruster"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system pertains to the diagnosis and resolution of communication issues with the gyroscope within the Sun Search Control System, which checks the system every 160ms. \n",
+        "entity": {
+            "Software System": [
+                "The Sun Search Control System",
+                "the Sun Search Control System"
+            ],
+            "Physical Device": [
+                "the gyroscope"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "checks the system"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The primary input for this process is the count of gyro communication error occurrences over time. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The expected output when a fault is detected is a command to power off the gyro to prevent further errors.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the gyro"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "If the control computer detects a gyro communication error, which could involve issues with data length, frame header, or checksum, it increments the communication error cycle count by one.\n",
+        "entity": {
+            "Software System": [
+                "the control computer"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "gyro communication error",
+                "data length",
+                "frame header",
+                "checksum",
+                "communication error cycle count"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the control computer",
+                    "gyro communication error"
+                ],
+                [
+                    "the control computer",
+                    "data length"
+                ],
+                [
+                    "the control computer",
+                    "frame header"
+                ],
+                [
+                    "the control computer",
+                    "checksum"
+                ],
+                [
+                    "the control computer",
+                    "communication error cycle count"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Should the gyro experience communication errors for five consecutive cycles, the sun search control system is to initiate a power-off sequence for the gyroscope to halt its operation and prevent further errors.\n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [
+                "the gyroscope"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "halt its operation",
+                "prevent further errors"
+            ],
+            "Shared Phenomena": [
+                "communication errors"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "communication errors"
+                ],
+                [
+                    "the gyroscope",
+                    "communication errors"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "the sun search control system",
+                    "halt its operation"
+                ],
+                [
+                    "the sun search control system",
+                    "prevent further errors"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system then enters a waiting period of five cycles post power-off before attempting a power-on operation to reset the gyro's communication capabilities.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "the gyro"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "After re-powering the gyro, the sun search control system waits an additional five cycles before reinitiating data communication, which includes sending a fetch command to the gyro to test if the communication has been restored effectively.\n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [
+                "the gyro"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "reinitiating data communication"
+            ],
+            "Shared Phenomena": [
+                "sending a fetch command to the gyro",
+                "the communication"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "the communication"
+                ],
+                [
+                    "the gyro",
+                    "the communication"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "the sun search control system",
+                    "reinitiating data communication"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "In cases where communication errors persist for another five consecutive cycles following the power-off and power-on sequence, the sun search control will issue another power-off command to the gyro. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the gyro"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Subsequently, the sun search control system will await further instructions from ground control to address the ongoing communication issue.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the sun search control system"
+            ],
+            "External System": [
+                "ground control"
+            ],
+            "System Requirements": [
+                "address the ongoing communication issue"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This structured approach ensures that gyro communication faults are systematically addressed, potentially restoring proper function while maintaining the safety and operational integrity of the satellite system.\n",
+        "entity": {
+            "Software System": [
+                "the satellite system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "maintaining the safety and operational integrity of the satellite system"
+            ],
+            "Shared Phenomena": [
+                "gyro communication faults"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the satellite system",
+                    "gyro communication faults"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": [
+                [
+                    "the satellite system",
+                    "maintaining the safety and operational integrity of the satellite system"
+                ]
+            ]
+        }
+    },
+    {
+        "text": "The sun search control system deals with the control output for a three-floating gyro, a key component in maintaining the orientation and stability of the satellite. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "a three-floating gyro"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "maintaining the orientation and stability of the satellite"
+            ],
+            "Shared Phenomena": [
+                "the control output"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the control output"
+                ],
+                [
+                    "a three-floating gyro",
+                    "the control output"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "a three-floating gyro",
+                    "maintaining the orientation and stability of the satellite"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This requirement is activated during the satellite's power-on initialization process. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The procedure requires the sun search control system to send a specific gyro power-on command, denoted as 0xEB92, via the asynchronous serial port. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the sun search control system"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "a specific gyro power-on command"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "a specific gyro power-on command"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The input for this operation is the gyro control switch register address, and the corresponding output is the gyro control switch signal, which activates the gyro.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The detailed process involves transmitting the gyro power-on and control commands through the asynchronous serial port, with the specified address for these commands being 0x881A. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The commands must be sent in a sequence where each byte is transmitted at intervals of less than 5 microseconds to ensure the gyro is powered on and controlled correctly. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the gyro"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This precise timing and control sequence are essential for initializing the gyro's operation correctly, ensuring it provides accurate and stable readings for the satellite's orientation.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the gyro",
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "When there is a failure in the visibility of the sun sensor, the sun search control system indicates that the sensor cannot detect the sun.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun search control system",
+                "the sensor"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the visibility of the sun sensor"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "the visibility of the sun sensor"
+                ],
+                [
+                    "the sensor",
+                    "the visibility of the sun sensor"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The input for this operation is the address of the sun sensor switch control register. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun sensor switch control register"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The expected output from this procedure is the sun sensor switch control signal, which is crucial for enabling or disabling the sun sensor as required.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun sensor switch",
+                "the sun sensor"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "enabling or disabling the sun sensor"
+            ],
+            "Shared Phenomena": [
+                "the sun sensor switch control signal"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun sensor switch",
+                    "the sun sensor switch control signal"
+                ],
+                [
+                    "the sun sensor",
+                    "the sun sensor switch control signal"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "the sun sensor switch control signal",
+                    "enabling or disabling the sun sensor"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The core of this process involves sending a specific switching command to the sun sensor, characterized as a positive pulse lasting for 190 milliseconds, with an allowable deviation of plus or minus 1 millisecond. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun sensor"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "a specific switching command"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun sensor",
+                    "a specific switching command"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This precise control is achieved by the satellite's software, which writes an enable signal to the designated control register to initiate the pulse. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "This precise control"
+            ],
+            "Shared Phenomena": [
+                "an enable signal"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the satellite",
+                    "an enable signal"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "This precise control",
+                    "the satellite"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This operation ensures that the sun sensor can be accurately switched on or off in response to the satellite's operational needs or in reaction to specific failures, thereby maintaining its crucial role in the satellite's orientation and navigation systems.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system is designed to ensure the satellite's optimal operation and orientation in relation to the sun, critical for its energy and operational efficiency. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to ensure the satellite's optimal operation and orientation in relation to the sun, critical for its energy and operational efficiency"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This sun search control system is triggered under specific conditions such as power-on initialization or when the satellite fails to detect the sun, indicating a need for realignment or adjustment in its operational mode.\n",
+        "entity": {
+            "Software System": [
+                "This sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "realignment or adjustment in its operational mode"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Upon activation, the sun search control system processes inputs like the current three-axis angular velocity, the sun visible sign, and the operational mode word. \n",
+        "entity": {
+            "Software System": [
+                "the sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the current three-axis angular velocity",
+                "the sun visible sign",
+                "the operational mode word"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control system",
+                    "the current three-axis angular velocity"
+                ],
+                [
+                    "the sun search control system",
+                    "the sun visible sign"
+                ],
+                [
+                    "the sun search control system",
+                    "the operational mode word"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Using these inputs, the sun search control system undertakes various actions including setting the satellite's target angular velocity, adjusting thruster outputs, and switching between primary and backup sun sensors to maintain or recover solar alignment.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the sun",
+                "the satellite",
+                "thruster",
+                "sun sensors"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "recover solar alignment"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The processing involves calculating and applying the necessary control volumes to the thrusters based on the satellite's orientation needs, identified through three-axis control values. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "thrusters",
+                "satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "control volumes",
+                "orientation needs",
+                "three-axis control values"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "thrusters",
+                    "control volumes"
+                ],
+                [
+                    "satellite",
+                    "orientation needs"
+                ],
+                [
+                    "satellite",
+                    "three-axis control values"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The thrusters are selected and activated according to their operational states and the required adjustments to the satellite's orientation. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The thrusters",
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "their operational states",
+                "the required adjustments"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The thrusters",
+                    "their operational states"
+                ],
+                [
+                    "the satellite",
+                    "the required adjustments"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This includes initiating commands for thruster activation or deactivation, adjusting their output levels, and ensuring that the satellite's attitude is stabilized, especially after successful sun searches or during transitions between operational modes.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun serch control system manages faults such as frequent thruster firings or gyro communication errors by implementing predefined protocols that include disabling faulty components and, if necessary, switching to backup systems. \n",
+        "entity": {
+            "Software System": [
+                "The sun serch control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "gyro"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "manages faults"
+            ],
+            "Shared Phenomena": [
+                "frequent thruster firings",
+                "gyro communication errors",
+                "switching to backup systems"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun serch control system",
+                    "switching to backup systems"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "The sun serch control system",
+                    "manages faults"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This ensures the satellite's continuous operation and maintains its orientation and stability in space, particularly in relation to the sun's position, which is vital for its energy supply and mission success.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "the sun"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the satellite",
+                    "the sun"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Overall, the Sun Search Control System is a comprehensive framework that ensures the satellite remains functional and properly oriented throughout its mission, adapting to various operational scenarios and addressing any anomalies that arise during its operation.\n",
+        "entity": {
+            "Software System": [
+                "the Sun Search Control System"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "remains functional and properly oriented throughout its mission",
+                "addressing any anomalies that arise during its operation"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to collect and transmit the current operating status of its software. \n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "collect and transmit the current operating status of its software"
+            ],
+            "Shared Phenomena": [
+                "the current operating status of its software"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the current operating status of its software"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "The sun search control system",
+                    "collect and transmit the current operating status of its software"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This process is automatically initiated every 160 milliseconds and involves gathering critical telemetry data, including the satellite's current working mode word, its orientation angle, and its velocity.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "telemetry data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the satellite",
+                    "telemetry data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "Once collected, this data is packaged into a predefined format suitable for transmission. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The packaged telemetry information is then sent to the digital tube for display, facilitating real-time monitoring of the satellite's status. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the digital tube"
+            ],
+            "Environment Object": [
+                "The packaged telemetry information",
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "facilitating real-time monitoring"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The packaged telemetry information",
+                    "the digital tube"
+                ],
+                [
+                    "the digital tube",
+                    "the satellite"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "the satellite",
+                    "facilitating real-time monitoring"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This transmission uses the asynchronous serial port designated by the address 0x88DB. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "This transmission",
+                "the asynchronous serial port"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "To ensure the integrity and timeliness of the data transfer, each byte of the telemetry data is sent with an interval of less than 5 microseconds between them.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "This systematic approach allows ground operators to continuously monitor the satellite's operational state, speed, and orientation, ensuring that any deviations from expected parameters are quickly identified and addressed. \n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the satellite"
+            ],
+            "Environment Object": [
+                "ground operators"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "to continuously monitor the satellite's operational state, speed, and orientation",
+                "any deviations from expected parameters are quickly identified and addressed"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The absence of a defined output in this context refers to external outputs beyond the system itself, as the primary focus here is on internal data handling and transmission.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The main function of the sun search control software is to perform sun acquisition by collecting measurement data from gyroscopes and sun sensors to determine the current attitude of the satellite, and then control the satellite to rotate around the pitch or roll axis so that the sun sensor can detect the sun and maintain the spacecraft's sun-pointing attitude.\n",
+        "entity": {
+            "Software System": [
+                "the sun search control software"
+            ],
+            "Physical Device": [
+                "gyroscopes",
+                "sun sensors",
+                "the sun sensor",
+                "the satellite"
+            ],
+            "Environment Object": [
+                "the spacecraft"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "to perform sun acquisition",
+                "control the satellite to rotate around the pitch or roll axis"
+            ],
+            "Shared Phenomena": [
+                "the current attitude of the satellite"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the sun search control software",
+                    "the current attitude of the satellite"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "the sun search control software",
+                    "to perform sun acquisition"
+                ],
+                [
+                    "the sun search control software",
+                    "control the satellite to rotate around the pitch or roll axis"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The software can receive ground commands through a serial port, perform command verification, and set the satellite's operating mode word.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The control software sends a two-byte data acquisition command to the gyroscope through a serial port in each cycle, and then receives the gyroscope measurement data through another serial port. The serial port addresses used for sending and receiving commands are both 0x881.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "the gyroscope",
+                "a serial port"
+            ],
+            "Environment Object": [],
+            "External System": [
+                "The control software"
+            ],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "a two-byte data acquisition command",
+                "the gyroscope measurement data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The control software",
+                    "a two-byte data acquisition command"
+                ],
+                [
+                    "The control software",
+                    "the gyroscope measurement data"
+                ],
+                [
+                    "the gyroscope",
+                    "the gyroscope measurement data"
+                ],
+                [
+                    "a serial port",
+                    "a two-byte data acquisition command"
+                ],
+                [
+                    "a serial port",
+                    "the gyroscope measurement data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The angle measurement data is obtained by analog-to-digital conversion of the angle analog signal, which is a 12-bit measurement (offset binary code, range 0x000~0xFFF). The minimum code corresponds to 5/2048. The software collects the SP signal and the tuning element state signal through a stored circuit.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "the tuning element state signal"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "The angle measurement data"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "the tuning element state signal",
+                    "The angle measurement data"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The power status signal is collected by AD conversion. When powered on, the software sends a gyroscope home appliance command (0xEB92) through a serial port, and then sends a gyroscope control command through another serial port with address 0x881A. The interval between each byte sent is less than 5us.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [
+                "home appliance",
+                "serial port"
+            ],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": [
+                "power status signal"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "home appliance",
+                    "power status signal"
+                ],
+                [
+                    "serial port",
+                    "power status signal"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun sensor switching instruction is 190ms, with a positive pulse of 1ms. The software controls the pulse output by writing the enable signal to the controller, as shown in the table below.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search software controller consists of gyroscopes, sun sensors, three-axis control thrusters, and a data management computer. There are four sun sensors and nine gyroscopes in total.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "gyroscopes",
+                "sun sensors",
+                "three-axis control thrusters",
+                "a data management computer"
+            ],
+            "Environment Object": [],
+            "External System": [
+                "The sun search software controller"
+            ],
+            "System Requirements": [],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use a data management computer to receive ground operator commands for packaging telemetry data and sending telemetry commands.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [
+                "ground operator"
+            ],
+            "External System": [
+                "a data management computer"
+            ],
+            "System Requirements": [
+                "receive ground operator commands for packaging telemetry data and sending telemetry commands"
+            ],
+            "Shared Phenomena": [
+                "telemetry data",
+                "telemetry commands"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "telemetry data"
+                ],
+                [
+                    "a data management computer",
+                    "telemetry commands"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "a data management computer",
+                    "receive ground operator commands for packaging telemetry data and sending telemetry commands"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use gyroscopes to monitor the satellite's three-axis angular velocity in order to obtain the angular velocity analog signal.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "gyroscopes",
+                "the satellite"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "use gyroscopes to monitor the satellite's three-axis angular velocity in order to obtain the angular velocity analog signal"
+            ],
+            "Shared Phenomena": []
+        },
+        "relation": {
+            "Phenomena Interface": [],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use sun sensors to monitor the sun's position in order to obtain the sun measurement angle and perceive the sun visible flag.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [
+                "sun sensors"
+            ],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "to obtain the sun measurement angle",
+                "perceive the sun visible flag"
+            ],
+            "Shared Phenomena": [
+                "the sun measurement angle",
+                "the sun visible flag"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "the sun measurement angle"
+                ],
+                [
+                    "The sun search control system",
+                    "the sun visible flag"
+                ],
+                [
+                    "sun sensors",
+                    "the sun measurement angle"
+                ],
+                [
+                    "sun sensors",
+                    "the sun visible flag"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": []
+        }
+    },
+    {
+        "text": "The sun search control system needs to use three-axis control thrusters to control the three-axis torque in order to drive the satellite to rotate.\n",
+        "entity": {
+            "Software System": [],
+            "Physical Device": [
+                "The sun search control system",
+                "three-axis control thrusters"
+            ],
+            "Environment Object": [
+                "the satellite"
+            ],
+            "External System": [],
+            "System Requirements": [
+                "to control the three-axis torque",
+                "drive the satellite to rotate"
+            ],
+            "Shared Phenomena": [
+                "three-axis torque"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "three-axis torque"
+                ],
+                [
+                    "three-axis control thrusters",
+                    "three-axis torque"
+                ],
+                [
+                    "the satellite",
+                    "three-axis torque"
+                ]
+            ],
+            "requirements reference": [],
+            "requirements constraint": [
+                [
+                    "three-axis control thrusters",
+                    "drive the satellite to rotate"
+                ]
+            ]
+        }
+    },
+    {
+        "text": "The sun search control system needs to use a mode register to store the current operating mode word, the current mode duration, the target angle, and the target angular velocity in order to control the operating mode.\n",
+        "entity": {
+            "Software System": [
+                "The sun search control system"
+            ],
+            "Physical Device": [],
+            "Environment Object": [],
+            "External System": [],
+            "System Requirements": [
+                "control the operating mode"
+            ],
+            "Shared Phenomena": [
+                "a mode register",
+                "the current operating mode word",
+                "the current mode duration",
+                "the target angle",
+                "the target angular velocity"
+            ]
+        },
+        "relation": {
+            "Phenomena Interface": [
+                [
+                    "The sun search control system",
+                    "a mode register"
+                ],
+                [
+                    "The sun search control system",
+                    "the current operating mode word"
+                ],
+                [
+                    "The sun search control system",
+                    "the current mode duration"
+                ],
+                [
+                    "The sun search control system",
+                    "the target angle"
+                ],
+                [
+                    "The sun search control system",
+                    "the target angular velocity"
+                ]
+            ],
+            "requirements reference": [
+                [
+                    "control the operating mode",
+                    "the target angle"
+                ],
+                [
+                    "control the operating mode",
+                    "the current mode duration"
+                ],
+                [
+                    "control the operating mode",
+                    "the current operating mode word"
+                ],
+                [
+                    "control the operating mode",
+                    "a mode register"
+                ],
+                [
+                    "control the operating mode",
+                    "the target angular velocity"
+                ]
+            ],
+            "requirements constraint": []
+        }
+    }
+]

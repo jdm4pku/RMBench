@@ -1,0 +1,374 @@
+[
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome (DH)\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"HomeOwner Inc.\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [ \"A “Smart House”\", \"home management system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"home residents\", \"home\"],\n\"External System\": [],\n\"System Requirements\": [\"allows home residents to easily manage their daily lives\", \"provides for a lifestyle that brings together security, environmental and energy management (temperature, humidity and lighting), entertainment, and communications\"],\n\"Shared Phenomena\": [\"security\", \"environmental and energy management (temperature, humidity and lighting)\", \"entertainment\", \"communications\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"the computer system\"],\n\"Physical Device\": [\"a heating and air conditioning unit\", \"a security system\", \"small appliances and lighting units\", \"sensors and controllers\", \"communication links\", \"the computer system\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [ \"The DigitalHome Software Requirements Specification (SRS)\", \"The DigitalHome\" ],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [ \"the DigitalHome Customer Need Statement\" ],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome\", \"DigitalHomeOwner products and services\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"HomeOwner management\"],\n\"External System\": [],\n\"System Requirements\": [\"to make business decisions about the future commercial development\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " {'Software System': ['DigitalHome'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": " {'Software System': ['the DigitalHome'], 'Physical Device': [], 'Environment Object': [], 'External System': ['the Digital Home Use Case Model'], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['the DigitalHomeOwner Division', 'the Marketing Division of HomeOwner Inc.'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"The Digital Home system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"a home user\", \"a home\"],\n\"External System\": [],\n\"System Requirements\": [\"allow a home user to manage devices that control the environment of a home\"],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome web server\"],\n\"Physical Device\": [\"home wireless gateway device\", \"sensor and controller devices\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the Digital Home\", \"a commercial product\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"allow business decisions to be made about future development\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [],\n\"Physical Device\": [\"devices\", \"small appliances\", \"lighting units\", \"a web-ready device\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"management of devices which control temperature, humidity, security, and power\"],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the prototype DigitalHome software system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"a simulated environment\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"his/her home\", \"the environment\"],\n\"External System\": [],\n\"System Requirements\": [\"to monitor and control the environment\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [],\n\"Physical Device\": [\"sensor and control devices\", \"small appliances\", \"lighting units\"],\n\"Environment Object\": [\"the general user\", \"his/her home\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the DigitalHome system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"the general user\", \"he/she\"],\n\"External System\": [\"a web interface\"],\n\"System Requirements\": [\"logging in and logging out\", \"browsing web pages\", \"submitting information and requests via a web interface\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"Master User\", \"a user account\"],\n\"External System\": [],\n\"System Requirements\": [\"add a user account\", \"change the default parameter settings\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"He/she\", \"DigitalHome Technician\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"the same right\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"A DigitalHome Technician\"],\n\"External System\": [],\n\"System Requirements\": [\"setting up and maintaining the configuration\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome system\", \"software\"],\n\"Physical Device\": [\"hardware\"],\n\"Environment Object\": [\"A DigitalHome Technician\"],\n\"External System\": [\"web services\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome system product\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"A DigitalHome Technician\", \"DigitalHomeOwner\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome System\", \"the system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"A DigitalHome Technician\", \"DigitalHome General User\"],\n\"External System\": [],\n\"System Requirements\": [\"setting up and making changes in the configuration of the system\", \"setting system parameters and establishing user accounts\", \"starting and stopping operation of the DigitalHome System\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"must be completed within twelve months of inception\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [\"five engineers\"], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the DigitalHome project\", \"product elements\", \"development tools\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"employ widely used, accepted, and available hardware and software technology and standards\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"sensors\", \"controllers\", \"server\", \"tools\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"minimize the cost of DigitalHome elements\"],\n\"Shared Phenomena\": [\"market competition\", \"DigitalHome products\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"minimize costs\", \"price comparisons between DigitalHome elements and comparable/competitive elements\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"a simulated environment\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"an actual home\", \"sensors\", \"controllers\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"DigitalHome product\"]\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"DigitalHome Gateway device\"], \"Physical Device\": [\"DigitalHome Gateway device\", \"DigitalHome devices\"], \"Environment Object\": [], \"External System\": [\"broadband Internet connection\"], \"System Requirements\": [\"communication with all the DigitalHome devices\", \"connect with a broadband Internet connection\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Gateway\"],\n\"Physical Device\": [\"RF Module\", \"Gateway\", \"DigitalHome devices (sensors and controllers)\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"send and receive wireless communications between the Gateway and the other DigitalHome devices (sensors and controllers)\"],\n\"Shared Phenomena\": [\"wireless communications\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"The Gateway device\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"operate up to a 1000-foot range for indoor transmission\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"digital programmable thermostats\"], \"Environment Object\": [\"an enclosed space\"], \"External System\": [], \"System Requirements\": [\"include digital programmable thermostats\", \"monitor and regulate the temperature of an enclosed space\"], \"Shared Phenomena\": [\"temperature\"]}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"thermostat\"], \"Environment Object\": [\"the space where the thermostat is located\"], \"External System\": [], \"System Requirements\": [\"provide a reading of the current temperature\"], \"Shared Phenomena\": [\"current temperature\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the controller part of thermostat\"],\n\"Physical Device\": [\"thermostat\", \"heating or cooling devices\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provides a “set point” temperature that is used to control the flow of heat energy (by switching heating or cooling devices on or off as needed) to achieve the set point temperature\"],\n\"Shared Phenomena\": [\"set point temperature\", \"heat energy\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"thermostat\", \"sensor\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"14ºF and 104ºF\", \"-10ºC and 40ºC\"]\n}\n```\n"
+  },
+  {
+    "predict": " {\n\"Software System\": [],\n\"Physical Device\": [\"digital programmable humidistats\"],\n\"Environment Object\": [\"an enclosed space\"],\n\"External System\": [],\n\"System Requirements\": [\"include digital programmable humidistats\", \"monitor and regulate the humidity of an enclosed space\"],\n\"Shared Phenomena\": [\"humidity\"]\n} \n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"The humidistat\"], \"Environment Object\": [\"the space where the humidistat is located\"], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": [\"a reading of the current humidity\"]}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"humidistat\", \"humidifiers\", \"dehumidifiers\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide a “set point” humidity that is used to control humidifiers and dehumidifiers achieve the set point humidity\"],\n\"Shared Phenomena\": [\"set point humidity\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"magnetic alarm contact switches\"],\n\"Environment Object\": [\"door\", \"window\"],\n\"External System\": [],\n\"System Requirements\": [\"monitor entry through a door or window when the switch is active\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": " {\n\"Software System\": [\"the system\"],\n\"Physical Device\": [\"security sound and light alarms\", \"magnetic contact\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"include security sound and light alarms\", \"activated when DigitalHome senses a security breach from a magnetic contact\"],\n\"Shared Phenomena\": [\"security breach\"]\n} \n\n\n"
+  },
+  {
+    "predict": " {\n  'Software System': [],\n  'Physical Device': ['digital programmable power switches', 'appliance', 'coffee maker'],\n  'Environment Object': [],\n  'External System': [],\n  'System Requirements': ['monitor the current state of an appliance'],\n  'Shared Phenomena': ['current state']\n} \n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"the system\"], \"Physical Device\": [\"power switch\", \"appliance\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"to use a power switch to change the state of the appliance (e.g., from “off” to “on”)\"], \"Shared Phenomena\": [\"state of the appliance\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['the functional requirements'], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome System\"],\n\"Physical Device\": [\"web-ready computer\", \"cell phone\", \"PDA\", \"home's temperature\", \"home's humidity\", \"lights\", \"security\", \"small appliances\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"allow a web-ready computer, cell phone or PDA to control a home's temperature, humidity, lights, security, and the state of small appliances\"],\n\"Shared Phenomena\": []\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The communication center of the DigitalHome system\", \"DigitalHome home web server\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"user\", \"home devices\", \"home systems\"],\n\"External System\": [],\n\"System Requirements\": [\"monitor and control home devices and systems\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\n\"DigitalHome Gateway Device\",\n\"DigitalHome system\"\n],\n\"Physical Device\": [\n\"DigitalHome Gateway Device\",\n\"home devices\",\n\"home systems\"\n],\n\"Environment Object\": [],\n\"External System\": [\n\"the home’s broadband Internet connection\"\n],\n\"System Requirements\": [\n\"connects to the home’s broadband Internet connection\",\n\"uses wireless communication to send and receive communication between the DigitalHome system and the home devices and systems\"\n],\n\"Shared Phenomena\": [\n\"communication\",\n\"wireless communication\"\n]\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"DigitalHome\", \"environmental controllers\", \"sensors\", \"thermostats\", \"humidistats\", \"contact sensors\", \"security sound and light alarms\", \"power switches\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"sensor\", \"home database\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"sensor values\", \"wireless communication\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"controllers\"],\n\"Environment Object\": [\"DigitalHome environment\"],\n\"External System\": [],\n\"System Requirements\": [\"to change the DigitalHome environment\"],\n\"Shared Phenomena\": [\"Controller values\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome programmable thermostat\"],\n\"Physical Device\": [\"a web ready computer\", \"cell phone\", \"PDA\", \"a home’s temperature\"],\n\"Environment Object\": [\"a user\", \"a home\"],\n\"External System\": [],\n\"System Requirements\": [\"allow a user to monitor and control a home’s temperature from any location\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome\"],\n\"Physical Device\": [\"thermostat\"],\n\"Environment Object\": [\"A DigitalHome user\"],\n\"External System\": [],\n\"System Requirements\": [\"read the temperature at a thermostat position\"],\n\"Shared Phenomena\": [\"temperature\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"A DigitalHome user\", \"thermostat\"],\n\"External System\": [],\n\"System Requirements\": [\"set the thermostat temperatures to between 60 °F and 80 °F, inclusive, at one degree increments\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"thermostats\"],\n\"Environment Object\": [\"rooms throughout the home\"],\n\"External System\": [],\n\"System Requirements\": [\"Up to eight thermostats shall be placed\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': [], 'Physical Device': ['thermostats'], 'Environment Object': ['home spaces'], 'External System': [], 'System Requirements': ['temperature can be controlled at different levels'], 'Shared Phenomena': ['temperature']}\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [],\n\"Physical Device\": [\"A single thermostat\"],\n\"Environment Object\": [\"an enclosed space (e.g., a room in the house)\"],\n\"External System\": [],\n\"System Requirements\": [\"shall be placed in an enclosed space (e.g., a room in the house) for which the air temperature is to be controlled\"],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"thermostat\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"twenty-four one hour settings per day for every day of the week\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [],\n\"Physical Device\": [\"thermostat device\"],\n\"Environment Object\": [\"user\"],\n\"External System\": [],\n\"System Requirements\": [\"If a thermostat device allows a user to make a manual temperature setting, the setting shall remain in effect until the end of the planned or default time period, at which time the planned or default setting will be used for the next time period\"],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": " { 'Software System': [], 'Physical Device': ['thermostat unit', 'master control unit'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['wireless signals'] } \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"support Fahrenheit and Celsius temperature values\"],\n\"Shared Phenomena\": [\"temperature values\"]\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"HVAC (Heating, Ventilation and Air Conditioning) systems\"], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"be compatible with a centralized HVAC (Heating, Ventilation and Air Conditioning) systems: gas, oil, electricity, solar, or a combination of two or more\"], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome programmable humidistat\"],\n\"Physical Device\": [\"a web ready computer\", \"cell phone\", \"PDA\", \"a home’s humidity\"],\n\"Environment Object\": [\"a user\", \"a home\"],\n\"External System\": [],\n\"System Requirements\": [\"monitor and control a home’s humidity from any location\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome\"],\n\"Physical Device\": [\"humidistat\"],\n\"Environment Object\": [\"A DigitalHome user\"],\n\"External System\": [],\n\"System Requirements\": [\"to set the humidity level for a humidistat, from 30% to 60%, inclusive a 1% increments\"],\n\"Shared Phenomena\": [\"humidity level\", \"30%\", \"60%\", \"1% increments\"]\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [\"humidistats\"], \"Environment Object\": [\"rooms throughout the home\"], \"External System\": [], \"System Requirements\": [\"Up to eight humidistats shall be placed\"], \"Shared Phenomena\": []} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"humidistat\"],\n\"Environment Object\": [\"an enclosed space\", \"a room in the house\"],\n\"External System\": [],\n\"System Requirements\": [\"for which the humidity is to be controlled\"],\n\"Shared Phenomena\": [\"humidity\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"humdistat device\"],\n\"Environment Object\": [\"user\"],\n\"External System\": [],\n\"System Requirements\": [\"to remain in effect until the end of the planned or default time period\", \"the planned or default setting will be used for the next time period\"],\n\"Shared Phenomena\": [\"manual temperature setting\", \"planned or default time period\", \"planned or default setting\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"humidistat\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"one hour settings\", \"every day of the week\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"A DigitalHome system\"],\n\"Physical Device\": [\"wireless signals\", \"master control unit\", \"humidistats\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"use wireless signals to communicate, through the master control unit, with the humidistats\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome security system\"],\n\"Physical Device\": [\"contact sensors\", \"a set security alarms\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"A DigitalHome system\"],\n\"Physical Device\": [\"door and window contact sensors\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to manage up to fifty door and window contact sensors\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"A DigitalHome system\"],\n\"Physical Device\": [\"sound alarm\", \"light alarm subsystem\", \"multiple lights\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"activate both light and sound alarms\"],\n\"Shared Phenomena\": [\"sound alarm\", \"light alarm subsystem\", \"multiple lights\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"contact sensor\"],\n\"Environment Object\": [],\n\"External System\": [\"alarm system\"],\n\"System Requirements\": [\"be activated\"],\n\"Shared Phenomena\": [\"a security breach occurs\", \"a contact sensor is set OPEN\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome programmable Appliance Manager\"],\n\"Physical Device\": [\"lighting units\"],\n\"Environment Object\": [\"a user\", \"a home\"],\n\"External System\": [],\n\"System Requirements\": [\"provide for management of a home’s small appliances\", \"allowing a user to turn them on or off as desired\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Appliance Manager\"],\n\"Physical Device\": [\"power switches\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"manage up to one hundred 115 volt, 10 amp power switches\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"power switch\", \"appliance\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide information about the state of a power switch (OFF or ON)\", \"indicating the whether an appliance connected to the power switch is OFF or ON\"],\n\"Shared Phenomena\": [\"OFF or ON\", \"OFF or ON\"]\n}\n```\n"
+  },
+  {
+    "predict": " {\n  'Software System': ['the system'],\n  'Physical Device': ['power switch', 'appliance'],\n  'Environment Object': [],\n  'External System': [],\n  'System Requirements': ['to change the state of a power switch (OFF to ON, or ON to OFF), in turn changing the state of an appliance connected to the power switch'],\n  'Shared Phenomena': []\n} \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"power switch device\"],\n\"Environment Object\": [\"user\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"the state of power switch device\", \"the planned or default time period\", \"the planned or default setting\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome Planner\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"to set various preset home parameters (temperature, humidity, security contacts, and on/off appliance/light status) for certain time periods\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"a user shall be able to create or modify a month plan\", \"specifies for each day, for up to four daily time periods, the environmental parameter settings\"],\n\"Shared Phenomena\": [\"month\", \"year\", \"environmental parameter settings\", \"temperature\", \"humidity\", \"contact sensors\", \"power switches\"]\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome website\"],\n\"Physical Device\": [\"household devices\", \"manual switches\"],\n\"Environment Object\": [\"A user\"],\n\"External System\": [],\n\"System Requirements\": [\"override planned parameter values\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide a report on the management and control of the home\"],\n\"Shared Phenomena\": [\"a month and year\", \"the past two years\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"thermostat\", \"humidistat\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"contain daily average, maximum (with time) and minimum (with time) values of temperature and humidity\"],\n\"Shared Phenomena\": [\"daily average\", \"maximum (with time)\", \"minimum (with time)\", \"temperature\", \"humidity\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide the day and time for which any security breaches occurred\"],\n\"Shared Phenomena\": [\"security breaches\", \"security alarms were activated\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"provide a section that indicates the periods of time when the DigitalHome System was not in operation\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"environmental conditions\", \"temperature\", \"humidity\", \"contact sensors\", \"power switches\"],\n\"External System\": [],\n\"System Requirements\": [\"updated at least every two seconds\"],\n\"Shared Phenomena\": []\n}\n```\n\n\n\n\n"
+  },
+  {
+    "predict": "\n{\n'Software System': [],\n'Physical Device': ['Sensor'],\n'Environment Object': ['temperature', 'humidity', 'contact sensor', 'power state'],\n'External System': [],\n'System Requirements': ['have a minimum data acquisition rate of 10 Hz'],\n'Shared Phenomena': []\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"environmental sensor or controller device\", \"master control device\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"have to be within 1000 feet of the master control device, in order to be in communication with the system\"],\n\"Shared Phenomena\": [\"communication with the system\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"highly reliable with no more than 1 failure per 10,000 hours of operation\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The Digital Home System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"incorporate backup and recovery mechanisms\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"DigitalHome System\"], \"Physical Device\": [], \"Environment Object\": [\"DigitalHome Technician\"], \"External System\": [], \"System Requirements\": [\"backup all system data (configuration, default parameter settings, planning, and usage data) on a daily basis\"], \"Shared Phenomena\": [\"system data (configuration, default parameter settings, planning, and usage data)\"]}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"restore system data (configuration, default parameter settings, planning, and usage data) from the most recent backup\"],\n\"Shared Phenomena\": []\n}\n```\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"DigitalHome\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"user\"],\n\"External System\": [],\n\"System Requirements\": [\"incorporate exception handling so that the system responds to a user with a clear, descriptive message when an error or an exceptional condition occurs\"],\n\"Shared Phenomena\": [\"error\", \"exceptional condition\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"high system reliability\", \"there are no system failures in carrying out user requests\"],\n\"Shared Phenomena\": [\"user requests\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n{'Software System': [], 'Physical Device': [], 'Environment Object': ['home dwellers'], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['security breaches', 'inadequate lighting', 'inappropriate temperature and humidity', 'powering certain appliances']}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [\"a DigitalHome user account\"],\n\"External System\": [],\n\"System Requirements\": [\"a DigitalHome user account shall be established\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"The DigitalHome web system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"Transport Layer Security\"],\n\"System Requirements\": [\"provide for authentication and information encryption\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [\"DigitalHome system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"use methods and techniques such as the following to support system maintenance\"],\n\"Shared Phenomena\": []\n}\n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"the product\", \"modules and components\", \"prototype version\", \"commercial version\", \"DigitalHome System\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"designed and implemented in such a manner that it may be incorporated in a fully specified commercial version of the DigitalHome System\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"HomeOwner Document Archive\"],\n\"System Requirements\": [\"All system documents (Software Requirements Specification, Architectural Design Specification, Module Detailed Design, Module Source Code, and all Test Plans) shall be up-to-date, use the Homeowner document format [HO2305] and reside in the HomeOwner Document Archive at completion of the project.\"],\n\"Shared Phenomena\": []\n}\n"
+  },
+  {
+    "predict": "\n```json\n{\n\"Software System\": [\"HomeOwner products\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"HomeOwner\"],\n\"External System\": [],\n\"System Requirements\": [\"object-oriented development\", \"using UML 2.0\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Exceptions to this rule must be approved by the CIO\"], \"Shared Phenomena\": []}\n\n\n\n"
+  }
+]

@@ -1,0 +1,8201 @@
+[
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System (TCS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical control system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the OPERATIONAL REQUIREMENTS DOCUMENT FOR THE UNMANNED AERIAL VEHICLE (UAV) TACTICAL CONTROL SYSTEM (TCS) - VERSION 5.0"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "TCS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a single command, control, data receipt, data processing, data export and dissemination system that is interoperable with the family of all present and future tactical unmanned aerial vehicles"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "TUAV",
+        "MAE UAV",
+        "Outrider",
+        "Predator",
+        "their associated payloads",
+        "other network communication systems"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "UAVs"
+      ],
+      "Environment Object": [
+        "UAV JPO"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the Tactical Control System"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "receipt and transmission of secondary imagery and/or data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "UAV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "receipt of imagery and/or data"
+      ],
+      "Shared Phenomena": [
+        "receipt of imagery and/or data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "control of the UAV payload",
+        "direct receipt of imagery/data"
+      ],
+      "Shared Phenomena": [
+        "imagery/data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "UAV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "level three for the multiple UAV"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the UAV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "full function and control of the UAV from takeoff to landing for multiple UAV"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the Outrider",
+        "the Predator UAV",
+        "future tactical UAVs"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "connectivity",
+        "Command",
+        "Control",
+        "Communications",
+        "Computers"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the objective capability of receiving High Altitude Endurance"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "tactical airborne platforms"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "the Services’ joint C4I infrastructure"
+      ],
+      "System Requirements": [
+        "to simplify user operations, training, and facilitate seamless integration into the Services’ joint C4I infrastructure across all levels of interaction"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the UAV operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "computer related communications",
+        "mission tasking",
+        "mission planning",
+        "mission execution",
+        "data receipt",
+        "data processing",
+        "limited data exploitation",
+        "data dissemination"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the software"
+      ],
+      "Physical Device": [
+        "UAVs",
+        "UAV payloads"
+      ],
+      "Environment Object": [
+        "a UAV operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "a high resolution computer generated graphical user interface"
+      ],
+      "Shared Phenomena": [
+        "different types of UAVs",
+        "a minimum of additional training"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "an open architecture",
+        "computers",
+        "the using Service"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Defense Information Infrastructure / Common Operating Environment",
+        "tactical UAVs"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "software portability",
+        "scaleable functionality",
+        "operational configurations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "DoD components"
+      ],
+      "System Requirements": [
+        "commonality"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the computing hardware"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "the service specific procurement contracts"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "air vehicle"
+      ],
+      "Environment Object": [
+        "the battlefield"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the desired level of Tactical Control System functionality"
+      ],
+      "Shared Phenomena": [
+        "C4I connectivity",
+        "deployment concept",
+        "area of operations"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Service needs"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "The Tactical Control System hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "long range communications",
+        "data storage expansion",
+        "access to other computers",
+        "multiple external peripherals"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System",
+        "C4I systems"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "C4I systems"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "information exchange"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to be capable of entering DII/COE compliant networks"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Advanced Tomahawk Weapons Control Station (ATWCS)"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "All Source Analysis System (ASAS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Automated Target Hand-off System (ATHS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "Closed Circuit Television (CCTV)"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Common Operational Modeling, Planning, and Simulation Strategy (COMPASS)"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "Enhanced Tactical Radar Correlator"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "Guardrail Common Sensor/Aerial Common Sensor (ACS) Integrated Processing Facility (IPF)"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Intelligence Analysis System (IAS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Joint Deployable Intelligence Support System (JDISS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Joint Maritime Command Information System (JMCIS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "The Tactical Control System",
+        "Joint Service Imagery Processing System – Air Force (JSIPS-AF)"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Joint Service Imagery Processing System - Navy (JSIPS-N)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "Ground Station"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System",
+        "the Modernized Imagery Exploitation System (MIES)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Army Mission Planning System (AMPS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Air Force Mission Support System (AFMSS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Tactical Aircraft Mission Planning System (TAMPS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "The Tactical Exploitation Systeme (TES)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "Theater Battle Management Core System (TBMCS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "UAV imagery products",
+        "tactical communication messages",
+        "mission plans",
+        "target coordinates"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Service specific mission planning systems"
+      ],
+      "System Requirements": [
+        "receive tasking orders",
+        "display tasking orders",
+        "display operational information"
+      ],
+      "Shared Phenomena": [
+        "tasking orders",
+        "operational information"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "Predator",
+        "Outrider AVs"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "C4I systems"
+      ],
+      "System Requirements": [
+        "controlling the Predator and Outrider AVs with a single control system",
+        "using existing military services standard hardware and software",
+        "supporting interfaces with various C4I systems"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "Tactical Control System workstation"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System shall consist of"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "Air Vehicle (AV)",
+        "data link",
+        "other necessary support equipment"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "command and control of the payload",
+        "reconnaissance, surveillance, target acquisition, and target identification missions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "military supported units"
+      ],
+      "External System": [
+        "tactical communications systems",
+        "C4I systems"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "payload data",
+        "tactical communications systems",
+        "C4I systems"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "selected standard DoD C4I systems",
+        "architectures",
+        "protocols"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "task analysis",
+        "MIL STD 1388 Task 401",
+        "a thorough understanding",
+        "Outrider",
+        "Predator",
+        "mission requirements"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to be performed by the system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the RQ-1A Predator Medium Altitude Endurance Unmanned Aerial Vehicle/System (MAE UAV)"
+      ],
+      "Environment Object": [
+        "the Close Range – Tactical Unmanned Aerial Vehicle (CR-TUAV)"
+      ],
+      "External System": [
+        "the Operational Requirements Document (ORD) CAF 003-90-I-A"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "hardware configurations"
+      ],
+      "Environment Object": [
+        "the operational tasking requirements"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the operational tasking requirements"
+      ],
+      "Shared Phenomena": [
+        "the 5 levels of interaction"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "UAV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "receipt and transmission of secondary imagery and/or data"
+      ],
+      "Shared Phenomena": [
+        "secondary imagery and/or data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "UAV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "imagery and/or data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "control of the UAV payload",
+        "direct receipt of imagery/data"
+      ],
+      "Shared Phenomena": [
+        "imagery/data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "UAV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "control of the UAV",
+        "all the functions of level three"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the UAV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "full function and control"
+      ],
+      "Shared Phenomena": [
+        "takeoff to landing"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Startup",
+        "Operation",
+        "Shutdown"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System states"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the Startup State"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Startup State"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Normal Startup Mode",
+        "Recovery Startup"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System Software",
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "power"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Normal Startup Mode of operation"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "5 levels of interaction"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Levels of interaction higher than those achievable by a particular Tactical Control System configuration"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the Operations State",
+        "power"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the system functionality necessary to initialize the system"
+      ],
+      "Shared Phenomena": [
+        "time power is supplied",
+        "the time"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System HWCIs"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Initialization of the Tactical Control System HWCIs"
+      ],
+      "Shared Phenomena": [
+        "startup of HWCIs",
+        "download of software",
+        "startup of CSCIs",
+        "execution of Startup FD/L",
+        "establishment of the state of readiness of all interfaces"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "system functionality"
+      ],
+      "Shared Phenomena": [
+        "resume the Operations"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System HWCIs"
+      ],
+      "Physical Device": [
+        "HWCIs",
+        "CSCIs"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "startup of HWCIs",
+        "download of software",
+        "startup of CSCIs",
+        "establishment of the state of readiness of all interfaces"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "automatically recording system state data",
+        "interface communications",
+        "event reconstruction"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "recovery from abnormal termination"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "operating in three modes",
+        "normal operations mode",
+        "training operations mode",
+        "maintenance operations mode"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "command the system to the Shutdown State",
+        "all modes under the Operations State"
+      ],
+      "Shared Phenomena": [
+        "the Shutdown State",
+        "the Operations State"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "execute periodic Fault Detection/Location (FD/L) while in the Normal Operations Mode and Training Mode",
+        "determination of level of interaction"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "mission planning"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "mission control",
+        "monitoring"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "payload product management"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "target coordinate development"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support C4I systems interface"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Functions under the Normal Operations Mode"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "concurrently",
+        "precluding",
+        "excluding",
+        "allowable operations",
+        "interaction"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "mission planning"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "mission control",
+        "monitoring"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support payload product Mmanagement"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "target coordinate development"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "C4I systems"
+      ],
+      "System Requirements": [
+        "support C4I systems interface"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "computer workstation",
+        "Human Computer Interface (HCI)"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "AV maintenance"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "computer workstation Human Computer Interface (HCI)"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "computer workstation Human Computer Interface (HCI)",
+        "data link terminal"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "if computer workstation Human Computer Interface (HCI) is required"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "computer workstation",
+        "peripheral equipment"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "if computer workstation Human Computer Interface (HCI) is required"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "perform fault detection/location (FD/L)"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "computer workstation Human Computer Interface (HCI)"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "perform software upgrades"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "computer workstation"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "perform software debug and monitoring"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "mission data files"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "mission planning"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "mission control and monitoring"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "payload product management"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "conduct targeting"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "allow the operator to generate a UAV mission plan"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "service specific mission planning systems"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "UAV mission plans"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System",
+        "Tactical Aircraft Mission Planning System (TAMPS)",
+        "Aviation Mission Planning System (AMPS)",
+        "Air Force Mission Support System (AFMSS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "service specific mission planning systems"
+      ],
+      "System Requirements": [
+        "transmit UAV mission plans"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "automated processing of mission plan data",
+        "extract the appropriate mission planning data"
+      ],
+      "Shared Phenomena": [
+        "mission plan data",
+        "C4I interfaces"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "other Tactical Control Systems"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "UAV mission plans"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "other Tactical Control Systems"
+      ],
+      "System Requirements": [
+        "transmit UAV mission plans"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "A Mission Plan"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a minimum of 500 mission plans",
+        "under unique names",
+        "later retrieval"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "a pointing device"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "full keyset redundancy"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the Tactical Control System",
+        "the map display",
+        "two geographic positions"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the capability to compute the range and bearing"
+      ],
+      "Shared Phenomena": [
+        "between two geographic positions on the map display"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "import as well as create and modify map display overlays for fire support coordination measures [SSS547], airspace control measures [SSS548], and threat identification measures"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "UAV signature versus threat lookup table (database)"
+      ],
+      "System Requirements": [
+        "displaying aircraft signature versus threat",
+        "before and during flight"
+      ],
+      "Shared Phenomena": [
+        "radar cross section analysis and characterization",
+        "UAV type",
+        "lethality of the threat to the UAV",
+        "SSS065"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "dynamic mission and payload retasking"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "allow the operator to enter as well as review mission plan parameters",
+        "AV flight parameters",
+        "payload control parameters",
+        "data link control parameters",
+        "AV VCR control parameters",
+        "AV loiter patterns"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the capability to enter system configuration characteristics in the mission plan"
+      ],
+      "Shared Phenomena": [
+        "selected AV type",
+        "AV identification number",
+        "selected payload type",
+        "ground control authorization information",
+        "required communications pre-set for data links",
+        "tactical communications",
+        "C4I data dissemination"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the AV"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "a flight route plan",
+        "a payload plan",
+        "a system data link",
+        "a ground connection"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the capability for the operator to retrieve a mission plan for viewing, modification, as well as deletion at the operator's discretion",
+        "allow the operator to save the mission plan under a different name, for future retrieval"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "check the validity of the intended mission plan",
+        "altitude constraints",
+        "payload constraints",
+        "data link range constraints",
+        "airspace restrictions",
+        "fuel limitations",
+        "threat constraints",
+        "data link terrain masking effects",
+        "Loss of Link (LOL) Plan"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "notify the operator of all discrepancies found during the mission plan check",
+        "indicate successful completion of the mission plan check"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide the capability to override validation faults",
+        "acknowledged by the operator"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "set the LOL delay timer(s) during mission planning"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System"
+      ],
+      "Shared Phenomena": [
+        "waypoint data",
+        "alphanumeric format"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "AV flight path information",
+        "Loss of Link plan",
+        "AV VCR control tasking",
+        "data link control information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System shall allow the operator to define the desired AV route in waypoint format, and shall provide the capability to include up to 500 waypoints in each flight route plan."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "display mission waypoints and flight path graphically"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System shall provide the capability to enter waypoint data in alphanumeric format."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System flight route planner"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System flight route planner"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System flight route planner"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "terrain avoidance warnings for line-of-sight flights"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System flight route planner"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "line-of-sight flights",
+        "the minimum data link reception altitude"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "atmospheric conditions",
+        "diurnal transition periods",
+        "thermal imagery",
+        "lunar",
+        "solar terrain shadowing"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "payload search area information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "flight corridors",
+        "restricted airspace"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System flight route planner will be able to designate flight corridors and restricted airspace."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "the estimated time of arrival",
+        "fuel status",
+        "each programmed waypoint",
+        "the proposed mission plan"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the AV's flight range"
+      ],
+      "Shared Phenomena": [
+        "remaining fuel"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "prior to transmission of the flight route plan to the AV"
+      ],
+      "Shared Phenomena": [
+        "the flight route plan",
+        "the flight constraints of the AV",
+        "the limitation of the data link"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "a validated 6 degree-of-freedom air vehicle simulator"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "all flight planning calculations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the flight route plan"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a designated recovery area"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "a programmed flight"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "an interactive graphics and map based flight route planning capability"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "waypoints",
+        "the desired flight path",
+        "AV Altitude",
+        "Airspeed"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System shall provide the capability to create waypoints that define the desired flight path, define AV Altitude and Airspeed associated with the waypoint."
+      ],
+      "Shared Phenomena": [
+        "waypoints",
+        "the desired flight path",
+        "AV Altitude",
+        "Airspeed"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "fire support coordination zones",
+        "airspace control zones",
+        "threat systems",
+        "radar terrain"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System shall provide the capability of displaying overlays each containing 100 simultaneous icons"
+      ],
+      "Shared Phenomena": [
+        "icons",
+        "threat engagement envelopes"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a selected number of the most significant threats"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the Tactical Control System"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System shall provide the capability to display waypoint data in alphanumeric format."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the display"
+      ],
+      "Environment Object": [
+        "a map"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to load a map onto the display",
+        "to zoom in and out",
+        "to scroll",
+        "to print",
+        "to clear a map on the map display"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator",
+        "a map scale"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "display an icon indicating AV position"
+      ],
+      "Shared Phenomena": [
+        "downlink from the desired AV"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the desired AV"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "payload center field of view and footprint",
+        "downlink"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "an icon",
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "target position and type at coordinates selected by the operator"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "Ground Data Terminal (GDT)"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "display icons indicating Tactical Control System position",
+        "display icons indicating Ground Data Terminal (GDT) position"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Launch",
+        "Handover",
+        "Recovery site"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "icon indicating",
+        "when applicable"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "positions of the icons",
+        "Lat./Lon.",
+        "Universal Transverse Mercator (UTM)",
+        "Military Grid Reference System (MGRS)",
+        "multiple spheroid scales"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "payload planning information",
+        "a flight route plan"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "generate a payload plan"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the selected payload"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to display the payload swath for the selected payload for planning purposes"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "AV",
+        "payload",
+        "data link",
+        "C4I interfaces"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "control and monitor"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "MAE AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "full control functionality"
+      ],
+      "Shared Phenomena": [
+        "BLOS"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "AV specific components"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "operator selection",
+        "a specific AV"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System",
+        "the AV"
+      ],
+      "Physical Device": [
+        "the uplink to the AV",
+        "the downlink from the AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "transmit command and control information",
+        "receive AV telemetry and payload information"
+      ],
+      "Shared Phenomena": [
+        "command and control information",
+        "AV telemetry and payload information"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "interoperable with Predator and Outrider UAVs across the 5 levels of UAV interaction"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "control and monitor multiple types of AVs"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to pass control of an AV to another Tactical Control System",
+        "to receive control of an AV from another Tactical Control System"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "control the AV flight commands",
+        "release the AV to an autonomous flight control mode"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "AV telemetry data"
+      ],
+      "Shared Phenomena": [
+        "other Tactical Control System functions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the selected AV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "control the flight of the selected AV in accordance with the specific"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the AV's Identification Friend or Foe"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System shall provide the capability to fully control and display"
+      ],
+      "Shared Phenomena": [
+        "the AV's Identification Friend or Foe"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "enter AV preset limits"
+      ],
+      "Shared Phenomena": [
+        "airspeed limits",
+        "altitude limits",
+        "fuel limits"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "an AV"
+      ],
+      "Environment Object": [
+        "the LOS"
+      ],
+      "External System": [
+        "SATCOM data links"
+      ],
+      "System Requirements": [
+        "allow the operator to control"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "two MAE air vehicles"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the necessary system capabilities required for AV flight control BLOS via uplink command"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "the AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "operation of the AV via all flight modes, to include manual controls"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide the capability to implement an emergency action plan",
+        "control the AV during equipment failures"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "an AV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "interactive displays"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the selected AV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "allow the operator to command the flight behavior characteristics"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "UAV"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "manual override",
+        "flight behaviors"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "command the AV to use the navigation methods inherent to the selected AV"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "UAV"
+      ],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "manual override"
+      ],
+      "Shared Phenomena": [
+        "UAV navigation methods",
+        "control commands"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the Air Data"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "control",
+        "monitor",
+        "display the operation"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the ADT antenna",
+        "the ADT transmitter",
+        "the ADT receiver"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the ADT antenna"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "omni and directional",
+        "pointing direction",
+        "mode of transmission"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "data link communication"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "automatic launch and recovery system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System",
+        "the Integrity Beacon Landing System (IBLS)",
+        "the Common Automated Recovery System (CARS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "present sufficient cues to the operator",
+        "implement and monitor automatic launch and recovery",
+        "initiate abort procedures"
+      ],
+      "Shared Phenomena": [
+        "automatic launch and recovery",
+        "abort procedures"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the emergency recovery feature"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "monitor specific telemetry elements real-time",
+        "record all telemetry elements for future review and processing"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide the capability to monitor AV adherence to the uplinked mission plan",
+        "detecting any deviations greater than 10% from projected flight path",
+        "notifying the operator if deviations are detected"
+      ],
+      "Shared Phenomena": [
+        "uplinked mission plan",
+        "deviations greater than 10% from projected flight path",
+        "deviations detected"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide the capability to monitor the status of all AV subsystems",
+        "reporting status"
+      ],
+      "Shared Phenomena": [
+        "status of all AV subsystems",
+        "status"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "display the AV status",
+        "AV location",
+        "flight and avionics system status"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "displaying fuel parameters",
+        "remaining fuel",
+        "flow rate",
+        "bingo fuel"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the designated Recovery site"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the AV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "compute the estimated position of the AV during Loss of Link (LOL)"
+      ],
+      "Shared Phenomena": [
+        "the last known AV position",
+        "anticipated flight path",
+        "current flight mode",
+        "flight route plan mode",
+        "emergency flight route plan mode",
+        "maintain current heading mode"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "interoperable"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "control and monitor the AV payload(s)"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "an AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "have the capability to receive data from and control payloads"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "two air vehicles of the same type"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "payload control beyond line of sight via uplink command"
+      ],
+      "Shared Phenomena": [
+        "sequential communication techniques"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "one air vehicle",
+        "the other"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "communication means",
+        "one air vehicle",
+        "the other"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "air vehicle"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "present payload data to the operator",
+        "determine the status of the payload"
+      ],
+      "Shared Phenomena": [
+        "payload data",
+        "status of the payload"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the payload",
+        "the selected AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "permit the operator to control the payload"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "controlling the payload"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "override of payload automated as well as preprogrammed inputs"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide the capability to monitor payload adherence to the uplinked mission plan"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the Tactical Control System",
+        "the current search footprint",
+        "the search history",
+        "the payload",
+        "the map"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "display the current search footprint and the search history of the payload on the "
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "a line-of-sight",
+        "a BLOS data terminal"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "simultaneously control and monitor"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the data link"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "record data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the specified data terminal",
+        "a selected AV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System shall be capable of interfacing with the specified data terminal and issuing data link terminal commands required to establish, control, and maintain the data link with a selected AV."
+      ],
+      "Shared Phenomena": [
+        "data link terminal commands",
+        "data link"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "antenna",
+        "transmitter",
+        "receiver"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Data terminal control"
+      ],
+      "Shared Phenomena": [
+        "antenna pointing control",
+        "transmitter control",
+        "receiver control"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the selected data terminal"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "automatically selecting the proper mode of operation"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System LOS data terminal"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "As a minimum the Tactical Control System LOS data terminal control modes"
+      ],
+      "Shared Phenomena": [
+        "acquisition",
+        "autotrack",
+        "search",
+        "manual point",
+        "omni directional",
+        "directional modes of operation",
+        "data link"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "data terminal"
+      ],
+      "Environment Object": [
+        "the operator",
+        "Emission Control",
+        "Hazards of Electromagnetic Radiation to Ordnance"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "automatic data terminal control mode selection",
+        "EMCON",
+        "HERO conditions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a LOS data link and SATCOM data link capability"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "a second LOS antenna"
+      ],
+      "Environment Object": [
+        "shipboard obstructions"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "shipboard obstructions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "a SATellite COMmunication (SATCOM) antenna"
+      ],
+      "Environment Object": [
+        "the AV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the selected AV has SATCOM capability",
+        "when desire"
+      ],
+      "Shared Phenomena": [
+        "switch to a SATellite COMmunication (SATCOM) antenna",
+        "LOS range",
+        "LOS is obstructed"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "controlling the data link terminal"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "directional antennas"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "automatic pointing commands",
+        "manual pointing of directional antennas"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "antennas"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "maintain LOS as well as SATCOM"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "antenna pedestal"
+      ],
+      "Environment Object": [
+        "ship",
+        "HMMWV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "antenna pedestal 3 -axis stabilization"
+      ],
+      "Shared Phenomena": [
+        "platform motion"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the transmitter",
+        "the receiver",
+        "the selected data terminal"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the selected data terminal"
+      ],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the automatic function selection"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the selected data terminal",
+        "the transmitter",
+        "the receiver"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the selected data terminal"
+      ],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the automatic mode selection"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the transmitter",
+        "the receiver",
+        "the selected data terminal"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the automatic frequency selection"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "present status data to the operator",
+        "monitor the status of the data terminal",
+        "monitor the supported AV data link"
+      ],
+      "Shared Phenomena": [
+        "status data",
+        "the status of the data terminal",
+        "the supported AV data link"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "monitoring and displaying the signal strength of the received and transmitted signals"
+      ],
+      "Shared Phenomena": [
+        "the signal strength of the received and transmitted signals",
+        "the selected data terminal"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "monitoring and displaying the signal quality of the received and transmitted signals"
+      ],
+      "Shared Phenomena": [
+        "the signal quality of the received and transmitted signals",
+        "the selected data terminal"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "presenting to the operator a visual depiction of the minimum and maximum data link operational ranges"
+      ],
+      "Shared Phenomena": [
+        "minimum and maximum data link operational ranges"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "limited exploitation"
+      ],
+      "Shared Phenomena": [
+        "payload product handling"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "payload sensor output",
+        "AV and payload telemetry data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "The Tactical Control System",
+        "Electro Optical (EO)",
+        "Infrared (IR)",
+        "Synthetic Aperture Radar (SAR) payloads"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "payload product data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "This functionality"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a hard copy of freeze frame video",
+        "digital imagery for export and dissemination"
+      ],
+      "Shared Phenomena": [
+        "formatting",
+        "storing",
+        "internally routing",
+        "recording the video",
+        "creating and storing a freeze frame of the video",
+        "retrieving and displaying the video",
+        "printing a hard copy of freeze frame video",
+        "processing digital imagery"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Tactical Control System"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "digital and analog imagery",
+        "associated telemetry"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "store up to 24 hours of payload data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "External storage"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "processing payload imagery data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "C4I systems"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the necessary telemetry and support data"
+      ],
+      "Shared Phenomena": [
+        "the NITF 2.0 imagery files",
+        "the telemetry and support data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a built-in text entry capability"
+      ],
+      "Shared Phenomena": [
+        "textual information on imagery"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "HAE UAV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "receiving secondary HAE UAV payload imagery"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Payload telemetry data"
+      ],
+      "Shared Phenomena": [
+        "other Tactical Control System functions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "display live and recorded imagery data",
+        "with as well as without annotation and overlay, upon operator request"
+      ],
+      "Shared Phenomena": [
+        "live and recorded imagery data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the imagery"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator",
+        "the imagery"
+      ],
+      "External System": [
+        "external sources"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "view imagery",
+        "data from more than one payload"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "select the content of the overlay information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a target"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "RS170A video and digital imagery",
+        "displayed upon operator request"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to conduct limited exploitation",
+        "to include voice and textual reporting for spot and mission objectives"
+      ],
+      "Shared Phenomena": [
+        "payload product data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "image enhancement and annotation"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "contrast",
+        "brightness",
+        "edge enhancement",
+        "sharpness"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "further review and processing"
+      ],
+      "Shared Phenomena": [
+        "frozen-frames of imagery"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the target"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "date/time group",
+        "target location coordinates",
+        "north seeking arrow",
+        "AV position and heading"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the payload imagery display"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the capability to compute the range and bearing between two geographic positions"
+      ],
+      "Shared Phenomena": [
+        "geographic positions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "determine target coordinates",
+        "estimate target coordinate accuracy"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator",
+        "the payload field-of-view center"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "a target location function"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "items of interest",
+        "the payload field of view"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "coordinates acceptable for military applications"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "develop an estimate of the error in computed target coordinates",
+        "associate the error estimate with the appropriate target"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to be capable of entering DII-COE compliant (C4I) networks"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "plan a mission",
+        "conduct a mission"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the presentation of payload products",
+        "target coordinates",
+        "export and dissemination"
+      ],
+      "Shared Phenomena": [
+        "payload products",
+        "target coordinates"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "the C4I system"
+      ],
+      "Physical Device": [
+        "drones"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "the C4I system"
+      ],
+      "System Requirements": [
+        "provide information",
+        "use by C4I system operators"
+      ],
+      "Shared Phenomena": [
+        "tactical data communication links",
+        "non-real-time trajectories",
+        "tactical points",
+        "details",
+        "engagement by appropriate weapon systems"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "a data server"
+      ],
+      "System Requirements": [
+        "The Tactical Control System"
+      ],
+      "Shared Phenomena": [
+        "intelligence data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "cable"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to use cable to deliver live video imagery in multiple locations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "Ultra High Frequency (UHF)",
+        "Very High Frequency (VHF)",
+        "UHF/VHF",
+        "High Frequency (HF) radios"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "digital message transmission",
+        "record traffic"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "formatted NITF 2.0 files",
+        "digital imagery",
+        "RS-170A video",
+        "tactical communication messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "manage all operational C4I interfaces across all 5 levels of interaction"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "tactical communication messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "send and receive digital imagery"
+      ],
+      "Shared Phenomena": [
+        "annotated and un-annotated digital imagery"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the C4I systems"
+      ],
+      "System Requirements": [
+        "establish digital communication",
+        "terminate the communication upon completion"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "peripheral devices"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to establish and subsequently terminate digital communication"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "analog imagery in RS-170A format with as well as without overlay"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "C4I systems"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to establish analog communication",
+        "to terminate the communication once it is completed"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "peripheral devices"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to establish and subsequently terminate analog communication"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "C4I messages"
+      ],
+      "System Requirements": [
+        "process received C4I messages",
+        "prepare C4I messages for transmission"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "reviewing incoming Tactical Communication Messages"
+      ],
+      "Shared Phenomena": [
+        "incoming Tactical Communication Messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "prepare digital imagery for transmission"
+      ],
+      "Shared Phenomena": [
+        "digital imagery"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "review incoming annotated as well as un-annotated digital imagery"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "erroneous messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "log all incoming and outgoing formatted tactical messages"
+      ],
+      "Shared Phenomena": [
+        "tactical messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "prepare annotated as well as un-annotated analog imagery for transmission"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "receive incoming annotated as well as un-annotated analog imagery"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "monitor the status of all C4I interfaces",
+        "display appropriate control information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "display which C4I systems are supported and online during a mission"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "monitoring the status of all incoming and outgoing tactical communication messages"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "review all tactical communication messages received",
+        "review all tactical communication messages transmitted"
+      ],
+      "Shared Phenomena": [
+        "tactical communication messages received",
+        "tactical communication messages transmitted"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "view incoming and outgoing, both annotated and un-annotated analog imagery"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "view incoming and outgoing digital imagery messages"
+      ],
+      "Shared Phenomena": [
+        "incoming and outgoing digital imagery messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "displaying appropriate status results",
+        "executing AV maintenance software"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "executing payload maintenance software",
+        "displaying appropriate status results"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "execute data terminal maintenance software",
+        "display appropriate status results"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "execute workstation and peripheral equipment maintenance software",
+        "display appropriate status results"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Fault Detection/Location (FD/L) to the Line Replaceable Unit (LRU) level",
+        "indicate the readiness status"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "operator workstation"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Startup FD/L"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "the AV's FD/L"
+      ],
+      "Environment Object": [
+        "the Original Equipment Manufacturer (OEM)"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "control and monitor"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "CD-ROM",
+        "other media storage devices"
+      ],
+      "Environment Object": [
+        "operators"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "install software upgrades"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "restrict operator access to this capability via password protection"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System",
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Authorized Operators"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "modify all Tactical Control System programmable parameters"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "restrict Operator access to this capability via password protection"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "compact disk"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "NIMA Digital Terrain Elevation Data (DTED)",
+        "Digital Feature Analysis Data (DFAD)",
+        "Arc Digitized Raster Graphic and scanned hard copy maps"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "importing map information via operator procedure",
+        "incorporating vector format and Compressed ADRG (CADRG) maps"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to execute a software debug capability",
+        "to view the resulting debug diagnostic information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "password protection"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "external systems"
+      ],
+      "System Requirements": [
+        "conduct mission coordination and operations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "equipment",
+        "VHF radios",
+        "UHF radios",
+        "UHF/VHF radios",
+        "Mobile Subscriber Equipment",
+        "military and commercial satellite communications equipment"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "connectivity"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "mission tasking systems"
+      ],
+      "System Requirements": [
+        "interface with external mission tasking systems",
+        "receive tasking orders",
+        "coordinate mission certification"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to interface with the data terminal"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "external systems"
+      ],
+      "System Requirements": [
+        "to allow interfacing with external systems via a local area network"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "launch and recovery systems"
+      ],
+      "System Requirements": [
+        "provide external interfaces"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "C4I systems"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System",
+        "Universal Communication Processor",
+        "Common Message Processor (CMP)",
+        "DII/COE"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "C4I systems"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "Tactical Communication (TACOMM) messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ASAS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to integrate with JSTARS GSM"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "JMCIS"
+      ],
+      "System Requirements": [
+        "provide the necessary hardware and software functionality"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "JSIPS-N"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "AFATDS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to integrate with CARS"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to integrate with CCTV"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Service Mission Planners"
+      ],
+      "External System": [
+        "AMPS",
+        "AFMSS",
+        "TAMPS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "AMPS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "AFMSS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System",
+        "TAMPS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the necessary hardware and software functionality"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "GCS/ACS IPF"
+      ],
+      "System Requirements": [
+        "The Tactical Control System shall provide the necessary hardware and software functionality to allow the Tactical Control System to integrate with GCS/ACS IPF."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "JDISS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to integrate with JDISS"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "TES"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "IAS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "IAS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ATHS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ATWCS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Trojan Spirit II"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System",
+        "TBMCS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Tactical Control System"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System",
+        "MIES"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ETRAC"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "COMPASS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "TEG"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "interfaces with the respective UAV program-provided data links for command and control"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "external interfaces"
+      ],
+      "System Requirements": [
+        "simultaneously supporting both of the following external interfaces"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "hard copy printer"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to print freeze-frame video",
+        "to print C4I Messages",
+        "to print Mission Plans",
+        "to print FD/L information",
+        "to print current map display"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "a hard copy printer"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "output digital message data",
+        "output imagery"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "external data storage systems"
+      ],
+      "System Requirements": [
+        "provide an interface between the Tactical Control System and external data storage systems"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "external data storage systems"
+      ],
+      "System Requirements": [
+        "transfer digital data",
+        "transfer digital imagery"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the DoD standard power supply equipment"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the power supply equipment"
+      ],
+      "Environment Object": [
+        "the Tactical Control System operating environment"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "an interface to a source of current navigation information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "data terminals"
+      ],
+      "Environment Object": [
+        "launch and recovery sites"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "implement an AV Standard Interface"
+      ],
+      "Shared Phenomena": [
+        "the proper data format",
+        "communications with the selected AV"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the generic architecture"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the generic architecture to ensure interoperability"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System",
+        "the AV"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be in accordance with the associated AV documentation"
+      ],
+      "Shared Phenomena": [
+        "the uplink and downlink information"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "concurrent uplink and downlink capability"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the data server"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "the information"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "distributed processing capability"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the defined data server interface"
+      ],
+      "System Requirements": [
+        "remotely hosted applications"
+      ],
+      "Shared Phenomena": [
+        "a client server relationhip"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System",
+        "the SAR Processor"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "an internal interface for the SAR Processor"
+      ],
+      "Shared Phenomena": [
+        "SAR information",
+        "imagery and telemetry"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "verbal communicate",
+        "multiple operators"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The intercom system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be compatible"
+      ],
+      "Shared Phenomena": [
+        "voice communication systems"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "a video cassette recorder"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "the VCR",
+        "the Tactical Control System Display input device(s)"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "VCR"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "C4I Interfaces"
+      ],
+      "System Requirements": [
+        "shall be able to route VCR recorded payload video"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "a Video Cassette Recorder (VCR)"
+      ],
+      "Environment Object": [
+        "an RS-170A video interface",
+        "analog imagery and overlays"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "an internal hard copy printer"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "internal printer"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to print freeze-frame video, C4I Messages, Mission Plans, FD/L information, and current map display"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "data storage devices"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "data storage devices"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "transfer digital data",
+        "transfer digital imagery"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "a CD drive"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the retrieval of Tactical Control System data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "a tape drive"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "storage and retrieval of Tactical Control System data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "storage and retrieval of Tactical Control System data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "uninterruptible power supply"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "interface"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "system components"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System design"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "safety requirements"
+      ],
+      "Shared Phenomena": [
+        "nuclear safety"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "equipment",
+        "personnel"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "safety requirements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "safely take-off",
+        "land",
+        "navigate under Instrument Flight Rules"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "UAV"
+      ],
+      "Environment Object": [
+        "operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the air vehicle"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "unsafe flight regime"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "terrain avoidance warning",
+        "minimum reception altitude calculations for line of sight flights"
+      ],
+      "Shared Phenomena": [
+        "line of sight flights"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System",
+        "the UAV system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide the operator a cautions and warnings"
+      ],
+      "Shared Phenomena": [
+        "a malfunction"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "other aircraft",
+        "civilian airspace"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "hardware"
+      ],
+      "Environment Object": [
+        "the air vehicle"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "an unsafe command"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the air vehicle"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "no single software error results in an unsafe command"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "sufficient time to avoid loss of air vehicle control"
+      ],
+      "Shared Phenomena": [
+        "power outages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "UAV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "monitor the uplink and downlink to each UAV under its control"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the Tactical Control System",
+        "the air vehicle"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to reestablish communications"
+      ],
+      "Shared Phenomena": [
+        "loss of link"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Tactical Control System operators",
+        "maintenance personnel"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "provide protection against injury"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "identified and evaluated"
+      ],
+      "Shared Phenomena": [
+        "Phase I",
+        "System development"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "a program"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Risk levels",
+        "a program to manage the probability and severity of hazards"
+      ],
+      "Shared Phenomena": [
+        "hazards"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "DoD Regulation 5000.2-R",
+        "DoD Directive 5200.28(D)"
+      ],
+      "System Requirements": [
+        "security requirements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be accredited by the Designated Approving Authority",
+        "prior to processing classified as well as sensitive unclassified data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "DoD 5200.28(D)"
+      ],
+      "System Requirements": [
+        "risk index",
+        "minimum security requirements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "clearance or authorization of the Tactical Control System users",
+        "sensitivities of the data that the Tactical Control System processes, stores or transfers"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the air vehicles",
+        "the payloads",
+        "the C4I systems"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The data sensitivities of the systems with which it interfaces"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "DoD Directive C-5200.5"
+      ],
+      "System Requirements": [
+        "Links that provide communications between the Tactical Control System and other systems shall be secured in a manner appropriate for the sensitivities of the material passed through such links, in accordance with DoD Directive C-5200.5, “Communication Security (COMSEC)” dated 21 April 1990."
+      ],
+      "Shared Phenomena": [
+        "material passed through such links",
+        "Communication Security (COMSEC)"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "physical anti-radiation weaponry"
+      ],
+      "Environment Object": [
+        "enemy",
+        "physical destruction"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to protect its communication and data links against enemy Electronic Warfare (EW) threats"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "operation at the same level as the systems with which it interfaces"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "All Tactical Control System users",
+        "operators",
+        "maintainers",
+        "other personnel"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "sensitive information",
+        "unauthorized individuals"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "prevent the intentional or unintentional disclosure of sensitive information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the land-based shelter",
+        "the shipboard"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "operation within environments specified in the System/Subsystem Design Document"
+      ],
+      "Shared Phenomena": [
+        "the System/Subsystem Design Document"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "The Tactical Control System hardware",
+        "the AV",
+        "the payload",
+        "the data links"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "video and telemetry data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the Tactical Control System"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the varying needs of the Services"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "The Tactical Control System"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "other computers"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "long range communications",
+        "data storage expansion",
+        "access to other computers to share in processing capability",
+        "multiple external peripherals"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "The Tactical Control System hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure interoperability"
+      ],
+      "Shared Phenomena": [
+        "the data rate characteristics of the AV",
+        "the data link",
+        "the payload"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "OUTRIDER system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "full independent computer redundancy"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the selected data link"
+      ],
+      "Shared Phenomena": [
+        "the processing requirements"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "CD-ROM drive"
+      ],
+      "Environment Object": [
+        "National Imagery and Mapping Agency (NIMA)"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "CD-ROM Digital Terrain Elevation Data (DTED)",
+        "Digital Feature Analysis Data (DFAD)",
+        "embedded training media"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "standard military worldwide 110/220 volt 50/60 hertz generators",
+        "commercial power sources"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "loss of critical mission data",
+        "loss of air vehicle control"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "uninterrupted power supply"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "shall not exceed 50% of the throughput capability delivered over any 10 second period",
+        "shall not exceed 25% of throughput capability delivered over any 10 second period"
+      ],
+      "Shared Phenomena": [
+        "throughput",
+        "throughput capability",
+        "10 second period"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "75% spare memory storage capacity over storage used"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System software"
+      ],
+      "Physical Device": [
+        "the AV",
+        "the payload"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "video and telemetry data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Defense Information Infrastructure/Common Operating Environment",
+        "Assistant Secretary of Defense for Command, Control, Communications, and Intelligence (ASD(C3I)) Joint Technical Architecture (JTA)"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Assistant Secretary of Defense (C3I) Joint Technical Architecture (JTA)"
+      ],
+      "System Requirements": [
+        "comply with"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "computer"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "database"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "additional CSCIs",
+        "CSCs",
+        "CSUs",
+        "future AVs",
+        "future payloads",
+        "payload capabilities"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "auto-search",
+        "automatic target tracking",
+        "future Tactical UAVs"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System core software"
+      ],
+      "Physical Device": [
+        "Outrider",
+        "Predator UAVs"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "level one through level five interaction"
+      ],
+      "Shared Phenomena": [
+        "future tactical UAVs"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the UAV operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "computer related communications",
+        "mission tasking",
+        "mission planning",
+        "mission execution",
+        "data receipt",
+        "data processing",
+        "data dissemination"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be capable of being hosted on a variety of computer operating systems"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "non-proprietary",
+        "unlimited data rights"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "re-programmable"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Training software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Training software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the system operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "operator(s)"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "restrict the operator(s) from exercising levels of interaction not achievable by the system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System software"
+      ],
+      "Physical Device": [
+        "a UAV operator",
+        "a UAV"
+      ],
+      "Environment Object": [
+        "a UAV operator",
+        "a UAV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "a high-resolution, computer-generated graphical user interface"
+      ],
+      "Shared Phenomena": [
+        "minimal additional training",
+        "different types of UAVs",
+        "UAV payloads"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the aircraft",
+        "the map",
+        "the background"
+      ],
+      "External System": [
+        "Each control console",
+        "Tactical Control System"
+      ],
+      "System Requirements": [
+        "a display windows",
+        "provides the aircraft position",
+        "provides the Tactical Control System position",
+        "provides the flight path",
+        "provides the waypoint graphics",
+        "which are positioned in relation to a map"
+      ],
+      "Shared Phenomena": [
+        "the foreground",
+        "the background"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Each control console"
+      ],
+      "Physical Device": [
+        "display windows"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "aircraft flight data",
+        "payload data",
+        "downlinked video"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "operator controls and displays"
+      ],
+      "Environment Object": [
+        "5th percentile female",
+        "95th percentile male",
+        "operator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "ergonomically designed"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the controls"
+      ],
+      "Physical Device": [
+        "air vehicle",
+        "payload",
+        "cold weather clothing"
+      ],
+      "Environment Object": [
+        "operators",
+        "Mission Oriented Protective Posture"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a caution and warning diagnostic"
+      ],
+      "Shared Phenomena": [
+        "a malfunction"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "monitor(s)"
+      ],
+      "Environment Object": [
+        "direct sunlight",
+        "low light level environments"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "reading of displays"
+      ],
+      "Shared Phenomena": [
+        "direct sunlight",
+        "low light level environments"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "shall be color coded and flashed based on mission criticality"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "an acknowledgment"
+      ],
+      "Shared Phenomena": [
+        "critical warning flags",
+        "any AV",
+        "Payload",
+        "ADT",
+        "GDT",
+        "Tactical Control System faults"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "a displayed message box"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "auditory alerts",
+        "tones"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "keyboard",
+        "trackball"
+      ],
+      "Environment Object": [
+        "auditory tones",
+        "operator",
+        "ear"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "at least 20dB above the speech interference level"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "All Tactical Control System warning messages",
+        "HCI actions"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the operator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Display jitter and flicker shall not be perceptible by the operator."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "operation of all system modes, functions, and capabilities"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Human Computer Interface (HCI)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "in accordance with the Tactical Control System HCI Specification"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The HCI",
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "HCI input device"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [
+        "any available monitor",
+        "the Tactical Control System workstation"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "display all HCI elements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "keyset",
+        "X/Y control device",
+        "trackball",
+        "mouse",
+        "joystick"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "full complementary control operations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Tactical Control System"
+      ],
+      "Physical Device": [
+        "pointing device"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "DII Style Manager"
+      ],
+      "System Requirements": [
+        "so that pointing device characteristics can be modified"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "maximum delay time of 1 second from operator command to system acknowledgement and response"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "an off-the-shelf, complex control joystick",
+        "multiple toggle and multi-position switches"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "use graphical representations to convey information"
+      ],
+      "Shared Phenomena": [
+        "system status",
+        "C4I links",
+        "AV-GDT links"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "multi-level information display tailoring"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "automated system information",
+        "control options",
+        "logical and simple operator guidance and support for immediate and adaptive responding to crisis situations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "maximum automated system software support",
+        "system status monitoring and alerting of the Tactical Control System operator",
+        "a preset system parameter",
+        "a set threshold"
+      ],
+      "Shared Phenomena": [
+        "under",
+        "over"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide the necessary processing",
+        "display",
+        "control capabilities",
+        "ensure dynamic situational awareness",
+        "input to the Tactical Control System operator"
+      ],
+      "Shared Phenomena": [
+        "dynamic situational awareness"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "minimize alphanumeric data display",
+        "graphic, pictorial information display"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI",
+        "The Tactical Control System station"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "safe, efficient operations"
+      ],
+      "Shared Phenomena": [
+        "AV and payload control and status feedback indicators",
+        "two AVs and their payloads"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the Tactical Control System operator",
+        "a UAV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "a specific icon shape on a constant contrast background",
+        "other visual information coding mechanisms"
+      ],
+      "Shared Phenomena": [
+        "which UAVs are under his or her primary control"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "an object",
+        "a map"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System HCI shall provide the capability to select and amplify an object and point on a map as well as payload screen."
+      ],
+      "Shared Phenomena": [
+        "select and amplify an object",
+        "point on a map",
+        "payload screen"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the SAR imaging swath",
+        "the map display"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "display the SAR imaging swath on the map display"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a SAR imaging swath"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to select and efficiently move as well as reorient"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a coordinate point",
+        "the payload imagery window"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "provide the capability to lock onto and hold a coordinate point on the payload imagery window"
+      ],
+      "Shared Phenomena": [
+        "coordinate point",
+        "payload imagery window"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "waypoints",
+        "Launch and Recovery Point (LRP)",
+        "the AV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System HCI shall provide the capability to display operator definable “Lock Out” zones around waypoints, Launch and Recovery Point (LRP), as well as any selected point on the AV flight path."
+      ],
+      "Shared Phenomena": [
+        "Lock Out zones",
+        "waypoints",
+        "Launch and Recovery Point (LRP)",
+        "the AV flight path"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a rapid means to cancel aural warnings"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "separation",
+        "grouping",
+        "visual coding",
+        "Warnings",
+        "Cautions",
+        "Advisories"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [
+        "monitors"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "visual Warnings, Cautions, and Advisories",
+        "within a 30o cone"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide a default selection",
+        "an override option",
+        "a selection of adaptive responses",
+        "the minimum information necessary"
+      ],
+      "Shared Phenomena": [
+        "AV safety",
+        "mission-critical Warnings",
+        "an emergency"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "on-screen information"
+      ],
+      "Shared Phenomena": [
+        "overlays",
+        "headers",
+        "cursors",
+        "alphanumeric annotation",
+        "waypoints",
+        "crosshairs",
+        "map",
+        "payload video backgrounds"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System HCI"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "continuously-available, on-screen control functions",
+        "time and mission-critical operations",
+        "print",
+        "freeze",
+        "declassification",
+        "mark VCR",
+        "declutter",
+        "cease RF transmission"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the payload screen",
+        "the map screen"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The Tactical Control System HCI shall provide for the capability to automatically designate target locations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be integrated",
+        "be operated from tactical and command and control aircraft"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "submarines"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "be integrated and operated"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [
+        "land based platforms"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to be integrated and operated"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Tactical Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be integrated and operated from ships"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "system"
+      ],
+      "Physical Device": [
+        "device"
+      ],
+      "Environment Object": [
+        "environment"
+      ],
+      "External System": [
+        "system"
+      ],
+      "System Requirements": [
+        "requirements"
+      ],
+      "Shared Phenomena": []
+    }
+  }
+]

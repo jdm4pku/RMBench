@@ -1,0 +1,257 @@
+[
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"The ASPERA-3 instrument package\", \"the Mars Express mission\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"the APAF\", \"ASPERA-3 scientific data\"]],\n\"requirements constraint\": [[\"the APAF\", \"NASA Planetary Data System (PDS)\"], [\"NASA Planetary Data System (PDS)\", \"ASPERA-3 scientific data\"]]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"Section 2\",\n    \"object\": \"requirement determination\",\n    \"relation\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"Section 2\",\n    \"object\": \"qualification procedures\",\n    \"relation\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"Section 2\",\n    \"object\": \"rationale\",\n    \"relation\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"Section 2\",\n    \"object\": \"traceability\",\n    \"relation\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"Section 2\",\n    \"object\": \"identification of the requirements\",\n    \"relation\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"Section 2\",\n    \"object\": \"definitions of the requirements\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The APAF ground data system\",\n    \"object\": \"System Requirements\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"The requirements\",\n    \"relation\": \"requirements reference\",\n    \"object\": \"the functionality of the APAF ground data system\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"FR\",\n    \"predicate\": \"requirements reference\",\n    \"object\": \"Functional Requirements\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The APAF system\", \"ASPERA-3 science data\"]],\n\"requirements reference\": [[\"The APAF system\", \"IDFS data sets\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"meeting mission goals and objectives\", \"Intermediate files of cleaned-up ASPERA-3 and MEX OA telemetry\"]],\n\"requirements constraint\": [[\"meeting mission goals and objectives\", \"cleaned-up telemetry\"]]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  [\"meeting mission goals and objectives.\", \"The web-based displays\"],\n  [\"meeting mission goals and objectives.\", \"the ASPERA-3 data\"]\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"ASPERA-3 Co-I’s\", \"ASPERA-3 and MEX OA IDFS data\"],\n[\"ASPERA-3 Co-I’s\", \"intermediate files\"],\n[\"ASPERA-3 Co-I’s\", \"ASPERA-3 and MEX OA cleaned-up telemetry\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': [['The Software Design Documents', 'the detailed information'], ['the virtual instrument data items', 'the detailed information']]}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"the APAF ground data system\", \"the requirement associated with the privacy of the APAF ground data system\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [], 'requirements reference': [['The mnemonic, PR', 'Privacy Requirement']], 'requirements constraint': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"requirements\",\n    \"object\": \"computer resources\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"SwRI\", \"data transfers and distribution\"], [\"NISN\", \"data transfers and distribution\"]],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"SwRI\", \"data transfers and distribution\"], [\"NISN\", \"data transfers and distribution\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"requirement identifiers\",\n    \"object\": \"Logistical\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\n\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"requirement identifiers\",\n    \"object\": \"Delivery Requirements\",\n    \"relation\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"ASPERA-3 Co-I's\", \"ASPERA-3 and MEX OA IDFS data\"],\n[\"ASPERA-3 Co-I's\", \"intermediate files\"],\n[\"ASPERA-3 Co-I's\", \"ASPERA-3 and MEX OA cleaned-up telemetry\"],\n[\"APAF\", \"intermediate files\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n\n```json\n{\n\"Phenomena Interface\": [\n{\n\"source\": \"ASPERA-3 IDFS data\",\n\"target\": \"ASPERA-3 Co-I’s\",\n\"relation_type\": \"Interface\"\n}\n],\n\"requirements reference\": [\n{\n\"source\": \"meeting MEX mission goals and objectives\",\n\"target\": \"ASPERA-3 IDFS data\",\n\"relation_type\": \"Requirements Reference\"\n}\n],\n\"requirements constraint\": [\n{\n\"source\": \"meeting MEX mission goals and objectives\",\n\"target\": \"ASPERA-3 telemetry\",\n\"relation_type\": \"Requirements Constraint\"\n}\n]\n}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"MEX OA IDFS data\", \"meeting MEX mission goals and objectives\"]],\n\"requirements constraint\": [[\"MEX OA telemetry\", \"meeting MEX mission goals and objectives\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"IDFS data processing algorithms\", \"SwRI\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{'Phenomena Interface': [], 'requirements reference': [], 'requirements constraint': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"this section\",\n    \"predicate\": \"identifies\",\n    \"object\": \"the requirements considered but not part of the APAF ground data system requirements\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: {} \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  }
+]

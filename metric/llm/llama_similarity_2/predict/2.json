@@ -1,0 +1,1992 @@
+[
+  {
+    "entity": {
+      "Software System": [
+        "VLA Expansion Project Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "complete and accurate list of requirements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the designers",
+        "the developers",
+        "the end user",
+        "the project leaders"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "VLA Expansion Project",
+        "scientists",
+        "engineers",
+        "individuals"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Monitor and Control System"
+      ],
+      "Physical Device": [
+        "WIDAR Correlator hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the correlator"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Monitor and Control System",
+        "The VLA Expansion Project Monitor and Control System"
+      ],
+      "Physical Device": [
+        "a physical correlator hardware configuration"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "receive configuration information from the VLA Expansion Project Monitor and Control System system",
+        "translate this info into a physical correlator hardware configuration"
+      ],
+      "Shared Phenomena": [
+        "receive configuration information",
+        "translate this info into a physical correlator hardware configuration"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "process and transfer dynamic control data and monitor data"
+      ],
+      "Shared Phenomena": [
+        "dynamic control data",
+        "monitor data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Correlator Monitor and Control System"
+      ],
+      "Physical Device": [
+        "correlator",
+        "correlator subsystem",
+        "hardware",
+        "computing system"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "monitor correlator and correlator subsystem health",
+        "take corrective action autonomously to recover from hardware and computing system faults"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "perform limited amounts of real-time data processing",
+        "probing such as providing tools to collect and display auto correlation products"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "easy system access to aid testing and debugging"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "VLA Expansion Project Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "correlator configuration",
+        "real time monitor/control",
+        "hardware testing/servicing"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Correlator Monitor and Control System",
+        "VLA Expansion Project Monitor and Control Structure"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Correlator Monitor and Control System",
+        "the correlator system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the VLA Expansion Project environment"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Monitor and Control System",
+        "The Virtual Correlator Interface"
+      ],
+      "Physical Device": [
+        "a number of intelligent hardware control processors"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a Master/Slave network"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the correlator hardware systems"
+      ],
+      "Physical Device": [
+        "the monitor or control interface"
+      ],
+      "Environment Object": [
+        "the Master",
+        "the slaves"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the real-time computing requirements",
+        "the quasi real-time, network-chaotic loads"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [
+        "the correlator hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "isolation of the correlator hardware from the EVLA Correlator Monitor and Control System"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator monitor subsystem",
+        "the VLA Expansion Project system",
+        "the Monitor and Control System supervisor system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "system wide access to all correlator system states"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "time synchronous basis",
+        "request basis"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "fully observable system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Correlator configurations and control instructions",
+        "the VLA Expansion Project Monitor and Control System",
+        "the Master Correlator Control Computer"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The translation",
+        "The correlator"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The configuration requested by the A second interface"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Backend Data Processing System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Specific data sets required by the Backend Data Processing System will be provided in a timely and robust fashion"
+      ],
+      "Shared Phenomena": [
+        "a secondary virtual network"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Ancillary monitor data",
+        "VLA Expansion Project Monitor and Control System"
+      ],
+      "Physical Device": [
+        "network"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "VLA Expansion Project Monitor and Control System network"
+      ],
+      "System Requirements": [
+        "will not result in loss of monitor data"
+      ],
+      "Shared Phenomena": [
+        "system health",
+        "error messages",
+        "configuration echoes"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the VLA Expansion Project Monitor and Control System",
+        "the Backend processing controller"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Data sample rates and contents will be fully controllable"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Master Correlator Control Computer"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the correlator hardware",
+        "models",
+        "time standards",
+        "fiber-link phase corrections",
+        "other required data"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "accept external data feeds for models, time standards, fiber-link phase corrections and other required data to be packaged with control data delivered to the correlator hardware"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "hot-swapped hardware devices"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "recovery from failure"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CMIB subsystem"
+      ],
+      "Physical Device": [
+        "hardware"
+      ],
+      "Environment Object": [
+        "appropriate personnel"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "affect a hardware repair"
+      ],
+      "Shared Phenomena": [
+        "an alert notice"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CMIB subsystem"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Master Correlator Control Computer",
+        "Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Watchdog processes",
+        "Master Correlator Control Computer",
+        "Correlator Power Control Computer"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "Correlator Power Control Computer"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "external system"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Correlator Monitor and Control System",
+        "the VCI or Master Correlator Control Computer"
+      ],
+      "Physical Device": [
+        "the Correlator Monitor and Control System",
+        "the VCI or Master Correlator Control Computer"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Software tools"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "primary contact with array operations will be via status and error messages channeled through the Monitor and Control System"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Correlator System"
+      ],
+      "Physical Device": [
+        "hardware and software systems"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "achieve and maintain high reliability and uptime"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "individuals"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "CMIB layer devices",
+        "subsystem"
+      ],
+      "Environment Object": [
+        "Engineers",
+        "technicians"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "fault trace to a specific hot-swappable subsystem"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "these individuals"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "functioning properly"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the VLA Expansion Project"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "remote access to the EVLA Correlator Monitor and Control System"
+      ],
+      "Shared Phenomena": [
+        "troubleshooting can be accomplished away from the the VLA Expansion Project and during non-working hours"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "individuals"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "access to parts of the system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "The Correlator Monitor and Control"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "astronomical data"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "reliable and available correlator",
+        "stability of the Functionality",
+        "means of fault detection and repair"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Correlator Monitor and Control System software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the ultimate ease of use and flexibility of the correlator"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a logical and coherent interface"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a convergent hardware configuration"
+      ],
+      "Shared Phenomena": [
+        "unambiguous configuration data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the VLA Expansion Project Monitor and Control System",
+        "dedicated servers"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "backend data processing",
+        "VLA Expansion Project Monitor and Control System",
+        "Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "accepting output data rates generated by the Correlator Monitor and Control System"
+      ],
+      "Shared Phenomena": [
+        "output data rates generated by the Correlator Monitor and Control System"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The interface between the CMIB, Master Correlator Control Computer, and Correlator Power Control Computer"
+      ],
+      "Physical Device": [
+        "the CMIB",
+        "the Master Correlator Control Computer",
+        "the Correlator Power Control Computer"
+      ],
+      "Environment Object": [
+        "Ethernet",
+        "100 Mbits/sec",
+        "data rate"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "be Ethernet of 100 Mbits/sec or better data rate"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be transformer coupled copper twisted pair"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "Network switches",
+        "correlator rack"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "reduce overall network wiring complexity"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Master Correlator Control Computer-CMIB",
+        "Master Correlator Control Computer-Correlator Power Control Computer",
+        "Master Correlator Control Computer-VLA Expansion Project Monitor and Control System"
+      ],
+      "Physical Device": [
+        "Master Correlator Control Computer-CMIB",
+        "Master Correlator Control Computer-Correlator Power Control Computer",
+        "Master Correlator Control Computer-VLA Expansion Project Monitor and Control System"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be on separate physical interfaces"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Master Correlator Control Computer",
+        "Correlator Power Control Computer"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide for remote reboot in the event of a networking or computing failure"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the Master Correlator Control Computer",
+        "the correlator shielded room"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "Ethernet",
+        "100 Pathways",
+        "fiber optic",
+        "low RFI material",
+        "RFI specifications"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Master Correlator Control Computer-VLA Expansion Project Monitor and Control System"
+      ],
+      "Physical Device": [
+        "Network routers/switches"
+      ],
+      "Environment Object": [
+        "the Master Correlator Control Computer"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "protect the Master Correlator Control Computer from unauthorized access and irrelevant network traffic"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the CMIB daughter board",
+        "the correlator carrier boards"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "communicate with the correlator carrier boards via either the PCI or ISA busses"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "serial",
+        "parallel connection"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "as required"
+      ],
+      "Shared Phenomena": [
+        "Alternative communication paths"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the host correlator board"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a 16-bit identifier"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "hot swap modules"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "This identifier",
+        "CMIB network"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CMIB"
+      ],
+      "Physical Device": [
+        "all writeable hardware control registers"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be able to read back the contents of all writeable hardware control registers where meaningful"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the correlator hardware"
+      ],
+      "Environment Object": [
+        "the CMIB bus"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "It is desired that the state of the correlator hardware be available through interrogation across the CMIB bus for monitoring and fault tolerance."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CMIB",
+        "Master Correlator Control Computer"
+      ],
+      "Physical Device": [
+        "CMIB"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "force a hardware warm boot"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the CMIB"
+      ],
+      "Environment Object": [
+        "the carrier board",
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "an externally visible indicator"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "computers",
+        "peripherals",
+        "UPS type devices"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "safely coordinate a system wide shutdown of the correlator hardware in the event of a prolonged power outage"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "UPS devices",
+        "Correlator Monitor and Control System"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "a power outage",
+        "time remaining on backup power"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Correlator Monitor and Control System system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to have the ability for authorized users to directly access individual systems for maintenance and monitoring through remote logins"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Correlator Monitor and Control System",
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [
+        "a hardware based watchdog timer"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to reboot the EVLA Correlator Monitor and Control System in the case of a system hang"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the offending CPU"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "minimal system interruptions"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CMIB"
+      ],
+      "Physical Device": [
+        "IDE hard disk interface",
+        "one serial and one parallel interface",
+        "PCI/ISA buses",
+        "100BaseT network interface",
+        "local non-volatile storage"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "conform to both electrical and physical",
+        "contain 64 Mbytes or greater of SDRAM",
+        "capacity to boot and run a generic COTS operating system in a near real-time environment"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Master Correlator Control Computer",
+        "The operating system/module combination"
+      ],
+      "Physical Device": [
+        "the correlator hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "CPU device"
+      ],
+      "Environment Object": [
+        "computer"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Master Correlator Control Computer",
+        "The EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [
+        "disk",
+        "file system"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "boot and run in a stand-alone configuration"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the correlator CMIBs",
+        "the correlator Monitor and Control System network"
+      ],
+      "System Requirements": [
+        "boot, configure, and run without any communication outside of the correlator Monitor and Control System network"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Power Control Computer"
+      ],
+      "Physical Device": [
+        "high availability type general purpose computer",
+        "COTS operating system",
+        "external hardware status signals",
+        "external interface hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "CPU device"
+      ],
+      "Environment Object": [
+        "computer"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Power Control Computer",
+        "The Correlator Power Control System"
+      ],
+      "Physical Device": [
+        "disk",
+        "file system"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "boot and run in a stand-alone configuration"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Monitor and Control System"
+      ],
+      "Physical Device": [
+        "The Correlator Monitor and Control System processors",
+        "correlator hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be capable of meeting all data processing deadlines and anticipated future requirements",
+        "be capable of responding to correlator hardware inputs in a deterministic fashion with sufficient performance to avoid data loss, corruption or overflows"
+      ],
+      "Shared Phenomena": [
+        "data processing deadlines and anticipated future requirements",
+        "correlator hardware inputs",
+        "data loss, corruption or overflows"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "a CPU"
+      ],
+      "Physical Device": [
+        "a CPU"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "error messages"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Personnel"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "filter the error message stream"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Correlator Monitor and Control System system layers"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "have both UTC and wall clock time stamp information appropriate for the message type"
+      ],
+      "Shared Phenomena": [
+        "UTC and wall clock time stamp information appropriate for the message type"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "an authorized user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "full access to all messaging, monitor, and control traffic"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "This software",
+        "the correlator",
+        "the VLA Expansion Project Monitor and Control System system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the VLA Expansion Project Monitor and Control System system"
+      ],
+      "System Requirements": [
+        "full system access for testing, debugging, and control"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Graphical User Interface",
+        "Correlator Monitor and Control System test software"
+      ],
+      "Physical Device": [
+        "VCI"
+      ],
+      "Environment Object": [
+        "the Correlator Monitor and Control System"
+      ],
+      "External System": [
+        "the Correlator Monitor and Control System"
+      ],
+      "System Requirements": [
+        "convenient and configurable tool"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be self-monitoring"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "processor hardware",
+        "temperature",
+        "voltage",
+        "computational performance",
+        "computational error rates"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "detecting",
+        "reporting on",
+        "automatically taking action to remedy or lessen the impact"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "the EVLA Correlator Monitor and Control System",
+        "primary and backup power"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "indefinitely without complete loss of service"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "continue processing of all correlator configuration/control events",
+        "until the queues of parameters are exhausted",
+        "external communications are restored"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "sit at idle and resume operations with minimal delay"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "system processing and interconnect hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "shall be readily accessible for maintenance, repair, replacement and reconfiguration"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "EVLA Correlator Monitor and Control Systems"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "software application modules"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "debuggable"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "all inputs and outputs"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a complete diagnostic package",
+        "customer support"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Operating system software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "sufficient diagnostics and customer support"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "I/O",
+        "communications",
+        "processing hardware",
+        "VLA Expansion Project science",
+        "Correlator changes",
+        "new hardware"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "easily expandable",
+        "reconfigurable",
+        "augmentable",
+        "replaceable",
+        "increasing data traffic",
+        "processing demands"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Transparency"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "needs a robust security mechanism in place so that unauthorized users are not allowed access"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "software"
+      ],
+      "Physical Device": [
+        "hardware"
+      ],
+      "Environment Object": [
+        "users",
+        "personnel"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Authorized users are expected to be restricted to software and hardware development, testing, maintenance and operations personnel"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "uniquely identified"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user",
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "a user"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "logged"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Users’ needs and expectations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "unrestricted access to all aspects of the EVLA Correlator Monitor and Control System",
+        "have the authority to grant and revoke privileges on a per-user basis"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Development, testing and maintenance personnel",
+        "per-user"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the EVLA Correlator Monitor and Control System",
+        "some form of unique identification",
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "All login attempts shall be done in a secure manner"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "have unrestricted access to all aspects of the EVLA Correlator Monitor and Control System"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Each user"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the administrator"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "create and add a new user"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "System Requirements": [],
+      "Software System": [
+        "The EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the administrator",
+        "a user"
+      ],
+      "External System": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the administrator",
+        "a user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "edit a user’s system access properties"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the administrator",
+        "all users",
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "have the ability to block all access to the EVLA Correlator Monitor and Control System for all users or selectively by user"
+      ],
+      "Shared Phenomena": [
+        "all access to the EVLA Correlator Monitor and Control System for all users or selectively by user"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "EVLA Correlator Monitor and Control System"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "continue operations, although not Description necessarily at full capacity, on all unaffected resources during partial shutdowns for maintenance, repair and/or upgrade"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Replaceability modular design principles"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "hot swappable devices and components"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Maximal practical use"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "software system",
+        "application code"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "well documented",
+        "written in a generally familiar language or languages"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "easily readable",
+        "minimal confusion"
+      ],
+      "Shared Phenomena": []
+    }
+  }
+]

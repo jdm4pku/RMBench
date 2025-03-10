@@ -1,0 +1,344 @@
+[
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"This Software Requirements Specification (SRS)\",\n    \"object\": \"the Center-to-Center (C2C) Communications Network\",\n    \"relation_type\": \"requirements reference\"\n  },\n  {\n    \"subject\": \"This Software Requirements Specification (SRS)\",\n    \"object\": \"a Texas Department of Transportation (TxDOT) C2C project\",\n    \"relation_type\": \"requirements reference\"\n  }\n],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The Center-to-Center infrastructure\", \"interconnect several dissimilar traffic management systems\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the configuration parameters\", \"the software\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"“configuring” the building block of operation\", \"The software\"]]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"a “local” common repository\", \"individual partners\"],\n[\"a “regional” common repository\", \"local common repositories\"],\n[\"a “statewide” common repository\", \"regional common repositories\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the Center\", \"each roadway network\"], [\"the Center\", \"the network name\"], [\"the Center\", \"link data information\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The Center\", \"the information about each incident\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"incident description\"], [\"The Center\", \"roadway\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [\n[\"the Center\", \"a DMS\"]\n],\n\"requirements reference\": [\n[\"To support DMS control in other centers\", \"a DMS\"],\n[\"To support DMS control in other centers\", \"device control command\"]\n],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the Center\", \"a LCS\"]],\n\"requirements reference\": [[\"To support LCS control in other centers\", \"a LCS\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The Center\", \"status information\"], [\"The Center\", \"network identifier\"], [\"The Center\", \"CCTV identifier\"], [\"The Center\", \"CCTV name\"], [\"The Center\", \"Location\"], [\"The Center\", \"Status\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n    [\"the Center\", \"support the following CCTV control request, including network identifier, CCTV identifier, username, Password\"]\n]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [\n  {\n    \"requirement\": \"To support video snapshots\",\n    \"constrained_phenomena\": [\n      \"network identifier\",\n      \"CCTV identifier\",\n      \"CCTV name\",\n      \"status\"\n    ]\n  }\n]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"the Center\", \"device control command\"]],\n\"requirements reference\": [[\"To support Ramp Meter control in other centers\", \"a ramp meter\"]],\n\"requirements constraint\": [[\"To support Ramp Meter control in other centers\", \"network identifier\"], [\"To support Ramp Meter control in other centers\", \"Ramp Meter identifier\"], [\"To support Ramp Meter control in other centers\", \"username\"], [\"To support Ramp Meter control in other centers\", \"password\"], [\"To support Ramp Meter control in other centers\", \"plan\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"The Center\", \"status information\"],\n  [\"The Center\", \"network identifier\"],\n  [\"The Center\", \"environmental sensor identifier\"],\n  [\"The Center\", \"environment sensor name\"],\n  [\"The Center\", \"type\"],\n  [\"The Center\", \"location\"],\n  [\"The Center\", \"status\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n  [\"The Center\", \"status information\"],\n  [\"The Center\", \"network identifier\"],\n  [\"The Center\", \"parking lot identifier\"],\n  [\"The Center\", \"parking lot name\"],\n  [\"The Center\", \"location\"],\n  [\"The Center\", \"status\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The map\", \"the traffic conditions\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The basemap data\", \"GeoData warehouse\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The map user\", \"the map\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The map\", \"a DMS\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{'Phenomena Interface': [['The map', 'displaying the following'], ['displaying the following', 'a LCS']], 'requirements reference': [], 'requirements constraint': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [[\"The map\", \"a CCTV\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"the user\", \"information for each incident\"]]\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"The GUI\", \"the data about an incident to be modified\"]]\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [[\"the user\", \"User name\"], [\"the user\", \"Password\"]],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{'Phenomena Interface': [['The user', 'a device command/control request']], 'requirements reference': [], 'requirements constraint': []}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n    [\"an Center\", \"Target DMS\"],\n    [\"an Center\", \"Message to be displayed\"],\n    [\"an Center\", \"Beacons On/Off\"],\n    [\"the user\", \"Target DMS\"],\n    [\"the user\", \"Message to be displayed\"],\n    [\"the user\", \"Beacons On/Off\"],\n    [\"a DMS\", \"Target DMS\"],\n    [\"a DMS\", \"Message to be displayed\"],\n    [\"a DMS\", \"Beacons On/Off\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [\n[\"the user\", \"Target School Zone and Plan\"],\n[\"the user\", \"a School Zone\"]\n],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n## Expected Output\n```json\n{\n\"Phenomena Interface\": [[\"the Remote GUI\", \"the status returned from the network identifier\"]],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [\n  {\n    \"subject\": \"A DATEX/ASN runtime library\",\n    \"object\": \"the Center-to-Center project\",\n    \"relation\": \"Requirements Reference\"\n  }\n],\n\"requirements constraint\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"ESRI ARC IMS\", \"The Center-to-Center web interface\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": [[\"C/C++\", \"The Incident GUI\"], [\"ESRI Map Objects\", \"The Incident GUI\"]]\n}\n```\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n"
+  },
+  {
+    "predict": "\nAnswer: \n\n\n```json\n{\n\"Phenomena Interface\": [],\n\"requirements reference\": [],\n\"requirements constraint\": []\n}\n```"
+  },
+  {
+    "predict": "\n\nAnswer: \n```json\n{\"Phenomena Interface\": [], \"requirements reference\": [], \"requirements constraint\": []}\n``` \n\n\n\n"
+  }
+]

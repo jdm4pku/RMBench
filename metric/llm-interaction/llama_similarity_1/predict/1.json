@@ -1,0 +1,1511 @@
+[
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "traffic data",
+          "This Center-to-Center infrastructure"
+        ],
+        [
+          "device control information",
+          "This Center-to-Center infrastructure"
+        ],
+        [
+          "TMCs",
+          "This Center-to-Center infrastructure"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "to exchange device control information between TMCs",
+          "This Center-to-Center infrastructure"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the evolving ITS Traffic Management Data Dictionary (TMDD) standard,",
+          "The Center-to-Center project"
+        ],
+        [
+          "the message sets associated with TMDD",
+          "The Center-to-Center project"
+        ],
+        [
+          "other ITS Data Elements",
+          "The Center-to-Center project"
+        ],
+        [
+          "Message Sets",
+          "The Center-to-Center project"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Center-to-Center infrastructure",
+          "traffic management systems"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "the Center-to-Center infrastructure",
+        "the existing systems"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "these interfaces",
+          "the existing system"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The software",
+          "“configuring” the building block of operation"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The software",
+          "multiple instances of a building block can be deployed"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "New systems",
+          "the cloud"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "the Center-to-Center project",
+          "other ITS systems"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "Advanced Traffic Management System"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "the information about each incident"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "incident description"
+        ],
+        [
+          "The Center",
+          "roadway"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Center",
+          "the information about each lane closure"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Center",
+          "each CCTV"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "CCTV identifier"
+        ],
+        [
+          "The Center",
+          "CCTV name"
+        ],
+        [
+          "The Center",
+          "Location"
+        ],
+        [
+          "The Center",
+          "Status"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "To support CCTV control in other centers",
+          "CCTV control request,"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "CCTV identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "Password"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the Center",
+          "CCTV switching command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "Password"
+        ],
+        [
+          "the Center",
+          "video channel input identifier"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "The Center",
+          "the status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "Ramp Meter identifier"
+        ],
+        [
+          "The Center",
+          "Ramp Meter name"
+        ],
+        [
+          "The Center",
+          "Location"
+        ],
+        [
+          "The Center",
+          "Status"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "Traffic Signal",
+          "status information"
+        ],
+        [
+          "Traffic Signal",
+          "network identifier"
+        ],
+        [
+          "Traffic Signal",
+          "traffic signal identifier"
+        ],
+        [
+          "Traffic Signal",
+          "traffic signal name"
+        ],
+        [
+          "Traffic Signal",
+          "location"
+        ],
+        [
+          "Traffic Signal",
+          "status"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "traffic signal identifier"
+        ],
+        [
+          "The Center",
+          "traffic signal name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "each HOV",
+          "network identifier"
+        ],
+        [
+          "each HOV",
+          "HOV identifier"
+        ],
+        [
+          "each HOV",
+          "HOV name"
+        ],
+        [
+          "each HOV",
+          "link identifier"
+        ],
+        [
+          "each HOV",
+          "status"
+        ],
+        [
+          "each HOV",
+          "plan"
+        ],
+        [
+          "The Center",
+          "following status information"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "the Center"
+      ],
+      "Requirements Reference": [
+        "device control command",
+        "network identifier",
+        "HOV Lane identifier",
+        "username",
+        "password",
+        "lane plan"
+      ],
+      "Requirements Constraint": [
+        "To support HOV Lane control in other centers"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "School Zone",
+          "status information"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Center",
+          "a School Zone"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "To support School Zone control in other centers",
+          "device control command"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "To support School Zone control in other centers",
+          "network identifier"
+        ],
+        [
+          "To support School Zone control in other centers",
+          "school zone identifier"
+        ],
+        [
+          "To support School Zone control in other centers",
+          "username"
+        ],
+        [
+          "To support School Zone control in other centers",
+          "password"
+        ],
+        [
+          "To support School Zone control in other categories",
+          "plan"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The Center",
+          "Railroad Crossing"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Center",
+          "Bus Stop"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "Light/Commuter Location",
+          "status information"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The device status requestor",
+        "Center"
+      ],
+      "Requirements Reference": [
+        "information for command timeframe request",
+        "network identifier",
+        "device type",
+        "days commands accepted",
+        "times commands accepted"
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "DATEX/ASN",
+          "the TMDD message sets"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "TCP/IP"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The map",
+          "the traffic conditions"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The map",
+          "interstates and state highways"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The basemap data",
+          "GeoData warehouse"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The map user",
+          "the current magnification"
+        ],
+        [
+          "the map",
+          "the current magnification"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the map user",
+          "the map"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the map",
+          "Each link"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the map",
+          "to provide a graphical depiction of speeds"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "the current incidents",
+          "the Center-to-Center Project"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The user",
+          "an incident icon"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "The user",
+          "to obtain further information about the incident"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "the user",
+          "incident or lane closure information"
+        ],
+        [
+          "the user",
+          "an Center"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "input the following information for each incident"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the user",
+          "The Incident GUI"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "information for each lane closure"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the user",
+          "The Incident GUI"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The GUI",
+          "a list of previously entered incidents"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "delete a previously entered incident"
+        ],
+        [
+          "The GUI",
+          "delete a previously entered incident"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "The GUI",
+          "a list of previously entered lane closures"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "delete a previously entered lane closure"
+        ],
+        [
+          "The GUI",
+          "delete a previously entered lane closure"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a user",
+          "delete a previously entered lane closure"
+        ],
+        [
+          "The GUI",
+          "delete a previously entered lane closure"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "a public network",
+          "the remote Center Control GUI"
+        ],
+        [
+          "the C-2-C software system",
+          "equipment requests"
+        ],
+        [
+          "the C-2-C software system",
+          "the remote Center Control GUI"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the remote Center Control GUI",
+          "equipment requests"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        [
+          "The user",
+          "a network identifier"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "a network identifier",
+          "The user"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target DMS"
+        ],
+        [
+          "the user",
+          "Message to be displayed"
+        ],
+        [
+          "a DMS",
+          "Beacons On/Off"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "the user"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "the user",
+          "the following information"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the user",
+          "Target HAR"
+        ],
+        [
+          "the user",
+          "Text to be sent to the HAR"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "an Center",
+          "Target HAR"
+        ],
+        [
+          "an Center",
+          "Text to be sent to the HAR"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target Traffic Signal and Plan"
+        ],
+        [
+          "the user",
+          "Target Traffic Signal and Plan"
+        ],
+        [
+          "a Traffic Signal",
+          "Target Traffic Signal and Plan"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "an Center",
+          "Target Traffic Signal and Plan"
+        ],
+        [
+          "an Center",
+          "Plan"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "an Center",
+          "Target Traffic Signal and Plan"
+        ],
+        [
+          "an Center",
+          "Plan"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target School Zone and Plan"
+        ],
+        [
+          "the user",
+          "Target School Zone and Plan"
+        ],
+        [
+          "a School Zone",
+          "Target School Zone and Plan"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "an Center",
+          "Target School Zone and Plan"
+        ],
+        [
+          "an Center",
+          "Plan"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "an Center",
+          "Target School Zone and Plan"
+        ],
+        [
+          "an Center",
+          "Plan"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target Reversible Lane and Plan"
+        ],
+        [
+          "the user",
+          "Target Reversible Lane and Plan"
+        ],
+        [
+          "a Reversible Lane",
+          "Target Reversible Lane and Plan"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "an Center",
+          "Target Reversible Lane and Plan"
+        ],
+        [
+          "a Reversible Lane",
+          "Target Reversible Lane and Plan"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "Target Dynamic Lane and Plan"
+        ],
+        [
+          "the user",
+          "Target Dynamic Lane and Plan"
+        ],
+        [
+          "a Dynamic Lane",
+          "Target Dynamic Lane and Plan"
+        ]
+      ],
+      "requirements reference": [
+        [
+          "an Center",
+          "Target Dynamic Lane and Plan"
+        ],
+        [
+          "a Dynamic Lane",
+          "Target Dynamic Lane and Plan"
+        ]
+      ],
+      "requirements constraint": [
+        [
+          "an Center",
+          "Target Dynamic Lane and Plan"
+        ],
+        [
+          "a Dynamic Lane",
+          "Target Dynamic Lane and Plan"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "the Remote GUI",
+          "the GUI"
+        ],
+        [
+          "the status returned from the network identifier",
+          "the GUI"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "each device command/control status request",
+          "the status returned from the network identifier"
+        ]
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Center-to-Center Server",
+          "Microsoft Windows NT environment"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "A DATEX/ASN runtime library"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [
+        "The web server application",
+        "ESRI's ARC Internet Map Server (ARC IMS) product"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [
+        [
+          "The Center-to-Center",
+          "Microsoft Windows NT environment"
+        ]
+      ],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Phenomena Interface": [
+        [
+          "data",
+          "the data"
+        ],
+        [
+          "the Incident GUI",
+          "data"
+        ],
+        [
+          "the Center-to-Center",
+          "data"
+        ],
+        [
+          "a single data store (database)",
+          "data"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "entity": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  }
+]

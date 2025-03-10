@@ -1,0 +1,4151 @@
+This	O
+is	O
+the	B-Software System
+Software	O
+Requirements	O
+Specification	O
+(	O
+SRS	O
+)	O
+for	O
+the	O
+"	M-Software System
+Space	M-Software System
+Fractions	M-Software System
+"	O
+system	E-Software System
+.	O
+
+The	O
+purpose	O
+of	O
+the	O
+document	O
+is	O
+to	O
+describe	O
+the	O
+purpose	O
+and	O
+functionality	O
+of	O
+the	O
+software	O
+product	O
+requested	O
+by	O
+Ms	O
+.	O
+Andrea	O
+Brooks	O
+of	O
+Pecan	O
+Springs	O
+Elementary	O
+School	O
+.	O
+
+The	O
+SRS	O
+will	O
+include	O
+the	O
+details	O
+of	O
+the	O
+system	O
+'	O
+s	O
+requirements	O
+,	O
+interface	O
+,	O
+design	O
+issues	O
+,	O
+and	O
+components	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+is	O
+a	O
+learning	O
+tool	O
+created	O
+to	O
+help	B-System Requirements
+improve	M-System Requirements
+fraction	M-System Requirements
+-	M-System Requirements
+solving	M-System Requirements
+skills	E-System Requirements
+for	O
+sixth	O
+-	O
+grade	O
+students	O
+.	O
+
+The	O
+product	O
+will	O
+be	O
+a	O
+web	O
+-	O
+based	O
+,	O
+interactive	O
+system	O
+.	O
+
+At	O
+the	B-Software System
+end	O
+of	O
+the	O
+system	E-Software System
+,	O
+students	S-Environment Object
+will	O
+be	O
+given	O
+feedback	S-Shared Phenomena
+based	O
+on	O
+their	O
+system	O
+scores	O
+.	O
+
+We	O
+are	O
+also	O
+providing	O
+an	O
+umbrella	O
+for	O
+the	O
+past	O
+systems	O
+created	O
+.	O
+
+The	B-Software System
+umbrella	E-Software System
+will	O
+be	O
+a	O
+web	O
+-	O
+based	O
+menu	O
+system	O
+allowing	O
+the	M-System Requirements
+user	E-Environment Object
+to	B-System Requirements
+choose	M-System Requirements
+between	M-System Requirements
+the	O
+systems	E-System Requirements
+.	O
+
+This	O
+document	O
+is	O
+designed	O
+to	O
+provide	O
+information	O
+to	O
+both	O
+the	B-Environment Object
+client	E-Environment Object
+and	O
+the	O
+technical	M-Environment Object
+designers	E-Environment Object
+of	O
+the	O
+software	E-Software System
+.	O
+
+Section	O
+one	O
+is	O
+a	O
+brief	O
+overview	O
+of	O
+the	O
+product	O
+,	O
+including	O
+definitions	O
+and	O
+references	O
+.	O
+
+The	O
+definitions	O
+section	O
+is	O
+intended	O
+to	O
+assist	O
+the	B-Environment Object
+technical	M-Environment Object
+designers	E-Environment Object
+as	O
+well	O
+as	O
+the	O
+client	E-Environment Object
+in	O
+clarifying	O
+the	O
+terms	O
+used	O
+throughout	O
+the	O
+document	O
+.	O
+
+Section	O
+two	O
+is	O
+a	B-Environment Object
+general	O
+description	O
+of	O
+the	O
+product	O
+requirements	O
+from	O
+a	O
+user	E-Environment Object
+'	O
+s	O
+perspective	O
+.	O
+
+This	O
+section	O
+includes	O
+information	O
+such	O
+as	O
+functional	O
+and	O
+data	O
+requirements	O
+,	O
+general	O
+constraints	O
+,	O
+and	O
+assumptions	O
+.	O
+
+Section	O
+three	O
+is	O
+a	O
+detailed	O
+requirements	O
+specification	O
+targeted	O
+toward	O
+technical	B-Environment Object
+designers	E-Environment Object
+.	O
+
+Specific	O
+requirements	O
+and	O
+expectations	O
+regarding	O
+the	O
+components	O
+of	O
+the	O
+product	O
+are	O
+given	O
+in	O
+this	O
+portion	O
+of	O
+the	O
+SRS	O
+document	O
+.	O
+
+The	O
+target	O
+clients	S-Environment Object
+for	O
+our	O
+software	O
+are	O
+students	S-Environment Object
+in	O
+the	O
+sixth	O
+grade	O
+and	O
+their	O
+teacher	S-Environment Object
+.	O
+
+These	O
+students	S-Environment Object
+are	O
+in	O
+the	O
+process	O
+of	O
+learning	O
+how	O
+to	B-System Requirements
+solve	M-System Requirements
+arithmetic	M-System Requirements
+problems	M-System Requirements
+involving	M-System Requirements
+fractions	E-System Requirements
+.	O
+
+Moreover	O
+,	O
+these	O
+students	S-Environment Object
+(	O
+as	O
+well	O
+as	O
+the	B-Environment Object
+teacher	E-Environment Object
+)	O
+are	O
+assumed	O
+to	O
+have	O
+basic	O
+computer	O
+and	O
+
+Internet	O
+skills	O
+that	O
+will	O
+enable	O
+them	O
+to	O
+use	O
+this	O
+software	O
+.	O
+
+The	O
+personas	O
+we	O
+will	O
+use	O
+to	O
+model	O
+our	O
+intended	O
+users	S-Environment Object
+are	O
+a	O
+sixth	O
+grade	O
+female	B-Environment Object
+student	E-Environment Object
+called	O
+Alice	O
+learning	O
+fractions	O
+who	O
+does	O
+not	O
+like	O
+to	O
+use	O
+computers	O
+,	O
+a	O
+sixth	O
+grade	O
+male	B-Environment Object
+student	O
+called	O
+Bobby	O
+learning	O
+fractions	O
+who	O
+is	O
+very	O
+competitive	O
+and	O
+a	O
+sixth	O
+grade	O
+teacher	S-Environment Object
+with	O
+computer	O
+skills	O
+called	O
+Claire	O
+.	O
+
+Alice	O
+is	O
+a	O
+sixth	O
+grade	O
+female	B-Environment Object
+student	E-Environment Object
+learning	O
+fractions	O
+who	O
+does	O
+not	O
+like	O
+to	O
+use	O
+computers	S-Physical Device
+.	O
+
+Although	O
+Alice	O
+has	O
+used	O
+computers	O
+for	O
+email	O
+and	O
+systems	O
+,	O
+Alice	O
+considers	O
+computers	O
+to	O
+be	O
+boring	O
+.	O
+
+Alice	O
+would	O
+rather	O
+read	O
+a	O
+story	O
+or	O
+talk	O
+with	O
+friends	S-Environment Object
+.	O
+
+However	O
+,	O
+Alice	O
+is	O
+really	O
+interested	O
+in	O
+learning	O
+fractions	O
+and	O
+enjoys	O
+working	O
+with	O
+other	O
+students	S-Environment Object
+.	O
+
+Bobby	O
+is	O
+a	O
+sixth	O
+grade	O
+male	B-Environment Object
+student	E-Environment Object
+learning	O
+fractions	O
+who	O
+is	O
+very	O
+competitive	O
+.	O
+
+Bobby	O
+enjoys	O
+playing	O
+competitive	O
+sports	O
+and	O
+using	O
+computers	O
+,	O
+especially	O
+to	O
+play	O
+systems	O
+.	O
+
+Bobby	O
+has	O
+used	O
+computers	O
+since	O
+age	O
+five	O
+.	O
+
+Bobby	O
+particularly	O
+likes	O
+to	O
+play	O
+systems	O
+where	O
+Bobby	O
+can	O
+excel	O
+.	O
+
+Bobby	O
+is	O
+only	O
+somewhat	O
+interested	O
+in	O
+learning	O
+about	O
+fractions	O
+.	O
+
+Claire	O
+is	O
+a	O
+sixth	O
+grade	O
+teacher	S-Environment Object
+who	O
+has	O
+computer	O
+skills	O
+.	O
+
+Claire	O
+enjoys	O
+teaching	O
+sixth	O
+graders	O
+and	O
+is	O
+interested	O
+in	O
+finding	O
+innovative	O
+ways	O
+to	O
+teach	O
+her	O
+students	S-Environment Object
+.	O
+
+Claire	O
+has	O
+been	O
+teaching	O
+the	O
+sixth	O
+grade	O
+for	O
+six	O
+years	O
+now	O
+.	O
+
+Claire	O
+finds	O
+that	O
+students	S-Environment Object
+have	O
+a	O
+particularly	O
+hard	O
+time	O
+learning	O
+about	O
+the	O
+concepts	O
+related	O
+to	O
+fractions	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+requires	O
+a	O
+web	O
+browser	O
+capable	O
+of	O
+running	O
+Flash	O
+movies	S-Shared Phenomena
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+not	O
+be	O
+dependent	O
+on	O
+any	O
+other	O
+software	O
+and	O
+is	O
+not	O
+a	O
+component	O
+of	O
+another	O
+program	O
+.	O
+
+Since	O
+the	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+requires	O
+a	O
+Flash	O
+-	O
+supporting	O
+browser	O
+,	O
+the	O
+external	O
+interface	O
+will	O
+depend	O
+on	O
+the	O
+configuration	O
+of	O
+the	O
+browser	O
+.	O
+
+Therefore	O
+,	O
+various	O
+environments	O
+may	O
+yield	O
+different	O
+interfaces	O
+,	O
+but	O
+the	O
+behavior	O
+of	O
+the	O
+program	O
+will	O
+be	O
+the	O
+same	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+does	O
+not	O
+require	O
+any	O
+new	O
+hardware	O
+.	O
+
+The	B-Software System
+umbrella	E-Software System
+will	O
+be	O
+a	O
+singular	O
+component	O
+,	O
+providing	B-System Requirements
+links	M-System Requirements
+to	M-System Requirements
+projects	E-System Requirements
+relating	O
+to	O
+fractions	O
+,	O
+decimals	O
+,	O
+and	O
+percents	O
+in	O
+a	O
+format	O
+accessible	O
+over	O
+the	O
+World	O
+Wide	O
+Web	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+have	O
+an	O
+introductory	O
+movie	O
+to	O
+set	O
+up	O
+the	O
+storyline	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+have	O
+a	O
+main	O
+menu	O
+,	O
+including	O
+a	O
+brief	O
+help	O
+section	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+have	O
+a	O
+series	O
+of	O
+fraction	O
+questions	O
+(	O
+testing	O
+arithmetic	O
+,	O
+equivalence	O
+,	O
+graphical	O
+interpretation	O
+,	O
+and	O
+improper	O
+versus	O
+proper	O
+fraction	O
+skills	O
+)	O
+that	O
+sequentially	O
+form	O
+a	O
+storyline	O
+related	O
+to	O
+the	O
+introduction	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+have	O
+an	O
+ending	O
+scene	O
+where	O
+the	B-Environment Object
+user	E-Environment Object
+'	O
+s	O
+score	O
+is	O
+calculated	O
+and	O
+ranked	O
+,	O
+with	O
+an	O
+option	O
+to	O
+quit	O
+the	O
+system	O
+or	O
+try	O
+again	O
+.	O
+
+In	O
+addition	O
+,	O
+a	O
+component	O
+accessible	O
+over	O
+the	B-System Requirements
+World	O
+Wide	O
+Web	O
+will	O
+allow	O
+the	O
+series	M-System Requirements
+of	M-System Requirements
+fraction	M-System Requirements
+questions	M-System Requirements
+to	M-System Requirements
+be	M-System Requirements
+updated	E-System Requirements
+by	O
+an	B-Environment Object
+administrator	E-Environment Object
+of	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+.	O
+
+The	B-Environment Object
+administrator	E-Environment Object
+of	O
+the	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+may	O
+wish	O
+to	O
+design	O
+a	O
+custom	O
+system	O
+complete	O
+with	O
+custom	O
+fraction	O
+questions	O
+.	O
+
+This	B-Shared Phenomena
+information	E-Shared Phenomena
+must	O
+be	O
+saved	O
+in	O
+a	O
+file	O
+on	O
+the	B-Software System
+web	O
+server	O
+where	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+is	O
+hosted	O
+and	O
+will	O
+be	O
+easily	O
+edited	O
+through	O
+simplified	O
+administrative	O
+screens	O
+.	O
+
+The	B-Environment Object
+user	E-Environment Object
+'	O
+s	O
+score	S-Shared Phenomena
+must	O
+be	O
+kept	O
+as	O
+local	O
+data	O
+within	O
+the	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+so	O
+that	O
+the	O
+results	O
+may	O
+be	O
+given	O
+at	O
+the	O
+end	O
+of	O
+the	O
+Space	O
+Fractions	O
+system	O
+.	O
+
+Input	O
+will	O
+consist	O
+entirely	O
+of	O
+mouse	O
+clicks	O
+for	O
+the	B-Environment Object
+user	E-Environment Object
+to	M-System Requirements
+choose	B-System Requirements
+answer	M-System Requirements
+options	M-System Requirements
+and	M-System Requirements
+to	O
+set	M-System Requirements
+preferences	E-System Requirements
+.	O
+
+Output	O
+will	O
+be	O
+sounds	S-Shared Phenomena
+and	O
+animations	S-Shared Phenomena
+through	O
+Flash	O
+movies	O
+to	O
+acknowledge	O
+success	O
+or	O
+failure	O
+in	O
+answering	O
+the	O
+fraction	O
+questions	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+run	O
+on	O
+any	O
+Internet	O
+-	O
+accessible	O
+computer	S-Physical Device
+with	O
+a	O
+web	O
+browser	O
+that	O
+supports	O
+
+Upon	O
+starting	O
+the	B-Environment Object
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+,	O
+the	O
+user	E-Environment Object
+is	O
+taken	O
+through	O
+a	O
+brief	O
+introductory	O
+movie	O
+to	O
+provide	O
+background	O
+story	O
+and	O
+information	O
+that	O
+will	O
+help	O
+them	O
+complete	O
+the	O
+fraction	O
+questions	O
+.	O
+
+There	O
+is	O
+an	O
+option	O
+to	O
+skip	O
+the	O
+introduction	O
+,	O
+if	O
+desired	O
+.	O
+
+Otherwise	O
+,	O
+they	O
+will	O
+watch	O
+the	O
+movie	O
+to	O
+its	O
+completion	O
+and	O
+be	O
+taken	O
+to	O
+the	O
+main	O
+screen	O
+.	O
+
+At	O
+the	B-Environment Object
+main	O
+title	O
+screen	M-System Requirements
+,	O
+the	O
+user	E-Environment Object
+will	O
+be	O
+able	O
+to	M-System Requirements
+view	M-System Requirements
+a	M-System Requirements
+general	M-System Requirements
+help	M-System Requirements
+screen	O
+to	O
+reveal	M-System Requirements
+basic	M-System Requirements
+instructions	M-System Requirements
+on	M-System Requirements
+system	M-System Requirements
+play	E-System Requirements
+.	O
+
+Also	O
+,	O
+a	O
+short	O
+summary	O
+of	O
+our	O
+team	O
+and	O
+a	O
+link	O
+to	O
+our	O
+website	O
+will	O
+be	O
+provided	O
+.	O
+
+To	O
+start	O
+the	B-Environment Object
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+,	O
+the	O
+user	E-Environment Object
+will	O
+click	O
+on	O
+the	O
+corresponding	O
+button	O
+.	O
+
+The	O
+information	O
+and	O
+interface	O
+will	O
+be	O
+effective	O
+so	O
+that	O
+Bobby	O
+will	O
+easily	O
+recognize	O
+what	O
+to	O
+do	O
+to	O
+start	O
+the	B-Software System
+system	E-Software System
+immediately	O
+and	O
+Alice	O
+will	O
+have	O
+no	O
+problems	O
+navigating	O
+through	O
+the	O
+help	O
+section	O
+to	O
+understand	O
+the	O
+rules	O
+and	O
+systemplay	O
+.	O
+
+Claire	O
+will	O
+be	O
+assured	O
+that	O
+the	O
+students	O
+will	O
+know	O
+what	O
+to	O
+do	O
+from	O
+this	O
+main	O
+screen	O
+.	O
+
+Next	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+progresses	O
+through	O
+a	O
+series	O
+of	O
+questions	O
+in	O
+the	O
+form	O
+of	O
+cartoon	O
+images	O
+that	O
+comprise	O
+the	O
+main	O
+story	O
+.	O
+
+These	O
+questions	O
+will	O
+test	O
+the	B-Environment Object
+user	E-Environment Object
+'	O
+s	O
+knowledge	O
+of	O
+basic	O
+fraction	O
+operations	O
+and	O
+will	O
+be	O
+presented	O
+as	O
+a	O
+multiple	O
+-	O
+choice	O
+questionnaire	O
+.	O
+
+The	B-Environment Object
+user	E-Environment Object
+will	O
+be	O
+given	O
+a	O
+problem	O
+and	O
+then	O
+must	O
+click	O
+the	O
+correct	O
+solution	O
+.	O
+
+A	O
+friendly	O
+robotic	O
+sidekick	O
+will	O
+assist	O
+with	O
+general	O
+usability	O
+issues	O
+and	O
+give	O
+hints	O
+towards	O
+the	O
+correct	O
+response	O
+.	O
+
+Bobby	O
+will	O
+be	O
+captivated	O
+by	O
+the	O
+storyline	O
+and	O
+will	O
+wish	O
+to	O
+progress	O
+as	O
+fast	O
+as	O
+possible	O
+.	O
+
+The	O
+systemplay	O
+will	O
+be	O
+dynamic	O
+and	O
+adaptive	O
+to	O
+provide	O
+different	O
+storylines	O
+based	O
+on	O
+the	B-Environment Object
+user	E-Environment Object
+'	O
+s	O
+progress	O
+.	O
+
+After	O
+the	O
+last	O
+question	O
+,	O
+the	O
+main	O
+character	O
+'	O
+s	O
+adventure	O
+will	O
+come	O
+to	O
+an	O
+end	O
+.	O
+
+The	O
+last	O
+scene	O
+will	O
+be	O
+determined	O
+by	O
+the	B-Environment Object
+user	E-Environment Object
+'	O
+s	O
+response	O
+on	O
+certain	O
+critical	O
+questions	O
+that	O
+impact	O
+the	O
+story	O
+'	O
+s	O
+plot	O
+,	O
+and	O
+an	O
+option	O
+to	O
+try	O
+again	O
+will	O
+be	O
+presented	O
+.	O
+
+In	O
+addition	O
+,	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+exact	O
+score	O
+will	O
+be	O
+given	O
+with	O
+a	O
+customized	O
+message	O
+.	O
+
+This	O
+gives	O
+Bobby	O
+the	O
+competition	O
+he	O
+requires	O
+and	O
+allows	O
+Alice	O
+to	O
+have	O
+a	O
+unique	O
+experience	O
+the	O
+next	O
+time	O
+through	O
+the	O
+program	O
+.	O
+
+Either	O
+way	O
+,	O
+the	B-Environment Object
+user	E-Environment Object
+will	O
+be	O
+encouraged	O
+to	O
+try	O
+again	O
+and	O
+further	O
+better	O
+their	O
+fraction	O
+skills	O
+.	O
+
+As	O
+the	M-System Requirements
+system	E-System Requirements
+administrator	S-Environment Object
+,	O
+Claire	O
+can	O
+use	O
+the	O
+question	O
+updater	O
+to	O
+change	B-System Requirements
+any	M-System Requirements
+of	M-System Requirements
+the	O
+questions	M-System Requirements
+in	M-System Requirements
+the	O
+system	O
+.	O
+
+She	O
+navigates	O
+to	O
+the	O
+updater	O
+page	O
+,	O
+which	O
+asks	O
+for	O
+a	O
+password	O
+.	O
+
+Upon	O
+correct	O
+submission	O
+of	O
+her	O
+password	O
+,	O
+she	O
+uses	O
+an	O
+intuitive	O
+web	O
+forms	O
+interface	O
+to	O
+update	O
+the	B-Software System
+system	E-Software System
+to	O
+her	O
+desiring	O
+.	O
+
+The	O
+following	O
+table	O
+summarizes	O
+the	B-Software System
+external	O
+interface	O
+requirements	O
+for	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+.	O
+
+The	O
+purpose	O
+of	O
+the	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+is	O
+to	O
+process	O
+player	O
+inputs	O
+during	O
+gameplay	O
+,	O
+specifically	O
+for	O
+calculating	O
+spaceship	O
+velocity	O
+adjustments	O
+based	O
+on	O
+fraction	O
+inputs	O
+.	O
+
+This	O
+is	O
+crucial	O
+for	O
+navigating	O
+through	O
+space	O
+obstacles	O
+and	O
+reaching	O
+destinations	O
+within	O
+the	B-Software System
+system	E-Software System
+.	O
+
+The	O
+inputs	O
+will	O
+consist	O
+of	O
+fractions	O
+entered	O
+by	O
+the	B-Environment Object
+player	E-Environment Object
+using	O
+the	O
+game	O
+'	O
+s	O
+interface	O
+.	O
+
+These	O
+inputs	O
+will	O
+be	O
+in	O
+the	O
+form	O
+of	O
+two	O
+integers	O
+representing	O
+the	O
+numerator	O
+and	O
+denominator	O
+of	O
+a	O
+fraction	O
+.	O
+
+The	O
+source	O
+of	O
+these	O
+inputs	O
+is	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+interaction	O
+with	O
+the	O
+game	O
+'	O
+s	O
+user	O
+interface	O
+during	O
+specific	O
+gameplay	O
+moments	O
+that	O
+require	O
+velocity	O
+adjustment	O
+.	O
+
+Upon	O
+receiving	O
+the	M-System Requirements
+fraction	O
+inputs	O
+,	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+validate	B-System Requirements
+the	O
+integrity	M-System Requirements
+and	M-System Requirements
+format	M-System Requirements
+of	M-System Requirements
+the	O
+data	E-System Requirements
+to	O
+ensure	O
+they	O
+are	O
+integers	O
+and	O
+that	O
+the	O
+denominator	O
+is	O
+not	O
+zero	O
+.	O
+
+If	O
+the	B-Software System
+input	O
+is	O
+valid	O
+,	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+calculates	O
+the	O
+velocity	O
+adjustment	O
+by	O
+converting	O
+the	O
+fraction	O
+into	O
+a	O
+decimal	O
+value	O
+and	O
+applying	O
+it	O
+to	O
+the	O
+spaceship	O
+'	O
+s	O
+current	O
+velocity	O
+.	O
+
+The	O
+processing	O
+includes	O
+error	O
+handling	O
+for	O
+invalid	O
+inputs	O
+,	O
+such	O
+as	O
+displaying	O
+an	O
+error	O
+message	O
+to	O
+the	O
+player	O
+and	O
+requesting	O
+a	O
+new	O
+input	O
+.	O
+
+The	O
+output	O
+of	O
+this	O
+process	O
+is	O
+the	O
+adjusted	O
+velocity	O
+of	O
+the	O
+spaceship	O
+,	O
+represented	O
+as	O
+a	O
+decimal	O
+value	O
+.	O
+
+This	O
+adjusted	O
+velocity	O
+is	O
+applied	O
+to	O
+the	O
+game	O
+'	O
+s	O
+physics	O
+engine	O
+to	O
+update	O
+the	O
+spaceship	O
+'	O
+s	O
+speed	O
+in	O
+real	O
+-	O
+time	O
+.	O
+
+The	O
+output	O
+timing	O
+is	O
+immediate	O
+,	O
+ensuring	O
+responsive	O
+gameplay	O
+.	O
+The	O
+range	O
+of	O
+output	O
+values	O
+is	O
+determined	O
+by	O
+the	B-Software System
+game	O
+'	O
+s	O
+physics	O
+rules	O
+and	O
+the	O
+maximum	O
+and	O
+minimum	O
+velocity	O
+constraints	O
+set	O
+within	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+.	O
+
+In	O
+cases	O
+of	O
+invalid	O
+inputs	O
+,	O
+the	B-Environment Object
+output	O
+is	O
+an	O
+error	O
+message	O
+displayed	O
+on	O
+the	O
+user	O
+interface	O
+,	O
+guiding	O
+the	O
+player	E-Environment Object
+to	B-System Requirements
+provide	M-System Requirements
+a	M-System Requirements
+valid	M-System Requirements
+fraction	E-System Requirements
+.	O
+
+The	O
+introductory	O
+movie	O
+serves	O
+to	O
+immerse	O
+players	S-Environment Object
+into	O
+the	O
+game	O
+'	O
+s	O
+universe	O
+,	O
+setting	O
+the	O
+stage	O
+for	O
+the	O
+storyline	O
+and	O
+providing	O
+critical	O
+information	S-Shared Phenomena
+to	O
+assist	O
+users	S-Environment Object
+in	O
+solving	O
+fraction	O
+-	O
+related	O
+puzzles	O
+.	O
+
+This	O
+engaging	O
+start	O
+is	O
+designed	O
+to	B-System Requirements
+enhance	M-System Requirements
+understanding	M-System Requirements
+and	M-System Requirements
+interest	M-System Requirements
+in	M-System Requirements
+the	M-System Requirements
+game	M-System Requirements
+'	M-System Requirements
+s	M-System Requirements
+educational	M-System Requirements
+objectives	E-System Requirements
+.	O
+
+The	O
+primary	O
+input	O
+for	O
+this	O
+component	O
+is	O
+the	B-Environment Object
+user	E-Environment Object
+'	O
+s	O
+interaction	O
+in	O
+the	O
+form	O
+of	O
+a	B-Physical Device
+mouse	E-Physical Device
+click	O
+.	O
+
+This	O
+action	O
+allows	O
+players	S-Environment Object
+the	O
+option	O
+to	O
+skip	O
+the	O
+introductory	O
+movie	O
+at	O
+any	O
+point	O
+,	O
+facilitating	O
+a	O
+direct	O
+transition	O
+to	O
+the	O
+main	O
+menu	O
+of	O
+the	O
+game	O
+for	O
+those	O
+who	O
+prefer	O
+to	O
+dive	O
+straight	O
+into	O
+gameplay	O
+or	O
+who	O
+are	O
+revisiting	O
+the	O
+game	O
+and	O
+already	O
+familiar	O
+with	O
+its	O
+storyline	O
+.	O
+
+As	O
+soon	O
+as	O
+the	B-Environment Object
+player	E-Environment Object
+enters	O
+the	O
+introductory	O
+movie	O
+component	O
+,	O
+the	O
+movie	O
+begins	O
+to	O
+play	O
+automatically	O
+.	O
+
+The	B-Software System
+system	E-Software System
+continuously	O
+listens	O
+for	O
+a	B-Physical Device
+mouse	E-Physical Device
+click	O
+event	O
+during	O
+the	O
+playback	O
+.	O
+
+If	O
+a	O
+click	O
+is	O
+detected	O
+,	O
+the	B-Environment Object
+movie	O
+is	O
+immediately	O
+terminated	O
+,	O
+and	O
+the	O
+system	E-Software System
+transitions	O
+the	O
+user	E-Environment Object
+to	O
+the	O
+game	O
+'	O
+s	O
+main	O
+menu	O
+,	O
+bypassing	O
+the	O
+rest	O
+of	O
+the	O
+movie	O
+.	O
+If	O
+no	O
+click	O
+is	O
+registered	O
+,	O
+the	O
+movie	O
+plays	O
+in	O
+its	O
+entirety	O
+,	O
+after	O
+which	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	O
+automatically	O
+proceeds	O
+to	O
+the	O
+main	O
+menu	O
+.	O
+
+This	O
+process	O
+ensures	O
+a	O
+seamless	O
+experience	O
+,	O
+whether	O
+the	B-Environment Object
+player	E-Environment Object
+chooses	O
+to	O
+watch	O
+the	O
+movie	O
+or	O
+skip	O
+it	O
+.	O
+
+The	O
+output	O
+of	O
+this	O
+functional	O
+requirement	O
+is	O
+the	B-Environment Object
+visual	O
+and	O
+auditory	O
+presentation	O
+of	O
+the	O
+movie	O
+on	O
+the	O
+player	E-Environment Object
+'	O
+s	O
+screen	S-Physical Device
+.	O
+
+If	O
+the	O
+movie	O
+is	O
+skipped	O
+or	O
+once	O
+it	O
+concludes	O
+,	O
+the	O
+subsequent	O
+output	O
+is	O
+the	O
+transition	O
+to	O
+the	O
+game	O
+'	O
+s	O
+main	O
+menu	O
+,	O
+where	O
+players	S-Environment Object
+can	O
+start	O
+their	O
+adventure	O
+or	O
+access	O
+various	O
+game	O
+settings	O
+.	O
+
+The	O
+main	O
+menu	O
+is	O
+designed	O
+to	O
+serve	O
+as	O
+the	O
+initial	O
+interface	O
+that	O
+players	S-Environment Object
+interact	O
+with	O
+upon	O
+starting	O
+the	O
+game	O
+or	O
+returning	O
+to	O
+it	O
+after	O
+a	O
+session	O
+.	O
+
+It	O
+offers	O
+a	O
+concise	O
+help	O
+section	O
+that	O
+guides	O
+players	S-Environment Object
+on	O
+how	O
+to	M-System Requirements
+engage	B-System Requirements
+with	M-System Requirements
+the	M-System Requirements
+game	M-System Requirements
+effectively	O
+and	M-System Requirements
+also	O
+includes	B-System Requirements
+links	M-System Requirements
+to	O
+both	M-System Requirements
+the	O
+primary	M-System Requirements
+game	O
+component	M-System Requirements
+and	O
+an	M-System Requirements
+external	M-System Requirements
+educational	M-System Requirements
+resource	E-System Requirements
+,	O
+the	O
+Denominators	O
+'	O
+web	O
+page	O
+.	O
+
+This	O
+menu	O
+aims	O
+to	O
+equip	B-System Requirements
+players	M-System Requirements
+with	M-System Requirements
+the	M-System Requirements
+necessary	M-System Requirements
+knowledge	E-System Requirements
+to	O
+start	O
+playing	O
+and	O
+offer	O
+additional	O
+learning	O
+resources	O
+,	O
+thereby	O
+enriching	O
+the	O
+overall	O
+game	O
+experience	O
+.	O
+
+Players	S-Environment Object
+interact	O
+with	O
+the	O
+main	O
+menu	O
+through	O
+mouse	O
+clicks	O
+on	O
+specific	O
+buttons	O
+.	O
+
+One	O
+button	O
+initiates	O
+the	O
+game	O
+,	O
+leading	O
+players	S-Environment Object
+directly	O
+into	O
+the	O
+gameplay	O
+experience	O
+.	O
+
+Another	O
+button	O
+or	M-System Requirements
+hyperlink	O
+connects	O
+players	S-Environment Object
+to	B-System Requirements
+the	O
+Denominators	O
+'	O
+web	O
+page	O
+,	O
+providing	O
+an	O
+opportunity	O
+to	O
+explore	M-System Requirements
+educational	M-System Requirements
+content	M-System Requirements
+or	O
+resources	E-System Requirements
+related	O
+to	O
+the	O
+game	O
+'	O
+s	O
+thematic	O
+elements	O
+.	O
+
+The	O
+system	O
+remains	O
+in	O
+a	O
+passive	O
+listening	O
+state	O
+until	O
+an	O
+input	O
+is	O
+received	O
+in	O
+the	O
+form	O
+of	O
+a	O
+mouse	O
+click	O
+on	O
+one	O
+of	O
+the	O
+menu	O
+options	O
+.	O
+
+Depending	O
+on	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+choice	O
+,	O
+the	O
+system	O
+then	O
+executes	O
+one	O
+of	O
+two	O
+actions	O
+:	O
+either	O
+initiating	O
+the	O
+game	O
+sequence	O
+or	O
+redirecting	O
+the	O
+player	O
+to	O
+the	O
+Denominators	O
+'	O
+web	O
+page	O
+.	O
+
+This	O
+decision	O
+-	O
+making	O
+process	O
+ensures	O
+that	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+intent	O
+is	O
+accurately	O
+interpreted	O
+and	O
+the	O
+corresponding	O
+action	O
+is	O
+taken	O
+swiftly	O
+,	O
+maintaining	O
+a	O
+seamless	O
+transition	O
+from	O
+the	O
+menu	O
+to	O
+the	O
+player	O
+'	O
+s	O
+selected	O
+activity	O
+.	O
+
+The	O
+output	O
+of	O
+interacting	O
+with	O
+the	B-Environment Object
+main	O
+menu	O
+is	O
+determined	O
+by	O
+the	O
+player	E-Environment Object
+'	O
+s	O
+choice	O
+.	O
+
+If	O
+the	B-Environment Object
+player	E-Environment Object
+opts	O
+to	O
+start	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+,	O
+the	O
+system	O
+transitions	O
+to	O
+the	O
+game	O
+sequence	O
+,	O
+where	O
+gameplay	O
+begins	O
+immediately	O
+.	O
+
+Alternatively	O
+,	O
+if	O
+the	B-Environment Object
+player	E-Environment Object
+selects	O
+the	O
+option	O
+to	O
+visit	O
+the	O
+Denominators	O
+'	O
+web	O
+page	O
+,	O
+the	O
+system	O
+facilitates	O
+this	O
+redirection	O
+,	O
+opening	O
+the	O
+web	O
+page	O
+either	O
+within	O
+the	O
+game	O
+environment	O
+or	O
+in	O
+a	O
+separate	O
+browser	O
+window	O
+,	O
+depending	O
+on	O
+the	O
+game	O
+'	O
+s	O
+design	O
+and	O
+platform	O
+capabilities	O
+.	O
+
+This	O
+dual	O
+-	O
+path	O
+output	O
+allows	O
+for	O
+a	O
+customized	O
+experience	O
+that	O
+caters	O
+to	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+immediate	O
+preference	O
+,	O
+whether	O
+it	O
+be	O
+diving	O
+into	O
+the	O
+game	O
+or	O
+seeking	O
+additional	O
+information	O
+and	O
+resources	O
+.	O
+
+The	O
+primary	O
+function	O
+of	O
+the	O
+system	O
+sequence	O
+is	O
+to	O
+engage	O
+players	S-Environment Object
+with	O
+a	O
+series	O
+of	O
+multiple	O
+-	O
+choice	O
+questions	O
+focused	O
+on	O
+fractions	O
+.	O
+These	O
+questions	O
+are	O
+integrated	O
+within	O
+a	O
+storyline	O
+that	O
+naturally	O
+follows	O
+the	O
+introductory	O
+narrative	O
+of	O
+the	O
+game	O
+.	O
+
+This	O
+sequence	O
+is	O
+designed	O
+to	B-System Requirements
+challenge	M-System Requirements
+and	M-System Requirements
+educate	M-System Requirements
+players	M-System Requirements
+on	M-System Requirements
+fractions	E-System Requirements
+while	O
+advancing	O
+the	O
+plot	O
+,	O
+thereby	O
+keeping	O
+the	O
+educational	O
+content	O
+engaging	O
+and	O
+contextually	O
+relevant	O
+.	O
+
+Players	S-Environment Object
+interact	O
+with	O
+this	O
+component	O
+by	O
+responding	O
+to	O
+the	O
+displayed	O
+questions	O
+.	O
+
+The	O
+interaction	O
+involves	O
+selecting	O
+their	O
+answer	O
+from	O
+a	O
+set	O
+of	O
+multiple	O
+-	O
+choice	O
+options	O
+provided	O
+for	O
+each	O
+question	O
+.	O
+
+This	O
+method	O
+ensures	O
+a	O
+straightforward	O
+and	O
+accessible	O
+approach	O
+for	O
+users	S-Environment Object
+to	O
+demonstrate	O
+their	O
+understanding	O
+and	O
+apply	O
+their	O
+knowledge	O
+of	O
+fractions	O
+.	O
+
+If	O
+the	B-Environment Object
+player	E-Environment Object
+selects	O
+the	O
+correct	O
+answer	O
+,	O
+a	O
+confirmation	O
+message	O
+is	O
+displayed	O
+,	O
+and	O
+the	O
+component	O
+transitions	O
+to	O
+the	O
+next	O
+question	O
+,	O
+maintaining	O
+engagement	O
+and	O
+providing	O
+positive	O
+reinforcement	O
+.	O
+
+For	O
+incorrect	O
+answers	O
+,	O
+the	B-Environment Object
+player	E-Environment Object
+is	O
+informed	O
+of	O
+the	O
+mistake	O
+and	O
+given	O
+another	O
+opportunity	O
+to	O
+answer	O
+the	O
+question	O
+,	O
+albeit	O
+without	O
+the	O
+possibility	O
+of	O
+earning	O
+points	O
+for	O
+that	O
+question	O
+,	O
+fostering	O
+a	O
+learning	O
+environment	O
+that	O
+encourages	O
+understanding	O
+through	O
+trial	O
+and	O
+error	O
+.	O
+
+The	O
+system	O
+sequence	O
+includes	O
+"	O
+critical	O
+points	O
+"	O
+where	O
+the	B-Environment Object
+storyline	O
+can	O
+diverge	O
+based	O
+on	O
+whether	O
+the	O
+player	E-Environment Object
+answers	O
+these	O
+pivotal	O
+questions	O
+correctly	O
+,	O
+adding	O
+an	O
+element	O
+of	O
+narrative	O
+depth	O
+and	O
+personalization	O
+to	O
+the	O
+gameplay	O
+experience	O
+.	O
+
+After	O
+completing	O
+a	O
+predetermined	O
+set	O
+of	O
+questions	O
+,	O
+the	B-Environment Object
+player	E-Environment Object
+is	O
+directed	O
+to	O
+the	O
+concluding	O
+scene	O
+of	O
+the	O
+game	O
+,	O
+providing	O
+closure	O
+to	O
+the	O
+educational	O
+journey	O
+.	O
+
+The	O
+output	O
+from	O
+this	O
+component	O
+consists	O
+of	O
+plot	O
+-	O
+based	O
+questions	O
+that	O
+incorporate	O
+fractions	O
+,	O
+tailored	O
+to	O
+both	O
+challenge	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+mathematical	O
+skills	O
+and	O
+advance	O
+the	O
+game	O
+'	O
+s	O
+narrative	O
+.	O
+
+Additionally	O
+,	O
+the	B-Environment Object
+sequence	O
+customizes	O
+the	O
+storyline	O
+'	O
+s	O
+progression	O
+based	O
+on	O
+the	O
+player	E-Environment Object
+'	O
+s	O
+performance	O
+at	O
+critical	O
+junctures	O
+,	O
+offering	O
+a	O
+dynamic	O
+and	O
+personalized	O
+gaming	O
+experience	O
+.	O
+
+Feedback	O
+is	O
+provided	O
+after	O
+each	O
+question	O
+to	O
+help	O
+players	S-Environment Object
+understand	O
+their	O
+performance	O
+and	O
+learn	O
+from	O
+their	O
+mistakes	O
+,	O
+reinforcing	O
+the	O
+educational	O
+goals	O
+of	O
+the	O
+game	O
+.	O
+
+The	O
+ending	O
+scene	O
+serves	O
+as	O
+the	B-Environment Object
+culmination	O
+of	O
+the	O
+player	E-Environment Object
+'	O
+s	O
+journey	O
+through	O
+the	O
+system	O
+,	O
+providing	O
+a	O
+conclusion	O
+to	O
+the	O
+storyline	O
+that	O
+reflects	O
+their	O
+performance	O
+across	O
+critical	O
+decision	O
+points	O
+.	O
+
+his	O
+scene	O
+not	O
+only	O
+showcases	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+overall	O
+score	O
+but	O
+also	O
+offers	O
+a	O
+narrative	O
+conclusion	O
+that	O
+ties	O
+directly	O
+back	O
+to	O
+the	O
+choices	O
+made	O
+during	O
+gameplay	O
+,	O
+reinforcing	O
+the	O
+impact	O
+of	O
+educational	O
+achievements	O
+within	O
+the	O
+game	O
+'	O
+s	O
+context	O
+.	O
+
+Additionally	O
+,	O
+it	O
+presents	O
+players	S-Environment Object
+with	O
+the	O
+option	O
+to	O
+either	O
+conclude	O
+their	O
+current	O
+session	O
+or	O
+navigate	O
+back	O
+to	O
+the	O
+main	O
+menu	O
+for	O
+further	O
+exploration	O
+or	O
+replay	O
+.	O
+
+Player	S-Environment Object
+interaction	O
+with	O
+the	O
+ending	O
+scene	O
+is	O
+facilitated	O
+through	O
+mouse	S-Physical Device
+clicks	O
+,	O
+allowing	O
+them	O
+to	O
+choose	O
+between	O
+exiting	O
+the	O
+system	O
+or	O
+returning	O
+to	O
+the	O
+main	O
+menu	O
+.	O
+
+This	O
+simple	O
+,	O
+intuitive	O
+input	O
+method	O
+ensures	O
+that	O
+players	S-Environment Object
+of	O
+all	O
+ages	O
+and	O
+skill	O
+levels	O
+can	O
+easily	O
+make	O
+their	O
+selection	O
+without	O
+confusion	O
+or	O
+frustration	O
+.	O
+
+Upon	O
+reaching	O
+the	B-Environment Object
+ending	O
+scene	O
+,	O
+the	O
+system	O
+momentarily	O
+pauses	O
+to	O
+allow	O
+the	O
+player	E-Environment Object
+to	O
+make	O
+their	O
+choice	O
+between	O
+continuing	O
+their	O
+exploration	O
+of	O
+the	O
+game	O
+'	O
+s	O
+content	O
+by	O
+returning	O
+to	O
+the	O
+main	O
+menu	O
+or	O
+concluding	O
+their	O
+session	O
+by	O
+exiting	O
+the	O
+game	O
+.	O
+
+The	O
+component	O
+actively	O
+listens	O
+for	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+input	O
+and	O
+,	O
+upon	O
+selection	O
+,	O
+proceeds	O
+according	O
+to	O
+the	O
+player	O
+'	O
+s	O
+decision	O
+.	O
+
+This	O
+process	O
+is	O
+designed	O
+to	O
+be	O
+straightforward	O
+and	O
+user	O
+-	O
+friendly	O
+,	O
+ensuring	O
+a	O
+smooth	O
+transition	O
+to	O
+the	B-Environment Object
+player	E-Environment Object
+'	O
+s	O
+chosen	O
+next	O
+step	O
+.	O
+
+The	O
+primary	O
+outputs	O
+of	O
+the	B-Environment Object
+ending	O
+scene	O
+include	O
+the	O
+display	O
+of	O
+the	O
+player	E-Environment Object
+'	O
+s	O
+total	O
+score	O
+accumulated	O
+throughout	O
+the	O
+system	O
+and	O
+a	O
+tailored	O
+narrative	O
+conclusion	O
+.	O
+
+This	O
+conclusion	O
+reflects	O
+the	B-Environment Object
+outcomes	O
+of	O
+key	O
+decisions	O
+made	O
+during	O
+the	O
+system	O
+,	O
+specifically	O
+at	O
+critical	O
+junctures	O
+that	O
+were	O
+influenced	O
+by	O
+the	O
+player	E-Environment Object
+'	O
+s	O
+understanding	O
+and	O
+application	O
+of	O
+fractions	O
+.	O
+
+The	O
+dynamic	O
+nature	O
+of	O
+the	B-Environment Object
+conclusion	O
+serves	O
+to	O
+emphasize	O
+the	O
+educational	O
+progress	O
+and	O
+decisions	O
+of	O
+the	O
+player	E-Environment Object
+,	O
+offering	O
+a	O
+personalized	O
+ending	O
+that	O
+varies	O
+from	O
+one	O
+session	O
+to	O
+another	O
+based	O
+on	O
+the	O
+player	O
+'	O
+s	O
+performance	O
+.	O
+
+Furthermore	O
+,	O
+this	O
+component	O
+offers	O
+a	O
+clear	O
+and	O
+direct	O
+pathway	O
+for	O
+the	B-Environment Object
+player	E-Environment Object
+to	O
+either	O
+revisit	O
+the	O
+game	O
+'	O
+s	O
+content	O
+through	O
+the	O
+main	O
+menu	O
+or	O
+gracefully	O
+exit	O
+the	O
+game	O
+,	O
+thereby	O
+closing	O
+their	O
+current	O
+session	O
+.	O
+
+The	B-External System
+Question	M-External System
+Updater	E-External System
+is	O
+envisioned	O
+as	O
+a	O
+web	O
+-	O
+accessible	O
+tool	O
+designed	O
+specifically	O
+for	O
+system	O
+administrators	O
+.	O
+
+Its	O
+primary	O
+function	O
+is	O
+to	B-System Requirements
+facilitate	M-System Requirements
+the	M-System Requirements
+updating	M-System Requirements
+and	M-System Requirements
+editing	M-System Requirements
+of	M-System Requirements
+questions	E-System Requirements
+within	O
+the	O
+system	O
+sequence	O
+,	O
+ensuring	O
+that	O
+the	O
+game	O
+'	O
+s	O
+educational	O
+content	O
+remains	O
+current	O
+,	O
+accurate	O
+,	O
+and	O
+engaging	O
+for	O
+players	S-Environment Object
+.	O
+By	O
+providing	O
+an	O
+easy	O
+-	O
+to	O
+-	O
+use	O
+interface	O
+for	O
+content	O
+modification	O
+,	O
+this	O
+tool	O
+supports	O
+the	O
+game	O
+'	O
+s	O
+adaptability	O
+and	O
+longevity	O
+in	O
+educational	O
+settings	O
+.	O
+
+Administrators	S-Environment Object
+interact	O
+with	O
+the	B-External System
+Question	M-External System
+Updater	E-External System
+through	O
+a	O
+user	O
+-	O
+friendly	O
+interface	O
+consisting	O
+of	O
+pulldown	O
+menus	O
+and	O
+text	O
+fields	O
+.	O
+
+This	O
+design	O
+allows	O
+for	O
+the	O
+efficient	O
+input	O
+of	O
+new	O
+data	O
+or	O
+modifications	O
+to	O
+existing	O
+questions	O
+.	O
+
+Each	O
+question	O
+is	O
+managed	O
+on	O
+a	O
+separate	O
+page	O
+within	O
+the	O
+tool	O
+,	O
+and	O
+navigation	O
+between	O
+questions	O
+is	O
+streamlined	O
+through	O
+the	O
+use	O
+of	O
+a	O
+button	O
+to	O
+progress	O
+from	O
+one	O
+question	O
+to	O
+the	O
+next	O
+,	O
+ensuring	O
+a	O
+smooth	O
+and	O
+organized	O
+content	O
+update	O
+process	O
+.	O
+
+Upon	O
+the	B-Environment Object
+completion	O
+of	O
+data	O
+entry	O
+for	O
+a	O
+question	O
+,	O
+the	O
+administrator	E-Environment Object
+will	O
+use	O
+a	O
+submission	O
+button	O
+to	O
+initiate	O
+the	O
+update	O
+process	O
+.	O
+
+The	O
+tool	O
+then	O
+performs	O
+a	O
+validation	O
+check	O
+on	O
+the	O
+submitted	O
+data	O
+to	O
+ensure	O
+completeness	O
+and	O
+contextual	O
+relevance	O
+to	O
+the	O
+game	O
+'	O
+s	O
+educational	O
+objectives	O
+.	O
+
+This	O
+step	O
+is	O
+crucial	O
+for	O
+maintaining	O
+the	O
+quality	O
+and	O
+integrity	O
+of	O
+the	O
+system	O
+content	O
+.	O
+Once	O
+the	O
+data	O
+passes	O
+the	O
+validation	O
+process	O
+,	O
+the	O
+update	O
+for	O
+that	O
+specific	O
+question	O
+is	O
+finalized	O
+.	O
+
+The	O
+successful	O
+update	O
+of	O
+a	O
+question	O
+results	O
+in	O
+the	O
+generation	O
+of	O
+a	O
+text	O
+file	O
+on	O
+the	O
+system	O
+server	O
+.	O
+
+This	O
+file	O
+contains	O
+the	O
+updated	O
+question	O
+data	O
+,	O
+structured	O
+in	O
+a	O
+format	O
+that	O
+the	O
+system	O
+sequence	O
+can	O
+dynamically	O
+read	O
+and	O
+incorporate	O
+into	O
+the	O
+gameplay	O
+.	O
+
+This	O
+system	O
+allows	O
+for	O
+real	O
+-	O
+time	O
+updates	O
+to	O
+the	O
+game	O
+'	O
+s	O
+content	O
+without	O
+the	O
+need	O
+for	O
+system	O
+restarts	O
+or	O
+interruptions	O
+,	O
+enabling	O
+a	O
+seamless	O
+integration	O
+of	O
+new	O
+or	O
+revised	O
+educational	O
+material	O
+into	O
+the	O
+game	O
+sequence	O
+.	O
+
+The	B-External System
+Math	M-External System
+Umbrella	E-External System
+component	O
+is	O
+designed	O
+to	O
+serve	O
+as	O
+an	O
+educational	O
+resource	O
+hub	O
+within	O
+the	O
+system	O
+,	O
+providing	O
+players	S-Environment Object
+with	O
+easy	O
+access	O
+to	O
+a	O
+curated	O
+selection	O
+of	O
+external	O
+S2S	O
+projects	O
+that	O
+are	O
+specifically	O
+tailored	O
+to	O
+sixth	O
+graders	O
+.	O
+
+These	O
+projects	O
+are	O
+organized	O
+by	O
+mathematical	O
+topics	O
+,	O
+such	O
+as	O
+fractions	O
+,	O
+to	O
+complement	O
+and	O
+enhance	O
+the	O
+learning	O
+experience	O
+within	O
+the	O
+game	O
+.	O
+
+This	O
+component	O
+aims	O
+to	O
+extend	O
+the	O
+educational	O
+value	O
+of	O
+the	O
+system	O
+by	O
+integrating	O
+additional	O
+,	O
+topic	O
+-	O
+relevant	O
+resources	O
+that	O
+support	O
+and	O
+deepen	O
+the	O
+player	O
+'	O
+s	O
+understanding	O
+of	O
+mathematics	O
+.	O
+
+Players	S-Environment Object
+interact	O
+with	O
+the	B-External System
+Math	M-External System
+Umbrella	E-External System
+through	O
+a	O
+series	O
+of	O
+links	O
+.	O
+
+These	O
+links	O
+are	O
+presented	O
+within	O
+the	O
+system	O
+interface	O
+and	O
+lead	O
+to	O
+various	O
+World	O
+Wide	O
+Web	O
+documents	O
+.	O
+
+Each	O
+link	O
+corresponds	O
+to	O
+a	O
+different	O
+S2S	O
+project	O
+,	O
+allowing	O
+players	S-Environment Object
+to	O
+choose	O
+which	O
+external	O
+resources	O
+they	O
+wish	O
+to	O
+explore	O
+based	O
+on	O
+their	O
+interests	O
+or	O
+areas	O
+where	O
+they	O
+seek	O
+further	O
+understanding	O
+.	O
+
+Upon	O
+the	B-External System
+player	E-Environment Object
+'	O
+s	O
+selection	O
+of	O
+a	O
+link	O
+,	O
+the	O
+Math	M-External System
+Umbrella	E-External System
+component	O
+momentarily	O
+pauses	O
+to	O
+process	O
+this	O
+action	O
+.	O
+
+The	O
+system	O
+is	O
+designed	O
+to	M-System Requirements
+detect	M-System Requirements
+and	M-System Requirements
+respond	M-System Requirements
+to	O
+the	M-System Requirements
+player	M-System Requirements
+'	M-System Requirements
+s	M-System Requirements
+choice	E-System Requirements
+by	O
+initiating	O
+the	O
+process	O
+to	O
+open	O
+the	O
+selected	O
+S2S	O
+project	O
+.	O
+
+This	O
+ensures	O
+a	O
+smooth	O
+transition	O
+from	O
+the	B-Environment Object
+system	O
+to	O
+the	O
+external	O
+educational	O
+content	O
+,	O
+without	O
+disrupting	O
+the	O
+user	E-Environment Object
+'	O
+s	O
+engagement	O
+or	O
+learning	O
+experience	O
+.	O
+
+The	O
+chosen	O
+S2S	O
+project	O
+is	O
+opened	O
+in	O
+a	O
+separate	O
+window	O
+,	O
+allowing	O
+the	B-Environment Object
+player	E-Environment Object
+to	O
+explore	O
+the	O
+additional	O
+mathematical	O
+content	O
+without	O
+leaving	O
+or	O
+closing	O
+the	O
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+.	O
+
+This	O
+functionality	O
+facilitates	O
+a	O
+seamless	O
+integration	O
+of	O
+supplemental	O
+educational	O
+resources	O
+,	O
+ensuring	O
+that	O
+players	S-Environment Object
+have	O
+the	O
+opportunity	O
+to	O
+engage	O
+with	O
+a	O
+broader	O
+range	O
+of	O
+topics	O
+and	O
+materials	O
+at	O
+their	O
+own	O
+pace	O
+.	O
+
+By	O
+presenting	O
+these	O
+resources	O
+in	O
+a	O
+separate	O
+window	O
+,	O
+the	B-Environment Object
+system	O
+maintains	O
+the	O
+player	E-Environment Object
+'	O
+s	O
+context	O
+within	O
+the	O
+main	O
+system	O
+environment	O
+,	O
+enabling	O
+easy	O
+return	O
+to	O
+the	O
+system	O
+after	O
+exploring	O
+the	O
+external	O
+content	O
+.	O
+
+Only	O
+one	O
+person	O
+can	O
+use	O
+a	O
+single	O
+instance	O
+of	O
+the	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+.	O
+
+However	O
+,	O
+the	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+reside	O
+on	O
+the	O
+Internet	O
+so	O
+more	O
+than	O
+one	O
+user	S-Environment Object
+can	O
+access	O
+the	O
+product	O
+and	O
+download	O
+its	O
+content	O
+for	O
+use	O
+on	O
+their	O
+computer	S-Environment Object
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+consist	O
+of	O
+Flash	O
+movies	O
+linked	O
+together	O
+to	O
+form	O
+a	O
+web	O
+-	O
+based	O
+system	O
+:	O
+there	O
+will	O
+be	O
+a	O
+small	O
+introductory	O
+movie	O
+(	O
+~	O
+200KB	O
+)	O
+,	O
+a	O
+main	O
+menu	O
+movie	O
+(	O
+~	O
+100KB	O
+)	O
+,	O
+and	O
+a	O
+main	O
+system	O
+movie	O
+(	O
+1	O
+-	O
+2MB	O
+)	O
+.	O
+
+Due	O
+to	O
+the	O
+relatively	O
+small	O
+size	O
+of	O
+the	O
+introductory	O
+and	O
+main	O
+menu	O
+movies	O
+,	O
+they	O
+can	O
+be	O
+downloaded	O
+in	O
+approximately	O
+one	O
+minute	O
+with	O
+a	O
+modem	O
+connection	O
+.	O
+
+Because	O
+Flash	O
+movies	O
+do	O
+not	O
+have	O
+to	O
+be	O
+fully	O
+downloaded	O
+to	O
+play	O
+,	O
+the	O
+main	O
+system	O
+can	O
+be	O
+played	O
+within	O
+a	O
+few	O
+minutes	O
+with	O
+a	O
+regular	O
+modem	O
+connection	O
+to	O
+the	O
+Internet	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+be	O
+as	O
+secure	O
+as	O
+the	O
+web	O
+browser	O
+that	O
+will	O
+run	O
+the	O
+product	O
+.	O
+
+The	B-Software System
+Space	M-Software System
+Fractions	M-Software System
+system	E-Software System
+will	O
+be	O
+available	O
+over	O
+the	O
+Internet	O
+via	O
+the	O
+S2S	O
+website	O
+.	O
+
+Reliability	O
+will	O
+be	O
+ensured	O
+by	O
+extensive	O
+testing	O
+by	O
+the	B-Environment Object
+team	M-Environment Object
+members	E-Environment Object
+and	O
+mentors	O
+,	O
+if	O
+available	O
+.	O
+
+Maintainability	O
+is	O
+a	O
+primary	O
+goal	O
+for	O
+this	O
+project	O
+.	O
+
+For	O
+example	O
+,	O
+using	O
+appropriate	O
+sub	O
+-	O
+scenes	O
+in	O
+the	O
+main	O
+Flash	O
+system	O
+to	O
+split	O
+up	O
+the	O
+code	O
+will	O
+allow	O
+for	O
+easy	O
+alteration	O
+at	O
+a	O
+later	O
+date	O
+.	O
+
+There	O
+are	O
+no	O
+additional	O
+requirements	O
+at	O
+this	O
+time	O
+.	O
+

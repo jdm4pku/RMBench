@@ -1,0 +1,3563 @@
+[
+  {
+    "entity": {
+      "Software System": [
+        "E-GOVERNANCE MISSION MODE PROJECT (MMP)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CRIME & CRIMINAL TRACKING NETWORK AND SYSTEMS (CCTNS)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "FUNCTIONAL REQUIREMENTS SPECIFICATION V1.0 (DRAFT)"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "MINISTRY OF HOME AFFAIRS",
+        "GOVERNMENT OF INDIA"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Functional Requirements Specifications (FRS) report",
+        "the first version of the CCTNS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS V1.0"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "police personnel"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "focus on the critical functionality that provides value to the police personnel at the cutting edge",
+        "improve the outcomes in the areas of “Investigation of Crime” and “Detection of Criminals”"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS V1.0"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "IOs",
+        "records room staff",
+        "citizens"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "delivering value within the broad crime investigation area"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "police personnel",
+        "officers",
+        "police function"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "providing value to the police personnel",
+        "easing the day to day operations of the police function"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Citizens",
+        "police"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "register their complaints with police",
+        "police shall take the complaint forward"
+      ],
+      "Shared Phenomena": [
+        "complaints",
+        "evidence",
+        "facts",
+        "investigation"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Registration module"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the police",
+        "citizens",
+        "complainants"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "it eases the approach, interaction and information exchange"
+      ],
+      "Shared Phenomena": [
+        "information exchange between police and complainants"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "police"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "investigation process"
+      ],
+      "Shared Phenomena": [
+        "a complaint is initiated"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Investigation module",
+        "CCTNS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "facilitates the investigation process",
+        "introduces operational efficiencies",
+        "automating most of the tasks"
+      ],
+      "Shared Phenomena": [
+        "tasks that take place after initial entries are made during Registration"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "police station"
+      ],
+      "Environment Object": [
+        "A designated constable",
+        "the courts"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "constantly interfaces"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Prosecution module of the CCTNS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to record entries of the court interactions"
+      ],
+      "Shared Phenomena": [
+        "court interactions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Search module",
+        "CCTNS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "police personnel"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "execute a basic or advanced search on cases"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "search functionality"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "police personnel",
+        "a particular person",
+        "type of crime",
+        "modus operandi",
+        "property"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "can search for a particular person, type of crime, modus operandi, property etc."
+      ],
+      "Shared Phenomena": [
+        "search for a particular person, type of crime, modus operandi, property etc."
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the ability to customize the results view by criminal/accused or by cases"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "police"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "reporting",
+        "execute different types of queries such as monthly reporting, RTI related"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Citizen Interface module",
+        "CCTNS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "citizens",
+        "police units/personnel"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "acts as a conduit for the information exchange between citizens and police units/personnel"
+      ],
+      "Shared Phenomena": [
+        "information exchange"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Citizens",
+        "police"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to get information or acknowledgements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "police",
+        "citizens"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "use it to respond to citizens with very little turnaround time"
+      ],
+      "Shared Phenomena": [
+        "respond to citizens"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "citizens",
+        "police"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "improves overall productivity",
+        "cut short the drudgery of large amounts of paperwork"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Navigation module",
+        "CCTNS",
+        "CCTNS application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provides role based landing pages",
+        "help in navigating"
+      ],
+      "Shared Phenomena": [
+        "role based landing pages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "helping police personnel to plan better and execute with greater efficiency"
+      ],
+      "Shared Phenomena": [
+        "cases assigned",
+        "alerts",
+        "pending tasks"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Configuration module of the CCTNS"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "helps keep the application configured according to the states’ requirements",
+        "keeping data elements/rules up to date"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "functional requirements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "non-functional requirements",
+        "user-friendliness",
+        "performance"
+      ],
+      "Shared Phenomena": [
+        "increased user-acceptance"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The solution"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces"
+      ],
+      "Shared Phenomena": [
+        "all the possible actions and scenarios",
+        "all user interfaces"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [
+        "the application"
+      ],
+      "System Requirements": [
+        "provide an interface for the user to log any defects or enhancement requests on the application and track thereafter"
+      ],
+      "Shared Phenomena": [
+        "defects",
+        "enhancement requests"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The solution"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "send alerts (e.g., email, SMS) to the user if the user chooses to whenever any action has been taken on the alert"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "The user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "enable the user to track the submitted defect or enhancement request"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "help-desk user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "enable the help-desk user to view the reports on the submitted defects or enhancement requests category-wise, status-wise, and age- wise"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "support solution"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "should be accessible to the users both from within the application and also outside the application through a browser interface"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [
+        "An audit trail"
+      ],
+      "System Requirements": [
+        "a record of actions taken by either the user or the CCTNS system triggers"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "users",
+        "Administrators"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "keep an unalterable audit trail capable of automatically capturing and storing information about all the actions (create/read/update/delete) that are taken upon the critical entity in the CCTNS system"
+      ],
+      "Shared Phenomena": [
+        "actions (create/read/update/delete)"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "keep an unalterable audit trail capable of automatically capturing and storing information about the user initiating and or carrying out the action"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "keep an unalterable audit trail capable of automatically capturing and storing information about the date and time of the event"
+      ],
+      "Shared Phenomena": [
+        "date and time of the event"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "keep an unalterable audit trail capable of automatically capturing and storing information about administrative parameters"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "the audit trail data cannot be modified in any way or deleted by any user"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "removable media"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "re-department",
+        "copying",
+        "contents remain unchanged"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the audit trail"
+      ],
+      "System Requirements": [
+        "the audit trail functionality",
+        "track events without manual intervention",
+        "store in the audit trail information about them"
+      ],
+      "Shared Phenomena": [
+        "events"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "maintain the audit trail for as long as required, which will be at least for the life of the case to which it refers"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system",
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure that audit trail data is available for inspection on request",
+        "a specific event can be identified and all related data made accessible",
+        "this can be achieved by authorised external personnel who have little or no familiarity with the CCTNS system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "export audit trails for specified cases"
+      ],
+      "Shared Phenomena": [
+        "audit trail"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "external auditors"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "examine or analyse system activity"
+      ],
+      "Shared Phenomena": [
+        "This functionality"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "capture and store violations",
+        "attempted violations of access control mechanisms"
+      ],
+      "Shared Phenomena": [
+        "attempts to access a case to which he is denied access"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide reports for actions on cases organised by workstation and (where technically appropriate) by network address"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the requirements to control the user access to correspondences, files, and records and various functionalities"
+      ],
+      "Shared Phenomena": [
+        "correspondences, files, and records"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "allow the user to limit access to cases to specified users or user groups"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "role-based control for the functionality within the CCTNS system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "must allow a user to be a member of more than one group"
+      ],
+      "Shared Phenomena": [
+        "a user",
+        "more than one group"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "admin-users",
+        "user profiles",
+        "users",
+        "groups"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "allow only admin-users to set up user profiles and allocate users to groups"
+      ],
+      "Shared Phenomena": [
+        "set up",
+        "allocate"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "allow a user to stipulate which other users or groups can access cases"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "super-user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "allow changes to security attributes for groups or users",
+        "password allocation and management"
+      ],
+      "Shared Phenomena": [
+        "security attributes",
+        "access rights",
+        "security level",
+        "privileges",
+        "password allocation and management"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a user",
+        "a case"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "requests access to, or searches for, a case which he does not have the right to access",
+        "provide one of the following responses (selectable at configuration time): display title and metadata;display the existence of a case but not its title or other metadata;do not display any case information or indicate its existence in any way."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "cases"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the requirement",
+        "this level of security"
+      ],
+      "Shared Phenomena": [
+        "the third option",
+        "search results",
+        "national security"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "a user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the CCTNS system must never include in the search result list any record which the user does not have the right to access"
+      ],
+      "Shared Phenomena": [
+        "quick or advanced search",
+        "search result list",
+        "record",
+        "right to access"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "users",
+        "cases"
+      ],
+      "External System": [
+        "audit trail"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "unauthorised attempts to access"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the audit trail"
+      ],
+      "System Requirements": [
+        "ensure legal admissibility",
+        "assist in data recovery"
+      ],
+      "Shared Phenomena": [
+        "Any access to cases",
+        "all other activities involving the cases and related documents or data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "error messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "explanatory text",
+        "indication of the action(s)"
+      ],
+      "Shared Phenomena": [
+        "error message"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "employ a single set of user interface rules",
+        "provide a familiar and common look and feel for the application"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "cases",
+        "suspects"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "must be able to display several entity"
+      ],
+      "Shared Phenomena": [
+        "simultaneously"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The interfaces must be made customizable or user-configurable to the extent possible"
+      ],
+      "Shared Phenomena": [
+        "the displayed columns in the table",
+        "move",
+        "resize",
+        "modify the appearance"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Such configurations must be saved in the user profile"
+      ],
+      "Shared Phenomena": [
+        "Such configurations"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "user interface must be suitable for users with special needs",
+        "compatible with specialist software",
+        "appropriate interface guidelines"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide End User and Administrator functions which are easy to use and intuitive throughout"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "allow persistent defaults for data entry"
+      ],
+      "Shared Phenomena": [
+        "data entry"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "user-definable values",
+        "values same as previous item",
+        "values derived from context"
+      ],
+      "Shared Phenomena": [
+        "date",
+        "file reference",
+        "user identifier"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "System"
+      ],
+      "Physical Device": [
+        "mouse"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Frequently-executed System transactions must be designed so that they can be completed with a small number of interactions"
+      ],
+      "Shared Phenomena": [
+        "interactions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "it must allow users to customise it"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "function keys"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Customisation",
+        "menu contents",
+        "layout of screens",
+        "use of function keys",
+        "on-screen colours",
+        "fonts",
+        "font sizes"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "user interfaces should be designed to make them user-intuitive"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Standard ISO 9241"
+      ],
+      "System Requirements": [
+        "comply with Standard ISO 9241"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ISO 9241-20"
+      ],
+      "System Requirements": [
+        "the standard for guidance on ICT accessibility"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "meet its requirements and recommendations"
+      ],
+      "Shared Phenomena": [
+        "interfaces"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Software accessibility ISO 9241-171"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "standard for guidance on software accessibility"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "User interfaces"
+      ],
+      "System Requirements": [
+        "its requirements and recommendations"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Content accessibility WCAG 1.0 shall be the standard used for guidance on content accessibility"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "home page"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "logo to be available on all pages as a link to the home page"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "graphical images",
+        "video"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Providing text equivalents for non-text media objects",
+        "should be provided with alternative equivalent textual descriptions and/or with equivalent text-based functionality"
+      ],
+      "Shared Phenomena": [
+        "text equivalents",
+        "non-text media objects",
+        "alternative equivalent textual descriptions",
+        "equivalent text-based functionality"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Making navigation self-descriptive",
+        "Navigation should be designed to help users understand where they are, where they have been and where they can go next"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "achieving self-descriptiveness"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Each presentation segment (page or window) should provide the user with a clear and sufficient indication of where he or she is in the navigation structure and of the current segment position with respect to the overall structure."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Alternative access paths for navigating to a specific unit of content"
+      ],
+      "Shared Phenomena": [
+        "different navigation strategies"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Minimizing navigation effort"
+      ],
+      "Shared Phenomena": [
+        "navigation steps",
+        "mental models",
+        "navigation strategies",
+        "tasks"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Splash screens should be avoided unless they provide useful content or feedback about the application state"
+      ],
+      "Shared Phenomena": [
+        "application state"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "splash screen",
+        "navigation option"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Avoiding opening unnecessary windows"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "superimpose the primary window"
+      ],
+      "Shared Phenomena": [
+        "hiding relevant information"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "navigation structure",
+        "usability",
+        "accessibility"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "additional user actions for closing unwanted windows"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Horizontal scrolling should be avoided wherever possible."
+      ],
+      "Shared Phenomena": [
+        "Horizontal scrolling"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "input devices"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "User interfaces should be designed to allow activation of controls by a variety of input devices"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "input devices"
+      ],
+      "Environment Object": [
+        "users",
+        "mobile users",
+        "users with disabilities"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The ability to choose between different input devices for activating controls such as links, fields and buttons"
+      ],
+      "Shared Phenomena": [
+        "activating controls such as links, fields and buttons"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "keyboard"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "device independence"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "User interfaces should be designed to be as robust as possible in the face of changing technology."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "user agents"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "being able to present content containing newer technologies by older user agents",
+        "designing content to be usable with future technologies"
+      ],
+      "Shared Phenomena": [
+        "content containing newer technologies",
+        "future technologies"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Application pages"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "acceptable opening times",
+        "download times",
+        "expected range of technical contexts of use"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "frequently accessed pages",
+        "user navigation and exploration"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Minimizing user errors"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Providing clear error messages"
+      ],
+      "Shared Phenomena": [
+        "error messages",
+        "special error pages",
+        "the reason why the error occurred",
+        "actions the user can take to resolve the error"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Users"
+      ],
+      "External System": [
+        "user interface"
+      ],
+      "System Requirements": [
+        "error messages to be in the same language as the user interface"
+      ],
+      "Shared Phenomena": [
+        "error messages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "user interfaces",
+        "diverse groups"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "input and output of information elements such as currency, units of measurement, temperatures, date and time, phone numbers, address or postal codes should be designed so that they are usable"
+      ],
+      "Shared Phenomena": [
+        "Using appropriate formats, units of measurement or currency"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [
+        "the user agent"
+      ],
+      "System Requirements": [
+        "Making text resizable by the user"
+      ],
+      "Shared Phenomena": [
+        "Text should be able to be resized by the user, using functions provided by the user agent or other appropriate means"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "quality of textual content with respect to spelling and grammar"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "screen"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The reading and understanding of the textual content on the screen should be supported by suitable means, including the use of short sentences, the division of the text into shorter chunks or the presentation of content items in the form of bullet points"
+      ],
+      "Shared Phenomena": [
+        "reading and understanding of the textual content",
+        "use of short sentences",
+        "division of the text into shorter chunks",
+        "presentation of content items in the form of bullet points"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Supporting text skimming"
+      ],
+      "Shared Phenomena": [
+        "Fast skimming of text",
+        "provision of clear links",
+        "bulleted lists",
+        "highlighted keywords",
+        "logical headings",
+        "short phrases and sentences"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Readability of text"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ISO 9241-303"
+      ],
+      "System Requirements": [
+        "screen text legibility requirements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Distinguishable within-page links"
+      ],
+      "Shared Phenomena": [
+        "Within-page links",
+        "other links"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Avoiding link overload"
+      ],
+      "Shared Phenomena": [
+        "Text pages containing large proportions of links"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "navigation links"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The target or purpose of a link should be directly indicated by its label, avoiding generic labels such as “go” or “click here” except where the purpose of the link is clear from its context on the page or the labels have commonly understood semantics in the particular application domain."
+      ],
+      "Shared Phenomena": [
+        "descriptive link labels"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Using appropriate terminology specific to the user’s tasks and information needs"
+      ],
+      "Shared Phenomena": [
+        "tasks",
+        "information needs"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "new browser windows",
+        "pop-up windows"
+      ],
+      "System Requirements": [
+        "Links that open new browser windows or pop-up windows should be clearly marked"
+      ],
+      "Shared Phenomena": [
+        "Marking links opening new windows"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Distinguishing navigation links from controls"
+      ],
+      "Shared Phenomena": [
+        "Navigation links",
+        "controls activating some action"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "manipulating application data",
+        "performing searches",
+        "communication actions",
+        "presentation-related actions"
+      ],
+      "Shared Phenomena": [
+        "opening a new e-mail window",
+        "starting a chat function",
+        "sorting a list of search results"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Providing printable document versions"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "paper format",
+        "orientation"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "expected layout"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "white space"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "space filled only with the background color should be used in such a way that it does not impair the visual skimming of the page"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The length of a page should be selected so as to support the primary purpose and use of the page."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Longer pages",
+        "read the content without interruptions",
+        "page needs to match a paper counterpart"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "using colour",
+        "human capabilities and restrictions in perceiving colour"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Color should never be the only means of coding."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "avoid possible problems"
+      ],
+      "Shared Phenomena": [
+        "use of the back button",
+        "bookmarking of pages",
+        "scrolling of information"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "title each frame",
+        "describe its purpose",
+        "how frames relate to one another"
+      ],
+      "Shared Phenomena": [
+        "frames"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Providing alternatives to frame-based presentation",
+        "an alternative way of presenting relevant information without frames"
+      ],
+      "Shared Phenomena": [
+        "frames"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Providing alternative text-only pages"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Consistent page layout"
+      ],
+      "Shared Phenomena": [
+        "Pages",
+        "user",
+        "similar information",
+        "same position",
+        "different pages"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Page titles"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Placing title information consistently"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "application pages"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "human perception"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Observing principles of human perception"
+      ],
+      "Shared Phenomena": [
+        "designing"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The International Standards mentioned below shall be consulted for guidance."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Practical guidelines for presenting information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Guidance on selecting and using different forms of interaction techniques"
+      ],
+      "Shared Phenomena": [
+        "ISO 9241-14",
+        "ISO 9241-17"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ISO 9241-14",
+        "ISO 9241-15",
+        "ISO 9241-16",
+        "ISO 9241-17"
+      ],
+      "Shared Phenomena": [
+        "menus",
+        "command dialogues",
+        "direct manipulation",
+        "forms"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "designing multimedia information presentations",
+        "the design principles and recommendations described in ISO 14915-1 to ISO 14915-3"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "content presentation",
+        "accessibility"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "site map"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "Providing a site map",
+        "showing the structure of the site in an overview form"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Consistency between navigation components and content"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Placing navigation components consistently",
+        "Navigation components should be placed consistently on the pages or in the framesets in the pages of the application"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Adapting the content and the navigation of a user interface to individual users or user groups"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "user adaptation",
+        "user interface"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "providing users with means for customizing the user interface to their personal needs"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "user groups",
+        "roles"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "individualization designing content and navigation"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "employees of different levels",
+        "citizens",
+        "the specific user",
+        "all users",
+        "a user group"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "monitoring the user's behaviour",
+        "adapting to the user's goals",
+        "recommending information"
+      ],
+      "Shared Phenomena": [
+        "the user's goals",
+        "the behaviour observed"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "providing different access paths or navigation structures for different user groups"
+      ],
+      "Shared Phenomena": [
+        "tasks",
+        "information needs"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "individualization and adaptation"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Making user profiles evident"
+      ],
+      "Shared Phenomena": [
+        "predefined user profiles",
+        "user-specified profiles",
+        "individualizing or adapting content",
+        "the profile currently used"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "provide users with information about this concept and its implications"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "see, modify and delete that profile on demand"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "user interfaces should follow the guidelines specified under www.usability.gov"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "users"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "must be available to users: from <xx:00> to <xx:00>; on <all weekdays/xxx days per year>"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The planned downtime for the CCTNS system must not exceed <xx> hours per <rolling three month period>."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [
+        "workstation"
+      ],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "perform any normal System function"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Unplanned downtime for the CCTNS system must not exceed <xx hours/minutes> per <rolling three month period>"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "The number of incidents of unplanned downtime for the CCTNS system must not exceed <x> per <rolling three month period>"
+      ],
+      "Shared Phenomena": [
+        "incidents of unplanned downtime",
+        "<rolling three month period>"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "restore the CCTNS system"
+      ],
+      "Shared Phenomena": [
+        "software or hardware failure"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide adequate response times for commonly performed functions under both standard and peak conditions"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "perform a simple search within 5-8 seconds",
+        "advanced search (multiple search criteria) within 10-15 seconds regardless of the storage capacity or number of cases"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "performing a search",
+        "returning a result list"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "must be able to retrieve and display within 5-8 seconds the case which has been accessed within the previous 2 months, regardless of storage capacity or number of cases in the CCTNS system"
+      ],
+      "Shared Phenomena": [
+        "the case"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "rapid retrieval of frequently-used cases"
+      ],
+      "Shared Phenomena": [
+        "frequency of use",
+        "recent use"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "case"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "must be able to retrieve and display within 20 seconds the case which has not been accessed within the previous 2 months, regardless of storage capacity or number of cases in the CCTNS system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "slower media"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "scaleable",
+        "use in small or large police stations",
+        "varying numbers of cases handled"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The proposed functional architecture"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "centralized deployment to facilitate ease of maintenance and leverage advancement in open standards and web technologies"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The 3 C’s (Core-Configuration-Customization)"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS solution"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "components",
+        "services"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "Service Definition"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "core services",
+        "support layer",
+        "security and access control components"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "customization layer",
+        "core services"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "override and add to the core services based on the specific state requirements",
+        "can be plugged with the core services"
+      ],
+      "Shared Phenomena": [
+        "the specific state requirements"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "state level",
+        "state specific extensions"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "The deployment of the application will be at state level and will be configured and customized as per the state specific extensions"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS systems"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "designed with the following broad guidelines"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support multilingual interface"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [
+        "equipment",
+        "communication network"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "operational data is not lost in case of any failure"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "should work even in an offline mode with the critical functionality"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [
+        "Police Stations"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "satisfactory performance"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be implemented using Service Oriented Architecture (SOA)",
+        "have a modular design"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "should be developed on Open Standards"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "common User Access and Authentication Service",
+        "Single-Sign on for the end-user"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "should be developed for a centralized deployment and maintenance"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "should be developed to be deployed in a 3-tier datacenter architecture"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "should be designed to have a n-tier architecture with the presentation logic separated from the business logic that is again separated from the data-access logic"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [
+        "PDA’s",
+        "mobile data terminals"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "should be extensible to provide access to the interfaces through PDA’s and mobile data terminals"
+      ],
+      "Shared Phenomena": [
+        "access to the interfaces"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "adopt standardized formats and common metadata elements"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [
+        "client device"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "browser-based systems"
+      ],
+      "System Requirements": [
+        "access through browser-based systems",
+        "impose minimal requirements on the client device"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support multiple types of communication services for remote access"
+      ],
+      "Shared Phenomena": [
+        "communication services",
+        "remote access"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "to support public access to a subset of data and functionality"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support multi-tier authentication"
+      ],
+      "Shared Phenomena": [
+        "multi-tier authentication"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "SSL encrypted connections"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support secure virtual private network connections"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "use HTTPS as the communication protocol"
+      ],
+      "Shared Phenomena": [
+        "HTTP over an encrypted secure socket layer (SSL)"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support selective encryption of the stored data"
+      ],
+      "Shared Phenomena": [
+        "encryption"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "secure transmission of data over the network"
+      ],
+      "Shared Phenomena": [
+        "SSL",
+        "2-way digital signatures"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high standards of security and access control through preventing cross-site scripting"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high standards of security and access control through preventing SQL Injection"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high standards of security and access control"
+      ],
+      "Shared Phenomena": [
+        "utilizing parameterized queries"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "user-inputs"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "ensure high standards of security and access control"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high standards of security and access control"
+      ],
+      "Shared Phenomena": [
+        "validating the incoming data or user request"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high standards of security and access control"
+      ],
+      "Shared Phenomena": [
+        "encoding the incoming data or user request"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high standards of security and access control",
+        "validating the data both at the client and server"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high standards of security and access control",
+        "do not allow hard delete",
+        "perform only soft tagging the row for deletion"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high scalability and performance"
+      ],
+      "Shared Phenomena": [
+        "cache for storing frequent data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "ensure high scalability and performance",
+        "improve user experience"
+      ],
+      "Shared Phenomena": [
+        "using of AJAX based technology"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "web server"
+      ],
+      "System Requirements": [
+        "high scalability and performance"
+      ],
+      "Shared Phenomena": [
+        "Asynchronous HTTP socket capabilities"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "CCTNS system"
+      ],
+      "Physical Device": [
+        "web server"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "high scalability and performance"
+      ],
+      "Shared Phenomena": [
+        "all the static content (documents, images)"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the database"
+      ],
+      "System Requirements": [
+        "The search results should be fetched from the database in batches of 10 or 20 maximum as configured within the application."
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The CCTNS system"
+      ],
+      "Physical Device": [
+        "screen"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "high scalability and performance",
+        "displaying of records on the screen in batches/paged manner"
+      ],
+      "Shared Phenomena": [
+        "records"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "fetch only the fields that need to be displayed"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "fetch the additional details for this particular record only"
+      ],
+      "Shared Phenomena": [
+        "clicks",
+        "query be fired"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "A hierarchical cache"
+      ],
+      "System Requirements": [
+        "caching of results of most frequently used searches"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Database Indexes"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  }
+]

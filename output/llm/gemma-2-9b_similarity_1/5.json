@@ -1,0 +1,257 @@
+[
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"ASPERA-3 instrument package\"],\n\"Physical Device\": [\"Mars Express\"],\n\"Environment Object\": [\"Mars\"],\n\"External System\": [\"European Space Agency (ESA)\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"June 2003\", \"current schedule\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"ASPERA-3\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"particles\", \"neutral atoms\", \"fields\", \"near Martian environment\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"data system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"produce data products in a form suitable for analysis and archiving\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"Instrument Data File Set (IDFS)\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"physical instruments\", \"ASPERA-3 experiment\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['Data Processing Unit(DPU)', 'Electron Spectrometer(ELS)', 'Ion Mass Analyzer(IMA)', 'Neutral Particle Detector(NPD)', 'Neutral Particle Imager(NPI)', 'Scanning Unit(SU)'], 'Physical Device': ['Data Processing Unit(DPU)', 'Electron Spectrometer(ELS)', 'Ion Mass Analyzer(IMA)', 'Neutral Particle Detector(NPD)', 'Neutral Particle Imager(NPI)', 'Scanning Unit(SU)'], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': ['orbit and attitude data']}\n```\n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"Each of the seven components\", \"Software Design Document (SDD)\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"define and fully describe all of the data products contained within each individual virtual instrument\"],\n\"Shared Phenomena\": []\n}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['requirement determination', 'qualification procedures', 'rationale', 'traceability', 'identification', 'definitions'], 'Shared Phenomena': []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['APAF data system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['requirements'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " { 'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': [] } \n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Each requirement shall be: assigned a project-unique identifier.\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"APAF ground data system\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"APAF ground data system requirements\"], \"Shared Phenomena\": []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['the APAF ground data system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```"
+  },
+  {
+    "predict": " {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Functional Requirements'], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n\n\n```json\n{\n\"Software System\": [\"Web-based displays\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"defined by ASPERA-3 team\", \"be provided where any available ASPERA-3 data (as opposed to just the most current) can be used for science analysis to support the ASPERA-3 team in meeting mission goals and objectives\"],\n\"Shared Phenomena\": [\"ASPERA-3 data\"]\n}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"ASPERA-3\", \"MEX OA IDFS\", \"APAF\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"IDFS data access software\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"ASPERA-3 Co-I’s\", \"ASPERA-3 team\"],\n\"External System\": [],\n\"System Requirements\": [\"meeting mission goals and objectives\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"All internal interfaces are left to the design\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['Software Design Documents'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['shall contain the detailed information of the internal interfaces'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"All internal data requirements\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF ground data system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"security requirements\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF ground data system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"the requirement associated with the privacy\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Privacy Requirement'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['computer resources'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [\"computer hardware\"],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [\"Computer resource Requirements\"], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"UNIX-based APAF system development computer\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"UNIX-based APAF system production computer\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"an archival system\"],\n\"System Requirements\": [\"There shall be a UNIX-based APAF system production computer with an archival system\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"a web server\"],\n\"System Requirements\": [\"for web-based displays and information change\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"SwRI software\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"system maintenance and software support\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['the APAF ground data system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['logistics-related requirements'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['Logistical'], 'Shared Phenomena': []}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{'Software System': ['APAF system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['provide APAF system maintenance'], 'Shared Phenomena': []}\n```\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"software support\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": " \n```json\n{'Software System': ['the APAF data system', 'software'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['the APAF data system requirements for delivering the ASPERA-3 IDFS data, Mars Express Orbit/Attitude IDFS data'], 'Shared Phenomena': []}\n``` \n\n\n"
+  },
+  {
+    "predict": "{\"Software System\": [], \"Physical Device\": [], \"Environment Object\": [], \"External System\": [], \"System Requirements\": [\"Delivery Requirements\"], \"Shared Phenomena\": []}\n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"ASPERA-3\", \"MEX OA IDFS\", \"APAF\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"NASA PDS\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"ASPERA-3 IDFS data\", \"MEX OA IDFS data\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"ASPERA-3\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"NASA PDS\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": [\"PDS-compliant form\"]\n}\n```\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"ASPERA-3\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"NASA PDS\"],\n\"System Requirements\": [\"calibrated and validated prior to depositing\"],\n\"Shared Phenomena\": [\"ASPERA-3 data\"]\n}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"IDFS data processing algorithms\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"IRF\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"Science analysis software\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [\"NASA approved data repository\"],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"IDFS data access software\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"ASPERA-3 Co-I’s\", \"ASPERA-3 team\"],\n\"External System\": [],\n\"System Requirements\": [\"meeting mission goals and objectives\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"The distribution mechanisms shall be clearly defined/described\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['APAF ground data system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': ['requirements'], 'Shared Phenomena': []}\n```\n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF data system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF data system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"installation-dependent requirements\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": " {'Software System': [], 'Physical Device': [], 'Environment Object': [], 'External System': ['the APAF Operations Procedures Document'], 'System Requirements': [], 'Shared Phenomena': []} \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"The APAF data system\"],\n\"Physical Device\": [],\n\"Environment Object\": [\"personnel\", \"property\", \"environment\"],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n``` \n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF ground data system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"safety requirements\"],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"the APAF data system\", \"associated software\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"no requirements concerned with software quality\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF data system\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"reliability, maintainability, availability, flexibility, portability, testability, and usability\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [\"APAF software\"],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [],\n\"Shared Phenomena\": []\n}\n```"
+  },
+  {
+    "predict": "\n\n```json\n{\n\"Software System\": [],\n\"Physical Device\": [],\n\"Environment Object\": [],\n\"External System\": [],\n\"System Requirements\": [\"There are no identified requirements related to personnel that will use the software.\"],\n\"Shared Phenomena\": []\n}\n``` \n\n\n\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": " \n\n\n```json\n{\n  'Software System': ['SwRI software team', 'data system', 'IDFS processing software', 'APAF data system'],\n  'Physical Device': [],\n  'Environment Object': [],\n  'External System': [],\n  'System Requirements': ['training-related requirements'],\n  'Shared Phenomena': []\n}\n```\n"
+  },
+  {
+    "predict": " \n\n\n"
+  },
+  {
+    "predict": "\n```json\n{'Software System': ['APAF data system'], 'Physical Device': [], 'Environment Object': [], 'External System': [], 'System Requirements': [], 'Shared Phenomena': []}\n```\n\n\n\n"
+  }
+]

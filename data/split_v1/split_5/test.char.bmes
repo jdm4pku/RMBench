@@ -1,0 +1,2303 @@
+This	O
+Software	O
+Requirements	O
+Specification	O
+(	M-Software System
+SRS	O
+)	M-Software System
+identifies	O
+the	B-System Requirements
+requirements	O
+for	O
+the	O
+ASPERA	M-Software System
+-	M-Software System
+3	M-Software System
+Processing	M-Software System
+and	M-Software System
+Archiving	M-Software System
+Facility	M-Software System
+(	O
+APAF	M-Software System
+)	O
+ground	M-Software System
+data	M-Software System
+system	E-Software System
+for	O
+the	O
+Mars	M-System Requirements
+Express	M-System Requirements
+mission	E-System Requirements
+.	O
+
+The	B-Software System
+ASPERA	M-Software System
+-	M-Software System
+3	M-Software System
+instrument	M-Software System
+package	E-Software System
+will	O
+be	O
+flown	O
+on	O
+the	B-Environment Object
+Mars	M-Environment Object
+Express	M-Environment Object
+mission	E-Environment Object
+of	O
+the	O
+European	O
+Space	O
+Agency	O
+(	O
+ESA	O
+)	O
+and	O
+will	O
+be	O
+launched	O
+in	O
+June	O
+2003	O
+according	O
+to	O
+the	O
+current	O
+schedule	O
+.	O
+
+ASPERA	B-Software System
+-	M-Software System
+3	E-Software System
+contains	O
+a	O
+number	O
+of	O
+different	O
+sensors	S-Physical Device
+that	O
+will	O
+measure	O
+the	B-Shared Phenomena
+particles	E-Shared Phenomena
+,	O
+neutral	B-Shared Phenomena
+atoms	E-Shared Phenomena
+,	O
+and	O
+fields	O
+in	O
+the	O
+near	O
+Martian	O
+environment	O
+.	O
+
+Southwest	B-Environment Object
+Research	M-Environment Object
+Institute	E-Environment Object
+is	O
+providing	O
+the	B-External System
+data	B-Shared Phenomena
+system	E-External System
+to	O
+produce	O
+data	O
+products	E-Shared Phenomena
+in	O
+a	O
+form	O
+suitable	O
+for	B-System Requirements
+analysis	M-System Requirements
+and	M-System Requirements
+archiving	E-System Requirements
+.	O
+
+These	O
+data	O
+products	O
+will	O
+be	O
+put	O
+into	O
+a	O
+form	O
+known	O
+as	O
+the	O
+Instrument	O
+Data	O
+File	O
+Set	O
+(	O
+IDFS	O
+)	O
+.	O
+
+The	B-Software System
+ASPERA	M-System Requirements
+-	M-System Requirements
+3	M-System Requirements
+Processing	M-Software System
+and	M-Software System
+Archiving	M-Software System
+Facility	E-Software System
+(	O
+APAF	O
+)	O
+is	O
+a	O
+ground	O
+data	O
+system	O
+responsible	O
+for	O
+processing	B-System Requirements
+all	M-System Requirements
+of	M-System Requirements
+the	M-System Requirements
+ASPERA	O
+-	O
+3	O
+telemetry	E-System Requirements
+.	O
+
+The	B-Software System
+APAF	M-Software System
+data	E-Shared Phenomena
+system	E-Software System
+acquires	O
+the	B-Shared Phenomena
+telemetry	E-Shared Phenomena
+data	O
+via	O
+NISN	S-Physical Device
+,	O
+processes	O
+the	O
+data	O
+into	O
+IDFS	M-System Requirements
+data	O
+sets	E-System Requirements
+,	O
+distributes	O
+the	O
+IDFS	O
+data	O
+sets	O
+to	O
+the	O
+ASPERA	M-External System
+-	M-External System
+3	M-External System
+team	E-Environment Object
+,	O
+provides	O
+web	O
+-	O
+based	O
+displays	O
+of	O
+the	O
+most	O
+current	B-Shared Phenomena
+data	O
+for	O
+public	B-Physical Device
+view	E-Physical Device
+,	O
+stores	O
+the	O
+telemetry	O
+and	O
+IDFS	O
+data	O
+sets	O
+on	O
+a	O
+local	B-Physical Device
+SwRI	M-Physical Device
+archive	E-Physical Device
+,	O
+and	O
+submits	O
+the	O
+ASPERA	O
+-	O
+3	O
+IDFS	O
+data	O
+sets	O
+to	O
+PDS	S-Environment Object
+for	O
+long	O
+-	O
+term	O
+archival	O
+.	O
+
+The	O
+first	O
+step	O
+in	O
+defining	O
+the	B-External System
+IDFS	M-External System
+data	E-Shared Phenomena
+sets	E-External System
+is	O
+to	O
+identify	O
+the	O
+physical	B-Shared Phenomena
+instruments	E-Shared Phenomena
+that	O
+make	O
+up	O
+the	O
+ASPERA	O
+-	O
+3	O
+experiment	O
+and	O
+any	O
+ancillary	B-Shared Phenomena
+data	O
+necessary	O
+for	O
+scientific	O
+analysis	O
+.	O
+
+There	O
+are	O
+six	O
+components	O
+of	O
+the	O
+ASPERA	B-Software System
+-	M-Software System
+3	M-Software System
+package	E-Software System
+,	O
+plus	O
+the	O
+orbit	O
+and	O
+attitude	O
+data	O
+from	O
+the	O
+spacecraft	O
+:	O
+Data	B-Physical Device
+Processing	M-Physical Device
+Unit	M-Physical Device
+(	M-External System
+DPU	M-Physical Device
+)	E-External System
+,	O
+Electron	B-Physical Device
+Spectrometer	M-Physical Device
+(	O
+ELS	M-Physical Device
+)	O
+,	O
+Ion	B-Physical Device
+Mass	M-Physical Device
+Analyzer	M-Physical Device
+(	O
+IMA	M-Physical Device
+)	O
+,	O
+Neutral	B-Physical Device
+Particle	M-Physical Device
+Detector	M-Physical Device
+(	O
+NPD	M-Physical Device
+)	O
+,	O
+Neutral	O
+Particle	O
+Imager	M-Physical Device
+(	O
+NPI	M-Physical Device
+)	O
+,	O
+Scanning	B-Physical Device
+Unit	O
+(	O
+SU	M-Physical Device
+)	O
+,	O
+Orbit	B-External System
+/	M-External System
+Attitude	M-External System
+(	O
+OA	M-External System
+)	O
+.	O
+
+Each	O
+of	O
+the	O
+physical	O
+components	O
+will	O
+be	O
+divided	O
+into	O
+logical	O
+groups	O
+(	O
+called	O
+virtual	O
+instruments	O
+)	O
+in	O
+which	O
+each	O
+logical	O
+group	O
+will	O
+be	O
+formatted	O
+as	O
+an	O
+IDFS	B-External System
+data	M-External System
+set	E-External System
+.	O
+
+Each	O
+of	O
+the	O
+seven	O
+components	O
+described	O
+above	O
+will	O
+have	O
+an	O
+associated	O
+Software	O
+Design	O
+Document	O
+(	O
+SDD	O
+)	O
+that	O
+will	O
+define	O
+and	O
+fully	O
+describe	O
+all	O
+of	O
+the	O
+data	O
+products	O
+contained	O
+within	O
+each	O
+individual	O
+virtual	O
+instrument	O
+.	O
+
+The	B-Software System
+APAF	M-Software System
+ground	M-Software System
+data	B-Shared Phenomena
+system	E-Software System
+is	O
+to	O
+provide	O
+data	O
+processing	M-Shared Phenomena
+algorithms	M-Shared Phenomena
+and	M-Shared Phenomena
+support	E-Shared Phenomena
+to	O
+IRF	S-Environment Object
+for	O
+the	B-Environment Object
+ASPERA	M-Environment Object
+-	M-Environment Object
+3	M-Environment Object
+science	M-Environment Object
+team	E-Environment Object
+(	O
+including	O
+Co	O
+-	O
+I	O
+’	O
+s	O
+)	O
+in	O
+preparation	O
+for	O
+the	O
+Mission	O
+Operations	O
+and	O
+Data	O
+Analysis	O
+(	O
+MO	O
+&	O
+DA	O
+)	O
+phase	O
+of	O
+the	O
+Mars	O
+Express	O
+mission	O
+.	O
+
+In	O
+addition	O
+,	O
+validation	O
+and	O
+archiving	O
+of	O
+all	O
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+scientific	M-Shared Phenomena
+data	E-Shared Phenomena
+in	O
+the	B-Environment Object
+NASA	B-Physical Device
+Planetary	M-Physical Device
+Data	M-Physical Device
+System	M-Physical Device
+(	M-Physical Device
+PDS	M-Physical Device
+)	E-Physical Device
+within	O
+6	O
+months	O
+of	O
+receipt	O
+in	O
+a	O
+form	O
+useable	O
+by	O
+the	O
+general	O
+scientific	O
+community	O
+is	O
+to	O
+be	O
+provided	O
+by	O
+the	O
+APAF	E-Environment Object
+.	O
+
+Section	O
+2	O
+is	O
+an	O
+overview	O
+of	O
+the	O
+descriptions	O
+of	O
+requirement	O
+determination	O
+,	O
+qualification	O
+procedures	O
+,	O
+rationale	O
+,	O
+and	O
+traceability	O
+that	O
+are	O
+used	O
+in	O
+the	O
+identification	O
+and	O
+the	O
+definitions	O
+of	O
+the	O
+requirements	O
+.	O
+
+The	O
+requirements	O
+of	O
+the	B-Software System
+APAF	M-Software System
+data	M-Software System
+system	E-Software System
+are	O
+categorized	O
+and	O
+defined	O
+in	O
+Section	O
+3	O
+.	O
+
+Section	O
+4	O
+contains	O
+general	O
+information	O
+to	O
+aid	O
+in	O
+the	O
+understanding	O
+of	O
+this	O
+specification	O
+.	O
+
+Each	O
+requirement	O
+shall	O
+be	O
+:	O
+assigned	O
+a	O
+project	O
+-	O
+unique	O
+identifier	O
+.	O
+
+The	B-Software System
+APAF	M-Software System
+ground	M-Software System
+data	M-Software System
+system	E-Software System
+requirements	O
+are	O
+categorized	O
+according	O
+to	O
+functional	O
+areas	O
+and	O
+are	O
+defined	O
+in	O
+the	O
+following	O
+sections	O
+in	O
+table	O
+format	O
+.	O
+
+The	O
+requirements	O
+associated	O
+with	O
+the	O
+functionality	O
+of	O
+the	O
+APAF	B-Software System
+ground	M-Software System
+data	M-Software System
+system	E-Software System
+are	O
+itemized	O
+in	O
+the	O
+table	O
+below	O
+.	O
+
+The	O
+mnemonic	O
+,	O
+FR	O
+,	O
+is	O
+used	O
+in	O
+the	O
+requirement	O
+identifiers	O
+to	O
+show	O
+that	O
+these	O
+requirements	O
+are	O
+Functional	O
+Requirements	O
+unless	O
+otherwise	O
+specified	O
+.	O
+
+The	B-Software System
+APAF	M-Software System
+system	E-Software System
+shall	O
+acquire	O
+from	O
+ESOC	S-Environment Object
+the	M-Shared Phenomena
+telemetry	M-Shared Phenomena
+data	M-Shared Phenomena
+of	M-Shared Phenomena
+the	O
+ASPERA	M-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+Experiment	M-Shared Phenomena
+and	M-Shared Phenomena
+Mars	M-Shared Phenomena
+Express	M-Shared Phenomena
+Orbit	M-Shared Phenomena
+/	M-Shared Phenomena
+Attitude	E-Shared Phenomena
+to	B-System Requirements
+automatically	M-System Requirements
+process	M-System Requirements
+the	O
+data	O
+on	O
+a	O
+daily	O
+basis	O
+.	O
+
+The	B-Software System
+APAF	M-Software System
+system	E-Software System
+shall	O
+process	O
+all	O
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+science	M-Shared Phenomena
+data	E-Shared Phenomena
+into	O
+IDFS	B-Environment Object
+data	O
+sets	E-Environment Object
+.	O
+
+The	B-Software System
+APAF	M-Software System
+system	E-Software System
+shall	O
+process	O
+the	B-Shared Phenomena
+engineering	M-Shared Phenomena
+and	M-Shared Phenomena
+ancillary	M-Shared Phenomena
+information	E-Shared Phenomena
+necessary	O
+for	O
+calibration	O
+and	O
+science	O
+validation	O
+into	O
+IDFS	B-Environment Object
+data	M-Environment Object
+sets	M-Environment Object
+.	E-Environment Object
+
+Intermediate	B-Shared Phenomena
+files	M-Shared Phenomena
+of	M-Shared Phenomena
+cleaned	B-Shared Phenomena
+-	M-Shared Phenomena
+up	M-Shared Phenomena
+ASPERA	M-Shared Phenomena
+-	O
+3	M-Shared Phenomena
+and	M-Shared Phenomena
+MEX	M-Shared Phenomena
+OA	M-Shared Phenomena
+telemetry	E-Shared Phenomena
+shall	O
+be	O
+generated	O
+in	O
+the	B-Environment Object
+event	O
+that	O
+cleaned	O
+-	O
+up	O
+telemetry	O
+is	O
+not	O
+provided	O
+by	O
+ESOC	S-Environment Object
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	E-Environment Object
+in	O
+meeting	B-System Requirements
+mission	M-System Requirements
+goals	M-System Requirements
+and	O
+objectives	E-System Requirements
+.	O
+
+The	B-Shared Phenomena
+ASPERA	M-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+and	M-Shared Phenomena
+MEX	M-Shared Phenomena
+OA	M-Shared Phenomena
+telemetry	M-Shared Phenomena
+data	E-Shared Phenomena
+shall	O
+be	O
+stored	O
+on	O
+a	B-Environment Object
+local	M-Environment Object
+SwRI	M-Environment Object
+archive	E-Environment Object
+for	O
+data	O
+availability	M-System Requirements
+and	O
+re	M-System Requirements
+-	O
+processing	E-System Requirements
+.	O
+
+The	B-Shared Phenomena
+ASPERA	M-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+and	M-Shared Phenomena
+MEX	M-Shared Phenomena
+OA	M-Shared Phenomena
+IDFS	M-Shared Phenomena
+data	M-Shared Phenomena
+sets	E-Shared Phenomena
+shall	O
+be	O
+stored	O
+on	O
+a	B-Environment Object
+local	M-Environment Object
+SwRI	M-Environment Object
+archive	E-Environment Object
+for	O
+data	O
+availability	M-System Requirements
+and	O
+analysis	M-System Requirements
+.	E-System Requirements
+
+Any	O
+APAF	S-Environment Object
+-	M-Shared Phenomena
+generated	O
+intermediate	B-Shared Phenomena
+files	E-Shared Phenomena
+of	O
+ASPERA	B-Shared Phenomena
+-	O
+3	M-Shared Phenomena
+and	M-Shared Phenomena
+MEX	M-Shared Phenomena
+OA	M-Shared Phenomena
+cleaned	M-Shared Phenomena
+-	O
+up	M-Shared Phenomena
+telemetry	E-Shared Phenomena
+shall	O
+be	O
+stored	O
+on	O
+a	B-Environment Object
+local	M-Environment Object
+SwRI	M-Environment Object
+archive	E-Environment Object
+for	O
+data	O
+availability	O
+and	O
+re	O
+-	O
+processing	O
+,	O
+and	O
+to	O
+support	O
+the	B-Environment Object
+ASPERA	O
+-	O
+3	O
+team	E-Environment Object
+.	O
+
+Web	O
+-	M-Shared Phenomena
+based	O
+displays	O
+of	O
+the	O
+most	O
+current	O
+ASPERA	B-Shared Phenomena
+-	O
+3	M-Shared Phenomena
+data	E-Shared Phenomena
+shall	O
+be	O
+provided	O
+for	O
+public	B-Environment Object
+view	E-Environment Object
+to	B-System Requirements
+monitor	M-System Requirements
+instrument	M-System Requirements
+performance	E-System Requirements
+.	O
+
+Web	B-Shared Phenomena
+-	M-Shared Phenomena
+based	M-Shared Phenomena
+displays	M-Shared Phenomena
+defined	E-Shared Phenomena
+by	O
+ASPERA	B-Shared Phenomena
+-	O
+3	M-Shared Phenomena
+team	E-Environment Object
+shall	O
+be	O
+provided	O
+where	O
+any	O
+available	O
+ASPERA	O
+-	O
+3	O
+data	E-Shared Phenomena
+(	O
+as	O
+opposed	O
+to	O
+just	O
+the	B-Environment Object
+most	O
+current	O
+)	O
+can	O
+be	O
+used	O
+for	O
+science	B-Environment Object
+analysis	E-Environment Object
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	O
+in	O
+meeting	B-System Requirements
+mission	M-System Requirements
+goals	M-System Requirements
+and	M-System Requirements
+objectives	E-System Requirements
+.	O
+
+The	B-Shared Phenomena
+web	M-Shared Phenomena
+-	M-Shared Phenomena
+based	M-Shared Phenomena
+displays	E-Shared Phenomena
+defined	O
+by	O
+the	B-Shared Phenomena
+ASPERA	M-Shared Phenomena
+-	O
+3	M-Shared Phenomena
+team	E-Environment Object
+to	O
+be	O
+used	O
+for	O
+science	B-Environment Object
+analysis	E-Environment Object
+shall	O
+be	O
+password	O
+protected	O
+until	O
+the	O
+ASPERA	O
+-	O
+3	O
+data	E-Shared Phenomena
+is	O
+made	O
+public	O
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	O
+in	O
+meeting	B-System Requirements
+mission	M-System Requirements
+goals	M-System Requirements
+and	M-System Requirements
+objectives	M-System Requirements
+.	E-System Requirements
+
+The	B-Software System
+APAF	M-Software System
+ground	M-Software System
+data	M-System Requirements
+system	E-Software System
+shall	O
+have	O
+built	B-System Requirements
+-	M-System Requirements
+in	M-System Requirements
+error	M-System Requirements
+handling	M-System Requirements
+for	M-System Requirements
+better	M-System Requirements
+data	O
+integrity	E-System Requirements
+.	O
+
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+and	M-Shared Phenomena
+MEX	M-Shared Phenomena
+OA	M-Shared Phenomena
+IDFS	M-Shared Phenomena
+data	E-Shared Phenomena
+and	O
+any	O
+APAF	S-Environment Object
+-	O
+generated	O
+intermediate	B-Shared Phenomena
+files	E-Shared Phenomena
+of	O
+ASPERA	O
+-	O
+3	O
+and	O
+MEX	O
+OA	O
+cleaned	M-Shared Phenomena
+-	O
+up	M-Shared Phenomena
+telemetry	E-Shared Phenomena
+shall	O
+be	O
+provided	O
+to	O
+all	O
+ASPERA	O
+-	O
+3	O
+Co	M-Environment Object
+-	O
+I	M-Environment Object
+’	M-Environment Object
+s	E-Environment Object
+.	O
+
+IDFS	B-External System
+data	M-External System
+access	M-External System
+software	E-External System
+developed	O
+by	O
+SwRI	S-Environment Object
+shall	O
+be	O
+made	O
+available	O
+to	O
+the	B-Environment Object
+ASPERA	M-Environment Object
+-	M-Environment Object
+3	M-Environment Object
+Co	M-Environment Object
+-	O
+I	E-Environment Object
+’	O
+s	O
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	E-Environment Object
+in	O
+meeting	B-System Requirements
+mission	M-System Requirements
+goals	M-System Requirements
+and	M-System Requirements
+objectives	E-System Requirements
+.	O
+
+Science	B-External System
+analysis	M-External System
+software	E-External System
+developed	O
+by	O
+SwRI	S-Environment Object
+to	O
+analyze	O
+IDFS	B-Shared Phenomena
+-	M-Shared Phenomena
+formatted	M-Shared Phenomena
+data	E-Shared Phenomena
+shall	O
+be	O
+made	O
+available	O
+to	O
+the	B-Environment Object
+ASPERA	M-Environment Object
+-	O
+3	M-Environment Object
+Co	M-Environment Object
+-	O
+I	M-Environment Object
+’	M-Environment Object
+s	E-Environment Object
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	E-Environment Object
+in	O
+meeting	B-System Requirements
+mission	M-System Requirements
+goals	M-System Requirements
+and	M-System Requirements
+objectives	E-System Requirements
+.	O
+
+All	O
+internal	O
+interfaces	O
+are	O
+left	O
+to	O
+the	O
+design	O
+.	O
+
+The	O
+Software	O
+Design	O
+Documents	O
+of	O
+each	O
+of	O
+the	O
+seven	O
+components	O
+(	O
+see	O
+section	O
+1	O
+.	O
+2	O
+)	O
+shall	O
+contain	O
+the	O
+detailed	O
+information	O
+of	O
+the	O
+internal	O
+interfaces	O
+.	O
+
+All	O
+internal	O
+data	O
+requirements	O
+are	O
+left	O
+to	O
+the	O
+design	O
+.	O
+
+The	O
+Software	O
+Design	O
+Documents	O
+of	O
+each	O
+of	O
+the	B-Shared Phenomena
+seven	O
+components	O
+(	O
+see	O
+section	O
+1	O
+.	O
+2	O
+)	O
+shall	O
+contain	O
+the	O
+detailed	M-Shared Phenomena
+information	E-Shared Phenomena
+of	O
+the	O
+virtual	M-Environment Object
+instrument	M-Environment Object
+data	M-Environment Object
+items	E-Environment Object
+.	O
+
+There	O
+are	O
+no	O
+security	O
+requirements	O
+associated	O
+with	O
+the	B-Software System
+APAF	M-Software System
+ground	M-Software System
+data	M-Software System
+system	E-Software System
+.	O
+
+However	O
+,	O
+there	O
+are	O
+privacy	O
+issues	O
+related	O
+to	O
+intellectual	O
+property	O
+and	O
+sensitive	O
+information	O
+and	O
+data	O
+.	O
+
+The	O
+requirement	O
+associated	O
+with	O
+the	B-Software System
+privacy	O
+of	O
+the	O
+APAF	M-Software System
+ground	M-Software System
+data	M-Software System
+system	E-Software System
+is	O
+in	O
+the	O
+table	O
+below	O
+.	O
+
+The	O
+mnemonic	O
+,	O
+PR	O
+,	O
+is	O
+used	O
+in	O
+the	O
+requirement	O
+identifier	O
+to	O
+show	O
+that	O
+this	O
+requirement	O
+is	O
+a	O
+Privacy	O
+Requirement	O
+.	O
+
+The	B-External System
+APAF	M-External System
+system	M-External System
+web	M-External System
+server	E-External System
+shall	O
+be	O
+password	B-Shared Phenomena
+protected	E-Shared Phenomena
+where	O
+appropriate	O
+to	O
+allow	O
+only	O
+pertinent	O
+ASPERA	B-Environment Object
+-	M-Environment Object
+3	M-Environment Object
+team	M-Environment Object
+members	E-Environment Object
+access	S-Shared Phenomena
+.	O
+
+The	O
+requirements	O
+associated	O
+with	O
+computer	O
+resources	O
+are	O
+listed	O
+in	O
+the	O
+table	O
+below	O
+.	O
+
+Computer	O
+resources	O
+include	O
+computer	B-External System
+hardware	E-Physical Device
+,	O
+computer	O
+software	E-External System
+,	O
+and	O
+computer	O
+communication	E-External System
+.	O
+
+The	O
+mnemonic	O
+,	O
+CR	O
+,	O
+is	O
+used	O
+in	O
+the	O
+requirement	O
+identifiers	O
+to	O
+show	O
+that	O
+these	O
+requirements	O
+are	O
+Computer	O
+resource	O
+Requirements	O
+.	O
+
+There	O
+shall	O
+be	O
+a	B-Physical Device
+UNIX	M-Physical Device
+-	M-Physical Device
+based	M-Physical Device
+APAF	M-Physical Device
+system	M-Physical Device
+development	M-Physical Device
+computer	E-Physical Device
+.	O
+
+There	O
+shall	O
+be	O
+a	B-Physical Device
+UNIX	M-Physical Device
+-	M-Physical Device
+based	M-Physical Device
+APAF	M-Physical Device
+system	E-External System
+production	M-Physical Device
+computer	E-Physical Device
+with	O
+an	B-External System
+archival	M-External System
+system	O
+.	O
+
+There	O
+shall	O
+be	O
+a	B-External System
+web	B-System Requirements
+server	E-External System
+for	O
+the	B-Software System
+APAF	M-Software System
+system	E-Software System
+for	O
+web	O
+-	M-System Requirements
+based	M-System Requirements
+displays	M-System Requirements
+and	M-System Requirements
+information	M-System Requirements
+change	E-System Requirements
+.	O
+
+There	O
+shall	O
+be	O
+a	B-External System
+network	M-External System
+connection	E-External System
+between	O
+SwRI	S-Environment Object
+and	M-System Requirements
+NISN	S-Environment Object
+for	O
+data	B-System Requirements
+transfers	M-System Requirements
+and	O
+distribution	E-System Requirements
+.	O
+
+The	B-Environment Object
+SwRI	M-Environment Object
+software	B-Shared Phenomena
+team	E-Environment Object
+shall	O
+provide	O
+system	S-Software System
+maintenance	S-Shared Phenomena
+and	O
+software	O
+support	E-Shared Phenomena
+.	O
+
+The	O
+logistics	O
+-	O
+related	O
+requirements	O
+of	O
+the	B-Software System
+APAF	M-Software System
+ground	M-Software System
+data	M-Software System
+system	E-Software System
+are	O
+itemized	O
+in	O
+the	O
+following	O
+table	O
+.	O
+
+The	O
+mnemonic	O
+,	O
+LR	O
+,	O
+is	O
+used	O
+in	O
+the	O
+requirement	O
+identifiers	O
+to	O
+show	O
+that	O
+these	O
+requirements	O
+are	O
+Logistical	O
+
+SwRI	S-Environment Object
+shall	O
+provide	O
+APAF	B-Software System
+system	E-Software System
+maintenance	S-Shared Phenomena
+.	O
+
+SwRI	S-Environment Object
+shall	O
+provide	O
+software	B-Shared Phenomena
+support	E-Shared Phenomena
+for	O
+the	B-Software System
+APAF	M-Software System
+system	E-Software System
+.	O
+
+The	B-Software System
+APAF	M-Software System
+data	E-Shared Phenomena
+system	E-Software System
+requirements	O
+for	O
+delivering	O
+the	B-Shared Phenomena
+ASPERA	M-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+IDFS	M-Shared Phenomena
+data	O
+,	O
+Mars	B-Shared Phenomena
+Express	M-Shared Phenomena
+Orbit	M-Shared Phenomena
+/	M-Shared Phenomena
+Attitude	M-Shared Phenomena
+IDFS	O
+data	O
+,	O
+and	O
+software	O
+are	O
+described	O
+in	O
+the	O
+following	O
+table	O
+.	O
+
+The	O
+mnemonic	O
+,	O
+DR	O
+,	O
+is	O
+used	O
+in	O
+the	O
+requirement	O
+identifiers	O
+to	O
+show	O
+that	O
+these	O
+requirements	O
+are	O
+Delivery	O
+Requirements	O
+.	O
+
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+and	M-Shared Phenomena
+MEX	M-Shared Phenomena
+OA	M-Shared Phenomena
+IDFS	M-Shared Phenomena
+data	E-Shared Phenomena
+and	O
+any	O
+APAF	S-Environment Object
+-	O
+generated	O
+intermediate	B-Shared Phenomena
+files	E-Shared Phenomena
+of	O
+ASPERA	O
+-	O
+3	O
+and	O
+MEX	O
+OA	O
+cleaned	M-Shared Phenomena
+-	O
+up	M-Shared Phenomena
+telemetry	E-Shared Phenomena
+shall	O
+be	O
+provided	O
+to	O
+all	O
+ASPERA	O
+-	O
+3	O
+Co	M-Environment Object
+-	O
+I	M-Environment Object
+'	M-Environment Object
+s	E-Environment Object
+.	O
+
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+IDFS	M-Shared Phenomena
+data	E-Shared Phenomena
+that	O
+are	O
+electronically	O
+distributed	O
+shall	O
+be	O
+provided	O
+to	O
+the	B-Environment Object
+ASPERA	O
+-	O
+3	O
+Co	M-Environment Object
+-	O
+I	E-Environment Object
+’	O
+s	O
+within	O
+24	O
+hours	O
+of	O
+acquiring	O
+ASPERA	O
+-	O
+3	O
+telemetry	E-Shared Phenomena
+as	O
+long	O
+as	O
+the	O
+transmission	O
+and	M-System Requirements
+processing	O
+are	O
+error	O
+-	O
+free	O
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	E-Environment Object
+in	O
+meeting	B-System Requirements
+MEX	M-System Requirements
+mission	M-System Requirements
+goals	M-System Requirements
+and	O
+objectives	E-System Requirements
+
+MEX	B-Shared Phenomena
+OA	M-Shared Phenomena
+IDFS	M-Shared Phenomena
+data	E-Shared Phenomena
+that	O
+are	O
+electronically	O
+distributed	O
+shall	O
+be	O
+provided	O
+to	O
+the	B-Physical Device
+ASPERA	M-Physical Device
+-	M-Physical Device
+3	M-Physical Device
+Co	M-Physical Device
+-	O
+I	M-Physical Device
+’	M-Physical Device
+s	E-Physical Device
+within	O
+24	O
+hours	O
+of	O
+acquiring	O
+MEX	O
+OA	O
+telemetry	E-Shared Phenomena
+as	O
+long	O
+as	O
+the	O
+transmission	O
+and	M-System Requirements
+processing	O
+are	O
+error	O
+-	O
+free	O
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	E-Physical Device
+in	O
+meeting	B-System Requirements
+MEX	O
+mission	M-System Requirements
+goals	M-System Requirements
+and	O
+objectives	E-System Requirements
+.	O
+
+Any	O
+APAF	S-External System
+-	M-Shared Phenomena
+generated	O
+intermediate	O
+files	O
+of	O
+ASPERA	B-Shared Phenomena
+-	O
+3	M-Shared Phenomena
+and	M-Shared Phenomena
+MEX	M-Shared Phenomena
+OA	M-Shared Phenomena
+cleaned	M-Shared Phenomena
+-	O
+up	M-Shared Phenomena
+telemetry	E-Shared Phenomena
+that	O
+are	O
+electronically	O
+distributed	O
+shall	O
+be	O
+provided	O
+to	O
+the	B-Environment Object
+ASPERA	O
+-	O
+3	O
+Co	M-Environment Object
+-	O
+I	M-Environment Object
+’	M-Environment Object
+s	E-Environment Object
+within	O
+24	O
+hours	O
+of	O
+acquiring	O
+ASPERA	O
+-	O
+3	O
+and	O
+MEX	O
+OA	O
+telemetry	O
+as	O
+long	O
+as	O
+the	O
+transmission	O
+and	O
+processing	O
+are	O
+error	O
+-	O
+free	O
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	E-Environment Object
+in	O
+meeting	B-System Requirements
+MEX	O
+mission	M-System Requirements
+goals	M-System Requirements
+and	O
+objectives	E-System Requirements
+.	O
+
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+IDFS	M-Shared Phenomena
+data	E-Shared Phenomena
+and	O
+MEX	B-Shared Phenomena
+OA	M-Shared Phenomena
+IDFS	O
+data	O
+shall	O
+be	O
+provided	O
+to	O
+NASA	B-Environment Object
+PDS	E-Environment Object
+.	O
+
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+data	E-Shared Phenomena
+shall	O
+be	O
+provided	O
+to	O
+NASA	B-Environment Object
+PDS	B-External System
+in	O
+PDS	O
+-	O
+compliant	M-External System
+form	E-External System
+.	O
+
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+data	E-Shared Phenomena
+shall	O
+be	O
+calibrated	O
+and	O
+validated	O
+prior	O
+to	O
+depositing	O
+in	O
+the	B-Environment Object
+NASA	M-Environment Object
+PDS	E-Environment Object
+.	O
+
+ASPERA	B-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+data	E-Shared Phenomena
+shall	O
+be	O
+provided	O
+to	O
+NASA	B-Environment Object
+PDS	E-Environment Object
+no	O
+later	O
+than	O
+6	O
+months	O
+after	O
+acquisition	O
+.	O
+
+SwRI	S-Environment Object
+shall	O
+provide	O
+IDFS	B-System Requirements
+data	M-System Requirements
+processing	M-System Requirements
+algorithms	E-System Requirements
+to	O
+IRF	S-Environment Object
+.	O
+
+Science	B-Software System
+analysis	M-Software System
+software	E-Software System
+shall	O
+be	O
+integrated	O
+into	O
+the	O
+NASA	B-External System
+approved	M-External System
+data	M-External System
+repository	E-External System
+.	O
+
+IDFS	B-Software System
+data	M-Software System
+access	M-Software System
+software	E-Software System
+developed	O
+by	O
+SwRI	S-Environment Object
+shall	O
+be	O
+made	O
+available	O
+to	O
+the	B-Environment Object
+ASPERA	M-Environment Object
+-	M-Environment Object
+3	M-Environment Object
+Co	M-Environment Object
+-	O
+I	M-Environment Object
+’	M-Environment Object
+s	E-Environment Object
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	E-Environment Object
+in	O
+meeting	B-System Requirements
+mission	M-System Requirements
+goals	M-System Requirements
+and	M-System Requirements
+objectives	M-System Requirements
+.	E-System Requirements
+
+Science	B-External System
+analysis	M-External System
+software	E-External System
+developed	O
+by	O
+SwRI	S-Environment Object
+to	O
+analyze	O
+IDFS	B-Shared Phenomena
+-	M-Shared Phenomena
+formatted	M-Shared Phenomena
+data	E-Shared Phenomena
+shall	O
+be	O
+made	O
+avaiable	O
+to	O
+the	B-Environment Object
+ASPERA	M-Environment Object
+=	M-Environment Object
+3	M-Environment Object
+Co	M-Environment Object
+-	O
+I	M-Environment Object
+’	M-Environment Object
+s	E-Environment Object
+to	O
+support	O
+the	O
+ASPERA	O
+-	O
+3	O
+team	E-Environment Object
+in	O
+meeting	B-System Requirements
+mission	M-System Requirements
+goals	M-System Requirements
+and	M-System Requirements
+objectives	E-System Requirements
+.	O
+
+How	O
+the	B-Shared Phenomena
+ASPERA	M-Shared Phenomena
+-	M-Shared Phenomena
+3	M-Shared Phenomena
+and	M-Shared Phenomena
+MEX	M-Shared Phenomena
+OA	M-Shared Phenomena
+data	E-Shared Phenomena
+and	O
+exactly	O
+what	O
+data	O
+sets	O
+are	O
+to	O
+be	O
+distributed	O
+to	O
+each	O
+Co	O
+-	O
+I	O
+shall	O
+be	O
+determined	O
+by	O
+the	O
+needs	O
+and	O
+resources	O
+available	O
+six	O
+months	O
+prior	O
+to	O
+MEX	O
+launch	O
+.	O
+
+The	O
+distribution	O
+mechanisms	O
+shall	O
+be	O
+clearly	O
+defined	O
+/	O
+described	O
+in	O
+the	O
+APAF	O
+Operation	O
+Procedures	O
+Document	O
+.	O
+
+This	O
+section	O
+identifies	O
+the	B-Software System
+requirements	O
+considered	O
+but	O
+not	O
+part	O
+of	O
+the	O
+APAF	M-Software System
+ground	M-Software System
+data	M-Software System
+system	E-Software System
+requirements	O
+.	O
+
+The	B-Software System
+APAF	M-Software System
+data	M-Software System
+system	E-Software System
+is	O
+not	O
+required	O
+to	O
+operate	O
+in	O
+more	O
+than	O
+one	O
+state	O
+or	O
+mode	O
+.	O
+
+There	O
+are	O
+no	O
+installation	O
+-	O
+dependent	O
+requirements	O
+for	O
+the	B-Shared Phenomena
+operation	E-Shared Phenomena
+of	O
+the	O
+APAF	M-Software System
+data	M-Software System
+system	E-Software System
+.	O
+
+However	O
+,	O
+if	O
+any	O
+are	O
+identified	O
+,	O
+they	O
+shall	O
+be	O
+documented	O
+in	O
+the	O
+APAF	O
+Operations	O
+Procedures	O
+Document	O
+.	O
+
+The	B-Software System
+APAF	M-Software System
+data	M-Software System
+system	E-Software System
+will	O
+not	O
+impose	O
+hazards	O
+to	O
+personnel	O
+,	O
+property	O
+,	O
+or	O
+the	O
+environment	O
+.	O
+
+Therefore	O
+,	O
+there	O
+are	O
+no	O
+safety	O
+requirements	O
+of	O
+the	B-Software System
+APAF	M-Software System
+ground	M-Software System
+data	M-Software System
+system	E-Software System
+.	O
+
+Although	O
+the	B-Software System
+APAF	M-Software System
+data	M-Software System
+system	E-Software System
+and	O
+associated	O
+software	O
+will	O
+be	O
+developed	O
+with	O
+the	O
+highest	O
+quality	O
+possible	O
+,	O
+there	O
+are	O
+no	O
+requirements	O
+concerned	O
+with	O
+software	O
+quality	O
+.	O
+
+Some	O
+of	O
+the	O
+software	O
+quality	O
+factors	O
+that	O
+will	O
+be	O
+considered	O
+when	O
+developing	O
+the	O
+APAF	B-Software System
+data	M-Software System
+system	E-Software System
+include	O
+:	O
+reliability	O
+,	O
+maintainability	O
+,	O
+availability	O
+,	O
+flexibility	O
+,	O
+portability	O
+,	O
+testability	O
+,	O
+and	O
+usability	O
+.	O
+
+There	O
+are	O
+no	O
+requirements	O
+that	O
+constrain	O
+the	B-Software System
+design	O
+and	O
+implementation	O
+of	O
+the	O
+APAF	M-Software System
+software	E-Software System
+.	O
+
+There	O
+are	O
+no	O
+identified	O
+requirements	O
+related	O
+to	O
+personnel	O
+that	O
+will	O
+use	O
+the	O
+software	O
+.	O
+
+However	O
+,	O
+the	B-Software System
+APAF	M-Software System
+Operations	O
+Procedures	O
+Document	O
+will	O
+aid	O
+personnel	S-Environment Object
+in	O
+the	O
+operational	O
+use	O
+of	O
+the	O
+APAF	O
+system	E-Software System
+.	O
+
+Since	O
+the	M-Physical Device
+members	M-Physical Device
+of	M-Physical Device
+the	O
+SwRI	M-Physical Device
+software	E-External System
+team	E-Physical Device
+are	O
+experienced	O
+with	O
+data	B-External System
+system	E-External System
+and	O
+IDFS	B-External System
+processing	M-External System
+software	O
+development	O
+,	O
+there	O
+are	O
+no	O
+training	O
+-	O
+related	O
+requirements	O
+for	O
+developers	O
+of	O
+the	O
+APAF	B-Software System
+data	O
+system	O
+.	O
+
+In	O
+addition	O
+,	O
+the	B-Software System
+APAF	M-Software System
+Operations	O
+Procedures	O
+Document	O
+shall	O
+provide	O
+installation	O
+and	O
+operations	O
+procedures	O
+of	O
+the	O
+APAF	O
+system	E-Software System
+in	O
+enough	O
+detail	O
+where	O
+there	O
+are	O
+no	O
+training	O
+-	O
+related	O
+requirements	O
+for	O
+users	S-Environment Object
+and	O
+operators	S-Environment Object
+of	O
+the	O
+APAF	O
+data	M-Software System
+system	O
+.	O
+
+There	O
+are	O
+no	O
+requirements	O
+of	O
+the	B-Software System
+APAF	M-Software System
+data	M-Software System
+system	E-Software System
+that	O
+need	O
+special	O
+treatment	O
+or	O
+consideration	O
+at	O
+this	O
+time	O
+.	O
+

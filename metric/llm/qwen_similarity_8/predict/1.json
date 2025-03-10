@@ -1,0 +1,1723 @@
+[
+  {
+    "entity": {
+      "Software System": [
+        "the Center-to-Center (C2C) Communications Network"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "a Texas Department of Transportation (TxDOT) C2C project"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "a repository for traffic data",
+        "a mechanism to exchange device control information"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "traffic data",
+        "device control information between TMCs"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the evolving ITS Traffic Management Data Dictionary (TMDD) standard",
+        "other ITS Data Elements and Message Sets"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "message sets associated with TMDD"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ITS standards"
+      ],
+      "System Requirements": [
+        "will create a system that is reusable for other ITS application areas",
+        "will provide the State of Texas with a baseline system that can be cost effectively extended in the future"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center-to-Center infrastructure"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "must interconnect several dissimilar traffic management systems"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the existing systems"
+      ],
+      "System Requirements": [
+        "to create the Center-to-Center infrastructure"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the software"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "multiple instances of a building block",
+        "configuring the building block of operation"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the \"cloud\" in the above figure"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "Any data that is passed into the \"cloud\" in the above figure based on the ITS standards"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the “cloud”"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the cloud"
+      ],
+      "System Requirements": [
+        "deployed (based on the ITS standards) will not utilize the project defined protocol but will be moved “into” the cloud (because they themselves would be based on the ITS standards"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "a “local” common repository",
+        "a “regional” common repository",
+        "a “statewide” common repository"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "roadway network",
+        "Center"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "information about each incident",
+        "network identifier",
+        "incident description",
+        "roadway"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "information about each lane closure",
+        "network identifier",
+        "lane closure id",
+        "closure description"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the Center"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "status information about each DMS",
+        "network identifier",
+        "DMS identifier",
+        "DMS name"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "status information about each LCS",
+        "network identifier",
+        "LCS identifier",
+        "LCS name",
+        "Location and Status"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [
+        "LCS",
+        "device control command"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "network identifier",
+        "LCS identifier"
+      ],
+      "System Requirements": [
+        "support LCS control in other centers",
+        "support the following device control command for a LCS, including network identifier, LCS identifier, username and Password"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "CCTV"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide the information status information about each CCTV"
+      ],
+      "Shared Phenomena": [
+        "network identifier",
+        "CCTV identifier",
+        "CCTV name",
+        "Location",
+        "Status"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support the following CCTV control request, including network identifier, CCTV identifier, username, Password"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [
+        "CCTV"
+      ],
+      "Environment Object": [
+        "video snapshots",
+        "status information"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to support video snapshots"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "CCTV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "support the following CCTV switching command, including network identifier, username, Password and video channel input identifier"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "status information",
+        "network identifier",
+        "Ramp Meter identifier",
+        "Ramp Meter name",
+        "Location",
+        "Status"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [
+        "Ramp Meter"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support the following device control command for a ramp meter, including network identifier, Ramp Meter identifier, username, password and plan"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "each HAR"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "support the following status information about each HAR"
+      ],
+      "Shared Phenomena": [
+        "network identifier",
+        "HAR identifier",
+        "HAR name",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [
+        "a HAR"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support the following device control command for a HAR, including network identifier, HAR identifier, username, password and message"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Traffic Signal"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "support the following status information about each Traffic Signal, including network identifier, traffic signal identifier, traffic signal name, location and status"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [
+        "Traffic Signal"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support the following device control command for a Traffic Signal, including network identifier, traffic signal identifier, username, password and traffic signal plan identifier"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the Center"
+      ],
+      "System Requirements": [
+        "support the following status information about each ESS, including network identifier, environmental sensor identifier, environment sensor name, type, location and status"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "each HOV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "support the following status information about each HOV"
+      ],
+      "Shared Phenomena": [
+        "network identifier",
+        "HOV identifier",
+        "HOV name",
+        "link identifier",
+        "status and plan"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support HOV Lane control in other centers, the Center shall be able to support the following device control command for a HOV Lane, including network identifier, HOV Lane identifier, username, password and lane plan"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "each Parking Lot"
+      ],
+      "External System": [
+        "the Center"
+      ],
+      "System Requirements": [
+        "support the following status information"
+      ],
+      "Shared Phenomena": [
+        "network identifier",
+        "parking lot identifier",
+        "parking lot name",
+        "location and status"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "each School Zone"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "status information",
+        "network identifier",
+        "link identifier",
+        "school zone identifier",
+        "school zone name"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support the following device control command for a School Zone"
+      ],
+      "Shared Phenomena": [
+        "network identifier",
+        "school zone identifier",
+        "username",
+        "password",
+        "plan"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "each Railroad Crossing"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "status information",
+        "network identifier",
+        "link identifier",
+        "rail crossing identifier",
+        "rail crossing name",
+        "location",
+        "status"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [
+        "Reversible Lane"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "device control command",
+        "network identifier",
+        "reversible lane identifier",
+        "username",
+        "password",
+        "plan and duration"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "status information about each Dynamic Lane",
+        "network identifier",
+        "link identifier",
+        "dynamic lane identifier",
+        "dynamic lane name",
+        "failure state"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center"
+      ],
+      "Physical Device": [
+        "Dynamic Lane"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "device control command",
+        "network identifier",
+        "dynamic lane identifier",
+        "username",
+        "password",
+        "lane plan"
+      ],
+      "System Requirements": [
+        "support Dynamic Lane control"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "each Bus Stop"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "support the following status information"
+      ],
+      "Shared Phenomena": [
+        "network identifier",
+        "link identifier",
+        "relative link location",
+        "name",
+        "location"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Bus Location"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "network identifier",
+        "link identifier",
+        "bus identifier",
+        "bus name",
+        "location",
+        "schedule adherece"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "each Light/Commuter Stop"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "status information"
+      ],
+      "Shared Phenomena": [
+        "network identifier",
+        "link identifier",
+        "commuter or light rail stop identifier",
+        "commuter or light rail stop name",
+        "location",
+        "routes"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "each Light/Commuter Location"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "status information about each Light/Commuter Location",
+        "network identifier",
+        "link identifier",
+        "commuter or light rail identifier",
+        "commuter or light rail name",
+        "location",
+        "schedule adherence"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "each Park and Ride Lot"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "status information",
+        "network identifier",
+        "park and ride lot identifier",
+        "park and ride lot name",
+        "location",
+        "status",
+        "capacity"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [
+        "Vehicle Priority"
+      ],
+      "Environment Object": [],
+      "External System": [
+        "vehicle identifier",
+        "network identifier",
+        "link identifier",
+        "intersection identifier"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center"
+      ],
+      "Physical Device": [
+        "network device"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support the following information about network device status, including network identifier, number of DMSs, number of LCSs, DMS status data, LCS status data and CCTV status data"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "device status requestor",
+        "Center"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support the following information for command timeframe request, including network identifier and device type"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Center"
+      ],
+      "Physical Device": [
+        "device status requestor"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "support the following information for command timeframe request, including network identifier, device type, days commands accepted and times commands accepted"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "Data Collector"
+      ],
+      "System Requirements": [
+        "support the storage of TMDD data elements and message set information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "TMDD standard"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "transmit information"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "DATEX/ASN"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "TMDD message sets"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "TCP/IP",
+        "DATEX/ASN data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Web Map application"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "an Internet WWW server"
+      ],
+      "System Requirements": [
+        "generates a map"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "a graphical depiction of the traffic conditions"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "map"
+      ],
+      "System Requirements": [
+        "display interstates and state highways"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "NCTCOG GeoData warehouse"
+      ],
+      "System Requirements": [
+        "derived from the North Central Texas Council of Governments (NCTCOG) GeoData warehouse"
+      ],
+      "Shared Phenomena": [
+        "basemap data"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "map user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "alter the current magnification (zoom level) of the map"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The map user"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "shall be able to pan the map in each of the following directions"
+      ],
+      "Shared Phenomena": [
+        "North",
+        "South",
+        "East or West"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "Each link"
+      ],
+      "Physical Device": [
+        "map"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "a configuration file"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "specific speed values"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "map"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "display the current incidents (as icons) known to the Center-to-Center Project"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "display all current incidents in tabular format"
+      ],
+      "Shared Phenomena": [
+        "incidents"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "map"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "displaying the following for a LCS"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "map",
+        "CCTV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "displaying the following for a CCTV"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "enter incident or lane closure information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "input the following information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "input the following information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "a list of previously entered incidents"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "an incident"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "modify the data about an incident"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "a user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "delete a previously entered incident"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "provide a list of previously entered lane closures"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "a user",
+        "lane closure"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "delete a previously entered lane closure"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "a user",
+        "lane closure"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "delete a previously entered lane closure"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "C-2-C software system"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "a public network",
+        "the remote Center Control GUI"
+      ],
+      "System Requirements": [
+        "execute on a public network",
+        "transmit equipment requests to the C-2-C software system"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "User name",
+        "Password"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "device"
+      ],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "select a network identifier for a device command/control request"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user",
+        "Center",
+        "Target DMS",
+        "Beacons"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "select a DMS from a list and provide the following information",
+        "Message to be displayed"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user",
+        "Center",
+        "LCS",
+        "Target LCS"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "select a LCS from a list and provide the following information"
+      ],
+      "Shared Phenomena": [
+        "Assignment of lane arrows"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the user"
+      ],
+      "Physical Device": [],
+      "Environment Object": [
+        "Center",
+        "CCTV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "to issue a CCTV switching command, including Source (input) and Destination port (output)"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "CCTV"
+      ],
+      "Environment Object": [
+        "user",
+        "Center"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user",
+        "an Center",
+        "a Ramp Meter"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "Target Ramp Meter",
+        "Plan"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user"
+      ],
+      "External System": [
+        "a list",
+        "the HAR"
+      ],
+      "System Requirements": [
+        "provide the following information, including Target HAR and Text to be sent to the HAR"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user",
+        "a Traffic Signal"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "select a Traffic Signal from a list",
+        "Target Traffic Signal and Plan"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "Center",
+        "HOV",
+        "Target HOV"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "the user shall be able to select a HOV from a list and provide the following information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user",
+        "a School Zone",
+        "a Center"
+      ],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "Target School Zone",
+        "Plan"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user",
+        "Center",
+        "Reversible Lane"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "shall be able to select a Reversible Lane from a list and provide the following information"
+      ],
+      "Shared Phenomena": [
+        "Target Reversible Lane",
+        "Plan"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [
+        "the user",
+        "Center",
+        "Dynamic Lane",
+        "Target Dynamic Lane"
+      ],
+      "External System": [],
+      "System Requirements": [
+        "shall be able to select a Dynamic Lane from a list and provide the following information"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "Remote GUI",
+        "network identifier"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "The Center-to-Center Server"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [
+        "any computer"
+      ],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ESRI's ARC Internet Map Server (ARC IMS) product"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center-to-Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center-to-Center web interface"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "C/C++",
+        "ESRI ARC IMS"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Incident GUI",
+        "using C/C++"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ESRI Map Objects"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Remote Control GUI",
+        "using C/C++"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "ESRI Map Objects"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "the Center-to-Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [
+        "the Incident GUI"
+      ],
+      "System Requirements": [],
+      "Shared Phenomena": [
+        "a single data store"
+      ]
+    }
+  },
+  {
+    "entity": {
+      "Software System": [
+        "The Center-to-Center"
+      ],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [
+        "be able to operate in test mode"
+      ],
+      "Shared Phenomena": []
+    }
+  },
+  {
+    "entity": {
+      "Software System": [],
+      "Physical Device": [],
+      "Environment Object": [],
+      "External System": [],
+      "System Requirements": [],
+      "Shared Phenomena": []
+    }
+  }
+]

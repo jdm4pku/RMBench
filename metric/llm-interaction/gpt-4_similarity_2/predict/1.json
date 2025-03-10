@@ -1,0 +1,2570 @@
+[
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "the Center-to-Center (C2C) Communications Network",
+          "a Texas Department of Transportation (TxDOT) C2C project"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The TxDOT Center-to-Center project",
+          "the DFW TxDOT Traffic Management Centers (TMCs)"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "This Center-to-Center infrastructure",
+          "traffic data"
+        ],
+        [
+          "This Center-to-Center infrastructure",
+          "device control information"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center-to-Center project",
+          "the evolving ITS Traffic Management Data Dictionary (TMDD) standard,"
+        ],
+        [
+          "The Center-to-Center project",
+          "the message sets associated with TMDD"
+        ],
+        [
+          "The Center-to-Center project",
+          "other ITS Data Elements"
+        ],
+        [
+          "The Center-to-Center project",
+          "Message Sets"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center-to-Center infrastructure",
+          "traffic management systems"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center-to-Center infrastructure",
+          "the existing systems"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "these interfaces",
+          "The data"
+        ],
+        [
+          "the existing system",
+          "The data"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": [
+        [
+          "the software",
+          "be utilized in a number of configurations"
+        ]
+      ]
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "The software",
+          "“configuring” the building block of operation"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": [
+        [
+          "multiple instances of a building block can be deployed",
+          "The software"
+        ]
+      ]
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the “cloud”",
+          "Any data"
+        ],
+        [
+          "the “cloud”",
+          "the ITS standards"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "Systems",
+          "the “cloud”"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "a “local” common repository",
+          "individual partners"
+        ],
+        [
+          "a “regional” common repository",
+          "local common repositories"
+        ],
+        [
+          "a “statewide” common repository",
+          "regional common repositories"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "the network name"
+        ],
+        [
+          "the Center",
+          "link data information"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "the link information"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "the node information"
+        ],
+        [
+          "The Center",
+          "node identifier"
+        ],
+        [
+          "The Center",
+          "node name"
+        ],
+        [
+          "The Center",
+          "node type description"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "the information about each incident"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "incident description"
+        ],
+        [
+          "The Center",
+          "roadway"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "the information about each lane closure"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "lane closure id"
+        ],
+        [
+          "The Center",
+          "closure description"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "each DMS"
+        ],
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "DMS identifier"
+        ],
+        [
+          "The Center",
+          "DMS name"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "a DMS"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support DMS control in other centers",
+          "a DMS"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "each LCS"
+        ],
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "LCS identifier,"
+        ],
+        [
+          "The Center",
+          "LCS name"
+        ],
+        [
+          "The Center",
+          "Location"
+        ],
+        [
+          "The Center",
+          "Status"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "a LCS"
+        ],
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "LCS identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "Password"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support LCS control in other centers",
+          "a LCS"
+        ],
+        [
+          "To support LCS control in other centers",
+          "device control command"
+        ],
+        [
+          "To support LCS control in other centers",
+          "network identifier"
+        ],
+        [
+          "To support LCS control in other centers",
+          "LCS identifier"
+        ],
+        [
+          "To support LCS control in other centers",
+          "username"
+        ],
+        [
+          "To support LCS control in other centers",
+          "Password"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "each CCTV"
+        ],
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "CCTV identifier"
+        ],
+        [
+          "The Center",
+          "CCTV name"
+        ],
+        [
+          "The Center",
+          "Location"
+        ],
+        [
+          "The Center",
+          "Status"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "To support CCTV control in other centers"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "CCTV identifier"
+        ],
+        [
+          "the Center",
+          "CCTV name"
+        ],
+        [
+          "the Center",
+          "status"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support video snapshots",
+          "the Center"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "the Center",
+          "To support CCTV switching in other centers"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "the status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "Ramp Meter identifier"
+        ],
+        [
+          "The Center",
+          "Ramp Meter name"
+        ],
+        [
+          "The Center",
+          "Location"
+        ],
+        [
+          "The Center",
+          "Status"
+        ],
+        [
+          "ramp meter",
+          "the status information"
+        ],
+        [
+          "ramp meter",
+          "network identifier"
+        ],
+        [
+          "ramp meter",
+          "Ramp Meter identifier"
+        ],
+        [
+          "ramp meter",
+          "Ramp Meter name"
+        ],
+        [
+          "ramp meter",
+          "Location"
+        ],
+        [
+          "ramp meter",
+          "Status"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "Ramp Meter identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "plan"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "HAR identifier"
+        ],
+        [
+          "The Center",
+          "HAR name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ],
+        [
+          "HAR",
+          "status information"
+        ],
+        [
+          "HAR",
+          "network identifier"
+        ],
+        [
+          "HAR",
+          "HAR identifier"
+        ],
+        [
+          "HAR",
+          "HAR name"
+        ],
+        [
+          "HAR",
+          "location"
+        ],
+        [
+          "HAR",
+          "status"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "a HAR"
+        ],
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "HAR identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "message"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support HAR control in other centers",
+          "a HAR"
+        ],
+        [
+          "To support HAR control in other centers",
+          "device control command"
+        ],
+        [
+          "To support HAR control in other centers",
+          "network identifier"
+        ],
+        [
+          "To support HAR control in other centers",
+          "HAR identifier"
+        ],
+        [
+          "To support HAR control in other centers",
+          "username"
+        ],
+        [
+          "To support HAR control in other centers",
+          "password"
+        ],
+        [
+          "To support HAR control in other centers",
+          "message"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "traffic signal identifier"
+        ],
+        [
+          "The Center",
+          "traffic signal name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "a Traffic Signal"
+        ],
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "traffic signal identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "traffic signal plan identifier"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support Traffic Signal control in other centers",
+          "a Traffic Signal"
+        ],
+        [
+          "To support Traffic Signal control in other centers",
+          "device control command"
+        ],
+        [
+          "To support Traffic Signal control in other centers",
+          "network identifier"
+        ],
+        [
+          "To support Traffic Signal control in other centers",
+          "traffic signal identifier"
+        ],
+        [
+          "To support Traffic Signal control in other centers",
+          "username"
+        ],
+        [
+          "To support Traffic Signal control in other centers",
+          "password"
+        ],
+        [
+          "To support Traffic Signal control in other centers",
+          "traffic signal plan identifier"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "following status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "HOV identifier"
+        ],
+        [
+          "The Center",
+          "HOV name"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "status"
+        ],
+        [
+          "The Center",
+          "plan"
+        ],
+        [
+          "each HOV",
+          "following status information"
+        ],
+        [
+          "each HOV",
+          "network identifier"
+        ],
+        [
+          "each HOV",
+          "HOV identifier"
+        ],
+        [
+          "each HOV",
+          "HOV name"
+        ],
+        [
+          "each HOV",
+          "link identifier"
+        ],
+        [
+          "each HOV",
+          "status"
+        ],
+        [
+          "each HOV",
+          "plan"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "a HOV Lane"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support HOV Lane control in other centers",
+          "a HOV Lane"
+        ]
+      ],
+      "Requirements Constraint": [
+        [
+          "To support HOV Lane control in other centers",
+          "device control command"
+        ],
+        [
+          "To support HOV Lane control in other centers",
+          "network identifier"
+        ],
+        [
+          "To support HOV Lane control in other centers",
+          "HOV Lane identifier"
+        ],
+        [
+          "To support HOV Lane control in other centers",
+          "username"
+        ],
+        [
+          "To support HOV Lane control in other centers",
+          "password"
+        ],
+        [
+          "To support HOV Lane control in other centers",
+          "lane plan"
+        ]
+      ]
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "parking lot identifier,"
+        ],
+        [
+          "The Center",
+          "parking lot name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "school zone identifier"
+        ],
+        [
+          "The Center",
+          "school zone name"
+        ],
+        [
+          "School Zone",
+          "status information"
+        ],
+        [
+          "School Zone",
+          "network identifier"
+        ],
+        [
+          "School Zone",
+          "link identifier"
+        ],
+        [
+          "School Zone",
+          "school zone identifier"
+        ],
+        [
+          "School Zone",
+          "school zone name"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "a School Zone"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support School Zone control in other centers",
+          "the Center"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "rail crossing identifier"
+        ],
+        [
+          "The Center",
+          "rail crossing name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "reversible lane identifier"
+        ],
+        [
+          "The Center",
+          "reversible lane name"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "indicator status"
+        ],
+        [
+          "The Center",
+          "indicator failure state"
+        ],
+        [
+          "Reversible Lane",
+          "status information"
+        ],
+        [
+          "Reversible Lane",
+          "network identifier"
+        ],
+        [
+          "Reversible Lane",
+          "reversible lane identifier"
+        ],
+        [
+          "Reversible Lane",
+          "reversible lane name"
+        ],
+        [
+          "Reversible Lane",
+          "link identifier"
+        ],
+        [
+          "Reversible Lane",
+          "indicator status"
+        ],
+        [
+          "Reversible Lane",
+          "indicator failure state"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "a Reversible Lane"
+        ],
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "reversible lane identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "plan"
+        ],
+        [
+          "the Center",
+          "duration"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support Reversible Lane control in other centers",
+          "a Reversible Lane"
+        ],
+        [
+          "To support Reversible Lane control in other centers",
+          "device control command"
+        ],
+        [
+          "To support Reversible Lane control in other centers",
+          "network identifier"
+        ],
+        [
+          "To support Reversible Lane control in other centers",
+          "reversible lane identifier"
+        ],
+        [
+          "To support Reversible Lane control in other centers",
+          "username"
+        ],
+        [
+          "To support Reversible Lane control in other centers",
+          "password"
+        ],
+        [
+          "To support Reversible Lane control in other centers",
+          "plan"
+        ],
+        [
+          "To support Reversible Lane control in other centers",
+          "duration"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "Dynamic Lane"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center",
+          "a Dynamic Lane"
+        ],
+        [
+          "the Center",
+          "device control command"
+        ],
+        [
+          "the Center",
+          "network identifier"
+        ],
+        [
+          "the Center",
+          "dynamic lane identifier"
+        ],
+        [
+          "the Center",
+          "username"
+        ],
+        [
+          "the Center",
+          "password"
+        ],
+        [
+          "the Center",
+          "lane plan"
+        ]
+      ],
+      "Requirements Reference": [
+        [
+          "To support Dynamic Lane control in other centers",
+          "a Dynamic Lane"
+        ],
+        [
+          "To support Dynamic Lane control in other centers",
+          "device control command"
+        ],
+        [
+          "To support Dynamic Lane control in other centers",
+          "network identifier"
+        ],
+        [
+          "To support Dynamic Lane control in other centers",
+          "dynamic lane identifier"
+        ],
+        [
+          "To support Dynamic Lane control in other centers",
+          "username"
+        ],
+        [
+          "To support Dynamic Lane control in other centers",
+          "password"
+        ],
+        [
+          "To support Dynamic Lane control in other centers",
+          "lane plan"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "relative link location"
+        ],
+        [
+          "The Center",
+          "name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "Bus Stop",
+          "status information"
+        ],
+        [
+          "Bus Stop",
+          "network identifier"
+        ],
+        [
+          "Bus Stop",
+          "link identifier"
+        ],
+        [
+          "Bus Stop",
+          "relative link location"
+        ],
+        [
+          "Bus Stop",
+          "name"
+        ],
+        [
+          "Bus Stop",
+          "location"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "bus identifier"
+        ],
+        [
+          "The Center",
+          "bus name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "schedule adherece"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "commuter or light rail stop identifier"
+        ],
+        [
+          "The Center",
+          "commuter or light rail stop name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "routes"
+        ],
+        [
+          "Light/Commuter Stop",
+          "status information"
+        ],
+        [
+          "Light/Commuter Stop",
+          "network identifier"
+        ],
+        [
+          "Light/Commuter Stop",
+          "link identifier"
+        ],
+        [
+          "Light/Commuter Stop",
+          "commuter or light rail stop identifier"
+        ],
+        [
+          "Light/Commuter Stop",
+          "commuter or light rail stop name"
+        ],
+        [
+          "Light/Commuter Stop",
+          "location"
+        ],
+        [
+          "Light/Commuter Stop",
+          "routes"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "commuter or light rail identifier"
+        ],
+        [
+          "The Center",
+          "commuter or light rail name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "schedule adherence"
+        ],
+        [
+          "Light/Commuter Location",
+          "status information"
+        ],
+        [
+          "Light/Commuter Location",
+          "network identifier"
+        ],
+        [
+          "Light/Commuter Location",
+          "link identifier"
+        ],
+        [
+          "Light/Commuter Location",
+          "commuter or light rail identifier"
+        ],
+        [
+          "Light/Commuter Location",
+          "commuter or light rail name"
+        ],
+        [
+          "Light/Commuter Location",
+          "location"
+        ],
+        [
+          "Light/Commuter Location",
+          "schedule adherence"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "park and ride lot identifier"
+        ],
+        [
+          "The Center",
+          "park and ride lot name"
+        ],
+        [
+          "The Center",
+          "location"
+        ],
+        [
+          "The Center",
+          "status"
+        ],
+        [
+          "The Center",
+          "capacity"
+        ],
+        [
+          "Park and Ride Lot",
+          "status information"
+        ],
+        [
+          "Park and Ride Lot",
+          "network identifier"
+        ],
+        [
+          "Park and Ride Lot",
+          "park and ride lot identifier"
+        ],
+        [
+          "Park and Ride Lot",
+          "park and ride lot name"
+        ],
+        [
+          "Park and Ride Lot",
+          "location"
+        ],
+        [
+          "Park and Ride Lot",
+          "status"
+        ],
+        [
+          "Park and Ride Lot",
+          "capacity"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "status information"
+        ],
+        [
+          "The Center",
+          "vehicle identifier"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "link identifier"
+        ],
+        [
+          "The Center",
+          "intersection identifier"
+        ],
+        [
+          "Vehicle Priority",
+          "status information"
+        ],
+        [
+          "Vehicle Priority",
+          "vehicle identifier"
+        ],
+        [
+          "Vehicle Priority",
+          "network identifier"
+        ],
+        [
+          "Vehicle Priority",
+          "link identifier"
+        ],
+        [
+          "Vehicle Priority",
+          "intersection identifier"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center",
+          "information about network device status"
+        ],
+        [
+          "The Center",
+          "network identifier"
+        ],
+        [
+          "The Center",
+          "number of DMSs"
+        ],
+        [
+          "The Center",
+          "number of LCSs"
+        ],
+        [
+          "The Center",
+          "DMS status data"
+        ],
+        [
+          "The Center",
+          "LCS status data"
+        ],
+        [
+          "The Center",
+          "CCTV status data"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The device status requestor",
+          "information for command timeframe request"
+        ],
+        [
+          "Center",
+          "information for command timeframe request"
+        ],
+        [
+          "The device status requestor",
+          "network identifier"
+        ],
+        [
+          "Center",
+          "network identifier"
+        ],
+        [
+          "The device status requestor",
+          "device type"
+        ],
+        [
+          "Center",
+          "device type"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The device status requestor",
+          "Center",
+          "information for command timeframe request"
+        ],
+        [
+          "The device status requestor",
+          "Center",
+          "network identifier"
+        ],
+        [
+          "The device status requestor",
+          "Center",
+          "device type"
+        ],
+        [
+          "The device status requestor",
+          "Center",
+          "days commands accepted"
+        ],
+        [
+          "The device status requestor",
+          "Center",
+          "times commands accepted"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Center-to-Center Project",
+          "the TMDD standard"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "DATEX/ASN",
+          "the TMDD message sets"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "TCP/IP",
+          "the DATEX/ASN data"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Web Map application",
+          "a map"
+        ],
+        [
+          "an Internet WWW server",
+          "a map"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The map",
+          "the traffic conditions"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The basemap data",
+          "GeoData warehouse"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The map user",
+          "the current magnification"
+        ],
+        [
+          "the map",
+          "the current magnification"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The map user",
+          "the map"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the map",
+          "to provide a graphical depiction of speeds"
+        ],
+        [
+          "Each link",
+          "to provide a graphical depiction of speeds"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "A configuration file",
+          "to specify specific speed values"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The map",
+          "the current incidents"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [
+        [
+          "The user",
+          "to obtain further information about the incident"
+        ],
+        [
+          "an incident icon",
+          "to obtain further information about the incident"
+        ]
+      ],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The map",
+          "a DMS"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The map",
+          "displaying the following"
+        ],
+        [
+          "displaying the following",
+          "a LCS"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The map",
+          "a CCTV"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Incident GUI",
+          "the user"
+        ],
+        [
+          "The Incident GUI",
+          "an Center"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Incident GUI",
+          "the user"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The Incident GUI",
+          "the user"
+        ],
+        [
+          "The Incident GUI",
+          "lane closure"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The GUI",
+          "a list of previously entered incidents"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The GUI",
+          "the data about an incident to be modified"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The GUI",
+          "delete a previously entered incident"
+        ],
+        [
+          "a user",
+          "delete a previously entered incident"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The GUI",
+          "a list of previously entered lane closures"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The GUI",
+          "delete a previously entered lane closure"
+        ],
+        [
+          "a user",
+          "delete a previously entered lane closure"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The GUI",
+          "delete a previously entered lane closure"
+        ],
+        [
+          "a user",
+          "delete a previously entered lane closure"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "The remote Center Control GUI",
+          "a public network"
+        ],
+        [
+          "The remote Center Control GUI",
+          "the C-2-C software system"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "the GUI application",
+          "User name"
+        ],
+        [
+          "the GUI application",
+          "Password"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "Target DMS"
+        ],
+        [
+          "an Center",
+          "Message to be displayed"
+        ],
+        [
+          "an Center",
+          "Beacons On/Off"
+        ],
+        [
+          "the user",
+          "Target DMS"
+        ],
+        [
+          "the user",
+          "Message to be displayed"
+        ],
+        [
+          "the user",
+          "Beacons On/Off"
+        ],
+        [
+          "a DMS",
+          "Target DMS"
+        ],
+        [
+          "a DMS",
+          "Message to be displayed"
+        ],
+        [
+          "a DMS",
+          "Beacons On/Off"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "the user"
+        ],
+        [
+          "an Center",
+          "a LCS"
+        ],
+        [
+          "the user",
+          "a LCS"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "a CCTV switching command"
+        ],
+        [
+          "the user",
+          "a CCTV switching command"
+        ],
+        [
+          "the user",
+          "Source"
+        ],
+        [
+          "the user",
+          "Destination port"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "the user"
+        ],
+        [
+          "the user",
+          "a CCTV"
+        ],
+        [
+          "the user",
+          "the following information"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "the user"
+        ],
+        [
+          "the user",
+          "a Ramp Meter"
+        ],
+        [
+          "a Ramp Meter",
+          "Target Ramp Meter"
+        ],
+        [
+          "a Ramp Meter",
+          "Plan"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the user",
+          "an Center"
+        ],
+        [
+          "the user",
+          "a HAR"
+        ],
+        [
+          "the user",
+          "Target HAR"
+        ],
+        [
+          "the user",
+          "Text to be sent to the HAR"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "the user"
+        ],
+        [
+          "an Center",
+          "a Traffic Signal"
+        ],
+        [
+          "the user",
+          "Target Traffic Signal and Plan"
+        ],
+        [
+          "a Traffic Signal",
+          "Target Traffic Signal and Plan"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "a HOV"
+        ],
+        [
+          "the user",
+          "Target HOV and Plan"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Phenomena Interface": [
+        [
+          "an Center",
+          "the user"
+        ],
+        [
+          "the user",
+          "a School Zone"
+        ],
+        [
+          "the user",
+          "Target School Zone and Plan"
+        ]
+      ],
+      "requirements reference": [],
+      "requirements constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "the user"
+        ],
+        [
+          "an Center",
+          "a Reversible Lane"
+        ],
+        [
+          "the user",
+          "Target Reversible Lane and Plan"
+        ],
+        [
+          "a Reversible Lane",
+          "Target Reversible Lane and Plan"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "an Center",
+          "the user"
+        ],
+        [
+          "an Center",
+          "a Dynamic Lane"
+        ],
+        [
+          "the user",
+          "a Dynamic Lane"
+        ],
+        [
+          "the user",
+          "Target Dynamic Lane and Plan"
+        ],
+        [
+          "a Dynamic Lane",
+          "Target Dynamic Lane and Plan"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Remote GUI",
+          "each device command/control status request"
+        ],
+        [
+          "the Remote GUI",
+          "the status returned from the network identifier"
+        ],
+        [
+          "the GUI",
+          "each device command/control status request"
+        ],
+        [
+          "the GUI",
+          "the status returned from the network identifier"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center-to-Center project",
+          "A DATEX/ASN runtime library"
+        ],
+        [
+          "any computer",
+          "A DATEX/ASN runtime library"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        "The web server application",
+        "ESRI's ARC Internet Map Server (ARC IMS) product"
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center-to-Center",
+          "data"
+        ],
+        [
+          "the Incident GUI",
+          "data"
+        ],
+        [
+          "a single data store (database)",
+          "data"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  },
+  {
+    "interaction": {
+      "Interface": [
+        [
+          "the Center-to-Center",
+          "mode operations"
+        ],
+        [
+          "the Center-to-Center",
+          "activities"
+        ]
+      ],
+      "Requirements Reference": [],
+      "Requirements Constraint": []
+    }
+  }
+]
